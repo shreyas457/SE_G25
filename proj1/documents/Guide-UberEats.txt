@@ -1,0 +1,639 @@
+uLtimAte guide to creAtiNg AN ONLiNe food
+deLivery buSiNeSS Like uber eAtS
+
+
+Introduction
+Chapter 1 - Uber Eats Business Model & Source of
+Revenue
+1.1 Segments of Customers
+1.2 Uber Eats: Value Proposition
+1.3 Uber Eats: Channels of Engagement
+1.4 Key Resources
+1.5 Key Activities
+1.6 Sources of Revenue
+Chapter 2 - Uber Eats vs Others: How They Function
+2.1 Uber Eats: Three Sided Marketplace!
+2.2 Uber Eats vs Others: The Difference Chapter 3 - Uber Eats: The Tech Stack
+3.1 Customer App/Portal
+3.2 Agent App
+3.3 Restaurants App/Portal
+Chapter 4 - Step-By-Step Guide on Creating an Application like Uber Eats
+4.1 Step 1 - Market Research
+4.2 Step 2 - Choosing the Right Model
+4.3 Step 3 - Feature Identification
+4.4 Step 4 - Developing MVP With Tech Partner
+4.5 Step 5 - Deployment, Delivery and Testing Conclusion
+
+iNtroductioN
+(Why Create a Food Delivery App?)
+
+
+The food delivery business has peaked due to the rising number of Covid-19 infections. Due to restrictions of social distancing and lockdowns, there has been a massive demand for online food delivery businesses. The industry is predicted to reach $154.34 billion at a CAGR of 11.51% by 2023.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+One of the most significant online food delivery businesses in the market is UberEats. Within just four years of its launch, it has generated revenues worth close to $6 billion. If you look at the numbers of Uber Eats, you can understand why many online food delivery businesses want to mimic its success.
+
+Uber Eats Numbers
+
+
+The online food delivery giant generated a revenue of more than $48 billion in 2020 with an increased growth rate of 152% (BusinessofApps)
+In the first quarter of 2019, Uber Eats saw a growth of 108% in gross bookings with $3.07 billion in numbers (CNBC)
+Uber Eats controls more than 29% of the global food delivery business (Fortune) An average user spends more than $220 annually on Uber Eats (Rakuten)
+In 2020, Uber Eats was the second-highest food delivery business after DoorDash in the US (BusinessofApps)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+There is no denying that Uber Eats has been a disruptive force in the online food delivery business, and creating a business on a similar model is not that easy. The level of planning, market research, technical expertise, selection of a business model and creation of a reliable solution can make anyones head spin.
+Well! Here we are with one of the most comprehensive guides on creating a successful online food delivery business like Uber Eats. To begin, lets understand the business model behind the online food delivery giant!
+
+Chapter 1-
+
+Uber Eats Business Model & Source of Revenue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Uber Eats has been phenomenal with its business model based on the Uber X model. It is an approach to building services around the successful Uber Taxi app that disrupted the on-demand market. The UberEats business model is based on different segments of consumers and types of transactions.
+Uber Eats enables restaurants to reach a wider audience by offering a reliable platform for them to place orders. The online food delivery giant allows hungry customers to register on the app and select their favourite food from multiple restaurants listed on the platform. Then, restaurants receive orders placed on the platform automatically on their portals.
+To understand the business model of Uber Eats, we need to analyse the building blocks of the entire structure. The first building block is that consumers are one of the most significant stakeholders in the business model.
+
+1.1 Segments of Customers
+Restaurants
+Restaurants choose the dishes they want to list on platforms and even decide the prices. The best thing about Uber Eats is that it offers restaurants freedom of choice; if you are a restaurant listed on the Uber Eats platform, you can choose to add app-exclusive dishes that are not on the menu of a physical store.Uber Eats enables restaurants to reach a wider audience by offering a reliable platform for them to place orders. The online food delivery giant allows hungry customers to register on the app and select their favourite food from multiple restaurants listed on the platform. Then, restaurants receive orders placed on the platform automatically on their portals.
+To understand the business model of Uber Eats, we need to analyse the building blocks of the entire structure. The first building block is that consumers are one of the most significant stakeholders in the business model.
+
+
+End Users
+End users are the true customers. They sign up with the platform and order their favourite food. They need to pay the price of the dish along with delivery charges which are calculated as per the location.
+
+
+
+Delivery Agents
+Delivery agents are service providers that offer delivery of food to the end users locations. They receive payments for each delivery request that they fulfil for the platform. Delivery agents have access to the users location and the restaurants location on their application.
+
+
+
+
+1.2
+
+Uber Eats: Value Proposition
+
+
+
+
+
+
+Get a platform to connect with consumers without spending too much on advertising and marketing. Gain a delivery service facility for a commission fee that the platform charges.
+
+
+Have multiple restaurants to choose from in platform with updated menus and price information. The platform also offers value by offering delivery service, real-time tracking, ETA (Estimated Time of Arrival) and a facility of scheduled orders. Apart from these features, users have the convenience of multiple payment options.
+
+
+Have the ability to leverage the platform to earn money for their services just like the Uber taxi app where drivers can connect with the riders that need a private taxi service.
+Uber Eats enables delivery agents to connect with food lovers as a service provider.
+
+1.3
+
+Uber Eats: Channels of Engagement
+
+One of the most effective channels of engagement for Uber Eats is its mobile application. While users can interact with Uber Eats through a web portal, the mobile application has also been their primary engagement channel.
+
+
+
+
+
+
+
+
+
+
+
+According to the recent data of traffic on Uber Eats mobile app and web portal, there has been a massive surge of around 7.73% during the last six months. There have been more than 50 million visits to the portal and app
+
+1.4
+
+Key Resources
+
+Online Platform - connects restaurants and consumers.
+AI-based Algorithms - calculates estimated price and time of arrival.
+Branding & Marketing Teams - promotes Uber Eats in all cities where it is operational. Service Agreements - allows partnership with restaurants through transactions of services.
+Delivery Hubs - offers a medium for aggregators and partners to coordinate agents.
+
+1.5
+
+Key Activities
+
+Uber Eats is involved in two primary activities -
+Maintaining value for consumers through different listings across food categories from other restaurants.
+Helping restaurants and delivery agents get value by promoting services to increase
+consumer visits to the platform.
+These two activities help Uber Eats maintain its value proposition for all segments of customers, stakeholders and partners.
+
+1.6 Sources of Revenue
+Uber Eats has four major sources of revenues :
+
+
+
+
+
+
+Commission fees
+
+Advertising	Peak Pricing
+
+Delivery Charges
+Commission Fees -
+
+Uber Eats charges restaurants up to 30% for each transaction on the platform.
+1.
+Delivery Charges -
+Depends on the location of consumers, restaurants, availability of delivery agents and more. The food delivery platform charges 25% of the total sum. If your orders
+are cheaper than $12, it will charge a $2 fee.
+2.
+Advertising-
+The Uber Eats app and portal help restaurants and food brands promote their food through sponsored or featured listings while charging them advertising fees.
+3.
+Peak Pricing -
+It depends on rush hour and surges in demand, also called surge pricing, which helps customers prioritise orders by paying specific fees.
+4.
+The Uber Eats business model is like a set of moving parts that needs a process flow to work towards better monetisation. Lets understand how Uber Eats works and how others compete with it!
+
+Infographic for Uber Eats Business Model
+
+
+
+Restaurants
+
+
+
+
+
+Segments of Customers
+
+
+Customers
+
+
+
+
+
+Delivery Agents
+
+
+
+
+
+Better traffic for restaurants
+
+
+
+
+   Value Proposition
+
+
+More options for customers
+
+
+
+
+
+Higher revenues for delivery agents
+
+
+
+
+
+
+Service Agreements
+
+
+
+
+
+
+
+
+
+
+Delivery Hubs
+
+
+
+   Key Resources
+
+Online Platform
+
+
+
+
+
+AI-based Algorithms
+
+
+
+
+
+Branding & Marketing Teams
+
+
+Channels of Engagement
+1. 
+Mobile Application
+
+2. Web Portal
+
+
+
+
+
+
+
+Maintaining value for consumers by adding multiple food options
+
+
+
+
+Key Activities
+
+Helping restaurants and delivery agents get value
+
+
+
+
+Facilitate delivery of food to consumers
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peak Pricing
+
+Commission fees
+
+
+Sources Of
+Revenue
+
+Advertising	Delivery Charges
+
+Chapter 2-
+
+
+
+
+
+
+
+
+Uber Eats vs Others: How They Function
+
+
+When you compare different online food delivery businesses with Uber Eats, there is not much to outline. With Uber X, most of the firms in the market follow the same model so differences are not that significant. Nevertheless, lets first understand how Uber Eats works and then see some other apps that are different from it.
+2.1 Uber Eats: Three Sided Marketplace
+Uber Eats follows a three-sided marketplace model where the transactions occur between three significant stakeholders:
+
+Customers	Restaurants	Delivery agents
+
+The process flow begins by customers signing up with the Uber Eats platform to find several options for restaurants and food. Once the order is placed, and the payment option is chosen, the order details automatically reach the restaurants app or portal. Here, the restaurant can choose to accept or decline the order.
+After the order is accepted, the food preparation begins.
+
+Meanwhile, algorithms in the Uber Eats app find the nearest available delivery agent and allot the order request. All of the details regarding customer location, restaurant and order are shared with the delivery agent on the app. The delivery agent then uses the information to fulfil the request. A delivery agent does this by picking up from the restaurant and delivering at the users location.
+During the process, users can track the movements of the delivery agents through the app with a real-time tracking feature. Users can also check on the Estimated Time of Arrival (ETA), chat with a delivery agent, contact them via phone and even leave instructions like leave at neighbours door.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.2
+
+Uber Eats vs. Others: The Difference!
+
+Online food delivery businesses like Doordash, GrubHub, Postmates and others differ from Uber Eats in pricing. Apart from pricing, some of these online food delivery businesses offer subscriptions for free delivery. For example, DoorDash offers a DashPass that allows users to have zero delivery fees charged on select restaurants and a reduced service fee for orders over $12.
+Uber Eats has been one of the cheapest food delivery services, according to a
+MarketWatch survey. The price difference between other food delivery services and Uber Eats was around $7.76. The on-demand food delivery platform achieves this through a network of more than 3,20,000 restaurant partners across 500 cities worldwide.
+Apart from pricing, delivery fees and a massive network, what makes Uber Eats a market-leading app is its tech stack.
+
+Chapter 3-
+UberEats: The Tech Stack
+
+
+
+
+
+
+
+
+
+
+
+CHEF
+RECOMMEND
+
+  RESTAURANT 
+
+
+
+ORDER
+
+
+
+
+
+
+
+ORDER FOOD ONLINE
+
+RESTAURANT NEAR ME
+   
+DELIVERY TO YOUR HOME
+
+
+
+
+
+
+
+The tech stack for Uber Eats revolves around its consumer segments:
+
+
+
+Customers
+
+Delivery partners
+
+Restaurants
+
+
+
+
+
+
+3.1
+
+Customer App/Portal
+
+The mobile application is the face of Uber Eats which engages directly with the consumers. It allows users to order their favourite food and enjoy them in their own homes. Online food delivery businesses that want to have the same customer journey as UberEats customers need to have these unique features.
+
+Registrations & Profile Management
+
+Advanced Search
+
+
+
+The registration page or sign-up page is easy to navigate for users if explicitly designed for better UX. Online food delivery businesses can adopt social logins by allowing users to register through Facebook or Google accounts.
+
+The advanced search feature helps customers find their choice of restaurants and food without navigating through several categories. It reduces the waiting time for a purchase order to be completed and improves the overall customer journey.
+
+
+
+
+
+
+Ordering
+
+Payment Options
+
+
+
+Ordering should be swift and easy. Customers should be able to use the add-on feature without hassle. For example, adding toppings to a pizza can
+be made easy through the drag and drop feature. Besides add-ons, customers should easily add food items to the cart so that the checkout process can be smoother.
+
+Adding multiple payment options is pivotal to the online food delivery business. Many payment gateways, such as Stripe and PayPal, can help manage numerous payment options. With blockchain technology surging, adopting such innovations as payment options can help your food delivery business.
+
+
+
+Real-Time Tracking	Push Notifications
+
+
+Real-time tracking features will allow your users to track their food orders and know their estimated arrival time. Another feature that you can add with real-time tracking is communication with the delivery agents during the last-mile delivery, including the transit of food orders from the restaurant to the users location.
+
+Push notifications can help customers have real-time alerts on their application regarding delivery, ETAs and other details. Online food delivery businesses can also leverage push notifications for promoting special offers and deals.
+
+3.2 Agent App
+
+
+The delivery agents application is crucial to the online food delivery business. It allows your service providers to have all of the details in one place regarding orders, customer location and other instructions. Lets look at some essential features that are must-haves in the agents applications.
+1. Profile Management
+Delivery agents can use this feature to register on the platform and manage all of their documentation. Like Ubers model where drivers have to get themself authorised, delivery agents can have validations from respective authorities right from the app through the upload feature.
+2. Order Management
+As the delivery agents register with the platform, they can access all of the details regarding orders automatically added to their app as per allocations. Delivery agents receive customers locations, restaurants locations and even a dedicated map for finding the best route. With this feature, delivery agents can also access the order history and the total number of orders executed.
+3. Status Updates
+It is a dedicated feature that allows delivery agents to access vital information like order status, cancellations and instructions from customers or restaurants.
+
+4. Earning Analysis
+This feature enables delivery agents to analyse their earnings and decide whether they want to be assigned more orders. Many online food delivery businesses allow delivery agents to choose their working hours. Based on economic analytics, delivery agents can have a clarity on remunerations.
+
+3.3
+
+Restaurants App/Portal
+
+
+Restaurants are one of the most significant resources in an online food delivery business. They are the ones that offer food to customers. Here are some must-have features for the restaurant apps or web portals.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+Step-by-step Guide on Creating an Application Like Uber Eats
+
+
+
+
+
+
+
+
+
+
+4.1 Step 1 - Market Research
+The first step towards developing a food delivery business application like Uber Eats is to have comprehensive market research. Keeping up with changing customer demands and purchasing behaviour can help you formulate features that enhance the UX.Take cues from industry leaders and market giants for inspiration on innovative features. For example, Dominos Pizza launched an app for Android smartwatches for their consumers to remotely track food orders. These features can help enhance the entire customer journey and engage users.
+
+4.2 Step 2 - Choosing the Right Model
+The next step is to select a suitable business model for your online food delivery business. There are two major business models used by different online food delivery services:
+
+
+The Order-only model applies to platforms that only offer a medium for transactions to occur and there is no dedicated delivery service. Monetisation is achieved through commission on each order which is about 10-30%.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Several online food delivery services like Uber Eats follow the order and delivery models. Here, the platform is responsible for order management and delivery of the food. The source of revenue is commission fees plus delivery charges. If you look at the revenue statistics, the platform to the customer (P2C) or order and delivery model has a clear edge over the order-only model. Therefore, choosing a P2C model makes more sense.
+4.3 Step 3- Feature Identification
+Once you have your business model ready, the next step is to identify the essential features needed for the application. Some of the most vital features to be included in your food delivery apps are:
+
+
+Real-time tracking
+Real-time chat & calling
+ 
+Push notifications Feedback & review
+
+Online payments
+
+Advanced menu search
+
+4.4
+
+Step 4-	Developing MVP With Tech Partner
+
+A tech partner becomes quintessential to your development plans. Take the example of real-time communication and the calling feature. If you need to create this facility for your delivery agents and consumers, you need to have integration of reliable communication API services like Twilio, Vonage, AWS SNS and others.
+The decision to choose the best communication API service can be a tedious affair, especially if you are not a technical person. This is where a tech partner can help your development plans.
+The first step to developing an application and its features is to create a Minimum Viable Product (MVP). It is a shippable product approach that is executed by releasing the app in small increments. The MVP is the first increment with core features and services for your online food delivery services.
+
+
+
+4.5
+
+Step 5- Deployment, Delivery and Testing
+
+
+Once you have created a Minimum Viable Product, you can test it and create further increments by integrating feedback from customers. The iterations are rolled out up to a point where you can launch the tech stack.
+A tech partner can help you with the development part and the deployment of tech stacks across platforms and even test them. They can also help your delivery requirements through tech support and reliable solutions.
+
+
+
+
+The journey from market research to launching your online food delivery business is not full of rosebeds, but with the right tech partner, it is more than possible. As we move forward into the new normal of social distancing and enhanced customer journeys, the need for intelligent delivery services will surge.
+To meet the constantly changing consumer demands and expectations, innovation is your only option, and that is where Tookan can be your torchbearer. It is a smart delivery management software tool that offers automation and order management capabilities.
+With Tookan, you can customise your online food delivery tech stack for ever-changing customer expectations. If youre looking to leverage smart features like route optimisations, auto-allocation of delivery orders, smart order management and intelligent analytics, get in touch with us!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHOOSE YOUR MEAL	CHOOSE YOUR PAYMENT	FAST DELIVERY

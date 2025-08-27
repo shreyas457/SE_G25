@@ -1,0 +1,127 @@
+NC State Home (https://www.ncsu.edu)	RESOURCES
+
+CSC326 - Team Project
+Team Project - Problem Statement - Spring 2025
+The problem statement describes customer requests that may be further articulated as functional requirements, non-functional requirements, or constraints to the system. There are a set of required elements and a set of optional elements that you may complete for extra credit. Any extra credit done must be documented in the README or Wiki so that we can easily see what was done. If you wish to complete other extra credit beyond what is listed here, you must discuss your proposal with us before you do it.
+
+Problem Overview
+You have been provided the WolfCafe starter project which includes three user roles: Admin, Staff, and Customer. You will be integrating CoffeeMaker functionality and updating it to provide order functionality.
+
+Required Functional Elements
+The following elements are required for completion as part of the team project. The following completion criteria are associated with each problem element. Each problem element has the points that will be earned for successful completion.
+
+Done Criteria
+All implementation and tests should be PRed into the main branch for done criteria evaluation.
+
+i Appropriate requirement(s) describing the element modeled as a use case.
+i Design describing change to the system.
+i Working demo of functionality that meets requirements and management approval.
+i Backend demo through API calls
+i Frontend demo through browser
+i Frontend should consider accessibility in regards to color/shapes, tab order, and tool tips to support screen readers.
+i Passing unit tests that cover 70% of statements in backend. i Passing acceptance tests as outlined in system test plan. i Code is commented.
+
+Required Enhancement: Permissions
+Youll need to import and optionally refactor existing CoffeeMaker functionality. At a minimum there should be functionality to create items/recipes for sale and inventory for the items/recipes. You may choose to keep the idea of ingredients or not. Now that we have user roles, permissions need to be updated accordingly:
+i Create a new item/recipe/ingredient - staff
+i Add inventory - staff
+i Purchace recipe/item - customer
+10 points
+
+Required Enhancement: Create/Edit/Delete Staff and Customers
+Administrators can create, edit, and delete users with the staff role. Administrators can edit and delete users with the customer role.
+20 points
+
+Required Enhancement: Customer Orders
+A customer can select one or more recipes/items to add to their order. They can select multiple of the same item and multiple different items. The order total is shown including sales tax. Customers have the option of leaving a 15%, 20%, 25%, or custom tip.
+25 points
+
+Required Enhancement: View and Fulfill Orders
+A staff member can see the list of orders and select an order to fulfill.
+
+15 points
+
+Required Enhancement: Customer Order Pickup
+A customers display is updated when their order is fulfilled. They can then pickup their order.
+15 points
+
+Required Enhancement: Tax Rate
+Administrators can set the sales tax rate for the system. For the state of NC, a 2.0% sales tax is applied on food.
+10 points
+
+Required: Developers Guide
+Create a developers guide that describes how to add new functionality to the system. This must include instructions for creating a new user. The Developers Guide must be listed in your teams wiki.
+
+Example Developers Guide (https://github.ncsu.edu/engr-csc326-staff/iTrust2-v11/wiki/developers- guide)
+10 points
+
+Required: Users Guide
+Create a users guide that describes how all users interact with the new functionality. The Users Guide must be listed in your teams wiki.
+Example User Guide (files/SampleUserGuide.pdf)
+10 points
+
+Required: Privacy Policy
+Create a privacy policy for WolfCafe. Ensure that you have all the critical elements of a privacy policy.
+20 points
+
+Required: Human Flourishing
+Disucss how WolfCafe promotes or hinders human flourishing. Include a disucssion about each of the five central domains: happiness and life satisfaction, mental and physical health, meaning and purpose, character and virtue, and close social relationships. Think about this from system stakeholders, including people who may choose not to use WolfCafe.
+15 points
+
+Optional Elements (extra credit)
+Automated Frontend Testing
+WolfCafe is lacking test automation for the frontend. There are automated testing libraries for testing React applications, like React Testing Library (https://testing-library.com/docs/react-testing- library/intro/). Integrating the library into your system with an example passing test (15 points), writing automated tests to cover the main frontend functionality (+10 points), and integrating into the GitHub actions (+5 points) build will earn extra credit.
+15-30 points
+
+Coverage Report + Badge in GitHub actions
+GitHub actions can be configured to run the backend (and frontend?) tests for statement and branch coverage. Badges can be generated to show the coverage in the README.md file. Updating the GitHub actions to generate coverage for the backend (and frontend) can earn 10 points of extra credit. Additional credit may be earned for:
+i (+5 points) changing the build status for insufficient coverage (< 70% statement coverage and < 50% branch coverage)
+
+i (+5 points) generating badges reporting statement and branch coverage
+i (+10 points) generating coverage reports, updating the build status, and generating badges for automated frontend tests
+10-30 points
+
+Additional User Role
+Staff is a very general term for lots of possible roles for WolfCafe. You can split the staff role into two different roles. You may decide (and document) the scope of each role. Each role must do at least two distinct and meaningful tasks beyond authentication. For example, a manager role may create and maintain inventory while a barista may fulfill orders and create new recipes. If you create a new role, you will need to add the information to Roles.UserRoles enumeration and then integrate into the rest of the system.
+15 points
+
+Anonymous Orders
+Not everyone wants to log into a system to complete an order. You can provide functionality for a non- logged in user to place an order in WolfCafe.
+20 points
+
+Order History
+Staff members would like to view the order history. This can be used to determine how much money was made and future inventory orders. Create a system to log and show the order history. Additional extra credit may be available for visualizations of the order history beyond a table.
+20-30 points, as determined by the teaching staff
+
+Refactoring
+Your team can propose a refactoring of WolfCafe to improve the underlying design. You must propose the refactoring and provide a design and rationale for why the refactoring will improve the system now and in the future. The refactoring must be independent of the role functionality. Completing the refactoring with out a loss of existing functionality will provide the opportunity for additional extra credit. The teaching staff will evaluate the refactoring on a case by case basis to determine the points available for the design and the actual refactoring.
+You must propose the refactoring and have the teaching staff approve by the end of Iteration 1 for the refactoring to count for extra credit.
+15-25 points, as determined by the teaching staff
+
+Functionality
+Your team can propose a new piece of functionality for WolfCafe. You will be expected to meet the Done Criteria listed above. The teaching staff will evaluate the functionality request to determine the amount of extra credit on a case by case basis.
+You must propose the functionality change and have the teaching staff approve by the end of Iteration 1 for the new functionality to count for extra credit.
+15-30 points
+
+Security Audit
+Do a security evaluation of WolfCafe now that there is role-based authentication. Identify potential problems with the authentication and authorization system. Document areas of concern. Additional extra credit may be available if you implement any mitigations to security concerns.
+10-25 points
+
+Badges
+Badges are helpful for showing the current status of development on a project. You can propose to add one or two badges to the WolfCafe project to indicate process or quality measures. The badges must be approved by the teaching staff an provide a meaningful measure of the project.
+5 points per badge, up to 10 points for 2 badges
+
+UI Enhancements
+The CoffeeMake UI is pretty boring, so improvements are needed above and beyond adding required functionality. Any UI enhancements should consider accessibility and be responsive to use on web and mobile devices. Proposed UI enhancements must be approve by a member of the teaching staff to determine if extra credit is appropriate.
+10-20 points
+
+GitHub Projects
+Youre welcome to track your tasks and iterations using GitHub projects (in addition to wiki level tracking). If you do, please include a reflection (both team thoughts and individual thoughts) about using GitHub Projects in your wiki.
+10 points
+Team Project - Technical Processes (/engr-csc326-staff/326-course-page/team-project/tp-process.html)
+ North Carolina State University Computer Science Faculty. All rights reserved.
+Contact: bxu22@ncsu.edu; wguezas@ncsu.edu (mailto:bxu22@ncsu.edu; wguezas@ncsu.edu)
+
+
+
+

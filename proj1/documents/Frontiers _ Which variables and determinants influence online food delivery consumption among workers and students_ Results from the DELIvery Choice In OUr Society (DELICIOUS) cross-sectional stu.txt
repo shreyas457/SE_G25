@@ -1,0 +1,554 @@
+
+
+
+
+
+ORIGINAL RESEARCH article
+Front. Public Health, 07 January 2024 Sec. Public Health and Nutrition
+Volume 11 - 2023 | https://doi.org/10.3389/fpubh.2023.1326628
+
+
+Download article	v 
+
+
+
+
+
+Which variables and
+
+4,8K
+Total views
+
+1,6K
+Downloads
+
+5
+Citatio
+
+determinants influence online food delivery consumption among workers and students?
+
+View article imp
+
+
+View altmetric score
+
+
+
+Share
+
+Results from the DELIvery Choice In OUr
+
+on
+
+
+Edited by
+
+?	?	f 
+
+Society (DELICIOUS) cross-sectional study
+
+Gianmarco Giacomini
+
+
+Michael Long Oklahoma State University, United States
+
+
+
+
+
+Alessandro Scacchi
+
+Paolo Ragusa*
+
+
+Reviewed by
+
+
+
+
+
+We use cookies
+Our website uses cookies that are essential for its operation and additional cookies to track performance, or to improve and personalize our services. To manage your cookie preferences, please click Cookie Settings. For more information on how we use cookies, please see our Cookie Policy
+
+
+Cookies Settings
+
+Reject non-essential cookies Accept cookies
+
+
+			
+
+
+Frontiers in 	Articles	Research Topics	Editorial board
+impacting diet and health. This study aimed to describe the use of OFD services in a sample of
+
+Italian workers and students, to explore potential determinants of OFD usage and to assess possible differences in use between these two categories.
+Methods: Data were collected through an online survey (convenience sampling) distributed on social media platforms between July 12, 2022, and February 1, 2023. The sample included individuals aged 18 and above, currently residing in Italy. The sample was stratified according to worker/student status. Descriptive analyses were performed on key variables. A multivariable logistic regression analysis was conducted to assess the effects of variables on OFD usage, treated as a dichotomous variable (usage or non- usage).
+Results: This study analyzed 3,502 questionnaires (2,594 from workers and 908 from students) after excluding 323 non-student and non-worker responses. Positive associations with OFD use included higher income, remote working, smoking, elevated BMI, depression risk, and impulsive buying among workers, while being female, frequent screen-watching during meals, daily smoking, higher BMI, and impulsive buying were associated with OFD use among students. Factors negatively associated with OFD use included older age (workers and students), living in suburbs (workers and students) or in an outline town (workers), being single (workers and students), adhering to the Mediterranean diet (students), having low health literacy (students), and job dissatisfaction (workers).
+
+Abstract
+
+1 Introduction
+
+2 Materials and methods
+
+3 Results
+
+4 Discussion
+
+Data availability statement
+
+Ethics statement
+
+Author contributions
+
+Funding
+
+Conflict of interest
+
+Publishers note
+
+Supplementary material
+
+References
+
+
+
+
+
+
+
+The foodservice industry has undergone profound transformations over the years, mainly driven by technological advancement (1). The internet paved the way for online food delivery (OFD), allowing customers to effortlessly select and order a wide selection of food and beverages from an extensive range of restaurants, which was even more facilitated by the ease and convenience of use of smartphones (2). This paradigm shift is exemplified by a substantial expansion in the geographical radius for food procurement, which increased from a maximum of 1.5 km or 20 min walking distance, to 10 km
+(3). User-friendly mobile applications further streamlined the ordering process, transforming the dynamics of food acquisition (4, 5). Features such as real-time tracking, estimated delivery fees, and restaurant reviews, have enhanced informed decision-making for customers.
+The COVID-19 pandemic, necessitating social restrictions, led to a surge in the demand for food delivery services (6). This heightened demand still persists (7), with expectations that it will endure in the future, regardless of any pandemic or emergency context (8). Presently, the global market for food delivery stands at a valuation of
+923.1 billion dollars with 3481.3 million global users. This market has more than quadrupled since 2017, and it is expected to reach 1.45 trillion dollars by 2027 (5). In particular, the Italian OFD market is worth over 5 billion dollars, expecting an annual growth rate of 9.39% from 2023 to 2028 (9).
+As convenience and saving time have emerged as essential values in contemporary lifestyles (5, 10,
+
+Articles published with Frontiers have received 12 million total citations
+Your research is the real superpowe r - learn how we maximise its impact through our leading community journals
+
+Explore our impa
+
+
+
+People also looked at
+
+Food Safety Knowledge, Attitudes, and
+
+
+
+
+
+
+
+
+
+participation, and growing international trade in food and other commodities (17, 18). While OFD mobile applications offer unparalleled convenience, the commercial underpinning of these platforms tends to predominantly promote highly palatable, processed, and calorie-dense food. This may exert a deleterious influence on the overall nutritional quality of dietary intake.
+Despite the wide variety of food options available
+- including healthy choices - studies underscore the propensity for the most frequently purchased and advertised food to be characterized by large portions high in saturated fat, sugar, and salt (19, 20). Several studies have found adverse health effects associated with increased consumption of unhealthy food, alcohol, and nicotine, linked to the use of OFD, potentially contributing to chronic diseases and mental health risk factors
+(21). Moreover, concerns regarding OFD use extend to the impact on public health dimensions such as physical activity, sedentariness, and waste production (3).
+The literature highlights differences in the utilization of OFD services among students and employed individuals, so that it would be important to assess them separately in order to underline possible differences. Indeed, factors such as age, socio-economic status, and time availability (e.g., work-life balance) influence peoples behavior, including dietary habits: in this sense, financial independence and daily routines can also have a role (22, 23). However, the determinants of OFD services utilization are intricate and multifaceted.
+The theoretical framework of this study considers
+
+do high- involvement work practices influence elder employees innovative performance?
+Daokui Jiang, Yiting Zhang, Honghong Zhu and Xiaoyu Wang
+
+
+Logistics strategies of food delivery O2O supply chain with anti- food waste regulation
+Shiqi Xu, Yanan Du and Guangye Xu
+
+
+Personal protective measures and settings on the risk of SARS- COV-2
+community
+
+
+			
+
+
+Frontiers in 	Articles	Research Topics	Editorial board
+habits (such as high BMI, smoking, low physical
+
+activity) might adopt less healthy lifestyles. Moreover, Time-Use Theory suggests that time allocation between activities is based on personal preferences, constraints, and opportunities (26). Diverse daily schedules of workers and students could potentially affect their ability to engage in activities such as cooking, and budget constraints are also important to consider. To the authors knowledge, there is a lack of evidence on the determinants of OFD use, especially in the Italian context, which is still understudied and on which our study focused. The research hypotheses of this study are: individuals experiencing depressive symptoms, time constraints, and job dissatisfaction may be less inclined to cook and could rely more on OFD. Those with health risk factors/unhealthy behaviors (e.g., high BMI, low health literacy, unhealthy diet, low physical activity, smoking, etc.) are expected to show increased likelihood of utilizing food delivery services. Being a worker or a student may influence the use of OFD.
+Therefore, the aim of this study is to explore potential determinants of OFD use among Italian workers and students. Specifically, we aimed to explore personal, socio-demographic and lifestyle factors influencing the decision to use OFD, and to assess potential differences between the two groups. Indeed, as the increasing consumption of OFD could potentially affect individuals dietary habits, it is important to take a closer look at this phenomenon. Characterizing OFD users according to personal, socio- demographic and lifestyle factors is useful to potentially predict how this technology could be used. Moreover, by taking into account the
+
+SBIRT
+implementation alongside the continuum of PrEP
+awareness: domains of fit and feasibility
+Lesley M. Harris, Jelani C. Kerr, Blake
+D. Skidmore, Smita Ghare, Andrea Reyes-Vega, Vania Remenik-Zarauz, Harideep Samanapally, Rana Usman Anwar, Rishikesh Rijal, Kendall Bryant, Martin T. Hall and Shirish Barve
+
+
+			
+
+
+Frontiers in 	Articles	Research Topics	Editorial board
+through an online survey distributed on social media platforms using the LimeSurvey platform
+(28). The survey link was spread mainly on Facebook, Instagram and WhatsApp: different types of groups, sites or influencers (e.g., not only food related pages/groups, but also those related to schools, universities, local health units, and others) from various regions of Italy were contacted in order to have as much variability as possible among respondents and thus avoid selection bias.
+Inclusion criteria of the study were: being workers or students aged 18 or above; currently living in Italy; being able to read and understand the questionnaires written in Italian; having internet access; having given informed consent. Raosoft was used to determine that the minimum sample size was 385, considering a 5% margin of error, a 95% confidence level, a 50% response distribution, and the size of the Italian adult population. Participants were enrolled through convenience sampling. Informed consent was required to access the questionnaire. Participation was voluntary, anonymous, and without compensation (to avoid influencing participants). All procedures were in accordance with the 1964 Declaration of Helsinki and its later amendments. The protocol of the study was approved by the Ethics Committee of the University of Turin on July 12, 2022 (Prot. N. 0420932 del 29/07/2022  [UOR: SI000045 
+Classif. III/11]).
+
+2.2 Questionnaires
+The DELICIOUS survey included the following literature validated self-reported questionnaires,
+
+
+			
+
+
+Frontiers in 	Articles	Research Topics	Editorial board
+ Single-item physical activity measure (31): a single item questionnaire to measure the weekly frequency of physical activity. Its score goes from 0 to 7. Physical activity is a key lifestyle factor, of which this tool provides a quick yet relevant assessment.
+ Single-item literacy screener Italian (SILS-ITA)
+(32): a single item questionnaire to measure limited reading ability regarding health documents as a proxy of low health literacy. SILS-ITA score goes from 1 to 5, and it has a validated dichotomous threshold at 2. Health literacy is a critical factor influencing health- related decision-making.
+ Impulse buying tendency scale (IBS) (33): a 5- item questionnaire to measure the propensity to buy products on impulse. IBS score goes from 1 to 35. Impulsive behavior can therefore influence food choices and dietary habits.
+ Work life balance (WLB) (34): a 5-item questionnaire. WLB score goes from 5 to 25. According to our hypotheses, time constraints could influence food choices. Evaluating work- life balance contributes to the understanding of respondents perceived time restrictions.
+ The Job Satisfaction Single Item (JSSI): a single- item questionnaire to measure the overall job satisfaction (35). The score goes from 1 to 7. According to our hypotheses, job-related factors could influence food choices, and job satisfaction could also impact ones mental well-being.
+In addition, participants were asked about their age, gender, geographic area, city of residence [classified into three groups according to city size and municipal services provided as advised by National Institute of Statistics (36)], relationship status, cohabitation, monthly income [obtained from personal income tax rate per year (37)],
+
+We use cookies
+Our website uses cookies that are essential for its operation and additional cookies to track performance, or to improve and personalize our services. To manage your cookie preferences, please click Cookie Settings. For more information on how we use cookies, please see our Cookie Policy
+
+In order to highlight possible differences in OFD usage determinants, the sample was stratified according to worker/student status, excluding responses from individuals who were not students or workers. Descriptive analyses were performed for the most prominent variables: frequencies for categorical variables, and medians and interquartile ranges (IQR) for continuous variables were shown, since the normality ShapiroWilk test proved non-normal distributions. Data were presented according to the presence or absence of food delivery usage: chi-squared test (for categorical variables) and nonparametric MannWhitney test (for continuous variables) were performed.
+A multivariable logistic regression analysis was performed to evaluate the effects of variables on food delivery usage: variables were inserted in the model based on previous literature (15, 19, 21), highlighted by collected data and based on researchers hypotheses (described in the introduction), as well as variables that were deemed important to control for (e.g., age, gender, city of residence). OFD usage was the outcome variable, and it was used as a dichotomous variable (usage or non-usage). In the multivariable model, the following independent variables were entered: gender, age, city of residence (categorized on the basis of city size and services available), monthly income, working setting, relationship status, being on a diet, following the Mediterranean diet (estimated through the Medi-Lite score), physical activity (according to the single-item physical activity measure), screen time while eating, smoking habit, BMI, risk of being depressed (estimated
+
+
+			
+
+
+Frontiers in 	Articles	Research Topics	Editorial board
+and job satisfaction were dichotomized based on validated threshold values.
+To manage missing data, listwise deletion in the logistic regression and pairwise deletion in the descriptive analysis were used.
+All analyses were performed with Stata (Version 13.1) software.
+
+3 Results
+A total of 3,502 questionnaires were included, comprising 2,594 from workers and 908 from students. The median age of the workers was 46 (IQR 3851) years for those who did not use OFD services and 39 (IQR 3445) years for those who did use OFD services. Among the students, the respective median ages were 22 (IQR 2024) and 23 (IQR 2125) years. Respondents were mostly females both for the workers (90.23%, missing = 4) and for the students (72.86%, missing = 20), mostly from northern regions (70.59 and 91.08%) and main cities of Italy (76.1 and 80.51%). Almost 19.35% of the workers and 47.14% of the students were single at the time of completing the questionnaire, but only 14.8 and 8.59%, respectively, lived alone. More than half of our respondents (54.28 and 57.82%) reported a
+WHO-5 score above its validated threshold. As our outcome measure, OFD services were widely used in our sample: 77.37% for the workers and 79.07% for the students. Several personal (working setting, WHO-5, IBS, SILS-ITA, job satisfaction for workers; relationship status,
+WHO-5, IBS, SILS-ITA, screen time while eating for students), socio-demographic (age, city of residence, monthly income, educational level for
+
+
+
+
+
+Workers multivariable logistic regression analysis
+- based on 2,270 individuals due to listwise deletion of missing data - showed some factors significantly associated with OFD consumption. In particular, having a higher income (OR: 1.99; CI: 1.013.90), carrying out the work activity mostly or completely remotely (OR: 1.37; CI: 1.011.85), being an occasional (OR: 1.63; CI:1.052.55) or daily (OR:1.93; CI: 1.372.73)
+smoker, having a higher BMI (OR: 1.03; CI: 1.00 1.05), being at risk for depression (OR: 1.41; CI: 1.121.78), and tending to impulsive buying (OR: 1.05; CI: 1.031.07) were positively associated with the use of OFD. On the other hand, older age (OR: 0.93; CI: 0.920.95), living in a suburb (OR: 0.44; CI: 0.350.56) or in an outlying town (OR: 0.17; CI: 0.080.40), being single (OR: 0.73;
+CI: 0.550.95), and being dissatisfied with job (OR:0.78; CI: 0.610.99) were negatively associated with OFD consumption.
+Multivariable logistic regression analysis in the student sample - based on 863 individuals due to listwise deletion of missing data - showed that being female (OR: 1.55; CI: 1.022.34), watching a screen while eating (OR: 2.76; CI: 1.824.19), being a daily smoker (OR:2.94; CI: 1.505.77), having a higher BMI (OR: 1.07; CI: 1.011.13), and
+
+
+
+
+
+4 Discussion
+This study aimed to assess the use of OFD in a sample of Italian workers and students, and the potential factors influencing its usage. OFD services were widely used in our sample in the last 12 months: 77.37% utilization among workers and 79.07% among students.
+Main results in the workers sample showed that having a higher income, working mostly or fully remotely, being an occasional or daily smoker, having a higher BMI, being at risk for depression, and having a tendency to impulsive buying, were positively associated with the use of OFD. Instead, older age, living in a suburb or in an outlying town, being single, and being job dissatisfied were negatively associated with OFD consumption.
+In the student sample being female, watching a screen while eating, being a daily smoker, higher BMI, and impulsive buying were positively
+
+be more accustomed to technology, to be time- starved and convenience-seeking (3840).
+Moreover, young adults, especially those living alone, may lack confidence in their cooking abilities, whereas food delivery applications may provide an easy and convenient alternative (22). On the other hand, older individuals could be less acquainted with new technologies, and they could be more prone to use conventional food ordering methods (23, 41). Loyalty and personal affection as a customer are key elements for repurchase (23, 42), and older people may not perceive some features of OFD services as affective elements, even if they are capable of positively influencing the customers experience (e.g., personalization, order customization and information availability) (42, 43).
+Among workers remote work correlated positively with OFD use, emphasizing the time- saving convenience and practicality of ordering food online while working remotely (23, 44, 45).
+Surprisingly, lower levels of job satisfaction were negatively linked to OFD use. Although this finding may be related to poor mental health, it is difficult to interpret and requires further, more specific research.
+Among students, eating in front of a screen was associated with OFD use. Eating while watching a screen is known to be associated with sedentariness and mindless eating activity, that could potentially lead to reduced awareness of ones own dietary choices, affecting overall health and nutrition (46).
+Female students were more likely to be OFD
+
+likely to use OFD, possibly because of the convenience of sharing a meal together with considerable reduction of costs (43).
+BMI was positively associated with OFD consumption both in workers and students, consistently with previous research (23, 48). It is known that eating meals prepared away from home, especially considering fast-food options, is related to higher food consumption, and eventually increased risk of being overweight (49).
+Adherence to the Mediterranean diet is associated with the non-utilization of OFD services among students, who could be more careful about making healthier choices about their food habits. Indeed, OFD allows ordering from a plethora of different food outlets also including healthy choices.
+Unexpectedly, among students, lower levels of health literacy are linked to the non-utilization of OFD services. Health literacy is crucial for a properly informed health-related decision- making: low health literacy is associated with various health risks, including inadequate self- care behaviors, reduced utilization of preventive health services, higher rates of chronic illness, and diminished physical and mental health (32, 50, 51). Although this finding may be related to poorer use of technology by those with lower health literacy, more in-depth studies are needed.
+In both groups, impulse buying tendencies were significantly associated with OFD consumption. OFD allows easy access to a variety of food
+
+
+			
+
+
+Frontiers in 	Articles	Research Topics	Editorial board
+experiencing psychological distress (53). The convenience and anonymity of ordering food online may also appeal to individuals who are experiencing low mood, as it requires minimal social interaction and effort, but specific causes of workers depressive symptoms should be further assessed.
+Smoking was associated with OFD consumption in students and workers. Previous literature evidenced that smokers are known to have a less healthy diet with more food craving, especially for food high in fats. This habit appears to be related to several facts, both neurological and psychological, such as altered fat-taste perception (54). As smokers tend to prefer flavorful food, often on impulse, the large, fast, and varied offers of OFD could meet these needs.
+
+4.1 Limitations
+This study has some limitations. Firstly, the cross- sectional design precluded conclusions about the direction of the relationships, so that future longitudinal studies will be needed to better understand the causality links. Secondly, as self- administered questionnaires have been used, recall bias could be present. Despite the measures employed, common method bias could be present. Lastly, convenience sampling could have limited the variety of the sample potentially lowering the external validity of the results.
+
+4.2 Conclusion
+This study investigated OFD consumption among students and workers, examining its correlation
+
+
+			
+
+
+Frontiers in 	Articles	Research Topics	Editorial board
+implementing educational policies that promote healthy lifestyles, emphasize good nutrition and the ability to recognize quality food. Educational initiatives should extend to promoting conscious and informed decision-making in food consumption. Indeed, the use of OFD is not negative a priori and it seems to be a tool whose use varies greatly depending on the users habits. Therefore, educational efforts should focus on increasing awareness and understanding the validity of ones choices, rather than discouraging OFD use. If subsequent research will show associations between OFD use and poor diet, the emphasis on nutrition education will become even more important. While nutrition education programmes are often provided during childhood and school age, such programmes are offered to workers much less frequently, so that they could risk neglecting their dietary habits. When organizing interventions on healthy eating and lifestyle, it would be important to take into account the specific characteristics of workers, such as the working setting and job satisfaction, that should be further studied.
+
+Data availability statement
+The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation.
+
+Ethics statement
+The studies involving humans were approved by Comitato bioetico di Ateneo - Universit degli Studi di Torino. The studies were conducted in accordance with the local legislation and
+
+
+			
+
+
+Frontiers in 	Articles	Research Topics	Editorial board
+& editing. MG: Conceptualization, Data curation, Investigation, Methodology, Project administration, Supervision, Writing  original draft, Writing  review & editing.
+
+Funding
+The author(s) declare that no financial support was received for the research, authorship, and/or publication of this article.
+
+Conflict of interest
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+Publishers note
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+
+Supplementary material
+The Supplementary material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpu bh.2023.1326628/full#supplementary-material
+
+References
+
+3. Maimaiti, M, Zhao, X, Jia, M, Ru, Y, and Zhu, S. How we eat determines what we become: opportunities and challenges brought by food delivery industry in a changing world in China. Eur J Clin Nutr. (2018) 72:12826. doi: 10.1038/s41430-018-0191-1
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+4. Stephens, J, Miller, H, and Militello, L. Food delivery apps and the negative health impacts for Americans. Front Nutr. (2020) 7:7. Available from: doi: 10.3389/fnut.2020.00014
+CrossRef Full Text | Google Scholar
+
+5. Statista. Online food delivery  market data analysis & forecast | Statista. (2023). Available at: https://www.statista.com/study/40457/food- delivery/
+Google Scholar
+
+6. Ferrante, P. The first 2 years of COVID-19 in Italy: incidence, lethality, and health policies. Front Public Health. (2022) 10:986743. doi: 10.3389/fpubh.2022.986743
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+7. Li, Y, Yao, P, Osman, S, Zainudin, N, and Sabri, MF. A thematic review on using food delivery services during the pandemic: insights for the post-COVID-19 era. Int J Environ Res Public Health. (2022) 19:15267. doi:
+
+
+10. Jilcott Pitts, SB, Ng, SW, Blitstein, JL, Gustafson, A, Kelley, CJ, Pandya, S, et al. Perceived advantages and disadvantages of online grocery shopping among special supplemental nutrition program for women, infants, and children (WIC) participants in eastern North Carolina. Curr Dev Nutr. (2020) 4:nzaa076. doi: 10.1093/cdn/nzaa076
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+11. Blitstein, JL, Frentz, F, and Jilcott Pitts, SB. A mixed-method examination of reported benefits of online grocery shopping in the United States and Germany: is health a factor? J Food Prod Mark. (2020) 26:21224. doi: 10.1080/10454446.2020.1754313
+CrossRef Full Text | Google Scholar
+
+12. Elms, J, de Kervenoael, R, and Hallsworth, A. Internet or store? An ethnographic study of consumers internet and store-based grocery shopping practices. J Retail Consum Serv. (2016) 32:23443. doi: 10.1016/j.jretconser.2016.07.002
+CrossRef Full Text | Google Scholar
+
+13. Belk, RW. Qualitative consumer research. Bingley, UK: Emerald Publishing (2017).
+Google Scholar
+
+14. Etumnu, CE, Foster, KA, Widmar, NO, Lusk, JL, and Ortega, DL. Drivers of online grocery
+
+
+
+CrossRef Full Text | Google Scholar
+
+17. Reardon, T, Heiman, A, Lu, L, Nuthalapati, CSR, Vos, R, and Zilberman, D. Pivoting by food industry firms to cope with COVID-19 in developing regions: E-commerce and copivoting delivery intermediaries. Agric Econ. (2021) 52:45975. doi: 10.1111/agec.12631
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+18. Popkin, BM, and Reardon, T. Obesity and the food system transformation in Latin America. Obes Rev. (2018) 19:102864. doi: 10.1111/obr.12694
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+19. Lake, AA. Neighbourhood food environments: food choice, foodscapes and planning for health. Proc Nutr Soc. (2018) 77:23946. doi: 10.1017/S0029665118000022
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+20. Partridge, SR, Gibson, AA, Roy, R, Malloy, JA, Raeside, R, Jia, SS, et al. Junk food on demand: a cross-sectional analysis of the nutritional quality of popular online food delivery outlets in Australia and New Zealand. Nutrients. (2020) 12:3107. doi: 10.3390/nu12103107
+PubMed Abstract | CrossRef Full Text | Google
+
+White, CM, Hammond, D, et al. Use of online food delivery services to order food prepared away-from-home and associated sociodemographic characteristics: a cross- sectional, multi-country analysis. Int J Environ Res Public Health. (2020) 17:5190. doi: 10.3390/ijerph17145190
+CrossRef Full Text | Google Scholar
+
+24. Bellini-Leite, SC. Dual process theory: embodied and predictive; symbolic and classical. Front Psychol. (2022) 13:13. doi: 10.3389/fpsyg.2022.805386
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+25. Leshem, R. Using dual process models to examine impulsivity throughout neural maturation. Dev Neuropsychol. (2016) 41:125
+43. doi: 10.1080/87565641.2016.1178266
+
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+26. Becker, GS. A theory of the allocation of time.
+Econ J. (1965) 75:493517. doi: 10.2307/2228949
+
+CrossRef Full Text | Google Scholar
+
+27. von Elm, E, Altman, DG, Egger, M, Pocock, SJ, Gtzsche, PC, Vandenbroucke, JP, et al. The strengthening the reporting of observational studies in epidemiology (STROBE) statement: guidelines for reporting observational studies. J Clin Epidemiol. (2008) 61:3449. doi:
+
+Casini, A. Validation of a literature-based adherence score to Mediterranean diet: the MEDI-LITE score. Int J Food Sci Nutr. (2017) 68:75762. doi:
+10.1080/09637486.2017.1287884
+
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+31. Wanner, M, Probst-Hensch, N, Kriemler, S, Meier, F, Bauman, A, and Martin, BW. What physical activity surveillance needs: validity of a single-item questionnaire. Br J Sports Med. (2014) 48:15706. doi: 10.1136/bjsports-2012-
+092122
+
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+32. Bonaccorsi, G, Grazzini, M, Pieri, L, Santomauro, F, Ciancio, M, and Lorini, C. Assessment of Health Literacy and validation of single-item literacy screener (SILS) in a sample of Italian people. Ann Ist Super Sanita (2017) 53:205212. doi: 10.4415/ANN_17_03_05
+CrossRef Full Text | Google Scholar
+
+33. Weun, S, Jones, MA, and Beatty, SE. Development and validation of the impulse buying tendency scale. Psychol Rep. (1998) 82:1123. doi: 10.2466/pr0.1998.82.3c.1123
+CrossRef Full Text | Google Scholar
+
+34. Brough, P, Timms, C, ODriscoll, MP, Kalliath, T, Siu, O, Sit, C, and Lo, D. Worklife balance: a
+
+36. Istituto Nazionale di Statistica. La geografia delle aree interne nel 2020 - vasti territori tra potenzialit e debolezze. (2022). Available at: https://www.istat.it/it/archivio/273176
+Google Scholar
+
+37. Agenzia delle Entrate. Imposta sul reddito delle persone fisiche (Irpef) - Aliquote e calcolo dellIrpef. Available at: https://www.agenziaentrate.gov.it/portale/impo sta-sul-reddito-delle-persone-fisiche-
+irpef-/aliquote-e-calcolo-dell-irpef Google Scholar
+38. Cheng, A. Forbes. Millennials Are Ordering More Food Delivery, But Are They Killing The Kitchen, Too? (2018). Available at: https://www.forbes.com/sites/andriacheng/201 8/06/26/millennials-are-ordering-food-for- delivery-more-but-are-they-killing-the-kitchen-  too/
+Google Scholar
+
+39. DoorDash. The rise of food delivery services: why consumers order in | DoorDash for merchants. (2020). Available at: https://get.doordash.com/en-us/blog/rise-in- food-delivery-and-why-it-is-popular
+Google Scholar
+
+40. Zion, A, and Hollmann, T. Food delivery apps: usage and demographics. Zion & Zion. (2019). Available at:
+
+
+			
+
+
+Frontiers in 	Articles	Research Topics	Editorial board
+affective experience: an insight of food delivery applications. Sustainability. (2022) 14:12936. doi: 10.3390/su141912936
+CrossRef Full Text | Google Scholar
+
+43. Cho, M, Bonn, MA, and Li, J. Differences in perceptions about food delivery apps between single-person and multi-person households. Int J Hosp Manag. (2019) 77:10816. doi: 10.1016/j.ijhm.2018.06.019
+CrossRef Full Text | Google Scholar
+
+44. Robson, SM, Crosby, LE, and Stark, LJ. Eating dinner away from home: perspectives of middle- to high-income parents. Appetite. (2016) 96:147
+53. doi: 10.1016/j.appet.2015.09.019
+
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+45. Keeble, M, Adams, J, and Burgoine, T. Investigating experiences of frequent online food delivery service use: a qualitative study in UK adults. BMC Public Health. (2022) 22:1365. doi: 10.1186/s12889-022-13721-9
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+46. Adate, A, Shahi, S, Alharbi, R, Sen, S, Gao, Y, Katsaggelos, AK, et al. Detecting screen presence with activity-oriented RGB camera in egocentric videos. Proc IEEE Int Conf Pervasive Comput Commun Workshops. (2022) 2022:4038. doi: 10.1109/percomworkshops53856.2022.9767433
+
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+49. Sarmugam, R, and Worsley, A. Dietary Behaviours, impulsivity and food involvement: identification of three consumer segments. Nutrients. (2015) 7:803657. doi: 10.3390/nu7095379
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+50. Jayasinghe, UW, Harris, MF, Parker, SM, Litt, J, van Driel, M, Mazza, D, et al. The impact of health literacy and life style risk factors on health- related quality of life of Australian patients. Health Qual Life Outcomes. (2016) 14:68. doi: 10.1186/s12955-016-0471-1
+CrossRef Full Text | Google Scholar
+
+51. Shahid, R, Shoker, M, Chu, LM, Frehlick, R, Ward, H, and Pahwa, P. Impact of low health literacy on patients health outcomes: a multicenter cohort study. BMC Health Serv Res. (2022) 22:1148. doi: 10.1186/s12913-022-08527-
+9
+
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+52. van Strien, T, Gibson, EL, Baos, R, Cebolla, A, and Winkens, LHH. Is comfort food actually comforting for emotional eaters? A (moderated) mediation analysis. Physiol Behav. (2019) 211:112671. doi: 10.1016/j.physbeh.2019.112671
+
+PubMed Abstract | CrossRef Full Text | Google Scholar
+
+
+Keywords: online food delivery, OFD, consumption behavior, risky behaviors, food habits, public health, mindful eating, survey
+Citation: Giacomini G, Scacchi A, Ragusa P, Prinzivalli A, Elhadidy HSMA and Gianino MM (2024) Which variables and determinants influence online food delivery consumption among workers and students? Results from the DELIvery Choice In OUr Society (DELICIOUS) cross-sectional study. Front. Public Health.
+11:1326628. doi: 10.3389/fpubh.2023.1326628
+
+Received: 23 October 2023; Accepted: 18
+December 2023;
+Published: 08 January 2024.
+
+Edited by:
+Michael Long, Oklahoma State University, United States
+
+Reviewed by:
+Ahmed Hassan Abdou, King Faisal University, Saudi Arabia Wai Chuen Poon Eugene, Sunway University, Malaysia
+
+Copyright  2024 Giacomini, Scacchi, Ragusa, Prinzivalli, Elhadidy and Gianino. This is an open- access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these
+
+
+
+
+
+
+
+
+ 2025 Frontiers Media S.A. All rights reserved	Privacy policy | Terms and conditions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

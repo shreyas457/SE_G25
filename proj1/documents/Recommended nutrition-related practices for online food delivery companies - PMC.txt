@@ -1,0 +1,318 @@
+
+
+
+
+EDITORIAL Public Health Nutr. 2023 Nov 10;26(12):33433348. doi: 10.1017/S1368980023002495
+
+Recommended nutrition-related practices for online food delivery companies
+Lana Vanderlee 1,*, Gary Sacks 2
+
+Author information Article notes Copyright and License information PMCID: PMC10755444 PMID: 37944996
+
+
+The online food delivery (OFD) industry has realised considerable growth over the last decade. In 2023, overall revenue in the global OFD market is forecasted to be over USD1 trillion, with future growth rates of over 10 % per year expected(1). While few empirical studies have
+examined patterns of use, a multi-country study from 2018 estimated that 15 % of consumers had used OFD in the past 7 d, with higher use in particular population groups, such as younger adults and those living with children(2).
+
+From a public health perspective, OFD has been identified as a potential contributor to unhealthy diets and a threat to the achievement of the UN Sustainable Development Goals(3,4). Firstly, the rise in OFD has increased the availability and ease of access to food prepared away from home (FAFH)(5,6), which is known to be associated with poorer quality diets and higher BMI(7,8). Secondly, concerns have been raised about the role of OFD companies in consolidating power in the restaurant industry, including amongst the most dominant fast-food chains(9,10), which may contribute to diet-related disease and health inequity more generally(11).
+
+At the same time, the increased prominence of OFD presents an opportunity for public health. OFD companies could, theoretically, promote consumption of healthier FAFH, and incentivise
+
+restaurant companies to adopt practices that are health-promoting(1214). At present, there is limited regulation of OFD practices related to nutrition and public health and limited monitoring of OFD practices from a nutrition perspective(4,12,15).
+
+In this commentary, we propose recommended nutrition-related practices for OFD companies, based on a previously applied framework, the BIA-Obesity (Business Impact Assessment  Obesity and population nutrition) tool, for assessing the nutrition-related commitments and actions of food companies in various sectors (including manufacturers, retailers and restaurants)(16). We contextualised the indicators in the BIA-Obesity tool to the OFD setting,
+taking into account extant peer-reviewed and grey literature regarding best practice and recommended industry actions. We categorised recommended policies and actions across five domains: corporate strategy; nutrition information; promotions and pricing; product and outlet availability; and product formulation. A summary of the recommendations can be found in Table 1.
+
+
+Table 1.
+
+Summary of recommended nutrition-related policies and actions for online food delivery companies
+
+Domain
+Global recommendation
+Specific actions
+Corporate strategy
+Develop an overall strategy related to nutrition and health
+ As part of the overall corporate strategy and mission statement, recognise the role the company plays in efforts to improve population diets and achieve the Sustainable Development Goals
+ Establish targets for the proportion of revenue generated from healthier restaurants and the proportion of healthy food sold on platforms
+ Implement routine reporting on a range of nutrition-related metrics (e.g. overall nutrient profile of products available for sale, provision of nutrition information), including progress against commitments and targets
+ Provide transparency related to nutrition-related algorithms and practices
+ Transparently report relationships with external groups (including governments, industry groups, universities and community organisations) and policy positions (e.g. related to major policy issues, such as nutrition labelling and food- related taxes)
+ Limit political lobbying and
+donations
+
+
+Domain
+Global recommendation
+Specific actions
+Nutrition
+information
+Provide nutrition information in a consistent manner that is easily and predictably available to consumers
+ Ensure that vendors selling products on their platforms are meeting existing government nutrition labelling regulations (e.g. related to provision of information about energy content and associated contextual statements)
+ For all items available for sale, provide both detailed (e.g. ingredients lists, nutrition information panels) and summary nutrition information in a consistent manner that is easily and predictably available to consumers in prominent ways (e.g. summary information next to the item name or price, in equivalent size)
+ Publish clear criteria for the use of symbols, descriptors and logos that have health connotations (such as logos depicting healthy items or healthy restaurants) that are in line with locally relevant government-led programmes or policies, when available
+ Provide tools, such as automated nutrition calculators, that help consumers track and understand the nutritional composition of orders placed, and routinely evaluate their effectiveness from a nutritional
+perspective.
+Promotions and pricing
+Restrict the exposure of children (under 18 years of age) to the
+ Restrict promotions that feature unhealthy products and related
+
+
+Domain
+Global recommendation
+Specific actions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Product and outlet availability
+marketing of unhealthy foods and related brands
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Increase the visibility and accessibility of healthier products on OFD platforms
+brands, and only enter into joint marketing campaigns with restaurants that have healthy product profiles overall
+ Avoid promotion techniques, such as partnerships with celebrities, characters or influencers, that appeal to young people
+ Avoid sponsorships or branding related to settings and events popular with children and families, including sports events
+ Limit premium offers and price discounts (including promotion codes, loyalty discounts, and free delivery offers) for unhealthy products and brands, and use premium offers exclusively to incentivise healthier selections
+ Adopt transparency regarding methods (and related algorithms) used for target marketing (e.g. to particular population groups and individual characteristics)
+ Responsibly use consumer data so as not to inequitably target vulnerable groups
+
+
+ Prioritise the position and presentation of healthier options on landing pages and within search results, actively promoting healthier options
+ Ensure vendors make healthier options, such as low or no-calorie beverages and salad or fresh vegetables, the default in meal
+combinations (e.g. childrens
+
+
+Domain
+Global recommendation
+Specific actions
+
+
+
+
+
+
+
+
+
+Product formulation
+
+
+
+
+
+
+
+
+
+Incentivise development of healthier foods/menu offerings from vendors using OFD platforms
+meals)
+ Limit the selection of add-on options to healthier products
+ Reduce barriers to entry into the OFD market, and support increased participation from
+smaller restaurant companies
+
+
+ Develop clear, consistent and transparent criteria for determining and communicating the healthfulness of individual foods, brands and restaurants, based on government-endorsed guidelines and/or nutrient profiling schemes
+ Set goals for the proportion of healthier restaurants on each platform
+ Prioritise the presentation of healthier restaurants within existing structures
+ Offer incentives to suppliers for making product improvements (e.g. use of healthier frying oils)
+
+Open in a new tab
+
+OFD, online food delivery.
+
+
+
+Overview of how the online food delivery industry works
+
+The OFD industry is dominated by a small group of OFD aggregators (e.g. Uber Eats, DoorDash) that provide online platforms that link consumers to food available for delivery or pickup within their geographic area(4). OFD companies act as third-party intermediaries, with restaurant companies able to elect to make their products available through particular platforms for a fee, often a percentage of each order, with additional fees to improve marketing
+
+opportunities (e.g., prioritised placement, improved appearance in search results) within the platform. Restaurants are responsible for entering information into the platforms back end related to the products on offer, prices and the use of some symbols or logos for a product (such as vegetarian and/or healthy). In addition, a restaurant chooses descriptors (i.e. restaurant types) under which the restaurant will be categorised (e.g. sandwich, healthy, Asian). At present, it seems as though the provision of nutrition information on OFD platforms is provided at the discretion of the restaurateur. The selection of restaurants available to a consumer on an OFD platform is based on a range of factors, including their proximity to restaurant outlets, outlet operating hours and availability of delivery drivers. OFD platforms use proprietary algorithms to tailor the list of available restaurants to individual consumers based on marketing arrangements with restaurants, and using machine learning techniques that draw on
+customer characteristics and previous purchase behaviour(17).
+
+Corporate strategy
+
+In line with nutrition-related recommendations for all major food companies, we recommend that major OFD companies include public commitments to nutrition and health as part of their corporate strategies, with a focus on targets related to the proportion of revenue generated from healthier restaurants and/or healthier food items. Such commitments can provide an overarching framework to guide company policies and actions. We also recommend that OFD companies routinely report on a range of nutrition-related metrics, including actions taken and progress against commitments and targets. Furthermore, we recommend that OFD companies are transparent about their external relationships (e.g. with governments and community groups) and policy positions (e.g., related to major policy issues, such as nutrition labelling and food-related taxes). Best practice in this area includes policies that limit corporate lobbying and political donations.
+
+Nutrition information
+
+In the area of nutrition information, OFD companies have an obligation to ensure that vendors selling products on their platforms are meeting existing government regulations (e.g. related to
+the provision of information about energy content). Empirical research suggests that, in some contexts, obligations are not being met(18,19). We recommend that OFD companies ensure that their platforms provide both detailed and summary nutrition information for all items
+available for sale and facilitate restaurants to provide this information in a consistent manner that is easily and predictably available to consumers in prominent ways.
+
+If OFD companies are using symbols, descriptors or logos that have health connotations, clear and transparent criteria are required and should align with and support government-led
+
+programmes or policies when possible. For example, OFD companies could help promote the provision of country-specific interpretative nutrition indicators, such as traffic lights, health star ratings or high in symbols, that are based on government-endorsed criteria. We recommend that OFD companies also provide tools, such as automated nutrition calculators, that help consumers track and understand the nutritional composition of orders placed. Use of
+such tools and their effectiveness from a nutrition perspective should be routinely evaluated(20).
+
+Promotions and pricing
+
+In line with WHO recommendations(21,22), we recommend that OFD companies restrict the exposure of children (under 18 years of age) to the marketing of unhealthy foods and related brands. Given the strong association of FAFH consumption and unhealthy diets(8), and the
+predominance of unhealthy fast-food chains on most major OFD platforms(9,23), restrictions likely need to apply comprehensively across a range of promotion strategies used by OFD companies. In particular, we recommend that OFD companies avoid promotion techniques, such as partnerships with celebrities, that appeal to young people, as well as sponsorships and branding related to settings and events popular with children and families. In addition, we recommend OFD companies restrict promotions that feature unhealthy products and related brands and only enter into joint marketing campaigns with restaurants that have healthy product profiles overall.
+
+Comprehensive actions from OFD companies to restrict unhealthy food marketing would extend to a commitment to avoid the use of premium offers or price discounts for unhealthy products and brands. Instead, we recommend that OFD companies use price-related promotions exclusively to incentivise healthier selections.
+
+More broadly in the area of marketing, and in recognition of emerging issues related to data privacy and digital marketing(21) and concerns regarding the way in which particular population groups are targeted by the marketing strategies of food companies(24), we recommend that OFD companies commit to transparency in the methods used for target marketing, and responsible use of consumer data, in line with relevant regulations.
+
+Product and outlet availability
+
+We recommend that OFD companies increase the visibility and accessibility of healthier products on their platforms. Choice architecture in online food environments has been identified as an opportunity to nudge consumers in a healthier direction(14,25). OFD companies
+can do this in a range of ways, such as prioritising the position and presentation of healthier
+
+options on landing pages and within search results. In addition, OFD companies can actively promote healthier product selection by ensuring vendors make healthier options, such as low or no-calorie beverages and salad or fresh vegetables, the default in meal combinations (e.g. childrens meals). OFD companies can also promote healthier purchases by limiting the selection of add-on options (e.g. a prompt of Would you like to add) to healthier products.
+
+Lastly, OFD companies can take steps to encourage greater diversity of restaurant participation in their platforms, which may reduce the dominance of unhealthy fast-food chains and support the development of healthier food systems. In this area, we recommend that OFD companies adopt policies and practices that reduce barriers to entry into the OFD market and support increased participation from smaller restaurant companies.
+
+Product formulation
+
+Many of the recommendations described in earlier sections are likely to encourage restaurants to increase the healthfulness of their offerings. OFD companies could also directly incentivise restaurants to offer healthier products, by requiring restaurants to use healthier frying oils or to meet category-specific nutrient targets (e.g. in relation to sodium and sugar), as a pre- condition to being listed on the platform. We recommend that all company actions in this area are underpinned by clear and transparent criteria for assessing the healthfulness of foods and restaurants, based on government-endorsed guidelines and/or nutrient profiling schemes. We recommend that OFD companies set goals for the proportion of healthier restaurants on their platform and prioritise the presentation of healthier restaurants within existing structures.
+
+Towards health-promoting online food delivery environments
+
+In this commentary, we have identified a range of actions that OFD companies can take to contribute to efforts to improve population diets. While the recommendations are primarily directed towards OFD aggregators, we recognise that their ability to provide healthier foods is largely dependent on the practices and products offered by the restaurants selling products on their platforms. Accordingly, improvements to the healthfulness of FAFH will rely on restaurant companies improving the healthfulness of their food items and the way in which they are marketed. Critically, given the substantial market power that major OFD companies hold and their contractual agreements with restaurants, OFD companies have a substantial opportunity to influence the practices of restaurants related to nutrition.
+
+Despite limited monitoring of the OFD sector related to nutrition, it is clear that very few of the recommended actions have been implemented in practice. While the field is growing rapidly and OFD company practices are likely to evolve quickly, experience from other areas of the food
+
+industry shows that voluntary actions in the area of nutrition often fall far short of recommendations(2628). As such, it is likely that government regulation will be needed to establish a level playing field for all companies and ensure that online food environments are health-promoting. Apart from limited regulations related to menu labelling in some jurisdictions, there is currently a lack of nutrition-related regulations that apply in the FAFH
+space. The recommendations proposed in this commentary may help identify areas for regulation, including ways in which existing regulations (and approaches to compliance monitoring and enforcement) may need to be adapted for application to online food environments(18,19).
+
+Importantly, some of the recommended actions for OFD companies, such as prioritising healthier options within proprietary algorithms, may prove challenging to regulate. In these cases, OFD companies are only likely to be driven to change by consumer demand, actions by competitors and/or pressure from other stakeholders (such as public health groups, the media and investors)(20,29). OFD companies can take steps towards the implementation of the
+recommendations by focusing on giving their customers more autonomy in shaping their online food environment. For example, OFD users could be given a choice to prioritise healthier restaurants or meals within their own algorithms, to apply filters to include only healthier restaurants and/or options or to limit the promotions related to less healthful foods to which they are exposed. Several of the recommendations we have made rely on a clear definition of
+healthy foods and brands. While multiple systems and approaches have been identified for classifying the healthfulness of FAFH and restaurants(3034), the strengths and weaknesses of applying existing nutrient profiling algorithms in this space, and the applicability of existing systems in diverse contexts are not well established and should be the focus of future research. Lastly, while this commentary has focused on nutrition, the rise of OFD has been noted as
+having potential negative impacts on other aspects of health and society, including environmental sustainability and workers rights(3,4,15,35,36). Future research should consider integrating these considerations into a broader set of recommendations for the sector.
+
+Acknowledgements
+
+None.
+
+Financial support
+
+LV is supported by a Canada Research Chair in Health Food Policy. GS is a recipient of a National Health and Medical Research Council Emerging Leadership Fellowship (2021/GNT2008535).
+
+Conflicts of interest
+
+LV and GS often interact with food industry actors as part of their broader research programmes, but do not receive any funding or support from any industry-affiliated groups.
+
+Authorship
+
+LV and GS co-formulated the research question and co-wrote and edited the commentary.
+
+Ethics of human subject participation
+
+This research did not involve data on human participants and thus ethical approval was not required.
+
+References
+
+1. Statista (2023) Online Food Delivery  Worldwide. https://www.statista.com/outlook/dmo/online-food-delivery /worldwide	(accessed November 2023).
+2. Keeble M, Adams J, Sacks G et al. (2020) Use of online food delivery services to order food prepared away-from-home and associated sociodemographic characteristics: a cross-sectional, multi-country analysis. Int J Environ Res Public Health 17, 16. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+3. Jia SS, Gibson AA, Ding D et al. (2022) Perspective: are online food delivery services emerging as another obstacle to achieving the 2030 United Nations sustainable development goals? Front Nutr 9, 858475. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+4. WHO (2021) WHO European Office for the Prevention and Control of Noncommunicable Diseases. Slide to Order: A Food Systems Approach to Meals Delivery Apps. Copenhagen: WHO. [Google Scholar	]
+5. Brar K & Minaker LM (2021) Geographic reach and nutritional quality of foods available from mobile online food delivery service applications: novel opportunities for retail food environment surveillance. BMC Public Health 21, 458. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+
+6. Keeble M, Adams J, Vanderlee L et al. (2021) Associations between online food outlet access and online food delivery service use amongst adults in the UK: a cross-sectional analysis of linked data. BMC Public Health 21, 1968. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+7. Lachat C, Nago E, Verstraeten R et al. (2012) Eating out of home and its association with dietary intake: a systematic review of the evidence. Obes Rev 13, 329346. [DOI	] [PubMed] [Google Scholar	]
+8. Wellard-Cole L, Davies A & Allman-Farinelli M (2021) Contribution of foods prepared away from home to intakes of energy and nutrients of public health concern in adults: a systematic review. Crit Rev Food Sci Nutr 62, 55115522. [DOI	] [PubMed] [Google Scholar	]
+9. Partridge SR, Gibson AA, Roy R et al. (2020) Junk food on demand: a cross-sectional analysis of the nutritional quality of popular online food delivery outlets in Australia and New Zealand. Nutrients 12, 3107. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+10. Van Dam I, Wood B, Sacks G et al. (2021) A detailed mapping of the food industry in the European single market: similarities and differences in market structure across countries and sectors. Int J Behav Nutr Phys Act 18, 54. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+11. Wood B, Williams O, Baker P et al. (2021) The influence of corporate market power on health: exploring the structure-conduct-performance model from a public health perspective. Glob Health 17, 41. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+12. Bates S, Reeve B & Trevena H (2023) A narrative review of online food delivery in Australia: challenges and opportunities for public health nutrition policy. Public Health Nutr 26, 262272. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+13. Delaney T, Wolfenden L & Wyse R (2023) Online food delivery systems and their potential to improve public health nutrition: a response to A narrative review of online food delivery in Australia. Public Health Nutr 26, 273274. [DOI	] [PubMed] [Google Scholar	]
+14. Wyse R, Jackson JK, Delaney T et al. (2021) The effectiveness of interventions delivered using digital food environments to encourage healthy food choices: a systematic review and meta-analysis. Nutrients 13, 2255. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+15. Meemken E-M, Bellemare MF, Reardon T et al. (2022) Research and policy for the food-delivery revolution. Science 377, 810813. [DOI	] [PubMed] [Google Scholar	]
+
+16. Sacks G, Vanderlee L, Robinson E et al. (2019) BIA-obesity (business impact assessmentobesity and population-level nutrition): a tool and process to assess food company policies and commitments related to obesity prevention and population nutrition at the national level. Obes Rev 20, 7889. [DOI	] [PubMed] [Google Scholar	]
+17. Deliverect (2023) How Does the Fodo Delivery Apps Algorithm Work? https://www.deliverect.com/en-ca/blog/online-food-delivery/how-does-food-delivery-   ap ps-algorithm-work	(accessed November 2023).
+18. Greenthal E, Sorscher S, Pomeranz JL et al. (2023) Availability of calorie information on online menus from chain restaurants in the USA: current prevalence and legal landscape. Public Health Nutr, 18. [DOI	] [PMC free article] [PubMed] [Google
+Scholar	]
+
+19. Vanderlee L, Gaucher-Holm A, Le?-Brassard M et al. (2023) Availability of calorie information on online food delivery service platforms among major chain restaurants in Canadian provinces with different calorie labelling policies. Can J Public Health 114, 983 991. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+20. United Nations Childrens Fund (2023) Guidance Framework to Support Healthier Food Retail Environments for Children: A Practical Tool for Nutrition and Childrens Rights in the Food Retail Sector. New York: UNICEF. [Google Scholar	]
+21. World Health Organization (2023) Policies to Protect Children from the Harmful Impact of Food Marketing: WHO Guideline. https://www.who.int/publications/i/item/9789240075412	(accessed November 2023). [PubMed]
+22. World Health Organization & the United Nations Childrens Fund (2023) Taking Action to Protect Children from the Harmful Impact of Food Marketing: A Child Rights- Based Approach. https://www.who.int/publications/i/item/9789240047518 (accessed November 2023).
+23. Poelman MP, Thornton L & Zenk SN (2020) A cross-sectional comparison of meal delivery options in three international cities. Eur J Clin Nutr 74, 14651473. [DOI	] [PubMed] [Google Scholar	]
+24. Bragg MA, Miller AN, Kalkstein DA et al. (2019) Evaluating the influence of racially targeted food and beverage advertisements on Black and White adolescents perceptions and preferences. Appetite 140, 4149. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+
+25. Bucher T & Siegrist M (2015) Childrens and parents health perception of different soft drinks. Br J Nutr 113, 526535. [DOI	] [PubMed] [Google Scholar	]
+26. Erzse A, Karim SA, Foley L et al. (2022) A realist review of voluntary actions by the food and beverage industry and implications for public health and policy in low- and middle-income countries. Nat Food 3, 650663. [DOI	] [PubMed] [Google Scholar	]
+27. Vergeer L, Vanderlee L, Potvin Kent M et al. (2019) The effectiveness of voluntary policies and commitments in restricting unhealthy food marketing to Canadian children on food company websites. Appl Physiol Nutr Metab 44, 7482. [DOI	] [PubMed] [ Google Scholar	]
+28. Vergeer L, Ahmed M, Vanderlee L et al. (2022) The relationship between voluntary product (re) formulation commitments and changes in the nutritional quality of products offered by the top packaged food and beverage companies in Canada from 2013 to 2017. BMC Public Health 22, 271. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+29. White M, Aguirre E, Finegood DT et al. (2020) What role should the commercial food system play in promoting health through better diet? BMJ 368, m545. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+30. Trapp GSA, Reid N, Hickling S et al. (2023) Nutritional quality of childrens menus in restaurants: does cuisine type matter? Public Health Nutr 26, 14511455. [DOI  ] [PMC free article] [PubMed] [Google Scholar  ]
+31. Moayyed H, Kelly B, Feng X et al. (2017) Evaluation of a healthiness rating system for food outlet types in Australian residential communities. Nutr Diet 74, 2935. [DOI	] [PubMed] [Google Scholar	]
+32. Pulker CE, Aberle LM, Butcher LM et al. (2023) Development of the menu assessment scoring tool (mast) to assess the nutritional quality of food service menus. Int J Environ Res Public Health 20, 3998. [DOI	] [PMC free article] [PubMed] [Google Scholar	]
+33. Pulker CE, Trapp GSA, Fallows M et al. (2020) Food outlets dietary risk (FODR) assessment tool: study protocol for assessing the public health nutrition risks of community food environments. Nutr J 19, 122. [DOI	] [PMC free article] [PubMed] [ Google Scholar	]
+34. Dunford EK, Wu JH, Wellard-Cole L et al. (2017) A comparison of the health star rating system when used for restaurant fast foods and packaged foods. Appetite 117, 18. [DOI	] [PubMed] [Google Scholar	]
+
+35. Li C, Mirosa M & Bremer P (2020) Review of online food delivery platforms and their impacts on sustainability. Sustainability 12, 5528. [Google Scholar	]
+36. Taufik D, Bouwman EP, Reinders MJ et al. (2022) A reversal of defaults: implementing a menu-based default nudge to promote out-of-home consumer adoption of plant-based meat alternatives. Appetite 175, 106049. [DOI	] [PubMed] [Google Scholar	]
+
+
+Articles from Public Health Nutrition are provided here courtesy of Cambridge University Press
+
+
+
+

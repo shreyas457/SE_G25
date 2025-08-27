@@ -1,0 +1,2541 @@
+Significant Legislative Rule Analysis
+
+Chapter 246-215 WAC
+a Rule Concerning Food Service July 2020
+
+
+
+
+
+SECTION 1:
+
+Describe the proposed rule, including a brief history of the issue, and explain why the proposed rule is needed.
+The State Board of Health (board) is revising the Food Service rules, chapter 246-215 WAC to incorporate, with modifications, the 2017 U.S. Food and Drug Administration (FDA) Model Food Code and to address recent changes in state laws related to food safety to protect the health of the people of the state. The proposed rules require retail food establishments follow proper food safety practices. From 2014 to 2018, Washington has averaged 54 foodborne disease outbreaks with 602 reported cases annually.
+
+Brief history of food safety and regulation in the United States. The Centers for Disease Control and Prevention estimate that 48 million Americans get sick, 128,000 are hospitalized, and 3,000 die from foodborne diseases every year.1 The resulting annual cost is estimated to be
+$77.7 billion.2 Health effects from foodborne disease include diarrhea, vomiting, paralysis, kidney failure, and death. While most people recover fully from a foodborne illness, some have lifelong health complications from foodborne disease.
+Although food safety recommendations were published previously under various authorities, the FDA didnt begin publishing the Model FDA Food Code (FDA Food Code) until 1993. The FDA Food Code is a model that establishes practical, science-based food safety standards and recommendations for mitigating risk factors known to cause foodborne illness. Implementation is intended to reduce the health, community, and financial burden from foodborne disease. The FDA Food Code is updated every four years, with a supplement provided in the middle of each four-year cycle. All states, except California, use a version of the FDA Food Code as the foundation of their retail food safety rules.
+
+To help promote uniform national standards, the FDA recognizes input from the Conference of Food Protection (CFP), a national organization of industry, government, academia, and consumer stakeholders. The CFP meets biannually to identify and address emerging problems of food safety and to provide recommendations to federal and industry partners. Washington is a member and active participant with the CFP.
+
+The leading causes of foodborne disease are food workers working while ill, improper handwashing, and handling ready-to-eat food with contaminated hands. In addition, serving products that are contaminated prior to delivery, and improperly cooking, cooling, and reheating food have often been linked to outbreaks.
+
+Primary provisions of the FDA Food Code pertain to:
+
+1 http://www.cdc.gov/Features/dsFoodborneEstimates/
+2Economic Burden from Health Losses Due to Foodborne Illness in the United States; Journal of Food Protection, Vol. 75, No. 1, 2012, Pages 123131
+
+* Active managerial control (AMC) and the duties of the Person in Charge (PIC)
+* Employee health, illness and hygiene
+* Restricting bare hand contact with ready-to-eat food
+* Control of food cooking, cooling, and storage temperatures
+* Safety of ready-to-eat foods
+* Approved sources of food
+A diverse group of retail food establishments are responsible for protecting the public from the devastating effects of foodborne disease. These include, but are not limited to:
+* Restaurants
+* Grocery stores
+* Caterers
+* Schools
+* Hospitals
+* Convenience stores
+* Mobile food units
+* Food banks
+* Temporary food booths at fairs, festivals, and farmers markets
+Brief history of retail food safety regulation in Washington. Prior to 2003, Washington State drafted rules for retail food safety without using the FDA Food Code. In 2003, the state legislature directed the board to consider the most recent version of the FDA Food Code whenever the board considers amendments to the food service rule under chapter 246-215 WAC. This direction is codified in Revised Code of Washington (RCW) 43.20.145. Washington first adopted the FDA Food Code (2001 version) into chapter 246-215 WAC effective in May 2005. The current chapter adopted in 2013 is based on the 2009 FDA Food Code.
+
+Since the last chapter revision, the FDA has published the 2013 and 2017 FDA Food Code versions with three additional supplements. In July 2018, the board began the process of revising the current food service rules using the 2017 FDA Food Code as a basis. The proposed rules take these standards into consideration.
+
+To assist the rule revision process, the board and the Department of Health (department) requested the input and review from the statewide Food Safety Advisory Council (FSAC). The FSAC was formed by the department in October 2017 to foster communication and cooperation between stakeholders and to promote food safety through the consistent application of chapter 246-215 WAC. FSAC members include representatives from industry, regulators, consumers, and academia. The members were tasked to review the differences between the current chapter and current FDA Food Code as well as input received from stakeholders represented by the FSAC.
+
+The FSAC met eleven (11) times from September 2018  May 2020 and prepared a first draft of the rules in May 2019. The department shared the draft with stakeholders for informal review and comment. In addition, the department conducted six (6) in-person and one web-based public presentation on the draft amendments in July 2019 and requested additional input on the draft.
+FSAC met to review the comments and draft changes in September and October 2019, which
+
+culminated with recommendations to submit to the board. The proposed rules reflect the work of the FSAC, the department staff, stakeholder input, and the boards direction for the rule revision.
+
+
+
+
+SECTION 2:
+Is a Significant Analysis required for this rule?
+Yes, as defined in RCW 34.05.328, portions of the proposed rule make changes to chapter 246- 215 WAC and requires a significant analysis. The proposed amendments incorporate provisions of the most recent version of the FDA Food Code (2017) in order to implement the statutory direction provided in RCW 43.20.145.
+
+The department evaluated the proposed rules to determine whether the changes in each section are considered significant or non-significant under RCW 34.05.328(5)(c). Based on the evaluation, twenty-seven (27) of the proposed food service rule sections are significant legislative rules and are subject to the requirements of RCW 34.05.328(5) and are analyzed in the Section-by-Section Cost/Benefit Analysis in Section 5. Many proposed rules are non- significant because they (1) Are taken from the 2017 FDA Food Code (National Consensus Code); (2) Change the title, section number, or code year only (Title, Number or Code Year Only); (3) Incorporate legislation passed by state legislature; (4) Incorporate RCW or rules currently in effect, or (5) Clarify the language of the rules without changing the effect. These three hundred ninety nine (399) non-significant proposed sections and the reason why the sections are exempt from analysis are listed in Table 1 below.
+
+Table 1. Non-Significant WAC Sections Exempt from Analysis
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-01100
+IntentFood safety, illness prevention, and honest
+presentation (2017 FDA Food Code 1-102.10).
+Removed FDA code
+year in section title
+246-215-01105
+ScopeStatement (2017 FDA Food Code 1-103.10).
+Removed FDA code
+year in section title
+246-215-01115
+Definitions, abbreviations, and acronyms (2017 FDA Food Code 1-201.10(B)).
+New or change of terms analyzed in applicable
+sections
+246-215-02100
+ResponsibilityAssignment (2017 FDA Food Code 2-
+101.11).
+Removed FDA code
+year in section title
+246-215-02105
+Demonstration of knowledge (2017 FDA Food Code 2-
+102.11).
+National Consensus
+Code
+246-215-02200
+Employee healthReporting policy.
+National Consensus
+Code
+246-215-02205
+Employee healthReportable history of illness.
+National Consensus
+Code
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-02210
+Employee healthProhibit a conditional employee from
+becoming a food employee.
+National Consensus
+Code
+246-215-02220
+Employee healthConditions of exclusion. Revised Language
+(Added Salmonella and Norovirus)
+National Consensus
+Code
+246-215-02235
+Employee healthOther conditions.
+Clarification
+246-215-02250
+Employee healthRemoval of exclusion or restriction based on symptoms.
+Removed FDA code year in section title &
+Clarification
+246-215-02300
+Hands and armsClean condition (2017 FDA Food Code 2-
+301.11).
+Removed FDA code
+year in section title
+246-215-02305
+Hands and armsCleaning procedure (2017 FDA Food Code
+2-301.12).
+Removed FDA code
+year in section title
+246-215-02310
+Hands and armsWhen to wash (2017 FDA Food Code 2-
+301.14).
+Removed FDA code
+year in section title
+246-215-02315
+Hands and armsWhere to wash (2017 FDA Food Code 2-
+301.15).
+Removed FDA code
+year in section title
+246-215-02320
+Hands and armsHand antiseptics (2017 FDA Food Code 2-
+301.16).
+National Consensus
+Code
+246-215-02325
+FingernailsMaintenance (2017 FDA Food Code 2-302.11).
+Removed FDA code
+year in section title
+246-215-02330
+JewelryProhibition (2017 FDA Food Code 2-303.11).
+National Consensus
+Code
+246-215-02335
+Outer clothingClean condition (2017 FDA Food Code 2-
+304.11).
+Removed FDA code
+year in section title
+246-215-02400
+Food contamination preventionEating, drinking, or using
+tobacco (2017 FDA Food Code 2-401.11).
+Removed FDA code
+year in section title
+246-215-02405
+Food contamination preventionDischarges from the eyes,
+nose, and mouth (2017 FDA Food Code 2-401.12).
+Removed FDA code
+year in section title
+246-215-02406
+NEW: Food contamination preventionUse of Bandages,
+Finger Cots, or Finger Stalls (2017 FDA Food Code 2-401.13)
+National Consensus
+Code
+246-215-02410
+Hair restraintsEffectiveness (2017 FDA Food Code 2-
+402.11).
+National Consensus
+Code
+246-215-02415
+AnimalsHandling prohibition (2017 FDA Food Code 2- 403.11).
+Removed FDA code year in section title &
+Clarification
+246-215-02500
+NEW: Clean-up of Vomiting and Diarrheal Events (2017
+FDA Food Code 2-501.11)
+National Consensus
+Code
+246-215-03100
+ConditionSafe, unadulterated, and honestly presented (2017
+FDA Food Code 3-101.11).
+Removed FDA code
+year in section title
+246-215-03200
+SourcesCompliance with food law (2017 FDA Food Code 3-201.11).
+Removed FDA code
+year in section title & Clarification
+246-215-03205
+SourcesFood in a hermetically sealed container (2017 FDA
+Food Code 3-201.12).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-03210
+SourcesFluid milk and milk products (2017 FDA Food
+Code 3-201.13).
+Removed FDA code
+year in section title
+246-215-03215
+SourcesFish (2017 FDA Food Code 3-201.14).
+Removed FDA code
+year in section title
+246-215-03220
+SourcesMolluscan shellfish (2017 FDA Food Code 3-
+201.15).
+Removed FDA code
+year in section title
+246-215-03230
+SourcesGame animals (2017 FDA Food Code 3-201.17).
+Clarification
+246-215-03240
+Specifications for receivingAdditives (2017 FDA Food
+Code 3-202.12).
+Removed FDA code
+year in section title
+246-215-03245
+Specifications for receivingEggs (2017 FDA Food Code 3-
+202.13).
+Removed FDA code
+year in section title
+246-215-03250
+Specifications for receivingEggs and milk products,
+pasteurized (2017 FDA Food Code 3-202.14).
+Clarification
+246-215-03255
+Specifications for receivingPackage integrity (2017 FDA
+Food Code 3-202.15).
+Removed FDA code
+year in section title
+246-215-03260
+Specifications for receivingIce (2017 FDA Food Code 3-
+202.16).
+Removed FDA code
+year in section title
+246-215-03265
+Specifications for receivingShucked shellfish, packaging
+and identification (2017 FDA Food Code 3-202.17).
+Removed FDA code
+year in section title
+246-215-03270
+Specifications for receivingShellstock identification (2017
+FDA Food Code 3-202.18).
+FDA Removed FDA
+code year in section title
+246-215-03275
+Specifications for receivingShellstock, condition (2017
+FDA Food Code 3-202.19).
+Removed FDA code
+year in section title
+246-215-03280
+Specifications for receivingJuice treated (2017 FDA Food
+Code 3-202.110).
+Removed FDA code
+year in section title
+246-215-03285
+Original containers and recordsMolluscan shellfish, original
+container (2017 FDA Food Code 3-203.11).
+Clarification
+246-215-03303
+Preventing contamination by employeesPreventing
+contamination when tasting (2017 FDA Food Code 3-301.12).
+Removed FDA code
+year in section title
+246-215-03306
+Preventing food and ingredient contaminationPackaged and unpackaged foodSeparation, packaging, and segregation
+(2017 FDA Food Code 3-302.11).
+National Consensus Code
+246-215-03309
+Preventing food and ingredient contaminationFood storage containers, identified with common name of food (2017 FDA
+Food Code 3-302.12).
+Removed FDA code year in section title
+246-215-03312
+Preventing food and ingredient contaminationPasteurized
+eggs, substitute for raw eggs for certain recipes (2017 FDA Food Code 3-302.13).
+Removed FDA code year in section title
+246-215-03315
+Preventing food and ingredient contaminationProtection
+from unapproved additives (2017 FDA Food Code 3-302.14).
+Clarification
+246-215-03318
+Preventing food and ingredient contaminationWashing fruits and vegetables (2017 FDA Food Code 3-302.15).
+National Consensus
+Code & Removed FDA code year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-03321
+Preventing food and ingredient contaminationPooling of
+raw eggs prohibited.
+Clarification
+246-215-03324
+Preventing contamination from ice used as a coolantIce used as exterior coolant, prohibited as ingredient (2017 FDA Food
+Code 3-303.11).
+Removed FDA code year in section title &
+Clarification
+246-215-03327
+Preventing contamination from ice used as a coolantStorage or display of food in contact with water or ice (2017 FDA
+Food Code 3-303.12).
+Removed FDA code year in section title
+246-215-03330
+Preventing contamination from equipment, utensils, and linensFood contact with equipment and utensils (2017 FDA
+Food Code 3-304.11).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-03333
+Preventing contamination from equipment, utensils, and linensIn-use utensils, between-use storage (2017 FDA Food
+Code 3-304.12).
+Removed FDA code year in section title &
+Clarification
+246-215-03336
+Preventing contamination from equipment, utensils, and linensLinens and napkins, use limitation (2017 FDA Food
+Code 3-304.13).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-03339
+Preventing contamination from equipment, utensils, and linensWiping cloths, use limitation (2017 FDA Food Code
+3-304.14).
+Removed FDA code year in section title &
+Clarification
+246-215-03342
+Preventing contamination from equipment, utensils, and linensGloves, use limitation (2017 FDA Food Code 3-
+304.15).
+Removed FDA code year in section title
+246-215-03345
+Preventing contamination from equipment, utensils, and linensUsing clean tableware for second portions and refills
+(2017 FDA Food Code 3-304.16).
+Removed FDA code year in section title
+246-215-03351
+Preventing contamination from the premisesFood storage
+(2017 FDA Food Code 3-305.11).
+Removed FDA code
+year in section title
+246-215-03354
+Preventing contamination from the premisesFood storage,
+prohibited areas (2017 FDA Food Code 3-305.12).
+Removed FDA code
+year in section title
+246-215-03357
+Preventing contamination from the premisesVended potentially hazardous food, original container (2017 FDA
+Food Code 3-305.13).
+Removed FDA code year in section title &
+Clarification
+246-215-03360
+Preventing contamination from the premisesFood
+preparation (2017 FDA Food Code 3-305.14).
+Removed FDA code
+year in section title
+246-215-03363
+Preventing contamination by consumersFood display (2017
+FDA Food Code 3-306.11).
+Removed FDA code
+year in section title
+246-215-03366
+Preventing contamination by consumersCondiments,
+protection (2017 FDA Food Code 3-306.12).
+Removed FDA code
+year in section title
+246-215-03369
+Preventing contamination by consumersConsumer self- service operations (2017 FDA Food Code 3-306.13).
+Removed FDA code year in section title &
+Clarification
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-03375
+Preventing contamination by consumersMiscellaneous sources of contamination (2017 FDA Food Code 3-307.11).
+Removed FDA code year in section title &
+Clarification
+246-215-03405
+CookingMicrowave cooking (2017 FDA Food Code 3-
+401.12).
+Removed FDA code
+year in section title
+246-215-03410
+CookingPlant food cooking for hot holding (2017 FDA Food Code 3-401.13).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-03415
+CookingNoncontinuous cooking of raw animal foods (2017 FDA Food Code 3-401.14).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-03430
+FreezingRecords, creation and retention (2017 FDA Food Code 3-402.12).
+Removed FDA code year in section title &
+Clarification
+246-215-03435
+ReheatingPreparation for immediate service (2017 FDA
+Food Code 3-403.10).
+Removed FDA code
+year in section title
+246-215-03440
+ReheatingReheating for hot holding (2017 FDA Food Code 3-403.11).
+Removed FDA code
+year in section title & Clarification
+246-215-03445
+Other methodsTreating juice (2017 FDA Food Code 3- 404.11).
+Removed FDA code
+year in section title & Clarification
+246-215-03500
+Temperature and time controlFrozen food (2017 FDA Food
+Code 3-501.11).
+Removed FDA code
+year in section title
+246-215-03505
+Temperature and time controlTime/Temperature Control for
+Safety Food, slacking (2017 FDA Food Code 3-501.12).
+Removed FDA code
+year in section title
+246-215-03510
+Temperature and time controlThawing (2017 FDA Food Code 3-501.13).
+National Consensus
+Code & Removed FDA code year in section title
+246-215-03515
+Temperature and time controlCooling (2017 FDA Food
+Code 3-501.14).
+Clarification
+246-215-03520
+Temperature and time controlCooling methods (2017 FDA Food Code 3-501.15).
+Removed FDA code year in section title &
+Clarification
+246-215-03525
+Temperature and time controlTime/Temperature control for safety food, hot and cold holding (2017 FDA Food Code 3-
+501.16).
+Removed FDA code year in section title &
+Clarification
+246-215-03526
+NEW: Ready-to-eat, Time/temperature control for safety
+food, Date Marking (2017 FDA Food Code 3-501.17)
+National Consensus
+Code
+246-215-03530
+Temperature and time controlTime as a public health control (2017 FDA Food Code 3-501.19).
+National Consensus Code & Removed FDA
+code year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-03535
+Specialized processing methodsVariance requirement (2017 FDA Food Code 3-502.11).
+Removed FDA code year in section title &
+Clarification
+246-215-03540
+Specialized processing methodsReduced oxygen packaging without a variance, criteria (2017 FDA Food Code 3-502.12).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-03600
+Accurate representationStandards of identity (2017 FDA
+Food Code 3-601.11).
+Removed FDA code
+year in section title
+246-215-03605
+Accurate representationHonestly presented (2017 FDA
+Food Code 3-601.12).
+Removed FDA code
+year in section title
+246-215-03610
+LabelingFood labels (2017 FDA Food Code 3-602.11).
+National/RCW &
+Removed FDA code year in section title
+246-215-03615
+LabelingOther forms of information (2017 FDA Food Code
+3-602.12).
+Removed FDA code
+year in section title
+246-215-03700
+DispositionDiscarding or reconditioning unsafe, adulterated,
+or contaminated food (2017 FDA Food Code 3-701.11).
+Removed FDA code
+year in section title
+246-215-03705
+DispositionExamination, hold orders, condemnation, and
+destruction of food.
+Clarification
+246-215-03800
+Additional safeguardsPasteurized foods, prohibited reservice, and prohibited food (2017 FDA Food Code 3-
+801.11).
+Removed FDA code year in section title &
+Clarification
+246-215-04100
+MultiuseCharacteristics (2017 FDA Food Code 4-101.11).
+Removed FDA code
+year in section title
+246-215-04105
+MultiuseCast iron, use limitation (2017 FDA Food Code 4-
+101.12).
+Removed FDA code
+year in section title
+246-215-04110
+MultiuseLead in ceramic, china, and crystal utensils, use
+limitation (2017 FDA Food Code 4-101.13).
+Removed FDA code
+year in section title
+246-215-04115
+MultiuseCopper, use limitation (2017 FDA Food Code 4-
+101.14).
+Removed FDA code
+year in section title
+246-215-04120
+MultiuseGalvanized metal, use limitation (2017 FDA Food
+Code 4-101.15).
+Removed FDA code
+year in section title
+246-215-04125
+MultiuseSponges, use limitation (2017 FDA Food Code 4-
+101.16).
+Removed FDA code
+year in section title
+246-215-04130
+MultiuseWood, use limitation (2017 FDA Food Code 4- 101.17).
+Removed FDA code year in section title &
+Clarification
+246-215-04135
+MultiuseNonstick coatings, use limitation (2017 FDA Food
+Code 4-101.18).
+Removed FDA code
+year in section title
+246-215-04140
+MultiuseNonfood-contact surfaces (2017 FDA Food Code
+4-101.19).
+Removed FDA code
+year in section title
+246-215-04145
+Single-service and single useCharacteristics (2017 FDA
+Food Code 4-102.11).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-04200
+Durability and strengthEquipment and utensils (2017 FDA
+Food Code 4-201.11).
+Removed FDA code
+year in section title
+246-215-04202
+Durability and strengthFood temperature measuring devices
+(2017 FDA Food Code 4-201.12).
+Removed FDA code
+year in section title
+246-215-04204
+CleanabilityFood-contact surfaces (2017 FDA Food Code 4-
+202.11).
+Removed FDA code
+year in section title
+246-215-04206
+CleanabilityCIP equipment (2017 FDA Food Code 4-
+202.12).
+Removed FDA code
+year in section title
+246-215-04208
+Cleanability"V" threads, use limitation (2017 FDA Food
+Code 4-202.13).
+Removed FDA code
+year in section title
+246-215-04210
+CleanabilityHot oil filtering equipment (2017 FDA Food
+Code 4-202.14).
+Removed FDA code
+year in section title
+246-215-04212
+CleanabilityCan openers (2017 FDA Food Code 4-202.15).
+Removed FDA code
+year in section title
+246-215-04214
+CleanabilityNonfood-contact surfaces (2017 FDA Food
+Code 4-202.16).
+Removed FDA code
+year in section title
+246-215-04216
+CleanabilityKick plates, removable (2017 FDA Food Code
+4-202.17).
+Removed FDA code
+year in section title
+246-215-04218
+CleanabilityVentilation hood systems, filters (2017 FDA
+Food Code 4-202.18).
+Removed FDA code
+year in section title
+246-215-04220
+AccuracyTemperature measuring devices, food (2017 FDA
+Food Code 4-203.11).
+Removed FDA code
+year in section title
+246-215-04222
+AccuracyTemperature measuring devices, ambient air and
+water (2017 FDA Food Code 4-203.12).
+Removed FDA code
+year in section title
+246-215-04224
+AccuracyPressure measuring devices, mechanical
+warewashing equipment (2017 FDA Food Code 4-203.13).
+Removed FDA code
+year in section title
+246-215-04226
+FunctionalityVentilation hood systems, drip prevention
+(2017 FDA Food Code 4-204.11).
+Removed FDA code
+year in section title
+246-215-04228
+FunctionalityEquipment openings, closures and deflectors
+(2017 FDA Food Code 4-204.12).
+Removed FDA code
+year in section title
+246-215-04230
+FunctionalityDispensing equipment, protection of equipment and food (2017 FDA Food Code 4-204.13).
+Removed FDA code year in section title &
+Clarification
+246-215-04232
+FunctionalityVending machine, vending stage closure (2017 FDA Food Code 4-204.14).
+Removed FDA code year in section title &
+Clarification
+246-215-04234
+FunctionalityBearings and gear boxes, leakproof (2017
+FDA Food Code 4-204.15).
+Removed FDA code
+year in section title
+246-215-04236
+FunctionalityBeverage tubing, separation (2017 FDA Food
+Code 4-204.16).
+Removed FDA code
+year in section title
+246-215-04238
+FunctionalityIce units, separation of drains (2017 FDA Food
+Code 4-204.17).
+Removed FDA code
+year in section title
+246-215-04240
+FunctionalityCondenser unit, separation (2017 FDA Food
+Code 4-204.18).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-04242
+FunctionalityCan openers on vending machines (2017 FDA
+Food Code 4-204.19).
+Removed FDA code
+year in section title
+246-215-04244
+FunctionalityMolluscan shellfish tanks (2017 FDA Food
+Code 4-204.110).
+Removed FDA code
+year in section title
+246-215-04246
+FunctionalityVending machines, automatic shutoff (2017 FDA Food Code 4-204.111).
+Removed FDA code
+year in section title & Clarification
+246-215-04248
+FunctionalityTemperature measuring devices (2017 FDA Food Code 4-204.112).
+Removed FDA code
+year in section title & Clarification
+246-215-04250
+FunctionalityWarewashing machines, data plate operating
+specifications (2017 FDA Food Code 4-204.113).
+Removed FDA code
+year in section title
+246-215-04252
+FunctionalityWarewashing machines, internal baffles (2017
+FDA Food Code 4-204.114).
+Removed FDA code
+year in section title
+246-215-04254
+FunctionalityWarewashing machines, temperature
+measuring devices (2017 FDA Food Code 4-204.115).
+Removed FDA code
+year in section title
+246-215-04256
+FunctionalityManual warewashing equipment, heaters and
+baskets (2017 FDA Food Code 4-204.116).
+Removed FDA code
+year in section title
+246-215-04258
+FunctionalityWarewashing machines, automatic dispensing
+of detergents and sanitizers (2017 FDA Food Code 4- 204.117).
+Removed FDA code year in section title
+246-215-04260
+FunctionalityWarewashing machines, flow pressure device
+(2017 FDA Food Code 4-204.118).
+Removed FDA code
+year in section title
+246-215-04262
+FunctionalityWarewashing sinks and drainboards, self-
+draining (2017 FDA Food Code 4-204.119).
+Removed FDA code
+year in section title
+246-215-04264
+FunctionalityEquipment compartments, drainage (2017
+FDA Food Code 4-204.120).
+Removed FDA code
+year in section title
+246-215-04266
+FunctionalityVending machines, liquid waste products
+(2017 FDA Food Code 4-204.121).
+Removed FDA code
+year in section title
+246-215-04268
+FunctionalityCase lot handling equipment, moveability
+(2017 FDA Food Code 4-204.122).
+Removed FDA code
+year in section title
+246-215-04270
+FunctionalityVending machine doors and openings (2017
+FDA Food Code 4-204.123).
+Removed FDA code
+year in section title
+246-215-04272
+AcceptabilityFood equipment, certification and classification (2017 FDA Food Code 4-205.10).
+National Consensus
+Code & Removed FDA code year in section title
+246-215-04300
+EquipmentCooling, heating, and holding capacities (2017
+FDA Food Code 4-301.11).
+Removed FDA code
+year in section title
+246-215-04305
+EquipmentManual warewashing, sink compartment
+requirements (2017 FDA Food Code 4-301.12).
+Removed FDA code
+year in section title
+246-215-04310
+EquipmentDrainboards (2017 FDA Food Code 4-301.13).
+Removed FDA code
+year in section title
+246-215-04315
+EquipmentVentilation hood systems, adequacy (2017 FDA
+Food Code 4-301.14).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-04320
+EquipmentClothes washers and dryers (2017 FDA Food
+Code 4-301.15).
+Removed FDA code
+year in section title
+246-215-04325
+EquipmentDesignated food preparation sinks.
+Removed FDA code
+year in section title
+246-215-04330
+Utensils, temperature measuring devices, and testing
+devicesUtensils, consumer self-service (2017 FDA Food Code 4-302.11).
+Removed FDA code year in section title
+246-215-04335
+Utensils, temperature measuring devices, and testing
+devicesFood temperature measuring devices (2017 FDA Food Code 4-302.12).
+National Consensus
+Code & Removed FDA code year in section title
+246-215-04340
+Utensils, temperature measuring devices, and testing
+devicesTemperature measuring devices, manual warewashing (2017 FDA Food Code 4-302.13).
+National Consensus
+Code & Removed FDA code year in section title
+246-215-04345
+Utensils, temperature measuring devices, and testing
+devicesSanitizing solutions, testing devices (2017 FDA Food Code 4-302.14).
+Removed FDA code year in section title
+246-215-04350
+NEW: Cleaning Agents and Sanitizers Availability (2017
+FDA Food Code 4-303.11)
+National Consensus
+Code
+246-215-04400
+LocationEquipment, clothes washers and dryers, and storage cabinets, contamination prevention (2017 FDA Food Code 4-
+401.11).
+Removed FDA code year in section title
+246-215-04405
+InstallationFixed equipment, spacing or sealing (2017 FDA
+Food Code 4-402.11).
+Removed FDA code
+year in section title
+246-215-04410
+InstallationFixed equipment, elevation or sealing (2017
+FDA Food Code 4-402.12).
+Removed FDA code
+year in section title
+246-215-04500
+EquipmentGood repair and proper adjustment (2017 FDA
+Food Code 4-501.11).
+Removed FDA code
+year in section title
+246-215-04505
+EquipmentCutting surfaces (2017 FDA Food Code 4-
+501.12).
+Removed FDA code
+year in section title
+246-215-04510
+EquipmentMicrowave ovens (2017 FDA Food Code 4-
+501.13).
+Removed FDA code
+year in section title
+246-215-04515
+EquipmentWarewashing equipment, cleaning frequency
+(2017 FDA Food Code 4-501.14).
+Removed FDA code
+year in section title
+246-215-04520
+EquipmentWarewashing machines, manufacturer's
+operating instructions (2017 FDA Food Code 4-501.15).
+Removed FDA code
+year in section title
+246-215-04525
+EquipmentWarewashing sinks, use limitation (2017 FDA
+Food Code 4-501.16).
+Removed FDA code
+year in section title
+246-215-04530
+EquipmentWarewashing equipment, cleaning agents (2017
+FDA Food Code 4-501.17).
+Removed FDA code
+year in section title
+246-215-04535
+EquipmentWarewashing equipment, clean solutions (2017
+FDA Food Code 4-501.18).
+Removed FDA code
+year in section title
+246-215-04540
+EquipmentManual warewashing equipment, wash solution
+temperature (2017 FDA Food Code 4-501.19).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-04545
+EquipmentMechanical warewashing equipment, wash
+solution temperature (2017 FDA Food Code 4-501.110).
+Removed FDA code
+year in section title
+246-215-04550
+EquipmentManual warewashing equipment, hot water
+sanitization temperature (2017 FDA Food Code 4-501.111).
+Removed FDA code
+year in section title
+246-215-04555
+EquipmentMechanical warewashing equipment, hot water
+sanitization temperatures (2017 FDA Food Code 4-501.112).
+Removed FDA code
+year in section title
+246-215-04560
+EquipmentMechanical warewashing equipment, sanitization
+pressure (2017 FDA Food Code 4-501.113).
+Removed FDA code
+year in section title
+246-215-04565
+EquipmentManual and mechanical warewashing equipment, chemical sanitizationTemperature, pH, concentration, and
+hardness (2017 FDA Food Code 4-501.114).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-04570
+EquipmentManual warewashing equipment, chemical
+sanitization using detergent-sanitizers (2017 FDA Food Code 4-501.115).
+Removed FDA code year in section title
+246-215-04575
+EquipmentWarewashing equipment, determining chemical
+sanitizer concentration (2017 FDA Food Code 4-501.116).
+Removed FDA code
+year in section title
+246-215-04580
+Utensils and temperature and pressure measuring devices
+Good repair and calibration (2017 FDA Food Code 4-502.11).
+Removed FDA code
+year in section title
+246-215-04585
+Utensils and temperature and pressure measuring devices
+Single-service and single-use articles, required use (2017 FDA Food Code 4-502.12).
+Removed FDA code year in section title
+246-215-04590
+Utensils and temperature and pressure measuring devices Single-service and single-use articles, use limitation (2017
+FDA Food Code 4-502.13).
+Removed FDA code year in section title
+246-215-04595
+Utensils and temperature and pressure measuring devices
+Shells, use limitation (2017 FDA Food Code 4-502.14).
+Removed FDA code
+year in section title
+246-215-04600
+ObjectiveEquipment, food-contact surfaces, nonfood- contact surfaces, and utensils (2017 FDA Food Code 4-
+601.11).
+Removed FDA code year in section title
+246-215-04605
+ObjectiveEquipment food-contact surfaces and utensils (2017 FDA Food Code 4-602.11).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-04610
+ObjectiveCooking and baking equipment (2017 FDA Food
+Code 4-602.12).
+Removed FDA code
+year in section title
+246-215-04615
+ObjectiveNonfood-contact surfaces (2017 FDA Food Code
+4-602.13).
+Removed FDA code
+year in section title
+246-215-04620
+MethodsDry cleaning (2017 FDA Food Code 4-603.11).
+Removed FDA code year in section title &
+Clarification
+246-215-04625
+MethodsPrecleaning (2017 FDA Food Code 4-603.12).
+Removed FDA code
+year in section title
+246-215-04630
+MethodsLoading of soiled items, warewashing machines
+(2017 FDA Food Code 4-603.13).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-04635
+MethodsWet cleaning (2017 FDA Food Code 4-603.14).
+Removed FDA code
+year in section title
+246-215-04640
+MethodsWashing, procedures for alternative manual
+warewashing equipment (2017 FDA Food Code 4-603.15).
+Removed FDA code
+year in section title
+246-215-04645
+MethodsRinsing procedures (2017 FDA Food Code 4-
+603.16).
+Removed FDA code
+year in section title
+246-215-04650
+REPEALED: MethodsReturnables, cleaning for refilling
+(2017 FDA Food Code 4-603.17).
+Repealed to align with
+FDA Food Code
+246-215-04700
+ObjectiveFood-contact surfaces and utensils (2017 FDA
+Food Code 4-701.10).
+Removed FDA code
+year in section title
+246-215-04705
+FrequencyBefore use after cleaning (2017 FDA Food Code
+4-702.11).
+Removed FDA code
+year in section title
+246-215-04710
+MethodsHot water and chemical (2017 FDA Food Code 4-
+703.11).
+Removed FDA code
+year in section title
+246-215-04800
+ObjectiveClean linens (2017 FDA Food Code 4-801.11).
+Removed FDA code
+year in section title
+246-215-04805
+FrequencySpecifications (2017 FDA Food Code 4-802.11).
+Removed FDA code
+year in section title
+246-215-04810
+MethodsStorage of soiled linens (2017 FDA Food Code 4-
+803.11).
+Removed FDA code
+year in section title
+246-215-04815
+MethodsMechanical washing (2017 FDA Food Code 4-
+803.12).
+Removed FDA code
+year in section title
+246-215-04820
+MethodsUse of laundry facilities (2017 FDA Food Code 4-
+803.13).
+Removed FDA code
+year in section title
+246-215-04900
+DryingEquipment and utensils, air-drying required (2017
+FDA Food Code 4-901.11).
+Removed FDA code
+year in section title
+246-215-04905
+DryingWiping cloths, air drying locations (2017 FDA Food
+Code 4-901.12).
+Removed FDA code
+year in section title
+246-215-04910
+Lubricating and reassemblingFood-contact surfaces (2017
+FDA Food Code 4-902.11).
+Removed FDA code
+year in section title
+246-215-04915
+Lubricating and reassemblingEquipment (2017 FDA Food
+Code 4-902.12).
+Removed FDA code
+year in section title
+246-215-04920
+StoringEquipment, utensils, linens, and single-service and
+single-use articles (2017 FDA Food Code 4-903.11).
+Removed FDA code
+year in section title
+246-215-04925
+StoringProhibitions (2017 FDA Food Code 4-903.12).
+Removed FDA code
+year in section title
+246-215-04930
+Preventing contaminationKitchenware and tableware (2017
+FDA Food Code 4-904.11).
+Removed FDA code
+year in section title
+246-215-04935
+Preventing contaminationSoiled and clean tableware (2017
+FDA Food Code 4-904.12).
+Removed FDA code
+year in section title
+246-215-04940
+Preventing contaminationPreset tableware (2017 FDA Food
+Code 4-904.13).
+Removed FDA code
+year in section title
+246-215-04945
+Preventing contaminationRinsing equipment and utensils
+after cleaning and sanitizing (2017 FDA Food Code 4-904.14).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-05100
+SourceApproved system (2017 FDA Food Code 5-101.11).
+Removed FDA code
+year in section title
+246-215-05105
+SourceSystem flushing and disinfection (2017 FDA Food
+Code 5-101.12).
+Removed FDA code
+year in section title
+246-215-05110
+SourceBottled drinking water (2017 FDA Food Code 5- 101.13).
+Removed FDA code
+year in section title & Clarification
+246-215-05115
+QualityStandards (2017 FDA Food Code 5-102.11).
+Removed FDA code
+year in section title
+246-215-05120
+QualityNondrinking water (2017 FDA Food Code 5-
+102.12).
+Removed FDA code
+year in section title
+246-215-05125
+QualitySampling (2017 FDA Food Code 5-102.13).
+Removed FDA code
+year in section title
+246-215-05130
+Quantity and availabilitySample report (2017 FDA Food
+Code 5-102.14).
+Removed FDA code
+year in section title
+246-215-05135
+Quantity and availabilityCapacity (2017 FDA Food Code 5-
+103.11).
+Removed FDA code
+year in section title
+246-215-05140
+Distribution, delivery and retentionPressure (2017 FDA
+Food Code 5-103.12).
+Removed FDA code
+year in section title
+246-215-05145
+Distribution, delivery and retentionSystem (2017 FDA Food
+Code 5-104.11).
+Removed FDA code
+year in section title
+246-215-05150
+Distribution, delivery and retentionAlternate water supply
+(2017 FDA Food Code 5-104.12).
+Removed FDA code
+year in section title
+246-215-05200
+MaterialsApproved (2017 FDA Food Code 5-201.11).
+Removed FDA code
+year in section title
+246-215-05205
+Design, construction and installationApproved system and
+cleanable fixtures (2017 FDA Food Code 5-202.11).
+Removed FDA code
+year in section title
+246-215-05210
+Design, construction and installationHandwashing facility,
+installation (2017 FDA Food Code 5-202.12).
+Removed FDA code
+year in section title
+246-215-05215
+Design, construction and installationBackflow prevention, air gap (2017 FDA Food Code 5-202.13).
+National Consensus Code, alignment with WAC 246-290-010 &
+Removed FDA code year in section title
+246-215-05220
+Design, construction and installationBackflow prevention device, design standard (2017 FDA Food Code 5-202.14).
+National Consensus Code, alignment with WAC 246-290-490 and
+51-56-0600 & Removed FDA code year in section title
+246-215-05225
+Design, construction and installationConditioning device,
+design (2017 FDA Food Code 5-202.15).
+Removed FDA code
+year in section title
+246-215-05230
+Numbers and capacitiesHandwashing sinks (2017 FDA
+Food Code 5-203.11).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-05235
+RestroomsToilets and urinals (2017 FDA Food Code 5- 203.12).
+Removed FDA code year in section title & added WAC definition of an APPROVED air gap
+from WAC 246-290-010
+246-215-05240
+Service sink (2017 FDA Food Code 5-203.13).
+Removed FDA code
+year in section title
+246-215-05245
+Backflow prevention device, when required (2017 FDA Food
+Code 5-203.14).
+Removed FDA code
+year in section title
+246-215-05250
+Backflow prevention carbonator.
+Removed FDA code
+year in section title
+246-215-05260
+Location and placement of backflow prevention device (2017
+FDA Food Code 5-204.12).
+Removed FDA code
+year in section title
+246-215-05265
+Location and placement of conditioning device (2017 FDA
+Food Code 5-204.13).
+Removed FDA code
+year in section title
+246-215-05270
+Operation and maintenanceUsing a handwashing sink (2017
+FDA Food Code 5-205.11).
+Removed FDA code
+year in section title
+246-215-05275
+Operation and maintenanceProhibiting a cross connection
+(2017 FDA Food Code 5-205.12).
+Removed FDA code
+year in section title
+246-215-05280
+Operation and maintenanceScheduling inspection and service for water system device (2017 FDA Food Code 5- 205.13).
+Removed FDA code year in section title & added testing required in
+WAC 51-56-0600
+246-215-05285
+Operation and maintenanceWater reservoir of fogging
+devices, cleaning (2017 FDA Food Code 5-205.14).
+Removed FDA code
+year in section title
+246-215-05290
+Operation and maintenanceSystem maintained in good
+repair (2017 FDA Food Code 5-205.15).
+Removed FDA code
+year in section title
+246-215-05300
+MaterialsApproved (2017 FDA Food Code 5-301.11).
+Removed FDA code
+year in section title
+246-215-05305
+Design and constructionEnclosed system, sloped to drain
+(2017 FDA Food Code 5-302.11).
+Removed FDA code
+year in section title
+246-215-05310
+Design and constructionInspection and cleaning port,
+protected and secured (2017 FDA Food Code 5-302.12).
+Removed FDA code
+year in section title
+246-215-05315
+Design and construction"V" type threads, use limitation
+(2017 FDA Food Code 5-302.13).
+Removed FDA code
+year in section title
+246-215-05320
+Design and constructionTank vent, protected (2017 FDA
+Food Code 5-302.14).
+Removed FDA code
+year in section title
+246-215-05325
+Design and constructionInlet and outlet, sloped to drain
+(2017 FDA Food Code 5-302.15).
+Removed FDA code
+year in section title
+246-215-05330
+Design and constructionHose, construction and
+identification (2017 FDA Food Code 5-302.16).
+Removed FDA code
+year in section title
+246-215-05335
+Numbers and capacitiesFilter, compressed air (2017 FDA
+Food Code 5-303.11).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-05340
+Numbers and capacitiesProtective cover or device (2017
+FDA Food Code 5-303.12).
+Removed FDA code
+year in section title
+246-215-05345
+Numbers and capacitiesMobile food unit tank inlet (2017
+FDA Food Code 5-303.13).
+Removed FDA code
+year in section title
+246-215-05350
+Operation and maintenanceSystem flushing and sanitation
+(2017 FDA Food Code 5-304.11).
+Removed FDA code
+year in section title
+246-215-05355
+Operation and maintenanceUsing a pump and hoses,
+backflow prevention (2017 FDA Food Code 5-304.12).
+Removed FDA code
+year in section title
+246-215-05360
+Operation and maintenanceProtecting inlet, outlet, and hose
+fitting (2017 FDA Food Code 5-304.13).
+Removed FDA code
+year in section title
+246-215-05365
+Operation and maintenanceTank, pump, and hoses,
+dedication (2017 FDA Food Code 5-304.14).
+Removed FDA code
+year in section title
+246-215-05400
+Mobile holding tankCapacity and drainage (2017 FDA Food
+Code 5-401.11).
+Removed FDA code
+year in section title
+246-215-05405
+Retention, drainage, and delivery design, construction, and
+installationEstablishment drainage system (2017 FDA Food Code 5-402.10).
+Removed FDA code year in section title
+246-215-05410
+Retention, drainage, and delivery design, construction, and installationBackflow prevention (2017 FDA Food Code 5-
+402.11).
+Removed FDA code year in section title
+246-215-05415
+Retention, drainage, and delivery location and placement
+Grease trap (2017 FDA Food Code 5-402.12).
+Removed FDA code
+year in section title
+246-215-05420
+Retention, drainage, and delivery operation and
+maintenanceConveying sewage (2017 FDA Food Code 5- 402.13).
+Removed FDA code year in section title
+246-215-05425
+Retention, drainage, and delivery operation and maintenanceRemoving mobile food unit wastes (2017 FDA
+Food Code 5-402.14).
+Removed FDA code year in section title
+246-215-05430
+Retention, drainage, and delivery operation and
+maintenanceFlushing a waste retention tank (2017 FDA Food Code 5-402.15).
+Removed FDA code year in section title
+246-215-05435
+Disposal facility design and constructionApproved sewage
+disposal system (2017 FDA Food Code 5-403.11).
+Removed FDA code
+year in section title
+246-215-05440
+Disposal facility design and constructionOther liquid wastes
+and rainwater (2017 FDA Food Code 5-403.12).
+Removed FDA code
+year in section title
+246-215-05500
+Facilities on the premises, materials, design, construction and
+installationIndoor storage area (2017 FDA Food Code 5- 501.10).
+Removed FDA code year in section title
+246-215-05505
+Facilities on the premises, materials, design, construction and installationOutdoor storage surface (2017 FDA Food Code
+5-501.11).
+Removed FDA code year in section title
+246-215-05510
+Facilities on the premises, materials, design, construction and installationOutdoor enclosure (2017 FDA Food Code 5-
+501.12).
+Removed FDA code year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-05515
+Facilities on the premises, materials, design, construction and
+installationReceptacles (2017 FDA Food Code 5-501.13).
+Removed FDA code
+year in section title
+246-215-05520
+Facilities on the premises, materials, design, construction and installationReceptacles in vending machines (2017 FDA
+Food Code 5-501.14).
+Removed FDA code year in section title
+246-215-05525
+Facilities on the premises, materials, design, construction and installationOutside receptacles (2017 FDA Food Code 5-
+501.15).
+Removed FDA code year in section title
+246-215-05530
+Facilities on the premises, numbers and capacitiesStorage areas, rooms, and receptacles, capacity and availability (2017
+FDA Food Code 5-501.16).
+Removed FDA code year in section title
+246-215-05535
+Facilities on the premises, numbers and capacitiesToilet
+room receptacle, covered (2017 FDA Food Code 5-501.17).
+Removed FDA code
+year in section title
+246-215-05540
+Facilities on the premises, numbers and capacitiesCleaning
+implements and supplies (2017 FDA Food Code 5-501.18).
+Removed FDA code
+year in section title
+246-215-05545
+Facilities on the premises, location and placementStorage areas, redeeming machines, receptacles and waste handling
+units, location (2017 FDA Food Code 5-501.19).
+Removed FDA code year in section title
+246-215-05550
+Facilities on the premises, operation and maintenance Storing refuse, recyclables, and returnables (2017 FDA Food
+Code 5-501.110).
+Removed FDA code year in section title
+246-215-05555
+Facilities on the premises, operation and maintenanceAreas, enclosures, and receptacles, good repair (2017 FDA Food
+Code 5-501.111).
+Removed FDA code year in section title
+246-215-05560
+Facilities on the premises, operation and maintenance Outside storage prohibitions (2017 FDA Food Code 5-
+501.112).
+Removed FDA code year in section title
+246-215-05565
+Facilities on the premises, operation and maintenance
+Covering receptacles (2017 FDA Food Code 5-501.113).
+Removed FDA code
+year in section title
+246-215-05570
+Facilities on the premises, operation and maintenanceUsing
+drain plugs (2017 FDA Food Code 5-501.114).
+Removed FDA code
+year in section title
+246-215-05575
+Facilities on the premises, operation and maintenance Maintaining refuse areas and enclosures (2017 FDA Food
+Code 5-501.115).
+Removed FDA code year in section title
+246-215-05580
+Facilities on the premises, operation and maintenance
+Cleaning receptacles (2017 FDA Food Code 5-501.116).
+Removed FDA code
+year in section title
+246-215-05585
+RemovalFrequency (2017 FDA Food Code 5-502.11).
+Removed FDA code
+year in section title
+246-215-05590
+RemovalReceptacles or vehicles (2017 FDA Food Code 5-
+502.12).
+Removed FDA code
+year in section title
+246-215-05595
+Facilities for disposal and recyclingCommunity or
+individual facility (2017 FDA Food Code 5-503.11).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-06100
+Indoor areasSurface characteristics (2017 FDA Food Code 6-101.11).
+Removed FDA code year in section title &
+Clarification
+246-215-06105
+Outdoor areasSurface characteristics (2017 FDA Food Code
+6-102.11).
+Removed FDA code
+year in section title
+246-215-06200
+CleanabilityFloors, walls and ceilings (2017 FDA Food
+Code 6-201.11).
+Removed FDA code
+year in section title
+246-215-06205
+CleanabilityFloors, walls, and ceilings, utility lines (2017
+FDA Food Code 6-201.12).
+Removed FDA code
+year in section title
+246-215-06210
+CleanabilityFloor and wall junctures, covered and enclosed
+or sealed (2017 FDA Food Code 6-201.13).
+Removed FDA code
+year in section title
+246-215-06215
+CleanabilityFloor carpeting, restriction and installation
+(2017 FDA Food Code 6-201.14).
+Removed FDA code
+year in section title
+246-215-06220
+CleanabilityFloor covering, mats and duckboards (2017
+FDA Food Code 6-201.15).
+Removed FDA code
+year in section title
+246-215-06225
+CleanabilityWall and ceiling coverings and coatings (2017
+FDA Food Code 6-201.16).
+Removed FDA code
+year in section title
+246-215-06230
+CleanabilityWalls and ceilings, attachments (2017 FDA
+Food Code 6-201.17).
+Removed FDA code
+year in section title
+246-215-06235
+CleanabilityWalls and ceilings, studs, joists, and rafters
+(2017 FDA Food Code 6-201.18).
+Removed FDA code
+year in section title
+246-215-06240
+FunctionalityLight bulbs, protective shielding (2017 FDA
+Food Code 6-202.11).
+Removed FDA code
+year in section title
+246-215-06245
+FunctionalityHeating, ventilating, air conditioning system
+vents (2017 FDA Food Code 6-202.12).
+Removed FDA code
+year in section title
+246-215-06250
+FunctionalityInsect control devices, design and installation
+(2017 FDA Food Code 6-202.13).
+Removed FDA code
+year in section title
+246-215-06255
+FunctionalityToilet rooms, enclosed (2017 FDA Food Code
+6-202.14).
+Removed FDA code
+year in section title
+246-215-06260
+FunctionalityOuter openings, protected (2017 FDA Food
+Code 6-202.15).
+Removed FDA code
+year in section title
+246-215-06265
+FunctionalityExterior walls and roofs, protective barrier
+(2017 FDA Food Code 6-202.16).
+Removed FDA code
+year in section title
+246-215-06270
+FunctionalityOutdoor food vending areas, overhead
+protection (2017 FDA Food Code 6-202.17).
+Removed FDA code
+year in section title
+246-215-06275
+FunctionalityOutdoor servicing areas, overhead protection
+(2017 FDA Food Code 6-202.18).
+Removed FDA code
+year in section title
+246-215-06280
+FunctionalityOutdoor walking and driving surfaces, graded
+to drain (2017 FDA Food Code 6-202.19).
+Removed FDA code
+year in section title
+246-215-06285
+FunctionalityOutdoor refuse areas (2017 FDA Food Code 6-
+202.110).
+Removed FDA code
+year in section title
+246-215-06290
+FunctionalityPrivate homes and living or sleeping quarters, use prohibition (2017 FDA Food Code 6-202.111).
+Removed FDA code year in section title &
+Clarification
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-06295
+FunctionalityLiving or sleeping quarters, separation (2017
+FDA Food Code 6-202.112).
+Removed FDA code
+year in section title
+246-215-06300
+Handwashing sinksMinimum number (2017 FDA Food
+Code 6-301.10).
+Removed FDA code
+year in section title
+246-215-06305
+Handwashing sinksHandwashing cleanser, availability
+(2017 FDA Food Code 6-301.11).
+Removed FDA code
+year in section title
+246-215-06310
+Handwashing sinksHand-drying provision (2017 FDA Food Code 6-301.12).
+Removed FDA code year in section title &
+Clarification
+246-215-06315
+Handwashing sinksHandwashing aids and devices, use
+restriction (2017 FDA Food Code 6-301.13).
+Removed FDA code
+year in section title
+246-215-06320
+Handwashing sinks Handwashing signage (2017 FDA Food
+Code 6-301.14).
+Removed FDA code
+year in section title
+246-215-06325
+Handwashing sinks Disposable towels, waste receptacle
+(2017 FDA Food Code 6-301.20).
+Removed FDA code
+year in section title
+246-215-06330
+Toilets and urinalsMinimum number (2017 FDA Food Code
+6-302.10).
+Removed FDA code
+year in section title
+246-215-06335
+Toilets and urinalsToilet tissue, availability (2017 FDA
+Food Code 6-302.11).
+Removed FDA code
+year in section title
+246-215-06340
+LightingIntensity (2017 FDA Food Code 6-303.11).
+Removed FDA code
+year in section title
+246-215-06345
+VentilationMechanical (2017 FDA Food Code 6-304.11).
+Removed FDA code
+year in section title
+246-215-06350
+Dressing areas and lockersDesignation (2017 FDA Food
+Code 6-305.11).
+Removed FDA code
+year in section title
+246-215-06355
+Service sinksAvailability (2017 FDA Food Code 6-306.10).
+Removed FDA code
+year in section title
+246-215-06400
+Handwashing sinksConveniently located (2017 FDA Food
+Code 6-401.10).
+Removed FDA code
+year in section title
+246-215-06405
+Toilet roomsConvenience and accessibility (2017 FDA
+Food Code 6-402.11).
+Removed FDA code
+year in section title
+246-215-06410
+Employee accommodationsDesignated areas (2017 FDA
+Food Code 6-403.11).
+Removed FDA code
+year in section title
+246-215-06415
+Distressed merchandiseSegregation and location (2017 FDA
+Food Code 6-404.11).
+Removed FDA code
+year in section title
+246-215-06420
+Refuse, recyclables, and returnablesReceptacles, waste
+handling units, and designated storage areas (2017 FDA Food Code 6-405.10).
+Removed FDA code year in section title
+246-215-06500
+MethodsRepairing (2017 FDA Food Code 6-501.11).
+Removed FDA code
+year in section title
+246-215-06505
+MethodsCleaning, frequency and restrictions (2017 FDA
+Food Code 6-501.12).
+Removed FDA code
+year in section title
+246-215-06510
+MethodsCleaning floors, dustless methods (2017 FDA Food
+Code 6-501.13).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-06515
+MethodsCleaning ventilation systems, nuisance and
+discharge prohibition (2017 FDA Food Code 6-501.14).
+Removed FDA code
+year in section title
+246-215-06520
+MethodsCleaning maintenance tools, preventing
+contamination (2017 FDA Food Code 6-501.15).
+Removed FDA code
+year in section title
+246-215-06525
+MethodsDrying mops (2017 FDA Food Code 6-501.16).
+Removed FDA code
+year in section title
+246-215-06530
+MethodsAbsorbent materials on floors, use limitations
+(2017 FDA Food Code 6-501.17).
+Removed FDA code
+year in section title
+246-215-06535
+MethodsCleaning of plumbing fixtures (2017 FDA Food
+Code 6-501.18).
+Removed FDA code
+year in section title
+246-215-06540
+MethodsClosing toilet room doors (2017 FDA Food Code
+6-501.19).
+Removed FDA code
+year in section title
+246-215-06545
+MethodsUsing dressing rooms and lockers (2017 FDA Food
+Code 6-501.110).
+Removed FDA code
+year in section title
+246-215-06550
+MethodsControlling pests (2017 FDA Food Code 6-
+501.111).
+Removed FDA code
+year in section title
+246-215-06555
+MethodsRemoving dead or trapped birds, insects, rodents,
+and other pests (2017 FDA Food Code 6-501.112).
+Removed FDA code
+year in section title
+246-215-06560
+MethodsStoring maintenance tools (2017 FDA Food Code
+6-501.113).
+Removed FDA code
+year in section title
+246-215-06565
+MethodsMaintaining premises, unnecessary items and litter
+(2017 FDA Food Code 6-501.114).
+Removed FDA code
+year in section title
+246-215-07100
+Original containersIdentifying information, prominence
+(2017 FDA Food Code 7-101.11).
+Removed FDA code
+year in section title
+246-215-07105
+Working containersCommon name (2017 FDA Food Code
+7-102.11).
+Removed FDA code
+year in section title
+246-215-07200
+StorageSeparation (2017 FDA Food Code 7-201.11).
+Removed FDA code
+year in section title
+246-215-07205
+Presence and useRestriction (2017 FDA Food Code 7-
+202.11).
+Removed FDA code
+year in section title
+246-215-07210
+Presence and useConditions of use (2017 FDA Food Code
+7-202.12).
+Removed FDA code
+year in section title
+246-215-07215
+Container prohibitionsPoisonous or toxic material
+containers (2017 FDA Food Code 7-203.11).
+Removed FDA code
+year in section title
+246-215-07220
+ChemicalsSanitizers, criteria (2017 FDA Food Code 7- 204.11).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-07225
+ChemicalsChemicals for washing, treatment, storage, and processing fruits and vegetables, criteria (2017 FDA Food
+Code 7-204.12).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-07230
+ChemicalsBoiler water additives, criteria (2017 FDA Food
+Code 7-204.13).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-07235
+ChemicalsDrying agents, criteria (2017 FDA Food Code 7- 204.14).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-07240
+LubricantsIncidental food contact, criteria (2017 FDA Food
+Code 7-205.11).
+Removed FDA code
+year in section title
+246-215-07245
+PesticidesRestricted use pesticides, criteria (2017 FDA
+Food Code 7-206.11).
+Removed FDA code
+year in section title
+246-215-07250
+PesticidesRodent bait stations (2017 FDA Food Code 7-
+206.12).
+Removed FDA code
+year in section title
+246-215-07255
+PesticidesTracking powders, pest control and monitoring
+(2017 FDA Food Code 7-206.13).
+Removed FDA code
+year in section title
+246-215-07260
+MedicinesRestriction and storage (2017 FDA Food Code 7-
+207.11).
+Removed FDA code
+year in section title
+246-215-07265
+MedicinesRefrigerated medicines, storage (2017 FDA Food
+Code 7-207.12).
+Removed FDA code
+year in section title
+246-215-07270
+First-aid suppliesStorage (2017 FDA Food Code 7-208.11).
+Removed FDA code
+year in section title
+246-215-07275
+Other personal care itemsStorage (2017 FDA Food Code 7-
+209.11).
+Removed FDA code
+year in section title
+246-215-07300
+Storage and displaySeparation (2017 FDA Food Code 7-
+301.11).
+Removed FDA code
+year in section title
+246-215-08100
+Use for intended purposePublic health protection (2017
+FDA Food Code 8-101.10).
+Removed FDA code
+year in section title
+246-215-08105
+Additional requirementsPreventing health hazards, provision for conditions not addressed (2017 FDA Food Code
+8-102.10).
+Removed FDA code year in section title
+246-215-08110
+VariancesModifications and waivers (2017 FDA Food Code
+8-103.10).
+Removed FDA code
+year in section title
+246-215-08115
+VariancesDocumentation of proposed VARIANCE and
+justification (2017 FDA Food Code 8-103.11).
+Removed FDA code
+year in section title
+246-215-08120
+VariancesConformance with approved procedures (2017 FDA Food Code 8-103.12).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-08200
+Facility and operating plansWhen plans are required (2017
+FDA Food Code 8-201.11).
+Removed FDA code
+year in section title
+246-215-08205
+Facility and operating plansContents of the plans and
+specifications (2017 FDA Food Code 8-201.12).
+Removed FDA code
+year in section title
+246-215-08210
+Facility and operating plansWhen a HACCP plan is required
+(2017 FDA Food Code 8-201.13).
+Removed FDA code
+year in section title
+246-215-08215
+Facility and operating plansContents of a HACCP plan (2017 FDA Food Code 8-201.14).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-08220
+Trade secrets (2017 FDA Food Code 8-202.10).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-08225
+Construction inspection and approvalPreoperational
+inspections (2017 FDA Food Code 8-203.10).
+Removed FDA code
+year in section title
+246-215-08300
+RequirementPrerequisite for operation (2017 FDA Food
+Code 8-301.11).
+Removed FDA code
+year in section title
+246-215-08310
+Application procedureSubmission thirty calendar days
+before proposed opening (2017 FDA Food Code 8-302.11).
+Removed FDA code
+year in section title
+246-215-08315
+Application procedureForm of submission (2017 FDA Food
+Code 8-302.12).
+Removed FDA code
+year in section title
+246-215-08320
+Application procedureQualifications and responsibilities of
+applicants (2017 FDA Food Code 8-302.13).
+Removed FDA code
+year in section title
+246-215-08330
+IssuanceNew, converted, or remodeled establishments
+(2017 FDA Food Code 8-303.10).
+Removed FDA code
+year in section title
+246-215-08335
+IssuanceExisting establishments, permit renewal, and
+change of ownership (2017 FDA Food Code 8-303.20).
+Removed FDA code
+year in section title
+246-215-08340
+IssuanceDenial of application for permit, notice (2017 FDA
+Food Code 8-303.30).
+Removed FDA code
+year in section title
+246-215-08345
+Conditions of retentionResponsibilities of the regulatory
+authority (2017 FDA Food Code 8-304.10).
+Removed FDA code
+year in section title
+246-215-08350
+Conditions of retentionResponsibilities of the permit holder (2017 FDA Food Code 8-304.11).
+National Consensus
+Code & Removed FDA code year in section title
+246-215-08355
+Conditions of retentionPermits not transferable (2017 FDA
+Food Code 8-304.20).
+Removed FDA code
+year in section title
+246-215-08400
+FrequencyEstablishing inspection interval (2017 FDA Food Code 8-401.10).
+Removed FDA code year in section title &
+Clarification
+246-215-08405
+FrequencyPerformance- and risk-based (2017 FDA Food
+Code 8-401.20).
+Removed FDA code
+year in section title
+246-215-08410
+FrequencyCompetency of inspectors (2017 FDA Food Code 8-402.10).
+National Consensus Code & Removed FDA
+code year in section title
+246-215-08415
+AccessAllowed at reasonable times after due notice (2017
+FDA Food Code 8-402.11).
+Removed FDA code
+year in section title
+246-215-08420
+AccessRefusal, notification of right to access, and final
+request for access (2017 FDA Food Code 8-402.20).
+Removed FDA code
+year in section title
+246-215-08425
+AccessRefusal, reporting (2017 FDA Food Code 8-402.30).
+Removed FDA code
+year in section title
+246-215-08430
+Report of findingsDocumenting information and
+observations (2017 FDA Food Code 8-403.10).
+Removed FDA code
+year in section title
+246-215-08435
+Report of findingsSpecifying time frame for corrections
+(2017 FDA Food Code 8-403.20).
+Removed FDA code
+year in section title
+246-215-08440
+Report of findingsIssuing report and obtaining
+acknowledgment of receipt (2017 FDA Food Code 8-403.30).
+Removed FDA code
+year in section title
+
+
+Section
+Number
+Section Title
+Reason Section is
+Exempt From Analysis
+246-215-08445
+Report of findingsRefusal to sign acknowledgment (2017
+FDA Food Code 8-403.40).
+Removed FDA code
+year in section title
+246-215-08450
+Report of findingsPublic information (2017 FDA Food
+Code 8-403.50).
+Removed FDA code
+year in section title
+246-215-08455
+Imminent health hazardCeasing operations and reporting (2017 FDA Food Code 8-404.11).
+National Consensus
+Code & Removed FDA code year in section title
+246-215-08460
+Imminent health hazardResumption of operations (2017
+FDA Food Code 8-404.12).
+Removed FDA code
+year in section title
+246-215-08500
+Investigation and controlObtaining informationPersonal history of illness, medical examination, and specimen analysis
+(2017 FDA Food Code 8-501.10).
+Removed FDA code year in section title
+246-215-08505
+Investigation and controlRestriction or exclusion of food employee, or summary suspension of permit (2017 FDA Food
+Code 8-501.20).
+Removed FDA code year in section title
+246-215-08510
+Investigation and controlRestriction or exclusion order: Warning or hearing not required, information required in order
+(2017 FDA Food Code 8-501.30).
+Removed FDA code year in section title
+246-215-08515
+Investigation and controlRemoval of exclusion or restriction
+(2017 FDA Food Code 8-501.40).
+Removed FDA code
+year in section title
+246-215-08520
+Investigation and controlProcedure when disease
+transmission is suspected.
+Removed FDA code
+year in section title
+246-215-08600
+Permits required, suspension, revocation, enforcement.
+Removed FDA code
+year in section title
+246-215-08605
+Service of notice.
+Removed FDA code
+year in section title
+246-215-08610
+Hearings.
+Removed FDA code
+year in section title
+246-215-09110
+Plan approvalPlan review.
+Clarification
+246-215-09120
+Additional requirementsStandard operating procedures.
+Clarification
+246-215-09127
+NEW: Commissary Exemption
+Dictated by RCW
+43.20.148
+246-215-09130
+REPEALED: Cooking thicknessCooking raw meats.
+Repealed
+246-215-09180
+REPEALED: Movable buildingsLack of permanent
+plumbing.
+Repealed
+246-215-09210
+Potentially hazardous foodTemperature control.
+Clarification
+246-215-09215
+Thawing thicknessThawing potentially hazardous foods.
+Clarification
+246-215-09300
+Residential kitchenRequirements and restrictions.
+Clarification
+246-215-09420
+Receiving foodFood condition.
+Clarification
+246-215-09500
+Requirements and exemptions.
+Clarification
+
+Repealed Sections- The proposal repeals three rule sections.
+
+WAC 246-215-04650 MethodsReturnables, cleaning for refilling (2017 FDA Food Code 4-603.17)
+Repealed this section and relocated its requirements into WAC 246-215-03348 to align with language in the FDA Food Code.
+
+WAC 246-215-09130 Cooking thicknessCooking raw meats
+Repealed this section to remove the potential restriction specific to mobile food units as menu approval is contingent upon equipment and procedures similar to all food establishments rather than mode of operation.
+
+WAC 246-215-09180 Movable buildings Lack of plumbing
+Repealed this section because buildings without plumbing are not to be treated as mobile food units unless they are readily movable; nonpermanent structures are covered in other sections of the chapter.
+
+
+SECTION 3:
+
+Clearly state in detail the general goals and specific objectives of the statute that the rule implements.
+The general goal of RCW 43.20.050, Powers and duties of the state board of health, is to protect the health of the people of this state by ensuring retail food establishments follow proper food safety practices. The general goal of RCW 43.20.145, Food service rules, is to ensure the board considers the most recent version of the FDA Food Code when adopting rules for food service.
+
+The specific objectives the rules implement are to:
+1. Incorporate the most recent food science and technology;
+2. Be more consistent with the FDA Food Code; and
+3. Establish a mechanism for local and state governments to enforce food safety practices that protect the public from food safety hazards.
+
+The proposed rules meet these general goals and specific objectives by incorporating requirements from the most recent FDA Food Code and incorporating stakeholder input that will enable more consistent implementation of food service rules statewide.
+
+
+
+SECTION 4:
+
+Explain how the department determined that the rule is needed to achieve these general goals and specific objectives. Analyze alternatives to rulemaking and the consequences of not adopting the rule.
+
+The proposed rules will achieve the authorizing statutes goals and objectives because the rules provide a stakeholder-reviewed, science-based, current, and nationally consistent set of standards adopted in rule that local and state governments use when reviewing, permitting, and inspecting food establishments.
+
+There are no feasible alternatives to rulemaking because RCW 43.20.050 requires the board to adopt rules that protect public health related to food service. Furthermore, RCW 43.20.145 mandates the board to consider the most recent version of the FDA Food Code when revising the food safety rules. The board last updated chapter 246-215 WAC in 2013 based on the 2009 version of the FDA Food Code. Since then, the FDA published updated versions in 2013 and 2017. If the board does not revise the rules based on the 2017 FDA Food Code, the rules will fall further behind the latest science used in other states and will not meet the general goals and specific objectives of the underlying statutes. In addition, the 2017 FDA Food Code incorporates several clarifications to current provisions that will assist in stakeholder understanding and safe, consistent, implementation of the rules.
+
+
+
+
+SECTION 5:
+
+Explain how the department determined that the probable benefits of the rule are greater than the probable costs, taking into account both the qualitative and quantitative benefits and costs and the specific directives of the statute being implemented.
+The FDA Food Code is updated regularly using input from the CFP, a national collaborative process that includes representatives from regulators, industry, and academia. It is based on the most current food science and technology and provides consistency for food service regulations nationwide. The proposed rules incorporate the following provisions of the most recent version of the FDA Food Code (2017) in order to implement the statutory direction provided in RCW
+43.20.145. Sections adopted from the FDA Food Code are exempt from the requirement to analyze the cost and benefits per RCW 34.05.328(5)(b)(iii).
+
+Section-by-Section Cost/Benefit Analysis
+For each proposed rule deemed significant, the following section-by-section analysis, organized by different parts of the chapter, includes a description of the proposed changes as well as the associated costs and benefits of those changes.
+
+Cost estimate methodology
+The department sent surveys to an email food safety contact list of approximately 600 stakeholders. In addition, the department requested FSAC members, local health jurisdiction partners, mobile food and restaurant associations to survey their stakeholders on the cost impact of the proposed rules. The department sent reminder notices and received forty-four (44) responses. When cost estimates from the survey process are included, they are noted in the analysis below. In some cases, respondents provided time estimates with no dollar amounts.
+Based on survey responses, the departments assumption is that labor costs is approximately $20
+
+per hour for food establishment staff, which was a representative value (i.e., some were lower some were higher) in cost-per-hour responses for food establishment staff which aligns with national employment wage estimates3. This value can be used to convert time-only responses to quantitative costs. .
+
+Part 2, Management and Personnel
+
+WAC 246-215-02107 Certified Food Protection Manager (FDA Food Code 2-102.12)
+Description: This section identifies the need for each food establishment to have a certified food protection manager (CFPM) with certification from a nationally-accredited food safety testing program. In 2013, the FDA Food Code instituted the requirement for food establishments to have at least one CFPM per establishment. In 2017, the FDA amended the section to require food establishments to have a CFPM per shift.
+
+The proposed rule requires one CFPM per food establishment as in the 2013 FDA Food Code. The board intends to implement a one-time, one-year phase-in period after the effective date of the rule to allow for a transition period and an additional 60-days when food establishments need to replace the CFPM staff during routine course of business.
+
+The CFPM requirement does not apply to food establishments the regulatory authority deems to pose a minimal risk.
+
+Cost: Twenty-four (24) out of forty-four (44) survey responders indicated that current staff already have the CFPM. Nine (9) responders indicated that they do not have any current staff with the certification. Eleven (11) responders did not provide an answer (no response).
+
+The department researched costs associated with obtaining a CFPM certification for those food establishments that intend to have existing staff obtain the certification. The table below includes the estimated cost for an employee to receive a CFPM certification. The certification is valid for 5 years and must be renewed on or before expiration to be considered valid. As shown below, it will cost approximately $511.50 for food establishments to have an employee obtain or renew a CFPM certification. This equates to $102.30 annual cost ($511.50/five year time period for CFPM approval). There may be some food establishments, however, which elect to hire a contractor to satisfy the requirement, cost estimates for this approach were not researched because it was presumed to be more costly.
+
+Estimated cost for an employee to receive a CFPM certification
+Provider
+Course Title
+Training
+Cost
+Exam Cost
+Test Center
+Cost
+Total
+360training.com, Inc.
+Learn2Serve Food Protection Manager
+Certification Program
+$85
+$89 (On sale for $55)
+None
+$174
+
+
+3 May 2018 National Occupational Employment and Wage Estimates United States
+
+
+Provider
+Course Title
+Training
+Cost
+Exam Cost
+Test Center
+Cost
+Total
+AboveTraining/St ateFoodSafety.co m
+Certified Food Protection Manager (CFPM) Exam
+Online $0
+
+$28 + Proctor Fee
+Testing Center: $50 Proctor U (online with
+webcam): $46
+$78
+National Registry of Food Safety Professionals
+Food Protection Manager Certification Program
+International Certified Food Safety Manager
+$24
+
+$47
+
+Included in Exam Cost
+$71
+National Restaurant Association
+ServSafe Food Protection Manager Certification Program
+$125
+Online with Proctor: $36 Written with
+Proctor: $38
+
+None
+$163
+
+
+Prometric Inc.
+
+Food Protection Manager Certification Program
+$29 (book)
+$70 (online)
+Written or Online with Proctor: $28 Prometric
+Training Center $48
+
+
+Included
+$118
+Note: An additional service provider. Always Food Safe, was nationally accredited in February 2020 after stakeholders were surveyed and is not included in the above table.
+Cost assumptions for travel and time spent on training and testing4
+Exam and Test Costs
+$71-$174 $174
+Transportation
+100 miles (planning level estimate- testing sites include most colleges
+and universities), $57.50 transportation cost based on OFM $.575 per mile
+Time
+4 hours x $20 per hour = $80 (transportation) 8 hours x $20 per hour = $160 (training)
+2 hours x $20 = $40 (test)
+Total
+$ 511.50 every 5 years ($102 annual cost)
+
+Benefits: Manager-level food safety training leads to a CFPM better prepared to establish AMC in a food establishment. Recent national and local risk factor studies have indicated a trained manager helps reduce the number of observed critical risk factors, which should reduce foodborne illness. In addition, a study from 2014 indicated a food manager with an increase in food safety knowledge was linked to an increase in the food safety knowledge of workers.5
+
+WAC 246-215-02110 DutiesCertified food protection manager (FDA Food Code 2- 102.20)
+
+4 Planning level cost estimates- actual individual costs will vary
+5 Brown, L.G., Le, B., Wong, M.R., Reimann, D., Nicholas, D., Faw, B., Davis, E., & Selman, C.A. (2014). Restaurant Manager and Worker Food Safety Certification and Knowledge. Foodborne Pathogens and Disease, 11(11), 835-843.
+
+WAC 246-215-02115 DutiesPerson in charge (FDA Food Code 2-103.11)
+Description: These sections identify the role of the CFPM and the duties of the PIC of food establishments. The CFPM has nationally-accredited certification and is the food safety lead tasked with developing and implementing policies and procedures to identify and address food safety risks in the establishment. In addition, the CFPM is tasked with ensuring staff are trained on specific tasks and that persons in charge are able to take preventive or corrective actions as needed. The PIC requires no special certification but is expected to understand the food safety risks and implement preventive measures for the establishment as there must be at least one PIC in the facility at all items of operation. Washington first adopted the PIC provision in 2005 and is proposing to require the CFPM in this rule revision.
+
+In addition to the expanded duties of the PIC in the 2017 FDA Food Code, the proposed rules include a requirement that the PIC ensure AMC. AMC is the purposeful use of specific actions and procedures in the food establishment to control foodborne illness risk factors. It embodies a preventative rather than reactive approach to food safety through a continuous system of training, monitoring, and verification. AMC is evaluated by observing current operating practices, discussions with staff, and conducting root cause analysis on documented food safety risks.
+
+Cost: There is no anticipated compliance costs associated with proposed amendments. Most of the modification to the rule is based on the 2017 FDA Food Code and many of the changes are explicit additions of duties of persons in charge previously assumed. While the codification of the AMC concept is unique, the intent for this level of control of food safety risk factors has been a requirement of all food establishments since at least 2005.
+
+Benefits: Focusing a CFPM to work on training persons in charge will help ensure a food establishment has a comprehensive food safety program and will be able to maintain a level of food safety expected in the 2017 FDA Food Code at all times of operation.
+
+WAC 246-215-02245 Employee healthRemoval of exclusion or restriction based on diagnosis
+Description: This section specifies the PIC of a food establishment must obtain approval from a local health officer before reinstating a food employee that was excluded from the workplace due to symptoms of jaundice or a diagnosis of infection with hepatitis A, norovirus, Salmonella, Shigella, or Shiga toxin-producing E. coli. Including norovirus and all species of Salmonella to the list requiring exclusion will align Washingtons rule with the FDA Food Code.
+
+The departments assumption is these will be infrequent events. In addition to controlling for two additional pathogens, the amendments remove a reference for the local health officer to use a manual on communicable diseases when considering the reinstatement and now relies on professional judgement, current standards of practice, and the best available medical and scientific information.
+
+Cost: There is no significant compliance cost associated with the proposed changes. There will be the nominal infrequent cost for food establishments to contact the local health officer via phone or email to get approval for reinstatement.
+
+Benefits: Aligning the state rule with the FDA Food Code by adding two additional pathogens able to spread from infected food workers will provide greater public health protection. Local health officers may decide not to use the referenced communicable disease manual when making the reinstatement decision in many circumstances. This change removes the unneeded mandate but they may elect to refer to the guide.
+
+
+246-215-02255 Employee healthRemoval of exclusion or restriction based on exposure.
+Description: This section specifies the PIC of a food establishment that serves a highly susceptible population must obtain approval from a local health officer or regulatory authority if not the local health jurisdiction (e.g., department of health; department of social and health services; and department of children, youth and families) before reinstating a food employee restricted from food handling due to:
+* Exposure to a confirmed foodborne illness outbreak;
+* Preparing food identified in a confirmed foodborne illness outbreak;
+* Working at a facility with a confirmed foodborne illness outbreak; or
+* Exposure to a person with a diagnosed infection of hepatitis A, norovirus, Salmonella, Shigella, or Shiga toxin-producing E. coli.
+
+Cost: Other than the nominal opportunity cost of the time to consult with the local health officer and regulatory authority (minutes), there is no anticipated compliance cost associated with the proposed changes.
+
+Benefits: Involving the local health officer and regulatory authority will help ensure the highly susceptible population is properly protected from the potential spread of a foodborne disease or pathogens from exposure to infected food employees.
+
+Part 3, Food
+
+WAC 246-215-03235 Specifications for receivingTemperature (FDA Food Code 3- 202.11)
+Description: This section allows food establishments to receive freshly-made Asian rice-based noodles at ambient temperatures. This change was directed by the Washington state legislature in RCW 43.20.145 in 2016 but the legislation did not establish the standards. The proposed language establishes a requirement for food establishments to properly heat or cool freshly-made noodles immediately after receipt if the noodles are warmer than forty-one degrees Fahrenheit.
+These established preparation procedures help control bacterial growth and are similar to language currently used in California.
+
+Cost: There is no anticipated compliance cost associated with the proposed changes. The department assumes the manufacturer and food establishments will adjust their practices to comply with the allowed receiving temperatures.
+
+Benefits: This allows for distribution of freshly-prepared Asian rice-based noodles and for safe cooling or heating upon receipt.
+
+
+WAC 246-215-03290 Original containers and recordsShellstock maintaining identification (FDA Food Code 3-203.12)
+
+Description:
+This section requires food establishments to leave tags and labels attached to shellstock (such as mussels, oysters, and clams) containers to remain attached until the container is empty unless an alternate record keeping system is approved. The existing rule requires food establishments to record the date the last shellstock is sold or served. The proposed change requires food establishments to also put the first date of sale on the shellstock tag or label in addition to the existing requirement to record the date the last shellstock is sold or served. It also clarifies that establishments may not commingle shellstock with different tag information into shared containers before being ordered by the consumer to ensure tracking information is accurately maintained.
+Cost: Thirty-eight (38) out of forty-four (44) responders did not answer or provided an incomplete answer to this question (e.g., indicated that it was not applicable in their food establishment). Two (2) responders indicated they already use this date mark system and four
+(4) responders indicated that this requirement will only take a few minutes to complete this task. Based on the survey responses, the departments assumption is that there is a nominal compliance cost of writing the first date of sale on containers labels and tags (minutes to complete). Operators are already required to record the final date of sale on the tag and some routinely add both dates as standard practice. One responder questioned the benefit of marking the tags, which indicated a need for education.
+
+Benefits: Requiring the first date will allow regulatory authorities to better identify shellfish growing areas associated with illness and more accurately inform the public about recalled shellfish. It will also enable regulatory authorities to respond more effectively on illness investigation events. Education on the provision will better prepare operators to respond effectively to a potential illness outbreak.
+
+WAC 246-215-03300 Preventing contamination by employeesPreventing contamination from hands (FDA Food Code 3-301.11)
+Description: This section addresses preventing potential food contamination from food worker hands and provides allowances for bare hand contact with ready-to-eat food in certain circumstances. The proposed change clarifies an additional option that allows bare hand contact of ready-to-eat food when the food is an ingredient, such as chopping carrots that will be added
+
+to a stew, which will be cooked in the establishment to a minimum temperature of 145 degrees Fahrenheit (F) (63 degrees Celsius (C).
+
+Another proposed change requires food establishments document when and how they inform food employees that the employees must report any gastrointestinal symptoms and diagnosis of specific diseases that are transmissible through food to the PIC. Food establishments that have approval to have bare hand contact with ready-to-eat food must record food employee illness information in a log and retain it for 90 days. They must also obtain written approval from the regulatory authority to reinstate bare hand contact if they voluntarily or involuntarily discontinued an approved allowance for bare hand contact.
+
+Cost: Sixteen (16) responders indicated they were not interested in allowing bare hand contact of ready-to-eat food that will not be cooked. Twenty-three (23) responders did not provide an answer to these questions. Two (2) responders indicated they were interested and one (1) indicated they were interested in this practice for bartenders only. Six (6) responders indicated there will be minimal or no cost to track food employee illness information in a log retained for 90 days if they were going to implement a bare hand food contact practice. One respondent estimated it would take $50 in administrative costs.
+
+Benefits: The rule change and education on proper use of barriers and practices to reduce bare hand contact will reduce glove use. This will reduce gloves in the waste stream and also reduce food establishment operating costs. The changes related to employee health and hygiene will also help ensure food establishments requesting approval to use bare hand contact of ready-to-eat food use safe food handling practices.
+
+WAC 246-215-03348 Preventing contamination from equipment, utensils, and linens Refilling returnables (FDA Food Code 3-304.17)
+Description: This section establishes safeguards for preventing equipment, utensils and linens from becoming contaminated when refilling returnable food and beverage containers. This includes containers returned to the establishment to be cleaned, sanitized, and reused as well as practices allowed with consumer-owned containers. It includes provisions for container type and prescribes who is allowed to refill the containers.
+
+The proposed change gives the opportunity for food establishments to create and submit a written plan for approval from the regulatory authority. The plan must demonstrate a contamination-free process that allows (1) Consumers to refill a consumer-owned container with non-time and temperature controlled for safety food and (2) Food establishment employees to refill a consumer-owned container for all types of food.
+
+Cost: This rule allows, but does not require, a food establishment to refill returnable food and beverage containers. If a food establishment offers this service it must comply with the rules. Most of the resulting required actions in this section are taken directly from the FDA Food Code and are exempt from analysis. The section adds a unique provision for consumers to supply their own containers for refilling that is not in the FDA Food Code. Ten (10) out of forty-four (44) responders indicated they were interested in exploring the practice of filling consumer-owned
+
+containers. Nineteen (19) indicated they would not pursue this practice and fifteen (15) did not provide a response. Responders indicated a broad range of time estimates to complete the written contamination-free process or policy (from hours, to weeks, to months). Based on these results, the department assumes most food establishments that elect to offer this service could develop processes in one to two days ($80-$160). After implementation, the department intends to develop templates that food establishments could use to develop their plans.
+
+Local health departments reported a range of time and cost to review the written processes. Some indicated they would review plans for no costs and others estimated a review time from 15 minutes to 1 hour with hourly cost ranging from ($60-$229.80 per hour). Responders also indicated they were unsure of the equipment needed for a contamination free process. Based on searches of the internet, food grade gravity bins cost approximately $172 for one unit.6 It is unknown how many units a food establishment will elect to put into service but these costs would be scalable. The department assumes food establishments will factor the anticipated cost when considering to offer this service. Ultimately, food establishments will incur cost from this section based on the cost of developing and obtaining approval of policies from the regulatory authority and location specific costs for making modifications to the equipment where food is stored or displayed to ensure the process used to refill the containers prevents contamination.
+
+Benefits: The benefit of this section is food establishments will be able to safely refill a wider variety of food containers once they get their equipment and contamination free processes approved by the local health department. If implemented, this will reduce plastic in the waste stream, while still ensuring food establishments are using a contamination-free process.
+Additionally, the section will allow for growth of novel technologies and practices designed for waste reduction.
+
+WAC 246-215-03372 Preventing contamination by consumersReturned food and reservice of food (FDA Food Code 3-306.14)
+Description: This section establishes when food, which has been in the possession of a consumer, may be re-served. This change provides an option for recovery of served food when it can be protected from contamination. Examples include whole uncut produce that is re-washed prior to service and unopened containers of time/temperature control for safety food if the food has been properly temperature-controlled as needed.
+
+Cost: There is no anticipated compliance costs associated with the proposed amendments to this section.
+
+Benefits: There is an economic benefit for food establishments to safely re-serve food when meeting the exception requirements. This practice will also reduce food in the waste stream and increase safe food recovery for donation.
+
+
+
+
+
+6 Amazon Trade Fixtures Gravity Bin 6 X 18 Tritan by Freeman. Model # 06108TR-MBS
+
+WAC 246-215-03400 CookingRaw animal foods (FDA Food Code 3-401.11)
+Description: This section establishes minimum requirements for the safe cooking of raw animal foods, such as meat, fish, and poultry. The FDA Food Code recognizes two methods to cook foods safely. The first is a designated temperature held for a specified time period (cook and hold). The second is the instantaneous method that requires foods to be cooked to a minimum temperature that kills pathogens instantly (instantaneous kill).
+
+The current FDA Food Code increases the cook and hold time for comminuted (ground or tenderized) meat cooked to 155F (68C) from 15 to 17 seconds. This is the primary recommended method. The FDA Food Code also includes an instantaneous cooking temperature for comminuted meat of 158F (70C) with no hold time. The FSAC considered these two methods and recommended food establishments use the instantaneous method for cooking ground meat to the instantaneous kill temperature of 158F (70C) due to reduced need to monitor the increased holding time. The proposed change allows use of the instantaneous kill method without the need of regulatory authority approval. In addition to cook to 155F (68C) and hold for 17 seconds, a food establishment may also use two other cook and hold options (145F (63C) and hold for 3 minutes, 150F (66C) and hold for one minute), if they receive approval from the regulatory authority.
+
+Cost: If a food establishment offers comminuted meat, the department assumes food establishments will need to adjust equipment operations, write procedures, and train staff on how to accommodate the cooking temperature and time. Survey responders indicated that it will typically be between one to two hours ($20-$40) to complete these tasks. For food establishments that want to continue using the cook and hold method, there is the administrative cost of getting regulatory authority approval. FSAC local health jurisdiction representatives indicated this could include a discussion with an inspector, a written correspondence, or a standard operating procedure amendment that clearly identifies the food establishments plans.
+Based on the survey input, it could take approximately one hour ($20) for a food establishment to develop the written document if they want to continue using the cook and hold method.
+
+Benefits: This section improves public health and safety by encouraging food establishments to use the more conservative instantaneous cooking method but still allows food establishments flexibility on using the cook and hold method.
+
+WAC 246-215-03425 FreezingParasite destruction (FDA Food Code 3-402.11)
+Description: This section establishes the requirements for parasite destruction using freezing for fish products that are served raw, raw marinated, partially cooked, or marinated partially cooked. The amendment also adds fresh finfish such as salmon and halibut to the list of foods exempt from parasite destruction if the food establishment partially cooks the food based on an individuals order and if the food establishment complies with WAC 246-215-03620 (i.e., provides a modified consumer advisory notice specific to undercooked fish). The provision provides an option currently unavailable to food establishments that want to serve partially cooked fresh fish to the consumer.
+
+Cost: There is no anticipated compliance cost associated with the proposed change.
+
+Benefits: The benefit of the proposed amendments is food establishments will be able to serve partially-cooked fresh fish if so ordered by the consumer, and the consumer will have proper notice of the risk of illness. Although not currently allowed, food establishments may be serving partially cooked fish in violation of rules and the proposed change will align the rules with current food practices while ensuring the public is informed when this occurs (discussed in WAC 246-215-03620 below).
+
+WAC 246-215-03527 Ready-to-Eat, Time/Temperature Control for Safety Food, Disposition (FDA Food Code 3-501.18)
+Description: This section establishes requirements when food must be discarded due to improper date marking of perishable, refrigerated, ready-to-eat food to control Listeria monocytogenes as listed in WAC 246-215-03526 (FDA Food Code 3-501.17 in 1999).
+
+The amendment allows food establishments not serving a highly susceptible population to heat food to 165F (74C) prior to service that otherwise would have to be discarded if the product is approaching the end date. Heating the food destroys the threat of Listeria monocytogenes. In addition, the amendments allow the regulatory authority to consider additional evidence that enables the food establishment to correct improper date marking rather than require automatic discard.
+
+Cost: There is no anticipated compliance cost associated with the proposed change to this provision. Food establishments will reduce costs associated with discarding food, which will be an economic benefit.
+
+Benefits: The provision will reduce the amount of food that is wasted while still addressing the public health risk of Listeria monocytogenes associated with extended refrigerated storage of food in retail food establishments.
+
+
+WAC 246-215-03620 Consumer advisoryConsumption of animal foods that are raw, undercooked, or not otherwise processed to eliminate pathogens (FDA Food Code 3-603.11)
+Description: This section requires food establishments to properly notify consumers, in writing, of the potential risk for eating undercooked animal products. The consumer advisory, as used in the FDA Food Code, notifies the consumer of increased bacterial infection risk from eating undercooked animal products. It is not designed for potential parasites in undercooked fish. The amendment to this section adds partially-cooked fresh fish to the list of foods allowed to be served undercooked with a proper written advisory.
+
+Cost: Three (3) out of forty-four (44) respondents indicated they would like the option to serve fresh partially cooked fish. Fifteen (15) indicated they would not be interested and twenty-six
+(26) did not respond to the question. One respondent indicated they regularly update menus and
+
+including this information would not be a cost burden but were concerned with the requirement to include the word parasite as it would be a distraction.
+
+Based on stakeholder input, inclusion of parasite on the menu was not recommended by the FSAC. Instead, a supplementary handout, which the department will provide in a print ready format, that explains the risks associated with parasites, as allowed by the FDA Food Code, is included in the requirement. Providing the handout will be a nominal cost (pennies per handout).
+
+Benefits: The benefit of this amendment is it allows food establishments the option to cook and serve fresh fish, such as salmon and halibut, below the required temperature if an informed customer elects to accept the risk of a parasitic illness. Members of the FSAC stated fish cooked to the required cooking temperature diminishes the gastronomic experience and that some customers may elect to take a risk to eat the fish partially cooked.
+
+
+Part 5, Water, Plumbing, and Waste
+
+
+WAC 246-215-05255 Location and placement of handwashing sinks (FDA Food Code 5- 204.11)
+Description: This section establishes the placement of handwashing sinks in food establishments. The existing language has a 25 foot maximum distance to a sink from food preparation, food dispensing, and warewashing areas. The 25 foot distance is not codified in FDA Food Code but is provided as FDA guidance in plan review materials. The proposed rule allows the regulatory authority to approve a sink farther away than the 25 feet standard if the site specifics and procedures in the establishment warrant a safe distance increase. Determining sink distance is already included in the permitting process.
+
+Cost: There is no anticipated compliance cost associated with the proposed rules.
+
+Benefits: The benefit of this amendment is it provides the regulatory authority discretion of approving a food establishment that has a sink more than 25 feet from a food preparation area but still close enough to allow convenient use by employees so as not to hinder the practice of handwashing.
+
+
+Part 6, Physical Facilities
+
+WAC 246-215-06570 MethodsProhibiting animals (FDA Food Code 6-501.115)
+Description: This section establishes the general restriction of animals in food establishments and lists exceptions when animals are allowed. The first amendment restructures the sentence syntax without changing its intent to clarify that service animals, as defined in RCW 49.60.040, are allowed in areas that are not used for food preparation and in areas that are open for customers such as dining and sales areas. The proposed rule also expands the FDA Food Code
+
+provision and establishes that pet dogs, under the control of their owners, are allowed in the outdoor and indoor portions of a food establishment when food establishments meet several conditions.
+
+Cost: Nine (9) out of forty-four (44) respondents indicated they are interested in offering this practice and provided time estimates to complete the required actions. Most of the costs are not significant and generally would require staff time to create a plan and submit to a local health department or regulatory authority for approval. Respondent time estimates had a large range from minutes, hours, days, and up to nine months. The department assumes it will take one to two days for food establishments to create a plan. A few respondents provided time estimates to train staff to prevent dogs from contaminating areas of the establishment in a range from minutes (time to write an email) to hours to weeks. There are also minor indeterminate costs if an establishment elects to provide single use disposable containers7 ($18.99 for 100 dishes) to provide water to visiting dogs. The department will provide a print ready sign to notify other customers that dogs are allowed in the outdoor or indoor areas. The food establishment will have the nominal cost of printing the sign. Lastly, local health department members of FSAC indicated it would take approximately one to two hours ($60-$229.80 per hour) for the review and approval of the plan.
+
+Benefits: The benefit of the proposed changes is it establishes safeguards if a food establishment elects to allow dogs on the outside premises. Participating in this practice is completely voluntary.
+
+
+                       Part 8, Compliance and Enforcement WAC 246-215-08305 Exempt with approval
+Description: This section authorizes regulatory authorities to exempt individuals from the food establishment permit if the individual meets specified exemption criteria including limiting food handling of identified foods. In addition to a title change, the amendment reorders foods exempt from permitting and removes the requirement for immediate service for two foods currently listed--corn on the cob and whole roasted peppers.
+Cost: There is no anticipated compliance cost associated with these amendments.
+
+Benefits: The benefit of the amendments is it accurately describes current practice by removing the clause for immediate service. These foods are not typically cooked to order and instead are prepared ahead of time and held hot for short durations. The amendments still protect public health as the operator, if approved by the regulatory authority, must still maintain proper food temperatures.
+
+
+
+
+
+7 Internet research- Amazon- Disco pets vet-grade biodegradable pet bowls 8 oz./1 cup
+
+WAC 246-215-08325 Application procedureContents of the application (FDA Food Code 8-302.14).
+Description: This section includes the applicant demographic and food establishment operating information needed to submit a complete application for a new food establishment. The application must include: the name, birth date or Unified Business Identifier, mailing address, telephone number, and signature. The proposed amendment allows for a Unified Business Identifier to replace the submission of an applicants birth date.
+
+Cost: There is no anticipated compliance cost associated with this amendment.
+
+Benefits: The benefit of the amendment is to allow a unique identifier for a food establishment without needing an applicants personal information.
+
+                         Part 9, Alternative Food Facilities WAC 246-215-09100 Requirements and restrictionsRequirements
+Description: This section establishes standard operating requirements for mobile food units and is unique to Washington; there is no similar section in the FDA Food Code. The amendment adds a requirement for a mobile food unit permit holder to immediately notify each local health jurisdiction if the mobile food unit permit is suspended by the regulatory authority that issued the permit.
+Cost: There is no anticipated compliance cost associated with these amendments. There would be a nominal cost associated with a mobile food unit notifying regulatory authorities about a suspension due to a compliance event. This would be the opportunity cost of the few minutes to call or email the regulatory authorities that issued the mobile food unit permits.
+
+Benefits: The benefit of these amendments will be that regulatory authorities will be notified if another authority suspends a mobile food units operations. To protect public health, the underlying cause of the suspension needs to be resolved before the mobile food unit can return to operation in any jurisdiction.
+
+
+WAC 246-215-09115 Plan approvalPlan contents
+Description: This section provides a framework for mobile food unit operators to obtain approval to operator in more than one jurisdiction and provides a process for reciprocity plan review by primary and secondary local health jurisdictions as authorized in RCW 43.20.149. The amendment also moves a requirement for operators to identify their proposed itinerary at plan review to their time of operation because operators may not know this information at plan review.
+
+Cost: There are no anticipated compliance cost of these amendments.
+
+Benefits: The amendments will provide a process to implement reciprocal review of mobile food unit plans between multiple local health jurisdictions that removes an administrative burden and cost on mobile food unit operators.
+
+
+WAC 246-215-09125 Time/temperature control for safety foodTemperature control postings
+Description: This section remove a restriction for mobile food units to cool food cooked on the unit which previously could only be removed by a variance of the rule issued by the local health jurisdiction. The amendment allows cooling if approved by the regulatory authority. The amendments also remove a requirement to reheat food cooked at a food establishment to specified temperatures within one hour of cooking and aligns with the two hour allowance for other food establishments. Food safety temperature control is still required but these restrictions were removed because they were not justified.
+
+Cost: There are no anticipated compliance cost of these amendments.
+
+Benefits: The amendments will result in more flexibility for mobile food unit operators while still ensuring safe food practices.
+
+
+WAC 246-215-09126 Commissary usage
+Description: This new section establishes requirements or standards for mobile food units to be exempt from the requirement to use a commissary or service area. This section identifies requirements a written plan approval for many components of operating the mobile food units such as equipment and utensils needed for complete onboard preparation of an approved menu, how to protect the mobile food unit from environmental contamination when not in use, maintaining required food storage temperatures during storage, preparation, service, and transit, type of handwashing sink required and fresh water and warewashing facility capacity, cleaning and sanitizing unit, approved source required for food and ice used on the mobile food unit, wastewater and garbage removal.
+
+Cost: There are no anticipated compliance costs associated with the proposed amendments.
+
+Benefits: The amendments identify standards for mobile food units to obtain an exemption from commissary or service area requirement, which will be a cost savings to their operations.
+
+
+WAC 246-215-09160 Required postingsBusiness name and operating locations
+Description: This section establishes requirements for mobile food units to post their business name and operating locations. The proposed amendments add a requirement for mobile food units to permanently post the business name on the exterior of the mobile food unit using a minimum 4-inch size letters. The requirement is designed to notify consumers of the business
+
+name should a descriptor be needed for a complaint or illness investigation as well as help allow for cross-county plan-review reciprocity.
+
+The amendment moves the requirement to notify the regulatory authority of the days, hours, and locations of operation from submission of the initial application (WAC 246-215-09115(5)) to when the food unit is operational. The amendment also clarifies the options for notification such as by telephone, electronic mail, written correspondence, social media, or other mutually- acceptable system.
+
+Cost: There are nominal indeterminate costs associated with the proposed amendments. All survey respondents indicated they have signage that meets minimum standards that commonly consists of a wrap that is designed, manufactured, and installed. Mobile food unit wraps can cost thousands of dollars ($1,000-10,000). Those that do not currently have their business name posted will not need to install a new wrap but could display the required information using other approaches (paint, tape, board, sign, etc.) that generally would not be a significant cost (e.g., $10 for package of 4-inch letters).
+
+Survey respondents indicated it would take a few minutes on a daily, weekly, or monthly basis to comply with keeping regulatory authorities informed about their days and hours of operation and locations when they are planning a change, which would be a nominal cost.
+
+Benefits: The benefit of these amendments is consumers will be better able to describe or identify the mobile food units and regulatory authorities will be kept current about mobile food units operating in each jurisdiction. Identification will also help regulatory authorities during investigations of complaint and illness notifications received from the public as well as conducting routine inspections of food establishments.
+
+WAC 246-215-09400 Requirements and exemptions
+Description: This section establishes situations where donated food distributing organizations (DFDOs) are exempt from some sections of chapter WAC 246-215. The proposed amendment adds a requirement for DFDOs to provide the current 501(c) Internal Revenue Service (IRS) status or a letter of sponsorship from a valid non-profit organization to the regulatory authority upon initial application. Additionally, the DFDO must update the regulatory authority annually regarding the nature of food service activities or when food service changes or the IRS determination letter is revoked.
+
+Cost: There are nominal costs with the proposed amendments. Non-profit organizations should already have a valid 501(c) determination from IRS to operate in this tax status and meet the federal definition of a distributing organization under chapter 69.80 RCW. Providing a copy of the most current letter to the regulatory authority will be a nominal cost.
+
+Benefits: By definition, DFDOs must be a charitable non-profit organization in order to operate. Requiring a copy of the IRS letter is the most effective way for the regulatory authority to confirm the organization status.
+
+WAC 246-215-09405 Standard operating procedures
+Description: This section establishes the standard operating procedures for DFDOs. The proposed amendments remove references to other sections that apply to DFDOs because they are explained more thoroughly in later subsections. It also explicitly adds, for clarification, a standard operating procedure for DFDOs to maintain equipment and food contact surfaces in good repair and condition, which is already included in WAC 246-215-04100.
+
+Cost: There is no anticipated compliance cost associated with the proposed amendments.
+
+Benefits: The benefit of the proposed changes is the requirements will be clearer to DFDOs and to regulatory authorities. Standard operating procedures are considered minimum activities needed to remain in compliance. For example, if food contact surfaces are not maintained in good repair, fragments from the surfaces could break off and end up in food prepared for consumption, which would be unsafe for consumers and could result in a violation.
+
+WAC 246-215-09410 SinksSink requirements
+Description: This section clarifies sink requirements for DFDOs. The proposed amendment removes a requirement for DFDOs that do not handle unpackaged food to have a three- compartment sink but clarifies DFDOs must have at least a single sink available for employees to wash hands. The amendments clarify that DFDOs that wash produce on-site must have a separate food preparation sink or an alternative produce washing procedure that ensures produce is not directly placed in a handwashing or warewashing sink.
+
+Cost: There is no anticipated compliance cost associated with the proposed amendments. The amendments lessen sink requirements based on determined need versus a blanket requirement for all DFDOs with differing operations to have the same number of sinks.
+
+Benefits: The proposed changes have the benefit of identifying appropriate sink requirements based on DFDO planned use and need. This could result in cost savings for DFDOs with limited food operations that do not require a three-compartment sink.
+
+246-215-09415	Food sourcesDonated foods.
+Description: This section clarifies sources of food available for donation. The amendments include several allowable sources that should expand the known avenues for food donation. Custom (non-USDA) slaughtered domesticated meat animals such as cows, sheep, goats, and pigs are removed from an allowable source for food donation. The provision regarding custom slaughter was removed to align with state law (chapter 16.49 RCW) that only allows custom slaughter of domesticated meat animals for the household end consumer. Instead, domesticated meat animals destined for donation will be required to be slaughtered in a USDA-approved facility.
+
+Cost: There is no anticipated compliance cost associated with the proposed amendments; however, the change might reduce the availability of donated food.
+
+
+Benefits: The proposed changes have the benefit of aligning with state law.
+
+
+
+246-215-09425	Prohibited foodRestrictions.
+Description: This section clarifies food items specifically prohibited for donation. In addition to distressed, unsalvageable, or home-canned foods and out-of-date infant formula currently prohibited, this section prohibits the distribution of raw (unpasteurized) milk through donated food supplies.
+
+Cost: There is no anticipated compliance cost associated with the proposed amendments; however, this change may reduce the availability of donated food.
+
+Benefits: The proposed change has the benefit of potentially reducing risk of foodborne illness for populations that may be at increased risk.
+
+WAC 246-215-09430 Food labelsAlternative labeling
+Description: This section establishes food labeling requirements for DFDOs if they repackage food on premises. The proposed amendment adds a requirement for the name and place of business of the manufacturer, packer, or distributor to be included on each individual label. The department assumes this information is included in the label from the original container in most cases.
+
+Cost: Survey respondents indicated they would incur additional costs in creating labels but did not provide specific cost estimates. One respondent indicated they repackage a lot of food and will have to arrange for another volunteer worker to complete this work. Label makers cost $165 and labels cost $12 for 500  by 2 labels8. The actual cost of this section will be determined by the type of products DFDOs receive and whether the food will need to be labeled.
+
+Benefits: The benefit of the amendments is DFDOs will be able to provide the general public with recall information, once they are aware that they distributed suspect food. This will protect public health and potentially reduce the threat to illnesses or injury from recalled food.
+
+WAC 246-215-09435 Record keepingReceiving record
+Description: This section establishes record keeping requirements for DFDOs. The proposed amendments increase the duration a DFDO must retain records from 30 days to 90 days.
+Cost: Survey respondents indicated they already have to retain records for their own operations and the cost of retaining these records for additional time will not be significant. If a DFDO maintains hard copies of records versus electronic, they could have to obtain additional storage space, which again would be nominal.
+
+8 Internet research- Dymo Label Printer Model #1752266
+
+
+Benefits: The benefit of this amendment is that identification of foodborne illnesses or recalled product may take several weeks. By extending the retention time, DFDOs could potentially notify people that received recalled food items about the recall and regulatory authorities could properly trace back contaminated products. This could prevent exposure to contaminated food and resulting foodborne illnesses.
+
+Probable Cost and Benefit Conclusion
+Overall, most proposed changes to chapter 246-215 WAC are taken directly from the FDA Food Code and impose no additional costs. As identified above, there are sections that impose costs on food establishments. In almost all of these sections, only a percentage of food establishments will incur compliance costs (i.e., the sections will not impact all food establishments). When there are likely costs, they are offset by the assumed reduction in foodborne illness from the proposed rule changes and other cost saving measures such as reducing the use of gloves. In many cases, the justification and description of the benefits of the proposed rules outweigh the costs. Collectively, the probable benefits of the proposed rules protect public health in Washington by ensuring retail food establishments follow proper food safety practices, making the rules more consistent with the latest FDA Food Code, and providing occasional cost savings and more flexibility for businesses on many aspects of their operations.
+Based on the preceding analysis, the department concludes that the probable benefits of the proposed rules exceed the probable costs.
+
+
+
+SECTION 6:
+
+Identify alternative versions of the rule that were considered, and explain how the department determined that the rule being adopted is the least burdensome alternative for those required to comply with it that will achieve the general goals and specific objectives state previously.
+RCW 34.05.328(1)(e) requires that agencies determine, after considering alternative versions of the rule and this analysis, the rule being adopted is the least burdensome alternative for those required to comply.
+
+Descriptions of alternatives considered
+Staff worked closely with constituents to minimize the burden of these rules. The FSAC provided recommendations for revisions including representation from:
+* Academia
+* Consumers
+* Farmers Markets/Temporary Food Vendors
+* Grocers
+* Local Health Jurisdictions
+* Mobile Food Unit Operators
+* Restaurants
+
+* Schools
+* State Agencies/Facilities
+* Tribes
+* U.S. Food and Drug Administration
+
+This workgroup was tasked with conferring with their stakeholders to review potential changes to the rule and to provide input to the FSAC at each meeting. The group discussed, debated, and voted on recommended changes to the rules.
+
+Three subcommittees of the workgroup were also used to work on complex portions of the rule regarding mobile food units, employee health, and donated food distributing organizations. The members of each of these subcommittees represented affected stakeholders and evaluated the impacts of the changes throughout the process. Additionally, input from stakeholders received directly on the burden of the potential rule language was considered.
+
+In the course of these and other efforts, the following alternatives are examples where potential changes were assessed and rejected:
+
+Alternative #1: Require one Certified Food Protection Manager (CFPM) per shift as included in the 2017 FDA Food Code. The FSAC elected to recommend the least burdensome requirement of one CFPM per establishment (i.e., not each shift) as written in the 2013 FDA Food Code. This decision is supported with the corresponding modification of the rule [WAC 246-215-02110] that requires the CFPM to train staff and implement a program of food protection and education for all persons-in-charge to ensure AMC for the food establishment.
+
+Alternative #2: Use current FDA Food Code language on date marking which requires the marking of all opened refrigerated potentially hazardous foods for a 7-day shelf life with an automatic discard of unmarked products or discard of any product unserved or not frozen after seven days. The FSAC considered using the FDA language directly from the FDA Food Code. After considerable discussion, the FSAC recommended changes to the language that were ultimately less burdensome. Changes include a modification to allow a food establishment to safely recondition food rather than automatically discard improperly marked foods. Allowing the food establishment to correct improper or missing date labels when validation of opening date is available or to cook certain foods to a specified temperature reduces the pathogen risk and maintains the intent of the provision. These allowances should ultimately improve safe practices and result in reduced food waste.
+
+Alternative #3: Use FDA Food Code provision that allows employees to handle ready-to-eat food with bare hands (no gloves or other barrier to hand contact such as tongs) but may be interpreted to allow addition only at the time of cooking. The FSAC considered this version but elected to recommend to insert a clarification for food establishments that prepare food items for later cooking, such as morning preparation of slicing vegetables for a menu item cooked at dinner service. With the modification to the provision, employees may use bare hand contact if the food establishment can demonstrate the ingredient will ultimately be cooked at the
+
+establishment prior to service. This provision will reduce the use of gloves and reduce consumables and discarded food in the waste stream.
+
+Least burdensome determination
+Over its many months of discussions on the draft rules, the FSAC was aware of the potential impact of proposed rules and had the mindset We can get the same food safety intent with a more practical approach for our stakeholders. For example, regarding the CFPM requirement, the FSAC recognized that the proposal would have a large impact on food establishments but given the intent of the proposal elected to recommend the new requirement but not a CFPM for each shift. This is an example of how, as discussed above, the FSAC did consider some alternatives that would be more impactful and elected to recommend a less burdensome regulation. Collectively, the FSAC recommended the proposed rules that are the least burdensome but still achieve the main objectives of the authorizing statutes following proper food safety practices.
+
+
+
+SECTION 7:
+
+Determine that the rule does not require those to whom it applies to take an action that violates requirements of another federal or state law.
+The proposed rules do not require those to whom they apply to take an action that violates requirements of federal or state law. The department contacted the Department of Agriculture, Labor and Industries, the City of Seattle and asked for their review of applicable sections and provisions related to the state sick leave laws and mobile food unit facility review. These were also reviewed by legal counsel to ensure consistent application.
+
+
+
+SECTION 8:
+
+Determine that the rule does not impose more stringent performance requirements on private entities than on public entities unless required to do so by federal or state law.
+The proposed rules do not impose more stringent performance requirements on private entities than on public entities.
+
+
+
+SECTION 9:
+Determine if the rule differs from any federal regulation or statute applicable to the same activity or subject matter and, if so, determine that the difference is justified by an explicit state statute or by substantial evidence that the difference is necessary.
+
+The intent of RCW 43.20.145 is to require consideration of the latest version of the FDA Food Code in rulemaking, but not necessarily adoption of all code language. The rule does differ from the FDA Food Code 2017 in several circumstances after stakeholder input. Where the proposal makes a change to a rule that does not align with the FDA Food Code, these differences are analyzed and justified in section 5 of this document.
+
+
+
+
+SECTION 10:
+
+Demonstrate that the rule has been coordinated, to the maximum extent practicable, with other federal, state, and local laws applicable to the same activity or subject matter.
+Department staff invited participation or requested review of applicable rule sections from the FDA, other state agencies (Departments of Agriculture, Fish and Wildlife, Labor and Industries, Children, Youth and Families, Social and Health Services, Office of the Superintendent of Public Instruction), and many local health jurisdiction food safety program staff. In addition, the department conducted ongoing outreach and regular webinars with local health jurisdictions statewide to draft and refine the proposed rule language.
+
+
+
+

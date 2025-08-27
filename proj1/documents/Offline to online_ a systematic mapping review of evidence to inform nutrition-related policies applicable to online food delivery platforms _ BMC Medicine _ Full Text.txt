@@ -1,0 +1,896 @@
+
+
+
+Search
+
+Explore journals	Get published	About BMC	Login
+Menu
+
+
+
+
+
+Home	About	Articles	Submission Guidelines	Collections	Join Our Board
+
+
+
+
+Review	Open access	Published: 18 November 2024
+Offline to online: a systematic mapping review of evidence to inform nutrition-related policies applicable to online food delivery platforms
+Si Si Jia , Allyson R. Todd, Lana Vanderlee, Penny Farrell, Margaret Allman-Farinelli, Gary Sacks, Alice A. Gibson & Stephanie R. Partridge
+BMC Medicine 22, Article number: 542 (2024)
+3190 Accesses	4 Citations	14 Altmetric	Metrics
+
+Abstract
+
+Background
+Online food delivery (OFD) platforms offer easy access to an abundance of energy-dense and nutrient-poor takeaway foods and may exacerbate existing unhealthy food environments. Efforts to improve population diets include a range of policy recommendations focused on improving the healthiness of food environments; however, the way
+
+in which such policies may apply to OFD platforms is not clear. This paper aimed to synthesise the existing evidence to inform nutrition-related policies applicable to OFD platforms for population health and well-being. A secondary aim was to scan existing nutrition-related policies in Australia and internationally, which have the potential to be applicable to OFD platforms.
+Methods
+Seven electronic databases including Medline, Embase, CINAHL, Business Source Ultimate, Scopus, Web of Science, and Proquest were searched from January 2010 to October 2023. Evidence from studies was mapped to five existing policy domains outlined by the Healthy Food Environment Policy Index (Food-EPI) including (i) food labelling; (ii) food promotion; (iii) food composition and nutritional quality; (iv) food retail; and (v) food pricing. Relevant data sources were searched for currently implemented nutrition- related government policies that may have relevance to OFD platforms.
+Results
+A total of 2012 records were screened, and 43 studies were included. There were 70 relevant study outcomes across the included studies, which addressed one or more of the 5 domains. Of these, 21 were relevant to Food Promotion (30%), 18 to
+Food Retail (26%), 15 to Food Composition (21%), 11 to Food Prices (16%), and six to Food Labelling (9%). Three existing policies from international jurisdictions (England, Singapore, EU) included OFD platforms, of which one was a voluntary measure. Several existing policies under food
+
+labelling have the potential to be amended to include OFD platforms under regulatory definitions.
+Conclusion
+OFD platforms have emerged as a disruptor to how people acquire their food and have yet to be widely included in existing nutrition-related policies.
+Advancing the evidence base to support the design of effective policy actions and mitigate the potential negative health impacts of OFD platforms will support efforts to improve population diets.
+
+
+
+
+Background
+
+Between 1990 and 2019, dietary risk-related non- communicable diseases (NCDs) accounted for 18.9% to 22.7% of all-cause deaths globally [1].
+Worldwide, the top five dietary risks for deaths attributable to NCDs were diets high in sodium, low in whole grains, low in legumes, low in fruits, and high in meats [1]. In addition, since 1990, global obesity rates have quadrupled amongst children and adolescents aged 5 to 19 years [2] and more than doubled amongst adults [3]. Now, one in eight people are living with obesity globally [3]. Whilst diets are a known modifiable risk factor for NCDs such as obesity, diabetes, cardiovascular disease, and some types of cancer, shifting populations towards more positive dietary behaviours has proven to be challenging. Globally, almost 40% of populations in both high and low-middle-income countries do not adhere to their national dietary guidelines with overconsumption of red meats and
+
+underconsumption of vegetables [4]. Dietary guidelines are crucial reference standards for optimal nutrition and health, and prevention of NCDs [5].
+Food environments are defined by the collective physical, economic, policy, and sociocultural surroundings, opportunities, and conditions that influence peoples food choices and nutritional status [6]. Unhealthy food environments can be defined as food settings and conditions that are dominated by energy-dense and nutrient-poor foods that are widely available, relatively inexpensive, and heavily marketed [7]. Current food environments are considered predominantly unhealthy [7] and are increasingly undergoing digital transformation that may influence the accessibility and availability of healthy and unhealthy foods. There has been an evident expansion of food accessibility through the use of online food retail platforms, which may have been accelerated by the COVID-19 pandemic [8]. A review has classified online food retail into three distinct categories [9] consisting of online food delivery (OFD), including platforms offering ready- made takeaway meals from restaurants and food service outlets via third-party couriers [10], such as Uber Eats or Just Eat; online groceries for supermarket items such as, but not limited to, fresh produce and packaged foods; and meal kits with ingredients for cook-at-home meals. A systematic scoping review of 22 articles on OFD platforms, the first category of online food retail previously defined, suggested that the majority of these platforms are likely to promote unhealthy food purchasing through extensive use of marketing
+
+practices such as price discounts and images and the dominance of unhealthy food offerings [11]. Globally, OFD platforms are dominated by large corporations forecasted to reach US$1.22 trillion in 2024 and estimated to reach 2.8 billion users by 2029 [10].
+Given the potential public health challenges, there is an opportunity for governments to explore how nutrition-related policies, such as food labelling and restrictions on marketing unhealthy foods, apply to digital food environments. Additionally, targeted policies tailored for these digital contexts may be required. Drawing from other areas of nutrition research, several nutrition-related practices that OFD companies could take to create healthier food environments have been identified [12]. For example, it has been proposed that OFD companies could include public commitments to nutrition and health as part of their corporate strategies, ensure nutrition information on their platforms meet government regulations, restrict exposure of children to marketing of unhealthy foods and brands, increase visibility and accessibility of healthier products on platforms, and encourage restaurants to increase healthfulness of their offerings [12]. Despite these recommendations, it is recognised that voluntary actions from industry are often inadequate to sufficiently improve food environments and government regulation is often warranted to establish a level playing field [12].
+Nutrition policies targeting food environments have the potential to substantially improve population diets and may be effective [13] and cost-effective
+[14] initiatives to prevent the burden of obesity and related NCDs. Nutrition-related policy options
+
+available for the government include harder policy instruments, such as laws, regulations, and economic instruments (e.g. tax and incentives), and softer instruments such as community education (e.g. guidelines or mass media campaigns) [15, 16]. In Australia, nutrition-related policies have mostly focused on developing national strategies and aspects of food labelling including regulation of ingredient lists, nutrition information panels, and health claims [17, 18]. Worldwide, harder policy instruments, such as taxes on sugar-sweetened beverages, have been successfully implemented in more than 50 jurisdictions, with evidence of positive impact on a range of outcomes, including reductions in sales of taxed beverages [19].
+To assist in the monitoring of policies and actions for progress towards better nutritional health, the International Network for Food and Obesity and Non-communicable Disease Research, Monitoring and Action Support (INFORMAS) developed the Healthy Food Environment Policy Index (Food- EPI) [20]. The Food-EPI framework includes seven key policy areas specific to food environments, including food composition, labelling, promotion, prices, provision, retail, trade, and investment [20]. These policy areas have been shown to have an important impact on population diets and obesity as they affect the accessibility, availability, and affordability of foods and beverages.
+Whilst there are a wide range of nutrition-related policies that are likely to be effective in preventing diet-related NCDs, there are often challenges with implementation [21, 22]. These challenges include maintaining momentum and support for policies over time through changing political agendas and
+
+require cross-sectoral and multi-level cooperation between key stakeholders including civil society and businesses [23]. Furthermore, the regulation of OFD may face unique challenges [24]. For example, in an Australian context, OFD platforms operate in a policy and legal grey zone where it is unclear if they are a retailer, manufacturer, food service outlet, or third-party courier [24]. Without this clear definition, OFD platforms are likely to resist regulation [25] under nutrition policies which would otherwise apply to a food retailer or manufacturer. Moreover, it is unclear whether existing regulations which apply to tangible in- person contexts like nutrition labelling on menu boards and product packaging can be directly transferred to online contexts.
+As such, the regulation of OFD platforms will likely require careful navigation of existing nutrition policies or consideration of new policies which specifically apply to OFD and the online environment. The primary aim of this study was to synthesise the existing evidence on OFD platforms under relevant food policy areas to inform nutrition-related policies. A secondary aim was to scan and identify existing nutrition-related policies in Australia and internationally, which have the potential to be applied to OFD platforms.
+Methods
+
+A systematic mapping review was conducted to map existing evidence to inform the development and implementation of policies to improve the healthiness of online food delivery services under the key policy areas of Food-EPI. Mapping reviews are similar to scoping reviews as they both address a broad research question to guide future research
+
+priorities and decision-making [26]. However, unlike a scoping review which catalogues the evidence in response to what is found in the literature, a mapping review has pre-defined coding categories [26]. Food composition, labelling, promotion, retail, and prices were the pre-defined coding categories for this review as they were considered relevant policy domains for the context of OFD platforms. A mapping review also highlights the areas of uncertainty in the evidence base and summarises the existing evidence base in a visual or tabular way [27]. The review methodology was conducted in a systematic way by developing a review protocol, searching relevant databases, screening, coding, and data synthesis [28]. This review also adhered to the PRISMA-ScR checklist please see Additional file 1: Table S1.
+The review protocol was registered on Open Science Framework on 19 September 2023 (https://doi.org/10.17605/OSF.IO/2SWKQ).
+Inclusion and exclusion criteria
+The inclusion and exclusion criteria used for the systematic mapping review are outlined in Table 1. Briefly, studies were included if they related to OFD platforms and provided evidence on the Food-EPI domains of interest. Whilst the focus of this review was OFD platforms offering ready-made takeaway meals from restaurants and food service outlets, our search terms were designed to also identify evidence that may apply for other categories of online food retail in the digital food environment such as online groceries and meal-kit subscription services.
+
+
+
+
+Search strategy
+For our primary research question, a systematic search of Medline (via Ovid), Embase (via Ovid), CINAHL Complete (via Ovid), Scopus, Web of Science (Web of Science Core Collection (1965 present)), ProQuest Central, Business Source Ultimate was conducted from January 2010 to October 2023, using the following search term categories, combinations, truncations, and synonyms: food marketing OR food accessibility OR food labelling OR nutritional quality OR price AND digital platforms OR mobile applications OR internet AND online food delivery OR online food shopping OR online food ordering OR meal delivery. The full Medline search strategy is provided in Additional file 1: Table S2.
+For our second research question, a systematic search of relevant policies was conducted firstly using the Benchmarking Food-EPI in Australia progress report by Sacks & Mann, 2023 [18] and the Food Policy Index resources as a starting point. All of these resources are considered the most up- to-date documentation of the Australian governments progress on nutrition-related policies and are authored by members of INFORMASa team of food policy experts with deep knowledge of international best-practice standards [17, 18, 20].
+Additional searches for international policies were manually conducted in the following databases:
+
+NOURISHING framework [30], GINA database (WHO) [31], and Google Scholar. In the NOURISHING and GINA databases, all the listed policies were checked for its relevance to OFD platforms. Key search terms relating to (i) policy or guideline and (ii) online food delivery were used in Google Scholar. All results in Google Scholar were checked. Policies were included if they (i) related to one or more Food-EPI policy area, (ii) had potential to cover OFD settings, and (iii) were relevant to diet and diet-related health outcomes.
+Study selection
+Records identified from the database searches were collated and uploaded to Covidencea web-based collaboration software platform that streamlines the production of systematic and other literature reviews [32]. After removing any duplicates, four reviewers (SJ, ART, AAG, SRP) screened titles and abstracts. Each record was reviewed by two independent reviewers. Any discrepancies were resolved with a third reviewer. Following this, two independent reviewers, SJ and ART, screened full texts and checked against inclusion criteria. The remaining discrepancies were discussed and resolved through consensus.
+Data extraction
+The following relevant information were extracted from the full texts of included studies into a standardised form developed by investigator SJ: study information (author, year, country of origin, study design), participant information (number of participants, baseline characteristics, retention rate), primary outcomes, and relevant results.
+
+Data synthesis
+Findings were synthesised narratively and informed by the data extraction table. Relevant study outcomes for each of the five FOOD-EPI areas were extracted from studies. This may have resulted in the number of outcomes being greater than the number of included studies. Descriptions of study outcomes used the original wording and classification systems in each original article for precision.
+Results
+
+Study selection
+After screening 2012 records, a total of 43 studies were included. Please see Fig. 1 for the PRISMA flow diagram.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PRISMA flow diagram using the PRISMA 2020 statement
+
+
+Study characteristics
+
+Most studies were cross-sectional in study design. All included studies were published between 2020 to 2023. Thirteen study outcomes were from Europe or United Kingdom (UK) region (28%) with the majority conducted in England. This was closely followed by 11 study outcomes from Asia (23%) mainly in China. Eight outcomes were from studies conducted in Oceania (17%). UberEats was the leading OFD platform investigated amongst the included studies (n = 13), Menulog or JustEat was investigated eight times, and Meituan was studied four times. See Table 2 for further details on study characteristics.
+
+
+
+
+
+Study outcomes
+Overall, there were 70 relevant outcomes mapped to Food-EPI areas across the 43 included studies (Table 3). Studies may have reported more than one relevant outcome. Most outcomes were relevant policies mapped under Food Promotion (20/70, 29%), followed closely followed by Food Retail (18/70, 26%), and Food Composition (15/70, 21%). Fewer studies reported outcomes relevant to Food Prices (11/70, 16%) and Food Labelling (6/70, 9%).
+
+
+
+
+
+
+Food composition
+
+Methodological approaches
+
+Ten studies that examined the food composition or nutritional quality of food outlets and menu items on OFD applications used classification systems.
+Three studies based their evaluation on national dietary guidelines [33,3 4,35], dietary indices [36, 37] or health rating scores [38,39 ,40], nutrition calculators [41], or chemical analyses [ 72]. Two studies used more descriptive methods such as identifying cuisine or food type [42] and subjective measures from participants perceptions [43].
+Ratio of unhealthy to healthy options available on OFD
+Across all 15 relevant study outcomes to Food Composition, it was evident that unhealthy options outnumber healthy options on OFD platforms. At the outlet level, in Australia and New Zealand, nearly three-quarters of food outlets available were classified as unhealthy [33]. At the menu item level, over 7080% of total menu items across OFD platforms in various studies were objectively classified as unhealthy [33,3 4,35, 40, 44]. In Brazil, beverages offered on the leading OFD platform were mostly ultra-processed (78%), followed by water (49%) and natural juices or smoothies (27%) [44]. A study conducted in Malaysia also observed participants subjectively perceived more than 78% of menu items as unhealthy [43].
+Identifying unhealthy vs healthy options
+Menu items available on OFD that were analysed or scored to be the least healthy, tended to be set meals [36, 45], combos (a type of meal that typically includes food items and a beverage) [41], or cakes or desserts [41, 45]. A study from China analysed the healthiness of various food types
+
+including noodles and dumplings, set meals, seafood, pot meals, fried and BBQ foods, and healthy and light recipes. Amongst these food types, staple foods and Western fast food comprised the highest proportion of unhealthy meals included [38]. A study from the UK found that the following cuisine tags: pizza, halal, kebab, Italian, American food, Chinese food, desserts, cakes, fish, and chips frequently scored a low health rating of 0 or 1 out of 5 (with 5 being the healthiest) [39]. Indian food, curry, and Bangladeshi food scored slightly higher with a rating of 2 [39].
+In contrast, OFD menu options that scored higher for healthiness included: beef and chicken breast salad set meals [36]. The study from the UK observed that Lebanese food scored more positively with a rating of 3 [39].
+Nutrients of concern
+High saturated fat [41, 42,  72], high sodium [45,
+72], and low dietary fibre [ 72] were flagged as nutrients of concern and were typical of most fast- foods offered on OFD platforms.
+Food labelling
+Methods
+Two studies assessed the prevalence of energy labelling or calorie disclosures on the online menus of third-party OFD platforms [46, 47]. One cross- sectional study observed the impact of energy labelling in a real-world OFD setting [48]. The other three remaining studies were experimental designs on simulated food delivery applications or interfaces, which examined the impact of labelling on food choices in a virtual setting [65 ,66,67].
+
+Warning labels
+In a virtual experiment conducted by Gugliucci and colleagues, participants who were provided with nutritional warnings on OFD websites were less likely to have selected a dish or beverage with excessive content of at least one deleterious nutrient such as saturated fat, sugar, or sodium [66].
+Compliance with menu labelling laws
+Despite mandatory requirements for menu labelling laws, calorie disclosures were not properly implemented on online menus in Canada [47] and the USA [46]. Moreover, it was identified that there were variations in prevalence of menu labelling across different third-party platforms in both studies.
+Impacts on food choices
+In a real-world setting in Saudi Arabia, 42% of participants who noticed calorie labelling on menu items indicated that they would change their order by ordering less food, eating less food, or choosing another restaurant [48]. In virtual settings, these impacts on food choices were more mixed. Whilst two experimental studies showed labelling was effective in dissuading consumers from unhealthier choices through nutritional warning labels [66] and calorie labelling [65], one experimental study showed there was no significant impact on consumers intention to purchase through OFD [67].
+Food promotion
+
+Methods
+
+Ten outcomes were obtained from cross-sectional studies that have analysed the content on OFD platforms during a specified timefor example from 6 pm on a Friday [33,3 4,35, 42, 45, 49, 50, 59, 73, 75]. Two studies that have examined how foods and beverages are promoted on OFD platforms have used frameworks to code marketing strategies [63, 64]. Nudging trials [ 71] and experimental studies [66,67,68] have assessed the impact of different promotion or marketing strategies in a virtual setting.
+Marketing strategies
+
+Images
+Use of images was found to be a common marketing strategy in six studies [3 4, 35, 44, 49, 59, 75]. In three of these studies, images were found to be more frequently used on unhealthful menu items such as ultra-processed beverages, ice cream, candies, and salty-packaged snacks [44] or discretionary meals that are high in energy, sugars, salts, and saturated fats [3 4, 35]. In one experimental study using a virtual OFD platform, researchers found a positive effect of image type on consumers intentions to purchase [67]. The display of consumers eating food items, compared to food item only, was associated with purchasing through the virtual OFD platform [67].
+Price promotion
+Price promotions were another common marketing strategy used by OFD platforms [3 4, 35, 42, 49, 73,
+ 7 4]. These included the offer of free delivery [49, 73], price discounts [42, 49, 73], value bundles [3 4, 35] and loyalty points [73]. Price promotions were
+
+also more generally used on menu items that were high in sugars, fats, or salt [42, 44, 59, 75].
+Digital salience nudges
+Nudging interventions refer to deliberate changes to and designs of peoples choice environments the ways in which options are presented or framed
+which can influence behaviours [ 76]. Digital nudging refers to nudges implemented in digital environments and present multiple advantages for influencing user behaviour compared to analogue settings [ 77]. In digital settings, user interfaces can be highly adaptable to increase the salience of items and may be more likely to be purchased [ 77]. For example, studies showed that menu items labelled as most popular were commonly presented at a prominent position on OFD platforms. Three studies which investigated the most popular menu items found that these foods and beverages did not meet dietary guidelines in their respective countries [33,3 4,35, 45].
+A five-armed randomised controlled trial from the UK established that repositioning of both foods and food outlets in order of lowest energy content to highest energy content on a virtual mock food delivery app had the greatest effect in lowering the energy content of baskets at checkouts [ 71].
+Similarly, another virtual experimental study from the Czech Republic showed that when healthier restaurants were displayed on the ordering page, the odds of a healthier choice were nearly four times higher than in the low availability condition [68].
+Contentwhat is being promoted?
+
+One study conducted on restaurants in Amsterdam, Melbourne and Chicago, highlighted the use of keywords or category tags associated with a food outlet, as a way to advertise meal options on OFD platforms [50]. In all three cities, burgers, pizza, and Italian were in the top 10 most advertised meals. Keywords such as healthy were advertised less often.
+Food prices
+Methods
+Relevant study outcomes for food prices on OFD platforms were extracted from eight cross-sectional studies [33,3 4,35, 41, 43, 51, 52, 59], two nudging experimental studies [65,  71], and one qualitative study [ 7 4].
+Food prices in relation to healthiness
+Two studies found that menu items on OFD platforms that were the least expensive were often poor in nutritional quality [35, 41]. In India, items from fast-food restaurants that were available on the OFD platform had the highest median calorie content (194 kcal), but were priced the lowest with a median price of 100 INR or $1.20 USD [41]. A study from Auckland, New Zealand, found that discretionary mixed mealsdishes that are meat- based or vegetable-based that are energy-dense and nutrient-poorwere significantly less expensive compared to mixed meals that predominantly comprised of the five food groups which align with dietary guidelines [35]. Contrarily, in Sydney, Australia, menu items that were assigned a discretionary food category were found to be slightly more expensive than items of the five food
+
+groups [3 4]. Despite this, discretionary foods were more likely to have a value bundle as a price promotion strategy which would reduce the costs of these foods [3 4].
+A study in Brazil showed that price discounts were mostly offered on unhealthier items such as beverages that were ultra-processed according to the NOVA classification system [59]. At the same time, healthier menu items such as water, vegetables, natural juice, and smoothies only comprised less than 5% of all price discounts offered [59]. One study also observed that compared to sugar-sweetened beverages, water was most likely to have an additional fee on OFD platforms in California, USA [51].
+Differences in pricing of OFD across countries
+Main meals
+In China, most participants reported spending less than 20 Chinese Yuan ($2.77 USD) per order [52]. In Malaysia, most participants reported spending between RM15 to RM19 on orders ($3$4 USD) [43]. Similarly in India, the median average cost for an OFD order for two people was reported to be 300 INR ($3.60 USD) [41]. In contrast however, the median price for discretionary cereal-based mixed meals such as pizza in New Zealand was
+$12.60 NZD ($7.56 USD) and for a discretionary meat-based mixed meal such as fried chicken was
+$16.00 NZD ($9.60 USD) [35].
+
+Delivery
+Delivery costs were reported in three studies. In Sydney, the median delivery cost was observed to be $5.99 AUD ($3.92 USD) [33], and in Auckland,
+
+New Zealand, the median delivery cost was $7.99 NZD ($4.79 USD) [33]. These prices differ greatly to the delivery costs reported from a study in China, which were between 2 and 3 Chinese Yuan ($0.30
+$0.64 USD) [52].
+
+Impact of price on consumer choices
+A qualitative study revealed that price promotions on food items were found to be highly appealing to users of OFD [ 7 4]. Likewise, price and convenience were cited as the predominant factors impacting food choice on OFD apps by users in Malaysia [43]. In a study conducted in China, delivery charge was observed to have had the greatest impact on the likelihood of consumers using OFD [52]. The greatest probability of consumers certainly using OFD is when the delivery charge is within the range of 0 ~ 1.4 Chinese Yuan ($0.19 USD). When delivery charge exceeded 3 Chinese Yuan ($0.64 USD), the probability of consumers choosing totally impossible was the greatest [52].
+One nudging study examined the impact of proportional pricing on meal, sandwich, and drink size selection and subsequent money spent on a mock delivery app [65]. It was found that proportional pricing may prompt consumers to select smaller portion sizesparticipants who were in the proportional pricing condition had a decreased likelihood of choosing a larger sized beverage from the virtual coffee shop (OR: 0.58) [65].
+In another nudging study using a mock delivery app, an intervention where food options were repositioned to give more prominence in a higher screen position to lower-energy but higher-priced foods and restaurants, resulted in reduced energy
+
+content and increased basket price [ 71]. Authors from this study highlighted the potential of such an intervention widening inequalities as individuals of higher socioeconomic position may have more benefits from reducing the energy content of their baskets [ 71].
+Food retail
+Methods
+There were 11 cross-sectional studies which have examined aspects of food retail [33, 37, 38, 40, 42,
+50, 53,5 4,55,56,57], 3 longitudinal studies observed
+changes over time [60,61,62], 3 studies used spatial analyses and advanced geographical methods [58, 69,  70], and 1 study was a desktop review [73].
+Most studies analysed the geographic location of retailers offering OFD, including elements of accessibility, in association with urbanisation, population density, and deprivation level.
+Urbanisation, population density, and OFD accessibility
+All the studies that examined urbanisation and population density, which included evidence from Iran [69], Netherlands [62], China (Shanghai [57] and Nanjing [58]), Canada [37], and New Zealand [73], showed that accessibility to food options available via OFDs was greatest in central, urban areas with high population density.
+In two studies, restaurants offering home delivery were developed in wealthier sub-towns in Iran [69] or areas that were more economically developed in China [58].
+Socioeconomic deprivation and OFD accessibility
+
+Region-specific associations between area deprivation and OFD accessibility were observed in a study conducted in England [60]. In the North of England, areas of greatest deprivation had an increased number of delivering outlets compared to the least deprived quintile [60]. In London, higher postcode district deprivation was associated with lower numbers of delivering outlets [60]. This finding for London however contradicted results from another longitudinal study conducted in England which was conducted prior to COVID-19.
+Researchers found evidence of a positive dose response relationship between deprivation and number of OFD outlets across all postcode districts in England [61].
+A study which examined three international cities also showed differing results in access to OFD options and socioeconomic deprivation [50]. Whilst Amsterdam, Netherlands, and Melbourne, Australia, showed some indication of a relationship between increasing deprivation with OFD accessibility, Chicago, USA, showed no difference in delivery options between the most and least disadvantaged neighbourhoods [50].
+Another longitudinal study which investigated changes in the food environment across the whole of the Netherlands found that there was an increase in outlets offering OFD in neighbourhoods of both lowest (IRR = 2.15, 95%CI = 1.902.44) and highest (IRR = 3.00, 95%CI = 2.323.97) socioeconomic status. This increase was more pronounced or greater, in areas of higher socioeconomic status [62].
+A cross-sectional study conducted in Sydney, Australia, and Auckland, New Zealand, also showed
+
+some differences between cities. In Sydney, whilst 60% of food outlets were located in the most advantaged suburbs, food outlets were found to be more evenly distributed across deprivation quintiles in Auckland [33].
+OFD accessibility and associations with use
+One study from England used linked data to analyse associations between OFD accessibility and the use of OFD platforms. It was established that compared to those with the lowest number of accessible food outlets on an OFDS, those with a greater number of accessible outlets had 71% greater odds of OFDS use (OR: 1.71, 95%CI: 1.09, 2.68) [5 4].
+A study in Melbourne, Australia, investigated associations between the use of OFD platforms with whether an individual had access to a 20-min neighbourhood (20-MN), which is a part of a state- level strategy to accommodate urban growth and ensure liveable neighbourhoods [56]. It was hypothesised that those that do not live in a 20-min neighbourhood would order home delivery for takeaway foods more frequently. Despite this, the authors of this study did not find a significant difference in use of OFD platforms between those living in 20MN vs Non-20MN neighbourhoods [56].
+Delivery distances
+A few studies reported on the mean or median delivery distances between food retailers and delivery locations which was defined by postcode. Median delivery distance in Sydney was 3 km and
+3.2 km in Auckland [33]. In Ontario, Canada, the mean delivery distance was 3.7 km and ranged between 0.3 and 9.4 k m [37]. A study conducted in
+
+Iran found restaurants developed widespread business by extending their service area by up to 15 km from their physical location [69].
+Dark or ghost kitchens
+Two studies identified dark kitchens as a unique aspect of OFD platforms as these outlets only sell meals through delivery and do not offer any dine-in services [42,  70]. One of these studies which was conducted in England found 3 dark kitchens which rented its space to 116 food businesses [ 78].
+Another study found that most of the businesses which used the dark kitchen space were virtual restaurants (21%), selling fast-food (47%), or dessert (21%) through online delivery platforms [42]. In China, it was found that dark kitchens may potentially reduce a restaurants dependence on location and use more vertical space in high-rise office spaces [ 70].
+Potential nutrition-related policy options
+Only three nutrition-related policies that have specifically mentioned or designated responsibility to OFD platforms were identified from the policy scan (Table 4A). The Calorie Labelling (Out of Home Sector) Regulations 2021 introduced in England affects businesses responsible for the website or mobile application (remote providers) to ensure that calorie information is displayed [ 79]. In terms of food promotion, the European Union (EU) has initiated the Digital Services Act to encourage more transparency around advertising through platforms and bans certain types of targeted advertising [80]. In Singapore, the voluntary Healthier Dining Programme [81] allows food and beverage companies that operate solely on
+
+digital platforms to apply to get menu items endorsed by the Health Promotion Board in Singapore by offering three or more healthier food or beverage options which adhere to the guidelines.
+
+
+
+
+
+
+
+
+
+
+We also identified several nutrition-related policies which target traditional local food environment settings and have the potential to adapt these to include or address the health impacts of OFD platforms (Table 5). Most of these policies have targeted food labelling, food promotion, and food composition. There was a lack of both existing and potential policies for food prices or food retail.
+
+
+
+
+
+
+
+
+
+Discussion
+
+Key findings
+OFD platforms have been identified as a potential concern for population health and well-being that may require the creation and implementation of protective measures through policy and regulation. This systematic mapping review synthesised the current evidence to inform potential food
+
+environment policies for OFD platforms, under five main policy domains. Of the 70 relevant outcomes from the 43 included studies, 29% can largely inform nutrition-related policies for food promotion, 26% for food composition, and 21% for food retail aspects of OFD platforms. Globally, existing regulation of OFD platforms remains scarce, highlighting an important regulatory gap.
+Effective policy options may promote increased access to healthy and affordable meals on OFD platforms. This may be a promising opportunity to bridge inequities in food accessibility, particularly for vulnerable groups such as those with a physical disability or low income.
+Do OFD platforms need specific nutrition policies?
+OFD platforms have emerged as a disruptor to food environments and have yet to be widely included in existing nutrition-related policies. Results from the policy scan revealed only three existing nutrition- related policies that currently regulate or specifically apply to OFD platforms [ 7 9 ,80,81], with one of these only a voluntary guideline. We found several other international examples of existing policies that apply more broadly to takeaway foods and food outlets and have the potential to be amended to include OFD platforms. These were largely food labelling policies such as mandatory kilojoule labelling on menus from fast-food franchises that had yet to include OFD platforms as a type of food retailer subject to regulation. Studies included in the review showed that OFD platforms adhered poorly to existing menu labelling laws in Canada [47], USA [46], and recent research from Australia [99]. In addition, the policy scan indicated
+
+that current food promotion policies may need more refinement to specifically define OFD platforms as a digital platform that advertise unhealthy foods and beverages to children. Policies which currently target food composition may improve the nutritional quality of foods offered on OFD platforms; however, most of the existing policies are voluntary initiatives.
+In other Food-EPI policy areas, such as food retail, the applicability of existing policies to OFD platforms is complex and new types of policies may be required. For example, any existing zoning regulation would need to consider the impact of food delivery services and its link to dark kitchens, as these could deliver unhealthy foods within 400- m or 800-m restriction zone as defined in current policies [100]. Semi-structured interviews with policy experts in New Zealand suggested that density regulation would be impractical or less relevant, considering the wide coverage of on- demand delivery services [101]. Development plans may also need to consider how the existence of dark kitchens affect use of land and provision of services and amenities in a given area. Planning guidelines and zoning regulations must also be future-proof to account for further innovations in food delivery. For instance, drone delivery is increasingly being tested in Australia [102] and is becoming more established in countries such as China [103] and the USA [104]. These are important factors for policymakers to consider in urban planning or designing policies around urbanisation of cities as evidence gathered in this review suggest that urbanised cities have the highest food delivery serviceability.
+
+Similarly, new policies targeting food prices may need to be created as no existing or potential policies were identified. As the evidence from the mapping review component showed, effective fiscal measures could target the delivery costs of using OFD platforms. Findings from this review also showed that aspects of food promotion and food prices could be considered together when designing feasible policy options. Limiting the number of price promotions offered on OFD platforms could subsequently increase costs and thereby discourage frequent use of these services. At the same time, higher costs of OFD platforms may further disadvantage individuals and groups at lower income levels who may potentially use price promotions to purchase healthier foods online.
+Future pricing policies relating to OFD platforms will therefore need to carefully consider the impact on various socioeconomic groups.
+Platform vs food outletwhere should responsibility be delegated?
+The World Health Organization, in their Slide to Order report, envisaged the inevitability of the development of new OFD companies and recommended companies to prioritise health as a focus from their inception [105]. As such, it is important to consider delegating the responsibility of OFD platforms in nutrition-related policies.
+Evidence from studies for food promotion policies suggests that platforms themselves have a potential role to play in promoting more healthful choices online [68,  71]. Although the evidence is limited, the positioning of menu items appeared to have a significant effect on consumers choices in virtual experiments using a simulated delivery app [68,
+
+ 71]. Thus, reordering menu items and food outlets from lowest to highest kilojoule or calorie count may prove to be an effective policy option. These digital nudging techniques have been shown to be effective in a range of other settings as wellfor example, in virtual supermarkets [106] and in school canteens [107]. Moreover, The World Health Organization Representative Office in China has tested the effectiveness of health messages and changes to the choice architecture on a popular OFD app. Findings showed that when consumers were presented with a sub-menu that had reduced salt options, they were able to choose healthier options with less salt compared to the control group [108].
+Food labelling policies may also need to delegate accountability to third-party delivery platforms as studies show that energy labelling is often missing or incomplete [46, 47, 99]. Systematic reviews and meta-analyses have found that nutrition labelling [109, 110] and menu labelling [111] are effective policies and can reduce the total energy of foods that are purchased and consumed. From the policy scan, only England appeared to have regulations that explicitly and specifically designated accountability to the OFD platform to ensure menu labelling was present for all standard food outlets
+[ 7 9]. Food labelling may be the easiest regulation to target for OFD platforms, considering the nutrition labelling information for large food outlets already exists. This would therefore be a matter of transferring the information accurately online with thorough monitoring and enforcement and would provide consumers with a more consistent nutrition information environment across settings.
+
+Improving the physical food environment to improve online environments
+Results from the mapping review and policy scan revealed that food composition policies focus mainly on improving physical food environments in-person, by setting standards for nutritional quality of out-of-home foods. Improvements to the physical, offline food environment will result in parallel improvements in online food environments, and vice versa, as these environments are often overlapping. Several existing policy guidelines showed collaboration between food outlets and local government authorities to improve or endorse healthier menu items. A study from China conducted in 2020 observed substantial consumer demand for salt- reduced meals from the Eleme food delivery app with 40.6% of all order requests asking for reduced salt [112]. It was shown that over 90% of restaurants were willing to respond to these consumer requests and laboratory analyses revealed that these dishes were indeed lower in salt than regular meals [112]. This study shows a potential role for the delivery platform itself in enabling an option for requests to be made and for food retailers to observe and complete these requests. Thus, this highlights important potential for collaborative efforts between food retailers, the food delivery platform, and policymakers to improve the nutritional content of menu items.
+Clear definitions of what constitutes healthier options in the restaurant sector with associated nutrient profiling methods would also support reformulation efforts.
+
+Leveraging existing and impending regulation in other sectors
+Leveraging existing or impending regulation in other sectors may also be a consideration for policymakers. In Australia, the Closing Loopholes bill was introduced in early 2024 to protect and uphold the rights of gig economy workers. Despite this bill being primarily a workplace law, there may be subsequent effects on consumers of food delivery apps and their food choices. It is speculated that this bill will likely increase delivery costs and could deter use of a meal delivery app [113]. There is also potential however for some costs to be absorbed by large food retailers with small independent food businesses the most vulnerable to such changes [113]. It is therefore unknown whether long-term, these smaller retailers continue to partner with third-party delivery services and if they leave, whether that results in a further saturation of large franchise restaurants on OFD platforms mostly offering unhealthy fast-food options. Reduced accessibility to smaller independent food businesses may also increase the power that large franchises and multinational companies already hold in the current food system [12, 114].
+Furthermore, in early 2024, the federal government in Australia called for a public consultation to design a feasibility study on options to limit unhealthy food marketing to children [115].
+Impending regulation around unhealthy food marketing to children therefore may be applicable to OFD platforms and is an opportunity for policy change to be made. As shown in the policy scan component of this study, many countries especially in the Latin American region have existing policies in place to restrict junk food marketing to children
+
+on websites, apps, and platforms [96,97,98]. Further action could be initiated by redefining and updating unhealthy brands or digital platforms in current definitions to include OFD platforms as the evidence accrued in this review demonstrates the excessive promotion and abundance of unhealthy foods on these platforms.
+Food safety, including the disclosure of allergen information through OFD platforms, is also a potential consideration for improved regulation. Deaths resulting from undisclosed information of menu items containing allergens that were ordered via a third-party delivery service [116] has prompted further scrutiny of food safety and allergen management. These cases highlight a great responsibility in which OFD platforms must ensure all relevant information is provided and procedures for rigorous assessment of partnered restaurants and their adherence to food safety standards are arranged and implemented.
+Strengths and limitations
+
+In terms of strengths, this study presents a comprehensive overview of the existing evidence from seven databases, covering key relevant policy areas. This review also identified gaps in the evidence base and synthesised relevant international policy examples that can be used as starting points for further policy action. Given the growing body of the literature on OFD platforms, this is a timely review that aims to provide direction for future research that is policy relevant. For example, complex issues such as the effect of OFD platforms on different socioeconomic groups must be explored further and need further policy attention.
+
+There are limitations in this study that should be noted. Firstly, the search of relevant international policy examples may be incomplete due to the manual process and predominant use of one database (NOURSHING [30]). Nevertheless, the purpose of this component of the mapping review was to provide a preliminary overview of the policy environment for policymakers or academics to consider in pursuit of feasible policy options.
+In addition, due to the broad nature of a mapping review, a critical appraisal of studies was not performed. As such, caution is warranted in the interpretation of the study results due to potential risk of bias present in the included studies. Despite this limitation, this mapping review has captured the emerging nutrition-related policy implications of OFD platforms in a timely manner.
+Conclusions
+
+OFD platforms are set to reach over 2.8 billion users globally by the next decade. Several policy avenues could be considered which may mitigate overexposure and increased accessibility to unhealthful foods offered on these platforms and could provide opportunities to increase access to healthy and healthier food options. Moreover, through their relationships with a large number of restaurants and food providers, there may be an opportunity for OFD platforms to positively influence the broader food environment. Creating a suite of suitable and effective policy options with monitoring and review mechanisms is needed to adapt to this rapidly changing food environment.
+This review demonstrated that whilst most of the current evidence can support new policies for food promotion, food retail, and food composition, the
+
+most feasible short-term strategy for regulation may be food labelling which has existing policies that can be adapted to include OFD platforms.
+Responsibility of OFD platforms to implement must be clearly outlined and designated in all relevant policies, and it is important to consider digital environments in regulation from other sectors that can be leveraged for population health benefits.
+Data availability
+
+No datasets were generated or analysed during the current study.
+
+Abbreviations
+
+INFORMAS:
+International Network for Food and Obesity and Non-communicable Disease Research, Monitoring and Action Support
+
+Food-EPI:
+Healthy Food Environment Policy Index
+
+NCD:
+Non-communicable disease
+
+OFD:
+Online food delivery
+
+
+References
+
+
+
+1. Qiao J, Lin X, Wu Y, Huang X, Pan X, Xu J, Wu J, Ren Y, Shan P-F. Global burden of non- communicable diseases attributable to dietary risks in 19902019. J Hum Nutr Diet. 2022;35(1):20213.
+
+
+2. Adolescent health. https://www.who.int/health- topics/adolescent-health#tab=tab_1 .
+
+
+3. Phelps NH, Singleton RK, Zhou B, Heap RA, Mishra A, Bennett JE, Paciorek CJ, Lhoste VPF, Carrillo-Larco RM, Stevens GA, et al. Worldwide trends in underweight and obesity from 1990 to 2022: a pooled analysis of 3663 population- representative studies with 222 million children, adolescents, and adults. The Lancet.
+2024;403(10431):102750.
+
+
+4. Leme ACB, Hou S, Fisberg RM, Fisberg M, Haines J. Adherence to food-based dietary guidelines: a systemic review of high-income and low- and middle-income countries. Nutrients. 2021;13(3):1038.
+
+
+5. Mozaffarian D, Rosenberg I, Uauy R. History of modern nutrition science-implications for current research, dietary guidelines, and food
+policy. BMJ. 2018;361:k2392.
+
+
+6. Swinburn B, Sacks G, Vandevijvere S, Kumanyika S, Lobstein T, Neal B, Barquera S,
+
+Friel S, Hawkes C, Kelly B, et al. INFORMAS (International Network for Food and Obesity/non-communicable diseases Research, Monitoring and Action Support): overview and key principles. Obes Rev. 2013;14(Suppl 1):112.
+
+7. Swinburn BA, Sacks G, Hall KD, McPherson K, Finegood DT, Moodie ML, Gortmaker SL. The global obesity pandemic: shaped by global drivers and local environments. Lancet. 2011;378(9793):80414.
+
+
+8. Jia SS, Raeside R, Sainsbury E, Wardak S, Phongsavan P, Redfern J, Allman-Farinelli M, Fernandez MA, Partridge SR, Gibson AA. Use of online food retail platforms throughout the
+COVID-19 pandemic and associated diet-related chronic disease risk factors: a systematic review of emerging evidence. Obes Rev.
+2024;25(6):e13720.
+https://doi.org/10.1111/obr.13 7 20.
+
+
+9. Fernandez MA, Raine KD. Digital food retail: public health opportunities. Nutrients. 2021;13(11):3789.
+
+
+10. Online Food Delivery Worldwide.
+https://www.statista.com/outlook/emo/onlin e-food-delivery/worldwide.
+
+11. Bennett R, Keeble M, Zorbas C, Sacks G, Driessen C, Grigsby-Duffy L, Adams J,
+
+Burgoine T, Backholer K. The potential influence of the digital food retail environment on health: a systematic scoping review of the literature. Obes Rev. 2024;25(3):e13671.
+
+12. Vanderlee L, Sacks G. Recommended
+nutrition-related practices for online food delivery companies. Public Health Nutr. 2023;26(12):33438.
+
+13. Swinburn BA. Obesity prevention: the role of policies, laws and regulations. Australia and New Zealand Health Policy. 2008;5(1):12.
+
+
+14. Ananthapavan J, Sacks G, Brown V, Moodie M, Nguyen P, Veerman L, Mantilla Herrera AM, Lal A, Peeters A, Carter R. Priority-setting for
+obesity prevention-the assessing cost- effectiveness of obesity prevention policies in Australia (ACE-Obesity Policy) study. PLoS ONE. 2020;15(6):e0234804.
+
+15. McCormick J. Carrots, Sticks and Sermons: Policy Instruments and Their Evaluation (1st ed.). Routledge; 1998. https://doi.org/10.4324/9781315081748.
+
+
+16. Reeve E, Ravuvu A, Farmery A, Mauli S,
+Wilson D, Johnson E, Thow A-M. Strengthening food systems governance to achieve multiple objectives: a comparative instrumentation analysis of food systems
+
+policies in Vanuatu and the Solomon Islands. Sustainability. 2022;14(10):6139.
+
+17. Australias Food Environment Dashboard https://foodenvironmentdashboard.com.au/go vernment/.
+
+
+18. Sacks GMD. Policies for tackling obesity and creating healthier food environments: scorecard and priortiy recommendations for the Australian governments. In. Melbourne, Australia: Deakin University; 2023.
+
+
+19. Andreyeva T, Marple K, Marinello S, Moore TE, Powell LM. Outcomes following taxation of sugar-sweetened beverages: a systematic review and meta-analysis. JAMA Netw Open.
+2022;5(6):e2215276.
+
+
+20. Swinburn B, Vandevijvere S, Kraak V, Sacks G, Snowdon W, Hawkes C, Barquera S, Friel S, Kelly B, Kumanyika S, et al. Monitoring and benchmarking government policies and actions to improve the healthiness of food environments: a proposed Government Healthy Food Environment Policy Index. Obes Rev. 2013;14(S1):2437.
+
+
+21. Dodd R, Reeve E, Sparks E, George A, Vivili P, Win Tin ST, Buresova D, Webster J, Thow AM. The politics of food in the Pacific: coherence and tension in regional policies on nutrition,
+
+the food environment and non-communicable diseases. Public Health Nutr. 2020;23(1):168 80.
+
+22. Reeve E, Thow AM, Huse O, Bell C, Peeters A, Sacks G. Policy-makers perspectives on
+implementation of cross-sectoral nutrition policies, Western Pacific Region. Bull World Health Organ. 2021;99(12):86573.
+
+23. Candel JJL, Pereira L. Towards integrated food policy: main challenges and steps ahead. Environ Sci Policy. 2017;73:8992.
+
+
+24. Bates S, Reeve B, Trevena H. A narrative review of online food delivery in Australia: challenges and opportunities for public health
+nutrition policy. Public Health Nutr. 2023;26(1):26272.
+
+25. Pollman E, Barry JM. Regulatory entrepreneurship S Cal L Rev. 2016;90:383.
+
+
+26. Campbell F, Tricco AC, Munn Z, Pollock D, Saran A, Sutton A, White H, Khalil H. Mapping reviews, scoping reviews, and evidence and gap maps (EGMs): the same but different the Big Picture review family.
+Syst Rev. 2023;12(1):45.
+
+
+
+27. Salam RA, Khan MH, Meerza SSA, Das JK, Lewis-Watts L, Bhutta ZA. An evidence gap map of interventions for noncommunicable diseases and risk factors among children and adolescents. Nat Med. 2024;30(1):290301.
+
+
+28. James KL, Randall NP, Haddaway NR. A methodology for systematic mapping in environmental sciences. Environmental Evidence. 2016;5(1):7.
+
+
+29. Reisch LA, Thgersen J, editors. Handbook of Research on Sustainable Consumption. Cheltenham: Edward Elgar Publishing; 2015.
+p. 488.
+https://doi.org/10.4337/97817834 7 1270.
+
+
+30. World Cancer Research Fund International. NOURISHING database. London: World Cancer Research Fund International; 2024. https://policydatabase.wcrf.org/.
+
+
+31. World Health Organization. Global database on the Implementation of Food and Nutrition Action. 2024. Available from: https://gifna.who.int/.
+
+
+32. Covidence systematic review software. In.
+Melbourne, Australia: Veritas Health Innovcation; 2024.
+
+
+33. Partridge SR, Gibson AA, Roy R, Malloy JA, Raeside R, Jia SS, Singleton AC, Mandoh M, Todd AR, Wang T, et al. Junk food on demand: a cross-sectional analysis of the nutritional quality of popular online food
+delivery outlets in Australia and New Zealand. Nutrients. 2020;12(10):3107.
+
+34. Wang C, Korai A, Jia SS, Allman-Farinelli M, Chan V, Roy R, Raeside R, Phongsavan P, Redfern J, Gibson AA, et al. Hunger for home delivery: cross-sectional analysis of the nutritional quality of complete menus on an online food delivery platform in Australia. Nutrients. 2021;13(3):905.
+
+
+35. Mahawar N, Jia SS, Korai A, Wang C, Allman- Farinelli M, Chan V, Raeside R, Phongsavan P, Redfern J, Gibson AA, et al. Unhealthy food at your fingertips: cross-sectional analysis of the nutritional quality of restaurants and takeaway outlets on an online food delivery platform in New Zealand. Nutrients. 2022;14(21):4567.
+
+
+36. Dai X, Wu L, Hu W. Nutritional quality and consumer health perception of online delivery
+food in the context of China. BMC Public Health. 2022;22(1):2132.
+
+37. Brar K, Minaker LM. Geographic reach and nutritional quality of foods available from mobile online food delivery service applications: novel opportunities for retail
+
+food environment surveillance. BMC Public Health. 2021;21(1):458.
+
+38. Cong N, Zhao A, Kwan M-P, Yang J, Gong P. An indicator measuring the influence of the online public food environment: an analytical
+framework and case study. Front Nutr. 2022;9:818374.
+
+39. Goffe L, Uwamahoro NS, Dixon CJ, Blain AP, Danielsen J, Kirk D, Adamson AJ. Supporting a healthier takeaway meal choice: creating a universal health rating for online takeaway fast-food outlets. Int J Environ Res Public Health. 2020;17(24):9260.
+
+
+40. Norriss D, Crossin R, Curl A, Bidwell S, Clark
+E, Pocock T, Gage R, McKerchar C. Food outlet access and the healthiness of food available on-demand via meal delivery apps in New Zealand. Nutrients. 2022;14(20):4228.
+
+41. Abdulkader RS, Jeyashree K, Kumar V, Kannan KS, Venugopal D. Online food delivery system in india: profile of restaurants and nutritional value of food items.
+Vision. 2022;0(0):09722629221110122.
+
+
+42. Rinaldi C, DAguilar M, Egan M. Understanding the online environment for the delivery of food, alcohol and tobacco: an exploratory analysis of &lsquo;dark
+
+kitchens&rsquo; and rapid grocery delivery services. Int J Environ Res Public Health.
+2022;19(9):5523.
+
+
+43. Eu EZR, Sameeha MJ. Consumers perceptions of healthy food availability in
+online food delivery applications (OFD Apps) and its association with food choices among public university students in Malaysia. Front Nutr. 2021;8:674427.
+
+44. Horta PM, Souza JPM, Rocha LL, Mendes LL. Digital food environment of a Brazilian metropolis: food availability and marketing strategies used by delivery apps. Public Health Nutr. 2021;24(3):5448.
+
+
+45. Jindarattanaporn N, Suya I, Lorenzetti L, Kantachuvesiri S, Thamarangsi T. Nutritional content of popular menu items from online food delivery applications in Bangkok, Thailand: are they healthy? Int J Environ Res Public Health. 2023;20(5):3992.
+
+
+46. Greenthal E, Sorscher S, Pomeranz JL, Cash SB. Availability of calorie information on online menus from chain restaurants in the
+USA: current prevalence and legal landscape. Public Health Nutr. 2023;26(12):323946.
+
+47. Vanderlee L, Gaucher-Holm A, L-Brassard M, Vaillancourt C. Availability of calorie
+
+information on online food delivery service platforms among major chain restaurants in Canadian provinces with different calorie labelling policies. Can J Public Health.
+2023;114(6):98391.
+
+
+48. Alkhaldy AA, Alhumaidan OA, Alkhunein SM, Alkhalaf MM, Bookari KA, Arrish JM. The impact of the COVID-19 pandemic on public interest in the energy labelling on restaurant menus. Nutrients. 2023;15(2):466.
+
+
+49. de Paula MJ, Julio KCM, Horta PM. Characteristics of food establishments registered with a meal delivery app in Latin America. Br J Nutr. 2023;130(12):215561.
+
+
+50. Poelman MP, Thornton L, Zenk SN. A cross- sectional comparison of meal delivery options in three international cities. Eur J Clin Nutr. 2020;74(10):146573.
+
+
+51. Thompson HR, Martin A, Strochlic R, Singh S, Woodward-Lopez G. Limited implementation of Californias Healthy Default Beverage law for childrens meals sold online. Public Health Nutr. 2022;25(7):110.
+
+
+
+52. Wu Y, Lu Y, Huang S. Impacts of delivery charge on the possibility of consumers using online food delivery. Sustainability. 2022;14(3):1795.
+
+
+53. Keeble M, Adams J, Bishop TRP, Burgoine T.
+Socioeconomic inequalities in food outlet access through an online food delivery service in England: a cross-sectional descriptive analysis. Appl Geogr. 2021;133:102498.
+
+54. Keeble M, Adams J, Vanderlee L, Hammond D, Burgoine T. Associations between online food outlet access and online food delivery service use amongst adults in the UK: a cross- sectional analysis of linked data. BMC Public
+Health. 2021;21(1):1968.
+
+
+55. Maimaiti M, Ma X, Zhao X, Jia M, Li J, Yang M, Ru Y, Yang F, Wang N, Zhu S. Multiplicity and complexity of food environment in China: full-scale field census of food outlets in a typical district. Eur J Clin Nutr. 2020;74(3):397408.
+
+
+56. Oostenbach LH, Lamb KE, Thornton LE. Is having a 20-minute neighbourhood associated
+with eating out behaviours and takeaway home delivery? A cross-sectional analysis of ProjectPLAN. BMC Public Health.
+2022;22(1):191.
+
+
+
+57. Shi Y, Tao T, Cao X, Pei X. The association between spatial attributes and neighborhood characteristics based on Meituan take-out data: evidence from shanghai business circles. J Retail Consum Serv. 2021;58:102302.
+
+
+58. Li L, Feng R, Xi J, Wang F. Spatial drivers and effects of urban food accessibility: comparison of conventional and online-to-offline services. Appl Geogr. 2023;152:102894.
+
+
+59. Horta PM, Souza JPM, Mendes LL. Food promoted on an online food delivery platform in a Brazilian metropolis during the COVID-19 pandemic: a longitudinal analysis. Public Health Nutr. 2022;25(5):123.
+
+
+60. Kalbus A, Ballatore A, Cornelsen L, Greener R, Cummins S. Associations between area deprivation and changes in the digital food environment during the COVID-19 pandemic: Longitudinal analysis of three online food delivery platforms. Health Place. 2023;80:102976.
+
+
+61. Keeble M, Adams J, Burgoine T. Changes in online food access during the COVID-19
+pandemic and associations with deprivation: longitudinal analysis. JMIR Public Health Surveill. 2023;9:e41822.
+
+
+62. Pinho MGM, Mackenbach JD, den Braver NR, Beulens JJW, Brug J, Lakerveld J. Recent changes in the Dutch foodscape: socioeconomic and urban-rural differences. Int J Behav Nutr Phys Act. 2020;17(1):43.
+
+
+63. Botelho LV. Camara AOd, Canella DS, Cardoso LdO, Freitas JV, Gonalves TdS, Horta PM, de Almeida IF: Digital marketing of online food delivery services in a social media platform before and during COVID-19 pandemic in Brazil. Public Health Nutr. 2023;26(1):111.
+
+
+64. Jia SS, Raeside R, Redfern J, Gibson AA, Singleton A, Partridge SR. #SupportLocal: how online food delivery services leveraged
+the COVID-19 pandemic to promote food and beverages on Instagram. Public Health Nutr. 2021;24(15):481222.
+
+65. Finlay A, Boyland E, Jones A, Witkam R, Robinson E. The impact of calorie labelling and proportional pricing on out of home food orders: a randomised controlled trial study using a virtual food and drink delivery app. Int J Behav Nutr Phys Act. 2023;20(1):112.
+
+
+66. Gugliucci V, Machn L, Curutchet MR, Ares G. Do nutritional warnings encourage healthier choices on food ordering websites? An exploratory experimental study in Uruguay. Public Health Nutr. 2021;24(11):354751.
+
+67. Gunden NMC, DeFranco A. Are online food delivery systems persuasive? The impact of pictures and calorie information on consumer behavior. Journal of Hospitality and Tourism. 2020;4(4):45772.
+
+
+68. Ratilla M, Karolyova D, Haider I, Dohnalova Z, Horak M. Nudging healthy restaurant selection in an online food delivery platform: the effect of availability and priming. Transform Bus Econ. 2022;21(3):395411.
+
+
+69. Feizizadeh B, Omrazadeh D, Ghasemi M, Bageri S, Lakes T, Kitzmann R, Ghanbari A, Blaschke T. Urban restaurants and online food delivery during the COVID-19 pandemic: a
+spatial and socio-demographic analysis. International Journal of Digital Earth. 2023;16(1):172551.
+
+70. Talamini G, Li W, Li X. From brick-and- mortar to location-less restaurant: the spatial fixing of on-demand food delivery platformization. Cities. 2022;128:103820.
+
+
+71. Bianchi F, Luick M, Bandy L, Bone J, Kelly S, Farrington J, Leung J, Mottershow A, Murar F,
+Jebb SA, et al. The impact of altering restaurant and menu option position on food selected from an experimental food delivery platform: a randomised controlled trial. Int J Behav Nutr Phys Act. 2023;20(1):60.
+
+72. Ren JM, Luo XM, Zhao XM, Yang WM, Yang MM, Wang YM, Wang WM, Zou XP, Yuan PP. Takeaway food in Chengdu, Sichuan province, China: composition and nutritional value. Asia Pac J Clin Nutr. 2020;29(4):88398.
+
+
+73. Miles H, Apeldoorn B, McKerchar C, Curl A, Crossin R. Describing and characterising on- demand delivery of unhealthy commodities in New Zealand. Aust N Z J Public Health. 2022;46(4):42937.
+
+
+74. Keeble M, Adams J, Burgoine T. Investigating experiences of frequent online food delivery service use: a qualitative study in UK adults. BMC Public Health. 2022;22(1):1365.
+
+
+75. Horta PM, Matos JP, Mendes LL. Digital food environment during the coronavirus disease 2019 (COVID-19) pandemic in Brazil: an analysis of food advertising in an online food delivery platform. Br J Nutr. 2021;126(5):767 72.
+
+
+76. Thaler RH, Sunstein CR. Nudge: improving decisions about health, wealth, and happiness. Yale University Press; 2008.
+
+
+77. Michels L, Ochmann J, Schmitt K, Laumer S, Tiefenbeck V. Salience, transparency, and self- nudging: a digital nudge to promote healthier food product choices. Eur J Inform Syst.
+
+2023;33(5):71747.
+https://doi.org/10.1080/0960085X.2023.222 9787.
+
+78. Schor JB, Attwood-Charles W. The sharing economy: labor, inequality, and social
+connection on for-profit platforms. Sociol Compass. 2017;11(8):e12493.
+
+79. The Calorie Labelling (Out of Home Sector) (England) Regulations 2021. https://www.legislation.gov.uk/uksi/2021/90 9/contents/made.
+
+
+80. Questions and answers on the Digital Services Act. https://ec.europa.eu/commission/presscorne
+r/detail/en/QANDA_20_2348.
+
+
+81. Seah SSY, van Dam RM, Tai BC, Tay Z, Wang MC, Rebello SA. An evaluation of the healthier dining programme effects on university student and staff choices in Singapore: a cluster-randomized trial. Food Policy. 2022;107:102211.
+
+
+
+82. Bin Sunaid FF, Al-Jawaldeh A, Almutairi MW, Alobaid RA, Alfuraih TM, Bensaidan FN, Alragea AS, Almutairi LA, Duhaim AF, Alsaloom TA, et al. Saudi Arabias healthy food strategy: progress & hurdles in the 2030
+road. Nutrients. 2021;13(7):2130.
+
+
+83. Ministry of Health Ontario. Healthy Menu Choices Act Fact Sheet. 2023. https://files.ontario.ca/moh-hmca-fact-sheet- restaurants-en-2023-03-07.pdf.
+
+
+84. 81.50 Posting of Calorie Information. https://codelibrary.amlegal.com/codes/newy orkcity/latest/NYCrules/0-0-0-463 7 1.
+
+
+85. Joint Food Regulation System. Menu labelling
+in Australia and New Zealand. 2022. https://www.foodregulation.gov.au/sites/defa ult/files/2023-09/policy-guidance-for- menulabelling-in-australia-and-new-zealand- consultation-regulation-impact-statement.pdf.
+
+86. Ma GX, Shive SE, Zhang G, Aquilante J, Tan Y, Pharis M, Bettigole C, Lawman H, Wagner A, Zhu L, et al. Evaluation of a healthy Chinese Take-out sodium-reduction initiative in
+Philadelphia low-income communities and neighborhoods. Public Health Rep.
+2018;133(4):47280.
+
+87. Healthier Catering Commitment. https://alehm.org.uk/services/healthier- catering-commitment/.
+
+
+88. Goiana-da-Silva F, Cruz-e-Silva D, Rito A, Lopes C, Muc M, Darzi A, et al. Modeling the
+health impact of legislation to limit the salt content of bread in Portugal: a macro simulation study. Front Public Health.
+2022;10:876827.
+
+
+89. Point in time regulation content. https://www.bclaws.gov.bc.ca/civix/documen t/id/complete/statreg/50_2009_pit/search/C IVIX_DOCUMENT_ROOT_STEM: (trans%20fat)%20AND%20CIVIX_DOCUME
+NT_ANCESTORS:statreg?1#pit.
+
+
+90. Bloks S. The Regulation of Trans Fats in Food Products in the US and the EU (December 13, 2019). Utrecht Law Review. 2019;15(3):5777. Available at SSRN: https://ssrn.com/abstract=352145 4.
+
+
+91. UK Government. Department for Levelling Up HC: National Planning Policy Framework; 2023.
+https://assets.publishing.service.gov.uk/media
+/669a25e9a3c2a28abb50d2b4/NPPF_Decem ber_2023.pdf.
+
+92. London Borough of Barking & Dagenham: Addressing the health impacts of hot food takeaways: supplementary planning document. In.: NHS; 2010.
+
+
+93. Guidance for Healthy and safe communities.
+https://www.gov.uk/guidance/health-and- wellbeing.
+
+94. Scottish Government. National Planning Framework 4. 2023. https://www.gov.scot/binaries/content/docu ments/govscot/publications/strategy-
+ plan/2023/02/nationalplanning-framework- 4/documents/national-planning-framework- 4-revised-draft/national-planning-framework- 4-revised- draft/govscot%3Adocument/national-
+ planning-framework-4.pdf.
+
+
+95. Detroit City Council. Fast Food Restaurants Near Schools in Detroit Ordinance No.9-98,  1, 4-1-98, 92.0379B(j); 1998.
+http://growingfoodconnections.org/wpconten t/uploads/sites/3/2015/05/Detroit-Zoning- and-Fast-Food.pdf.
+
+
+96. UNICEF. Digital marketing of unhealthy foods and beverages to children and adoelscents in Latin America and the Caribbean. 2016. https://www.unicef.org/lac/media/42156/file
+/Documento-pol%C3%ADtica-marketing- digital-ing.pdf.
+
+97. Restrictions on advertising aimed at minors of determined foodstuffs and beverages. https://abreuadvogados.com/en/knowledge/p ublications/articles-en/restrictions-on- advertising-aimed-at-minors-of-determined- foodstuffs-and- beverages/#:~:text=I.,acids%20and%20proce ssed%20fatty%20acids.
+
+
+98. Brazil. New Resolution Bans Advertising to Children Under Age 12. https://www.loc.gov/item/global-legal- monitor/2014-04-22/brazil-new-resolution- bans-advertising-to-children-under-age-12/.
+
+
+99. Cassano S, Jia A, Gibson AA, Partridge SR, Chan V, Farrell P, Phongsavan P, Allman- Farinelli M, Jia SS. Benchmarking online food delivery applications against menu labelling
+laws: a cross-sectional observational analysis. Public Health Nutr. 2024;27(1):e101.
+
+100. NHS London Healthy Urban Development Unit. Using the planning system to control hot food takeaways: A good practice guide. 2013.
+
+https://www.healthyurbandevelopment.nhs. uk/wp-content/uploads/2013/12/HUDU- Control-of-Hot-Food-Takeaways-Feb-2013- Final.pdf.
+
+101. McKerchar C, Bidwell S, Curl A, Pocock T,
+Cowie M, Miles H, Crossin R. Promoting health in the digital environment: health policy experts responses to on-demand delivery in Aotearoa New Zealand. Health Promot Int. 2023;38(4):daad091.
+
+102. Drone delivery services. https://www.casa.gov.au/drones/industry- initiatives/drone-delivery-services.
+
+
+103. Food delivery by drone is just part of daily
+life in Shenzhen. https://www.technologyreview.com/2023/0 5/23/1073500/drone-food-delivery- shenzhen-meituan/.
+
+104. Innovating with delivery: chick-fil-A testing drone delivery at a small number of locations. https://www.usatoday.com/story/money/fo od/2023/11/15/chick-fil-a-drone-
+delivery/71582816007/.
+
+
+105. World Health Organization. Regional Office for E: Slide to order: a food systems approach to meals delivery apps: WHO
+
+European Office for the Prevention and Control of Noncommunicable diseases. Copenhagen: World Health Organization. Regional Office for Europe; 2021.
+
+106. van der Laan LN, Orcholska O. Effects of
+digital just-in-time nudges on healthy food choice  a field experiment. Food Qual Prefer. 2022;98:104535.
+
+107. Delaney T, Yoong SL, Lamont H, Lecathelinais C, Wolfenden L, Clinton- McHarg T, Sutherland R, Wyse R. The efficacy of a multi-strategy choice architecture intervention on improving the nutritional quality of high school students
+lunch purchases from online canteens (Click & Crunch High Schools): a cluster randomized controlled trial. Int J Behav Nutr Phys Act. 2022;19(1):120.
+
+108. Reducing salt intake in China: nudging consumers towards ordering healthier, low- sodium menu options. https://www.who.int/westernpacific/news- room/feature-stories/item/reducing-salt-
+intake-in-china--nudging-consumers- towards-ordering-healthier--low-sodium- menu-options.
+
+109. Crockett RA, King SE, Marteau TM, Prevost AT, Bignardi G, Roberts NW, Stubbs B, Hollands GJ, Jebb SA. Nutritional labelling
+
+for healthier food or non-alcoholic drink purchasing and consumption. Cochrane Database Syst Rev. 2018;2(2):Cd009315.
+
+110. Shangguan S, Afshin A, Shulkin M, Ma W, Marsden D, Smith J, Saheb-Kashaf M, Shi P,
+Micha R, Imamura F, et al. A meta-analysis of food labeling effects on consumer diet behaviors and industry practices. Am J Prev Med. 2019;56(2):30014.
+
+111. Littlewood JA, Loureno S, Iversen CL, Hansen GL. Menu labelling is effective in reducing energy ordered and consumed: a systematic review and meta-analysis of recent studies. Public Health Nutr.
+2016;19(12):210621.
+
+
+112. Song C, Li W, Cui Y, Li B, Chen Z, Snider P, Long Y, Liu A, Galea G. Do restaurants comply with reduced salt requests from consumers ordering on meal delivery apps? BMC Public Health. 2023;23(1):2000.
+
+
+113. Proposed gig worker shake-up not such a sweet deal for pastry shop: Industrial legislation. In: The Australian Financial
+Review. Melbourne; 2023. p. 2. https://www.afr.com/politics/federal/gig- worker-shake-up-not-so-sweet-for-pastry- shop-20230901-p5e1c0.
+
+
+114. Wood B, Williams O, Nagarajan V, Sacks G. Market strategies used by processed food manufacturers to increase and consolidate their power: a systematic review and document analysis. Glob Health.
+2021;17(1):17.
+
+
+115. Public Consultation. Feasibility study on options to limit unhealthy food marketing to children. https://consultations.health.gov.au/chronic- disease-and-food-policy-branch/public- consultation-feasibility-study-on-options-t/.
+
+
+116. Online Food Ordering Platforms In the Spotlight After Food Allergy Death.
+https://allergenbureau.net/online-food- ordering-platforms-in-the-spotlight-after- food-allergy-death/.
+
+Acknowledgements
+
+The authors would like to extend their gratitude to Dr Belinda Reeve for their insightful discussion and feedback which enriched the ideas presented in this paper.
+
+Funding
+
+S.J. is supported on a Research Training Program Stipend Scholarship and a Postgraduate Research Scholarship from the King and Amy OMalley Trust.
+A.R.T. is supported by a Postgraduate Research Scholarship in Adolescent Health and Nutrition
+
+from the University of Sydney. LV is supported in part by the Canada Research Chairs program.
+A.A.G. is supported by Investigator Grant from the Australian National Health and Medical Research Council (NHMRC) (AAP1173784). GS is a recipient of a NHMRC Emerging Leadership Fellowship (2021/GNT2008535). S.R.P. is supported by a Sydney Horizon Fellowship and a National Heart Foundation Future Leader Fellowship [Grant number: 106646]. PF is supported in part by a Sydney University Faculty of Medicine and Health Bright Ideas grant. This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+Author information
+
+Alice A. Gibson and Stephanie R. Partridge contributed equally to this work.
+Authors and Affiliations
+Sydney School of Nursing and Midwifery, Faculty of Medicine and Health, The University of Sydney, Camperdown, NSW, Australia
+Si Si Jia, Allyson R. Todd & Stephanie R. Partridge
+
+Charles Perkins Centre, The University of Sydney, Camperdown, NSW, Australia
+Si Si Jia, Allyson R. Todd, Penny Farrell, Margaret Allman-Farinelli, Alice A. Gibson & Stephanie R. Partridge
+School of Nutrition, Faculty of Agricultural and Food Sciences, Universit Laval, Quebec, QC, Canada
+Lana Vanderlee
+
+Menzies Centre for Policy and Economics, School of Public Health, Faculty of Medicine and Health, The University of Sydney, Camperdown, NSW, Australia Penny Farrell & Alice A. Gibson
+Discipline of Nutrition and Dietetics, Sydney School of Nursing and Midwifery, Faculty of Medicine and Health, The University of Sydney, Camperdown, NSW, Australia
+Margaret Allman-Farinelli
+
+Global Centre for Preventive Health and Nutrition (GLOBE), Deakin University, Burwood, VIC, Australia
+Gary Sacks
+
+Contributions
+S.J.  Conceptualization, Literature search, Title, abstract and full-text screening, Data extraction, Writing  Original Draft, Writing  Review & Editing. A.R.T  Title, abstract and full-text screening, Writing  Review & Editing. S.R.P and
+A.A.G  Supervision, Writing  Review & Editing. P.F., M.A-F., L.V. and G.S.  Writing  Review & Editing. All authors have read and approved the final manuscript.
+Corresponding author
+Correspondence to Si Si Jia.
+Ethics declarations
+
+Ethics approval and consent to participate
+Not applicable.
+
+Consent for publication
+Not applicable.
+
+Competing interests
+The authors declare no competing interests.
+Additional information
+
+Publishers Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Supplementary Information
+
+12916_2024_3747_MOESM1_ESM.doc
+x
+Additional file 1: Tables S1  S2. Table S1: Preferred Reporting Items for Systematic reviews and Meta- Analyses extension for Scoping Reviews (PRISMA- ScR) Checklist. Table S2: Full Medline Search Strategy.
+
+Rights and permissions
+
+Open Access This article is licensed under a Creative Commons Attribution-NonCommercial- NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the articles Creative Commons licence, unless indicated otherwise in a credit line to
+
+the material. If material is not included in the articles Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc- nd/4.0/.
+Reprints and permissions
+About this article
+
+Cite this article
+Jia, S.S., Todd, A.R., Vanderlee, L. et al. Offline to online: a systematic mapping review of evidence to inform
+nutrition-related policies applicable to online food delivery platforms. BMC Med 22, 542 (2024). https://doi.org/10.1186/s12916-024-03747-8
+
+
+Received
+16 August 2024
+
+Accepted 31 October
+2024
+
+Published
+18 November
+2024
+
+
+DOI
+https://doi.org/10.1186/s12916-024-03747-8
+Share this article
+Anyone you share the following link with will be able to read this content:
+
+
+Provided by the Springer Nature SharedIt content-sharing initiative
+
+Keywords
+Digital food environment	Online food delivery
+
+OFD	Public policy	Nutrition policy
+
+Food away from home
+
+
+
+BMC Medicine
+ISSN: 1741-7015
+
+Contact us
+General enquiries:  journalsubmissions@springernature.com
+
+
+
+Read more on our blogs Receive BMC newsletters Manage article alerts
+Language editing for authors Scientific editing for authors
+
+Policies
+Accessibility Press center
+
+Support and Contact Leave feedback
+Careers
+
+
+Follow BMC
+
+
+By using this website, you agree to our Terms and Conditions, Your US state privacy rights, Privacy
+statement and Cookies policy. Your privacy choices/Manage cookies we use in the preference centre.
+
+
+ 2025 BioMed Central Ltd unless otherwise stated. Part of Springer Nature.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

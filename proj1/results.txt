@@ -1,0 +1,30 @@
+You are a helpful assistant. Use the information in the context below to answer the question.
+
+Context:
+food units, employee health, and donated food distributing organizations. The members of each of these subcommittees represented affected stakeholders and evaluated the impacts of 
+ significant stakeholders:
+
+Customers	Restaurants	Delivery agents
+
+The process flow begins by customers signing up with the Uber Eats platform to find several options for restauran
+ significant stakeholders:
+
+Customers	Restaurants	Delivery agents
+
+The process flow begins by customers signing up with the Uber Eats platform to find several options for restauran
+uestions: What are the key customer requirements that ensure their satisfaction with online food delivery services and their propensity to endorse these services to others? and How
+
+
+(i) Each local agency using a retail food delivery system must issue food instruments, cash-value vouchers, or electronic benefits, as applicable, to the participant at
+arkets/Temporary Food Vendors
+* Grocers
+* Local Health Jurisdictions
+* Mobile Food Unit Operators
+* Restaurants
+
+* Schools
+* State Agencies/Facilities
+* Tribes
+* U.S. Food and Drug
+
+Question: I'm building a food delivery service, who are all the stakeholders I should possibly know about?

@@ -1,0 +1,1727 @@
+
+Here's how you know
+
+
+
+
+
+
+
+Publication 15-B - Introductory Material
+	Future Developments
+	What's New 	Reminders
+	Introduction
+	Comments and suggestions.
+
+Publication 15-B - Main Contents
+1. Fringe Benefit Overview
+	Performance of services.
+	Provider of benefit.
+	Recipient of benefit.
+	Are Fringe Benefits Taxable?
+	Including taxable benefits in pay.
+	Cafeteria Plans
+	Qualified benefits.
+
+Publication 15-B (2025), Employer's Tax Guide to Fringe Benefits
+For use in 2025
+
+
+Publication 15-B - Introductory Material
+
+Future Developments
+For the latest information about developments related to Pub. 15-B, such as legislation enacted after it was published, go to IRS.gov/Pub15B.
+
+What's New
+Cents-per-mile rule. The business mileage rate for 2025 is 70 cents per mile. You may use this rate to reimburse an employee for business use of a personal vehicle, and under certain conditions, you may use the rate under the cents-per- mile rule to value the personal use of a vehicle you provide to an employee. See Cents-Per-Mile Rule in section 3.
+Qualified parking exclusion and commuter transportation benefit. For 2025, the monthly exclusion for qualified parking is $325 and the monthly exclusion for commuter highway vehicle transportation and transit passes is $325. See Qualified Transportation Benefits in section 2.
+Contribution limit on a health flexible spending arrangement (FSA). For plan years beginning in 2025, a cafeteria plan may not allow an employee to request salary reduction contributions for a health FSA in excess of $3,300.
+
+Benefits not allowed.
+
+Reminders
+Moving expense reimbursements. P.L. 115-97, Tax Cuts and Jobs Act, suspends
+
+Contributionthe exclusion for qualified moving expense reimbursements from your
+
+limit on a health FSA.
+Use- or- lose rule for health FSAs.
+Employee. Exception for S
+
+employee's income for tax years beginning after 2017 and before 2026. However, the exclusion is still available in the case of a member of the U.S. Armed Forces on active duty who moves because of a permanent change of station due to a military order. The exclusion applies only to reimbursement of moving expenses that the member could deduct if they had paid or incurred them without reimbursement. See Moving Expenses in Pub. 3, Armed Forces' Tax Guide, for the definition of what constitutes a permanent change of station and to learn which moving expenses are deductible.
+Bicycle commuting reimbursements. P.L. 115-97 suspends the exclusion of qualified bicycle commuting reimbursements from your employee's income for tax years beginning after 2017 and before 2026. See Transportation (Commuting) Benefits in section 2.
+
+corporationWithholding on supplemental wages. P.L. 115-97 lowered the federal income shareholdertsa.x withholding rates on supplemental wages for tax years beginning after 2017
+
+Plans that favor highly
+
+and before 2026. See Withholding and depositing taxes in section 4 for the withholding rates.
+Form 1099-NEC, Nonemployee Compensation. Use Form 1099-NEC to report nonemployee compensation paid in 2024. The 2024 Form 1099-NEC is due
+
+compensateJdanuary 31, 2025. employees.
+
+Plans that favor key
+
+Additional permitted election changes for health coverage under a cafeteria plan. Notice 2014-55, 2014-41 I.R.B. 672, available at IRS.gov/irb/2014- 41_IRB#NOT-2014-55, expands the application of the permitted change rules for health coverage under a cafeteria plan and discusses two specific situations in
+
+employees. which a cafeteria plan participant is permitted to revoke their election under a
+
+Simple Cafeteria Plans for Small Businesses
+	Eligible employer.
+	Eligibility and
+
+cafeteria plan during a period of coverage.
+Definition of marriage. A marriage of two individuals is recognized for federal tax purposes if the marriage is recognized by the state or territory of the United States in which the marriage is entered into, regardless of legal residence. Two individuals who enter into a relationship that is denominated as a marriage under the laws of a foreign jurisdiction are recognized as married for federal tax purposes if the relationship would be recognized as a marriage under the laws of at least one state or territory of the United States, regardless of legal residence.
+Individuals who have entered into a registered domestic partnership, civil union,
+
+participationor other similar relationship that isn't denominated as a marriage under the law requirementosf. the state or territory of the United States where such relationship was entered
+
+Contributioninto aren't lawfully married for federal tax purposes, regardless of legal requirementrse.sidence. Notice 2014-1 discusses how certain rules for cafeteria plans,
+More	including health and dependent care FSAs, and health savings accounts (HSAs)
+informationa. pply to same-sex spouses participating in employee benefit plans. Notice 2014-
+
+2. Fringe Benefit Exclusion Rules
+
+	Accident and Health Benefits
+	Accident or health plan.
+	Employee.
+	Special rule for certain
+
+1, 2014-2 I.R.B. 270, is available at IRS.gov/irb/2014-02_IRB#NOT-2014-1.
+Getting tax forms, instructions, and publications. Go to IRS.gov/Forms to download current and prior-year forms, instructions, and publications.
+Ordering tax forms, instructions, and publications. Go to IRS.gov/OrderForms to order current forms, instructions, and publications; call 800-829-3676 to order prior-year forms and instructions. The IRS will process your order as soon as possible. Dont resubmit requests you've already sent us. You can get forms, instructions, and publications faster online.
+Getting answers to your tax questions. If you have a tax question not answered by this publication, check IRS.gov and How To Get Tax Help at the end of this publication.
+Photographs of missing children. The IRS is a proud partner with the National Center for Missing & Exploited Children (NCMEC) . Photographs of missing children selected by the Center may appear in this publication on pages that
+
+governmentwould otherwise be blank. You can help bring these children home by looking at
+
+plans. Exception for S
+
+the photographs and calling 1-800-THE-LOST (1-800-843-5678) if you recognize a child.
+
+corporationIntroduction
+shareholders.
+
+Exclusion from wages.
+Exception for certain long- term
+care benefits. S
+
+This publication supplements Pub. 15, Employer's Tax Guide, and Pub. 15-A, Employer's Supplemental Tax Guide. It contains information for employers on the employment tax treatment of fringe benefits.
+Comments and suggestions. We welcome your comments about this publication and your suggestions for future editions.
+You can send us comments through IRS.gov/FormComments. Or you can write to:
+
+Internal Revenue Service Tax Forms and Publications
+
+corporation1111 Constitution Ave. NW, IR-6526
+shareholderWs.ashington, DC 20224 Exception
+for highly
+
+compensateAdlthough we can't respond individually to each comment received, we do employees. appreciate your feedback and will consider your comments and suggestions as
+
+COBRA
+premiums. Qualified small employer health
+
+we revise our tax forms, instructions, and publications. Dont send tax questions, tax returns, or payments to this address.
+
+Publication 15-B - Main Contents
+
+1. Fringe Benefit Overview
+
+reimbursement
+arrangemenAtsfringe benefit is a form of pay for the performance of services. For example, you (QSEHRAs). provide an employee with a fringe benefit when you allow the employee to use a
+
+Eligible employer. Reporting
+
+business vehicle to commute to and from work.
+Performance of services. A person who performs services for you doesn't have to be your employee. A person may perform services for you as an independent
+
+requirements.
+
+Achievement Awards
+	Employee.
+	Exception for S
+
+contractor, partner, or director. Also, for fringe benefit purposes, treat a person who agrees not to perform services (such as under a covenant not to compete) as performing services.
+Provider of benefit. Youre the provider of a fringe benefit if it is provided for services performed for you. Youre considered the provider of a fringe benefit
+
+corporationeven if a third party, such as your client or customer, provides the benefit to your
+shareholderesm. ployee for services the employee performs for you. For example, if, in
+
+	Exclusion from wages.
+	Deduction limit.
+Adoption Assistance
+	Exception
+for S corporation
+
+exchange for goods or services, your customer provides daycare services as a fringe benefit to your employees for services they provide for you as their employer, then youre the provider of this fringe benefit even though the customer is actually providing the daycare.
+Recipient of benefit. The person who performs services for you is considered the recipient of a fringe benefit provided for those services. That person may be considered the recipient even if the benefit is provided to someone who didn't perform services for you. For example, your employee may be the recipient of a fringe benefit you provide to a member of the employee's family.
+
+shareholderAs.re Fringe Benefits Taxable?
+More
+informationA. ny fringe benefit you provide is taxable and must be included in the recipient's
+
+Athletic Facilities
+	On- premises facility.
+	Employee.
+
+pay unless the law specifically excludes it. Section 2 discusses the exclusions that apply to certain fringe benefits. Any benefit not excluded under the rules discussed in section 2 is taxable.
+Including taxable benefits in pay. You must include in a recipient's pay the amount by which the value of a fringe benefit is more than the sum of the following amounts.
+
+De Minimis (Minimal) Benefits
+	Employee. Dependent Care Assistance
+	Employee.
+	Exclusion from wages.
+	Exception for
+highly compensat employees.
+	Form W-2.
+	Example. Educational Assistance
+	Exclusion for employer payments of student
+loans.
+
+	Any amount the law excludes from pay.
+	Any amount the recipient paid for the benefit.
+The rules used to determine the value of a fringe benefit are discussed in section 3.
+If the recipient of a taxable fringe benefit is your employee, the benefit is generally subject to employment taxes and must be reported on Form W-2, Wage and Tax Statement. However, you can use special rules to withhold, deposit, and report the employment taxes. These rules are discussed in section 4.
+If the recipient of a taxable fringe benefit isn't your employee, the benefit isn't subject to employment taxes. However, you may have to report the benefit on one of the following information returns.
+
+IF the recipient receives
+the benefit as...
+THEN use...
+an independent contractor
+Form 1099-NEC.
+a partner
+Schedule K-1 (Form 1065), Partner's Share of
+Income, Deductions, Credits, etc.
+
+For more information, see the instructions for the forms listed above.
+
+Cafeteria Plans
+A cafeteria plan, including an FSA, provides participants an opportunity to receive qualified benefits on a pre-tax basis. It is a written plan that allows your employees to choose between receiving cash or taxable benefits, instead of certain qualified benefits for which the law provides an exclusion from wages. If an employee chooses to receive a qualified benefit under the plan, the fact that the employee could have received cash or a taxable benefit instead won't make
+
+Educationalthe qualified benefit taxable.
+
+assistance program. Employee. Exclusion from wages.
+Assistance over
+$5,250.
+Self- employed individuals,
+
+Generally, a cafeteria plan doesn't include any plan that offers a benefit that defers pay. However, a cafeteria plan can include a qualified 401(k) plan as a benefit. Also, certain life insurance plans maintained by educational institutions can be offered as a benefit even though they defer pay.
+Qualified benefits. A cafeteria plan can include the following benefits discussed in section 2.
+	Accident and health benefits (but not Archer medical savings accounts (Archer MSAs) or long-term care insurance).
+	Adoption assistance.
+	Dependent care assistance.
+	Group-term life insurance coverage (including costs that can't be
+
+shareholders,
+
+excluded from wages).
+
+and owners.
+Employee Discounts
+	Employee.
+	Exclusion from wages.
+	Exception for
+highly
+
+	HSAs. Distributions from an HSA may be used to pay eligible long-term care insurance premiums or to pay for qualified long-term care services.
+Benefits not allowed. A cafeteria plan can't include the following benefits discussed in section 2.
+	Archer MSAs. See Accident and Health Benefits in section 2. 	Athletic facilities.
+	De minimis (minimal) benefits. 	Educational assistance.
+	Employee discounts.
+	Employer-provided cell phones.
+
+compensated employees.
+Employee Stock Options
+	Employee stock
+
+Lodging on your business premises. Meals.
+No-additional-cost services. Retirement planning services. Transportation (commuting) benefits. Tuition reduction.
+Working condition benefits.
+
+options aren't subject to Railroad
+
+It also can't include scholarships or fellowships (discussed in Pub. 970).
+Contribution limit on a health FSA. For plan years beginning in 2025, a cafeteria plan may not allow an employee to request salary reduction contributions for a health FSA in excess of $3,300.
+
+Retirement A cafeteria plan that doesn't limit health FSA contributions to the dollar limit
+
+Tax. Section 83(i)
+election to
+defer income on equity grants.
+Reporting
+
+isn't a cafeteria plan and all benefits offered under the plan are includible in the employee's gross income.
+For more information, see Notice 2012-40, 2012-26 I.R.B. 1046, available at IRS.gov/irb/2012-26_IRB#NOT-2012-40.
+Use-or-lose rule for health FSAs. Instead of a grace period, you may, at your option, amend your cafeteria plan to allow an employee's unused contributions to carry over to the immediately following plan year. For more information, see Notice 2013-71, 2013-47 I.R.B. 532, available at IRS.gov/irb/2013-47_IRB#NOT-
+2013-71; and Notice 2020-33, 2020-22 I.R.B. 868, available at IRS.gov/irb/2020- 22_IRB#NOT-2020-33.
+
+requirementEsm.
+	More information.
+Employer- Provided Cell Phones
+
+ployee. For these plans, treat the following individuals as employees.
+
+	A current common-law employee. See section 2 in Pub. 15.
+	A full-time life insurance agent who is a current statutory employee.
+	A leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your primary direction or control.
+
+NoncompenEsxacteoprytion for S corporation shareholders. Don't treat a 2% shareholder of an S
+
+business purposes. Cell phones provided to promote goodwill, boost morale, or
+attract
+prospective
+
+corporation as an employee of the corporation for this purpose. A 2% shareholder for this purpose is someone who directly or indirectly owns (for any day during the tax year) more than 2% of the corporation's stock or stock with more than 2% of the voting power. Treat a 2% shareholder as you would a partner in a partnership for fringe benefit purposes, but don't treat the benefit as a reduction in distributions to the 2% shareholder. For more information, see Revenue Ruling 91-26, 1991-1 C.B. 184.
+Plans that favor highly compensated employees. If your plan favors highly compensated employees as to eligibility to participate, contributions, or benefits, you must include in their wages the value of taxable benefits they could have selected. A plan you maintain under a collective bargaining agreement doesn't favor highly compensated employees.
+
+employees. A highly compensated employee for this purpose is any of the following
+Additional employees.
+
+information.
+Group- Term Life Insurance Coverage
+	Employee.
+	Exception
+1. 
+An officer.
+2. A shareholder who owns more than 5% of the voting power or value of all classes of the employer's stock.
+3. An employee who is highly compensated based on the facts and circumstances.
+4. A spouse or dependent of a person described in (1), (2), or (3).
+
+for S
+
+Plans that favor key employees. If your plan favors key employees, you must
+
+corporationinclude in their wages the value of taxable benefits they could have selected. A shareholderps.lan favors key employees if more than 25% of the total of the nontaxable
+
+The 10-
+employee rule.
+
+benefits you provide for all employees under the plan go to key employees. However, a plan you maintain under a collective bargaining agreement doesn't favor key employees.
+A key employee during 2025 is generally an employee who is either of the
+
+Exceptions. following.
+Exclusion
+
+from wages. Coverage over
+the limit.
+Coverage for
+1. 
+An officer having annual pay of more than $230,000.
+2. An employee who for 2025 is either of the following.
+
+a. A 5% owner of your business.
+b. A 1% owner of your business whose annual pay is more than
+$150,000.
+
+Simple Cafeteria Plans for Small Businesses
+
+dependents.
+
+Former	Eligible employers meeting contribution requirements and eligibility and
+employees. participation requirements can establish a simple cafeteria plan. Simple
+Exception	cafeteria plans are treated as meeting the nondiscrimination requirements of a for key	cafeteria plan and certain benefits under a cafeteria plan.
+employees. Eligible employer. Youre an eligible employer if you employed an average of
+S	100 or fewer employees during either of the 2 preceding years. If your business
+corporationwasn't in existence throughout the preceding year, youre eligible if you shareholderrse.asonably expect to employ an average of 100 or fewer employees in the
+
+Health
+Savings Accounts (HSAs)
+	Eligibility.
+
+current year. If you establish a simple cafeteria plan in a year that you employ an average of 100 or fewer employees, youre considered an eligible employer for any subsequent year until the year after you employ an average of 200 or more employees.
+
+Exceptions. Eligibility and participation requirements. These requirements are met if all
+Employer	employees who had at least 1,000 hours of service for the preceding plan year
+contributionasr.e eligible to participate and each employee eligible to participate in the plan
+Nondiscrimimnaatyioenlect any benefit available under the plan. You may elect to exclude from
+
+rules. Exception.
+
+the plan employees who:
+
+1. Are under age 21 before the close of the plan year,
+
+Partnerships and S corporations. Cafeteria plans.
+Reporting requirements.
+More
+2. 
+Have less than 1 year of service with you as of any day during the plan year,
+3. Are covered under a collective bargaining agreement if there is evidence that the benefits covered under the cafeteria plan were the subject of good-faith bargaining, or
+4. Are nonresident aliens working outside the United States whose income didn't come from a U.S. source.
+
+informationC. ontribution requirements. You must make a contribution to provide qualified
+
+Lodging on Your Business Premises
+	On your
+business premises.
+	For
+your
+
+benefits on behalf of each qualified employee in an amount equal to:
+
+1. A uniform percentage (not less than 2%) of the employees compensation for the plan year; or
+2. An amount that is at least 6% of the employees compensation for the plan year or twice the amount of the salary reduction contributions of each qualified employee, whichever is less.
+If the contribution requirements are met using option (2), the rate of contribution to any salary reduction contribution of a highly compensated or key employee can't be greater than the rate of contribution to any other employee.
+
+convenienceM. ore information. For more information about cafeteria plans, see section 125
+
+Condition of
+
+of the Internal Revenue Code and its regulations.
+
+employment.
+
+S
+corporation
+2. 
+Fringe Benefit Exclusion Rules
+
+shareholderTs.his section discusses the exclusion rules that apply to fringe benefits. These
+
+Meals
+	De Minimis Meals
+
+rules exclude all or part of the value of certain benefits from the recipient's pay.
+In most cases, the excluded benefits aren't subject to federal income tax withholding, social security tax, Medicare tax, federal unemployment tax under the Federal Unemployment Tax Act (FUTA), or Railroad Retirement Tax Act
+
+Employee.
+(RRTA) taxes and aren't reported on Form W-2.
+Employer-
+operatedThis section discusses the exclusion rules for the following fringe benefits.
+
+eating facility	 for employees.
+	Exclusion  from  wages.  
+
+	Exception  for
+highly	 compensated employees.
+Meals on Your
+Business	
+Premises	 	On
+your	 business	
+
+
+Accident and health benefits. Achievement awards.
+Adoption assistance. Athletic facilities.
+De minimis (minimal) benefits. Dependent care assistance.
+Educational assistance. Employee discounts.
+Employee stock options. Employer-provided cell phones.
+Group-term life insurance coverage. HSAs.
+Lodging on your business premises. Meals.
+No-additional-cost services. Retirement planning services. Transportation (commuting) benefits. Tuition reduction.
+Working condition benefits.
+
+premiseSs.ee Table 2-1 for an overview of the employment tax treatment of these benefits.
+For your
+convenience. Meals excluded
+for all
+employees if
+excluded for
+
+more than half. Food service employ Employ availabl for emerge calls.
+Short meal
+
+Table 2-1. Special Rules for Various Types of Fringe Benefits (For more information, see the full discussion in this section.)
+
+periods. Proper meals not otherwi availabl Meals after work hours. Meals you furnish to promot goodwil boost morale, or attract prospec employ Meals furnishe on nonwor or
+with lodging.
+
+
+
+
+
+
+
+
+
+
+No-
+
+Meals with a
+charge. S
+corpora shareho
+
+Additional- Cost Services
+	Substantial additional costs.
+Reciprocal agreements Employee. Exclusion from wages.
+	Exception for
+highly compensate employees.
+Retirement Planning Services Transportation (Commuting) Benefits
+	De Minimis
+Transportat
+Benefits
+   	Employ 	Qualified
+Transportation Benefits
+	Compensation reduction agreements.
+
+Commu 6 You must include in your employee's wages the cost of group-term life highway insurance beyond $50,000 worth of coverage, reduced by the amount the
+
+vehicle. Transit pass.
+Qualifie
+parking.
+
+employee paid toward the insurance. Report it as wages in boxes 1, 3, and 5 of the employee's Form W-2. Also, show it in box 12 with code C. The amount is subject to social security and Medicare taxes, and you may, at your option, withhold federal income tax.
+
+EmployeAec. cident and Health Benefits
+ExceptioTnhis exclusion applies to contributions you make to an accident or health plan
+
+for S
+
+for an employee, including the following.
+
+corporation shareholders. Relation	 to
+other	
+
+Contributions to the cost of accident or health insurance including qualified long-term care insurance.
+Contributions to a separate trust or fund that directly or through insurance provides accident or health benefits.
+Contributions to Archer MSAs or HSAs (discussed in Pub. 969).
+
+fringe	This exclusion also applies to payments you directly or indirectly make to an
+benefits.
+employee under an accident or health plan for employees that are either of the
+Exclusion
+
+from wages.
+
+following.
+
+	Payments or reimbursements of medical expenses.
+
+Benefits more than
+
+Payments for specific permanent injuries (such as the loss of the use of an arm or leg). The payments must be figured without regard to the period the employee is absent from work.
+
+the limit. More
+
+Accident or health plan. This is an arrangement that provides benefits for your employees, their spouses, their dependents, and their children (under age 27 at the end of the tax year) in the event of personal injury or sickness. The plan may
+
+
+Tuition
+
+information.
+be insured or noninsured and doesn't need to be in writing.
+
+Reduction Working Condition Benefits
+	Employee.
+	Vehicle allocation rules.
+	Business use of your
+car.
+
+Employee. For this exclusion, treat the following individuals as employees.
+
+	A current common-law employee.
+	A full-time life insurance agent who is a current statutory employee. 	A retired employee.
+	A former employee you maintain coverage for based on the employment relationship.
+	A surviving spouse of an individual who died while an employee. 	A surviving spouse of a retired employee.
+	For the exclusion of contributions to an accident or health plan, a leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your primary direction or control.
+
+DemonstratoSrpecial rule for certain government plans. For certain government accident and
+cars.	health plans, payments to a deceased employee's beneficiary may qualify for the Qualified	exclusion from gross income if the other requirements for exclusion are met. See
+nonpersonaslection 105(j) for details.
+
+use vehicles. Pickup trucks. Vans.
+Education.
+
+Exception for S corporation shareholders. Don't treat a 2% shareholder of an S corporation as an employee of the corporation for this purpose. A 2% shareholder is someone who directly or indirectly owns (for any day during the tax year) more than 2% of the corporation's stock or stock with more than 2% of the voting power. Treat a 2% shareholder as you would a partner in a partnership for fringe benefit purposes, but don't treat the benefit as a reduction in
+
+Outplacemednitstributions to the 2% shareholder. For more information, see Revenue Ruling
+
+services. Product testing. Exclusion from wages.
+Exception
+for
+
+91-26, 1991-1 C.B. 184.
+Exclusion from wages. You can generally exclude the value of accident or health benefits you provide to an employee from the employee's wages.
+Exception for certain long-term care benefits. You can't exclude contributions to the cost of long-term care insurance from an employee's wages subject to federal income tax withholding if the coverage is provided through a flexible spending or similar arrangement. This is a benefit program that reimburses
+
+independenstpecified expenses up to a maximum amount that is reasonably available to the
+contractors employee and is less than five times the total cost of the insurance. However, you
+
+who perform services for
+you.
+	Exception for company directors.
+3. Fringe Benefit Valuation Rules
+	General Valuation Rule
+	FMV.
+	Business aircraft.
+	Employer- provided
+
+can exclude these contributions from the employee's wages subject to social security, Medicare, and FUTA taxes.
+S corporation shareholders. Because you can't treat a 2% shareholder of an S corporation as an employee for this exclusion, you must include the value of accident or health benefits you provide to the employee in the employee's wages subject to federal income tax withholding. However, you can exclude the value of these benefits (other than payments for specific injuries or illnesses not made under a plan set up to benefit all employees or certain groups of employees) from the employee's wages subject to social security, Medicare, and FUTA taxes. See Announcement 92-16 for more information. You can find Announcement 92-16 on page 53 of Internal Revenue Bulletin 1992-5.
+Exception for highly compensated employees. If your plan is a self-insured medical reimbursement plan that favors highly compensated employees, you must include all or part of the amounts you pay to these employees in box 1 of Form W-2. However, you can exclude these amounts (other than payments for specific injuries or illnesses not made under a plan set up to benefit all employees or certain groups of employees) from the employee's wages subject to income tax withholding and social security, Medicare, and FUTA taxes.
+A self-insured plan is a plan that reimburses your employees for medical expenses not covered by an accident or health insurance policy.
+
+vehicles.
+Cents-Per- Mile Rule
+	Vehicle.
+	Regular use in your trade or
+business.
+	Mileage test.
+
+A highly compensated employee for this exception is any of the following individuals.
+	One of the five highest paid officers.
+	An employee who owns (directly or indirectly) more than 10% in value of the employer's stock.
+	An employee who is among the highest paid 25% of all employees (other than those who can be excluded from the plan).
+For more information on this exception, see section 105(h) of the Internal Revenue Code and its regulations.
+COBRA premiums. The exclusion for accident and health benefits applies to amounts you pay to maintain medical coverage for a current or former employee
+
+Consistencyunder the Combined Omnibus Budget Reconciliation Act of 1986 (COBRA). The requirementesx.clusion applies regardless of the length of employment, whether you directly
+
+	Items
+included in
+cents- per- mile rate.
+Commuting Rule
+	Vehicle.
+	Control employee.
+	Highly
+
+pay the premiums or reimburse the former employee for premiums paid, and whether the employee's separation is permanent or temporary.
+Qualified small employer health reimbursement arrangements (QSEHRAs). QSEHRAs allow eligible small employers to pay or reimburse medical care expenses, including health insurance premiums, of eligible employees and their family members. A QSEHRA isnt a group health plan, and, therefore, isn't subject to group health plan requirements. Generally, payments from a QSEHRA to reimburse an eligible employees medical expenses arent includible in the employees gross income if the employee has coverage that provides minimum essential coverage, as defined in section 5000A(f) of the Internal Revenue Code.
+A QSEHRA is an arrangement that meets all the following requirements.
+
+1. The arrangement is funded solely by you, and no salary reduction
+
+compensated employee alternative.
+Lease Value Rule
+	Automobile.
+	Consistency requirements.
+	Annual Lease Value
+	FMV.
+	Safe- harbor value.
+
+contributions may be made under the arrangement.
+2. The arrangement provides, after the eligible employee provides proof of coverage, for the payment or reimbursement of the medical expenses incurred by the employee or the employees family members.
+3. The amount of payments and reimbursements doesnt exceed $6,350 ($12,800, for family coverage) for 2025.
+4. The arrangement is generally provided on the same terms to all your eligible employees. However, your QSEHRA may exclude employees who havent completed 90 days of service, employees who havent attained age 25 before the beginning of the plan year, part-time or seasonal employees, employees covered by a collective bargaining agreement if health benefits were the subject of good-faith bargaining, and employees who are nonresident aliens with no earned income from sources within the United States.
+
+Items	Eligible employer. To be an eligible employer, you must not be an applicable
+includedlarge employer, which is defined as an employer that generally employed at least
+in	50 full-time employees, including full-time equivalent employees, in the prior
+annual calendar year. You must also not offer a group health plan (including a health
+
+lease value table. Items not
+
+reimbursement arrangement (HRA) or a health FSA) to any of your employees. For more information about the Affordable Care Act and group health plan requirements, go to IRS.gov/ACA. For more information about QSEHRAs, including information about the requirement to give a written notice to each eligible employee, see Notice 2017-67, 2017-47 I.R.B. 517, available at
+
+includedIR. S.gov/irb/2017-47_IRB#NOT-2017-67.
+
+Four- year lease term. Using the
+
+Reporting requirements. You must report in box 12 of Form W-2 using code FF the amount of payments and reimbursements that your employee is entitled to receive from the QSEHRA for the calendar year without regard to the amount of payments or reimbursements actually received. For example, if your QSEHRA provides a permitted benefit of $3,000 and your employee receives reimbursements of $2,000, on Form W-2, you would report a permitted benefit of
+
+special $3,000 in box 12 using code FF. accounting
+rule.	Achievement Awards
+Transferring
+an	This exclusion applies to the value of any tangible personal property you give to
+automobanil employee as an award for either length of service or safety achievement. The
+from	exclusion doesn't apply to awards of cash, cash equivalents, gift cards, gift
+one	coupons, or gift certificates (other than arrangements granting only the right to
+employeselect and receive tangible personal property from a limited assortment of items
+to	preselected or preapproved by you). The exclusion also doesn't apply to
+another.vacations, meals, lodging, tickets to theater or sporting events, stocks, bonds,
+
+	Prorated Annual Lease Value
+	Daily Lease Value
+Unsafe Conditions Commuting Rule
+
+other securities, and other similar items. An achievement award must meet all the following requirements.
+	It is given to an employee for length of service or safety achievement. 	It is awarded as part of a meaningful presentation.
+	It is awarded under conditions and circumstances that don't create a significant likelihood of disguised pay.
+Employee. For this exclusion, treat the following individuals as employees.
+
+	A current employee.
+	A former common-law employee you maintain coverage for in consideration of or based on an agreement relating to prior service as an
+
+Commuting
+transportation. Qualified employee.
+
+employee.
+A leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your
+
+Unsafe	primary direction or control.
+conditions. Exception for S corporation shareholders. Don't treat a 2% shareholder of an S
+
+4. Rules for Withholding, Depositing, and Reporting 		Valuation
+of taxable fringe benefits.
+	Choice of period for withholding, depositing, and reporting.
+	Transfer of property.
+	Withholding and depositing taxes.
+	Additional Medicare Tax withholding.
+	Amount of deposit.
+	Paying your employee's share of social security and Medicare taxes.
+	Special accounting rule.
+	Limitation.
+
+corporation as an employee of the corporation for this purpose. A 2% shareholder is someone who directly or indirectly owns (for any day during the tax year) more than 2% of the corporation's stock or stock with more than 2% of the voting power. Treat a 2% shareholder as you would a partner in a partnership for fringe benefit purposes, but don't treat the benefit as a reduction in distributions to the 2% shareholder. For more information, see Revenue Ruling 91-26, 1991-1 C.B. 184.
+Exclusion from wages. You can generally exclude the value of achievement awards you give to an employee from the employee's wages if their cost isn't more than the amount you can deduct as a business expense for the year. The excludable annual amount is $1,600 ($400 for awards that aren't qualified plan awards).
+Deduction limit. Your deduction for the cost of employee achievement awards given to any one employee during the tax year is limited to the following.
+	$400 for awards that aren't qualified plan awards.
+	$1,600 for all awards, whether or not qualified plan awards.
+A qualified plan award is an achievement award given as part of an established written plan or program that doesn't favor highly compensated employees as to eligibility or benefits.
+A highly compensated employee is an employee who meets either of the following tests.
+1. The employee was a 5% owner at any time during the year or the preceding year.
+2. The employee received more than $155,000 in pay for the preceding year.
+You can choose to ignore test (2) if the employee wasn't also in the top 20% of employees when ranked by pay for the preceding year.
+An award isn't a qualified plan award if the average cost of all the employee achievement awards given during the tax year (that would be qualified plan awards except for this limit) is more than $400. To figure this average cost, ignore awards of nominal value.
+Deduct achievement awards, up to the maximum amounts listed earlier, as a nonwage business expense on your return or business schedule.
+To determine for 2025 whether an achievement award is a qualified plan award under the deduction rules described under Deduction limit above, treat any
+
+	Conformity rules.
+	Special rules for highway motor vehicles.
+	Election not to withhold income tax.
+	Amount to report on Form 941 (or Form 943, 944, or CT-1)
+and Form W-2.
+How To Get Tax Help
+	Preparing and filing your tax return.
+	Need someone to prepare your tax return?
+	Employers can register to use Business Services Online.
+	Business tax account.
+
+employee who received more than $155,000 in pay for 2024 as a highly compensated employee.
+If the cost of awards given to an employee is more than your allowable deduction, include in the employee's wages the larger of the following amounts.
+	The part of the cost that is more than your allowable deduction (up to the value of the awards).
+	The amount by which the value of the awards exceeds your allowable deduction.
+Exclude the remaining value of the awards from the employee's wages.
+
+Adoption Assistance
+An adoption assistance program is a separate written plan of an employer that meets all of the following requirements.
+1. It benefits employees who qualify under rules set up by you, which don't favor highly compensated employees or their dependents. To determine whether your plan meets this test, don't consider employees excluded from your plan who are covered by a collective bargaining agreement if there is evidence that adoption assistance was a subject of good-faith bargaining.
+2. It doesn't pay more than 5% of its payments during the year for shareholders or owners (or their spouses or dependents). A shareholder or owner is someone who owns (on any day of the tax year) more than 5% of the stock or of the capital or profits interest of your business.
+3. You give reasonable notice of the plan to eligible employees.
+4. Employees provide reasonable substantiation that payments or reimbursements are for qualifying expenses.
+For this exclusion, a highly compensated employee for 2025 is an employee who meets either of the following tests.
+1. The employee was a 5% owner at any time during the year or the preceding year.
+2. The employee received more than $155,000 in pay for the preceding year.
+You can choose to ignore test (2) if the employee wasn't also in the top 20% of employees when ranked by pay for the preceding year.
+You must exclude all payments or reimbursements you make under an adoption assistance program for an employee's qualified adoption expenses from the employee's wages subject to federal income tax withholding. However, you can't
+
+IRS social media.
+Online tax information in other languages. Free Over- the-Phone Interpreter (OPI)
+Service. Accessibility Helpline available for taxpayers with disabilities. Disasters.
+Getting tax forms and publications. Getting tax publications and instructions in eBook format.
+Get a transcript of your return.
+Reporting and resolving your tax- related identity theft issues.
+Making a tax
+
+exclude these payments from wages subject to social security, Medicare, and FUTA taxes.
+You must report all qualifying adoption expenses you paid or reimbursed under your adoption assistance program for each employee for the year in box 12 of the employee's Form W-2. Report all amounts including those in excess of the
+$17,280 exclusion for 2025. Use code T to identify this amount.
+Exception for S corporation shareholders. For this exclusion, don't treat a 2% shareholder of an S corporation as an employee of the corporation. A 2% shareholder is someone who directly or indirectly owns (for any day during the tax year) more than 2% of the corporation's stock or stock with more than 2% of the voting power. Treat a 2% shareholder as you would a partner in a partnership for fringe benefit purposes, but don't treat the benefit as a reduction in distributions to the 2% shareholder. For more information, see Revenue Ruling 91-26, 1991-1 C.B. 184.
+More information. For more information on adoption benefits, see Notice 97-9, which is on page 35 of Internal Revenue Bulletin 1997-2 at IRS.gov/pub/irs- irbs/irb97-02.pdf. Advise your employees to see the Instructions for Form 8839.
+
+Athletic Facilities
+You can exclude the value of an employee's use of an on-premises gym or other athletic facility you operate from an employee's wages if substantially all use of the facility during the calendar year is by your employees, their spouses, and their dependent children. For this purpose, an employee's dependent child is a child or stepchild who is the employee's dependent or who, if both parents are deceased, hasn't attained the age of 25. The exclusion doesn't apply to any athletic facility if access to the facility is made available to the general public through the sale of memberships, the rental of the facility, or a similar arrangement.
+On-premises facility. The athletic facility must be located on premises you own or lease and must be operated by you. It doesn't have to be located on your business premises. However, the exclusion doesn't apply to an athletic facility that is a facility for residential use, such as athletic facilities that are part of a resort.
+Employee. For this exclusion, treat the following individuals as employees.
+
+	A current employee.
+	A former employee who retired or left on disability.
+	A surviving spouse of an individual who died while an employee.
+	A surviving spouse of a former employee who retired or left on disability.
+
+payment. What if I cant pay now?
+Understanding an IRS
+notice or letter youve received. IRS
+Document Upload Tool.
+Contacting your local TAC.
+The Taxpayer Advocate Service (TAS) Is
+Here To Help You
+	What Is the Taxpayer Advocate Service?
+	How Can TAS
+Help Me?
+	How Do I Contact TAS?
+	What Are My Rights
+
+	A leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your primary direction or control.
+	A partner who performs services for a partnership.
+
+De Minimis (Minimal) Benefits
+You can exclude the value of a de minimis benefit you provide to an employee from the employee's wages. A de minimis benefit is any property or service you provide to an employee that has so little value (taking into account how frequently you provide similar benefits to your employees) that accounting for it would be unreasonable or administratively impracticable. Cash and cash equivalent fringe benefits (for example, gift certificates, gift cards, and the use of a charge card or credit card), no matter how little, are never excludable as a de minimis benefit. However, meal money and local transportation fare, if provided on an occasional basis and because of overtime work, may be excluded, as discussed later.
+Examples of de minimis benefits include the following.
+
+	Personal use of an employer-provided cell phone provided primarily for noncompensatory business purposes. See Employer-Provided Cell Phones, later in this section, for details.
+	Occasional personal use of a company copying machine if you sufficiently control its use so that at least 85% of its use is for business purposes.
+	Holiday or birthday gifts, other than cash, with a low fair market value (FMV). Also, flowers or fruit or similar items provided to employees under special circumstances (for example, on account of illness, a family crisis, or outstanding performance).
+	Group-term life insurance payable on the death of an employee's spouse or dependent if the face amount isn't more than $2,000.
+	Certain meals. See Meals, later in this section, for details.
+	Occasional parties or picnics for employees and their guests. 	Occasional tickets for theater or sporting events.
+	Certain transportation fare. See Transportation (Commuting) Benefits, later in this section, for details.
+Some examples of benefits that arent excludable as de minimis fringe benefits are season tickets to sporting or theatrical events; the commuting use of an employer-provided automobile or other vehicle more than 1 day a month; membership in a private country club or athletic facility, regardless of the frequency with which the employee uses the facility; and use of employer- owned or -leased facilities (such as an apartment, hunting lodge, boat, etc.) for a
+
+as a Taxpayer?
+
+Publication 15-B - Additional Material
+
+weekend. If a benefit provided to an employee doesn't qualify as de minimis (for example, the frequency exceeds a limit described earlier), then generally the entire benefit must be included in income.
+Employee. For this exclusion, treat any recipient of a de minimis benefit as an employee.
+
+Dependent Care Assistance
+This exclusion applies to household and dependent care services you directly or indirectly pay for or provide to an employee under a written dependent care assistance program (DCAP) that covers only your employees. The services must be for a qualifying person's care and must be provided to allow the employee to work. These requirements are basically the same as the tests the employee would have to meet to claim the dependent care credit if the employee paid for the services. For more information, see Can You Claim the Credit? in Pub. 503.
+Employee. For this exclusion, treat the following individuals as employees.
+
+	A current employee.
+	A leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your primary direction or control.
+	Yourself (if youre a sole proprietor).
+	A partner who performs services for a partnership.
+Exclusion from wages. You can exclude the value of benefits you provide to an employee under a DCAP from the employee's wages if you reasonably believe that the employee can exclude the benefits from gross income.
+An employee can generally exclude from gross income up to $5,000 ($2,500 if married filing separately) of benefits received under a DCAP each year.
+However, the exclusion can't be more than the smaller of the earned income of either the employee or employee's spouse. Special rules apply to determine the earned income of a spouse who is either a student or not able to care for themselves. For more information on the earned income limit, see Pub. 503.
+Exception for highly compensated employees. You can't exclude dependent care assistance from the wages of a highly compensated employee unless the benefits provided under the program don't favor highly compensated employees and the program meets the requirements described in section 129(d) of the Internal Revenue Code.
+For this exclusion, a highly compensated employee for 2025 is an employee who meets either of the following tests.
+
+1. The employee was a 5% owner at any time during the year or the preceding year.
+2. The employee received more than $155,000 in pay for the preceding year.
+You can choose to ignore test (2) if the employee wasn't also in the top 20% of employees when ranked by pay for the preceding year.
+Form W-2. Report the value of all dependent care assistance you provide to an employee under a DCAP in box 10 of the employee's Form W-2. Include any amounts you can't exclude from the employee's wages in boxes 1, 3, and 5.
+Report in box 10 both the nontaxable portion of assistance (up to $5,000) and any assistance above that amount that is taxable to the employee.
+Example. Oak Co. provides a dependent care assistance FSA to its employees through a cafeteria plan. In addition, it provides occasional on-site dependent care to its employees at no cost. Emily, an employee of Oak Co., had $4,500 deducted from her pay for the dependent care FSA. In addition, Emily used the on-site dependent care several times. The FMV of the on-site care was $700.
+Emily's Form W-2 should report $5,200 of dependent care assistance in box 10 ($4,500 FSA plus $700 on-site dependent care). Boxes 1, 3, and 5 should include
+$200 (the amount in excess of the nontaxable assistance), and applicable taxes should be withheld on that amount.
+
+Educational Assistance
+This exclusion applies to educational assistance you provide to employees under an educational assistance program. The exclusion also applies to graduate-level courses.
+Educational assistance means amounts you pay or incur for your employees' education expenses. These expenses generally include the cost of books, equipment, fees, supplies, and tuition. However, these expenses don't include the cost of a course or other education involving sports, games, or hobbies, unless the education:
+	Has a reasonable relationship to your business, or 	Is required as part of a degree program.
+Education expenses don't include the cost of tools or supplies (other than textbooks) your employee is allowed to keep at the end of the course. Nor do they include the cost of lodging, meals, or transportation. Your employee must be able to provide substantiation to you that the educational assistance provided was used for qualifying education expenses.
+Exclusion for employer payments of student loans. Employer-provided educational assistance benefits include payments made after March 27, 2020,
+
+and before January 1, 2026, whether paid to the employee or to a lender, of principal or interest on any qualified education loan incurred by the employee for education of the employee. Qualified education loans are defined in chapter 10 of Pub. 970.
+Educational assistance program. An educational assistance program is a separate written plan that provides educational assistance only to your employees. The program qualifies only if all of the following tests are met.
+	The program benefits employees who qualify under rules set up by you that don't favor highly compensated employees. To determine whether your program meets this test, don't consider employees excluded from your program who are covered by a collective bargaining agreement if there is evidence that educational assistance was a subject of good-faith bargaining.
+	The program doesn't provide more than 5% of its benefits during the year for shareholders or owners (or their spouses or dependents). A shareholder or owner is someone who owns (on any day of the tax year) more than 5% of the stock or of the capital or profits interest of your business.
+	The program doesn't allow employees to choose to receive cash or other benefits that must be included in gross income instead of educational assistance.
+	You give reasonable notice of the program to eligible employees.
+Your program can cover former employees if their employment is the reason for the coverage.
+For this exclusion, a highly compensated employee for 2025 is an employee who meets either of the following tests.
+1. The employee was a 5% owner at any time during the year or the preceding year.
+2. The employee received more than $155,000 in pay for the preceding year.
+You can choose to ignore test (2) if the employee wasn't also in the top 20% of employees when ranked by pay for the preceding year.
+Employee. For this exclusion, treat the following individuals as employees.
+
+	A current employee.
+	A former employee who retired, left on disability, or was laid off.
+	A leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your primary direction or control.
+	Yourself (if youre a sole proprietor).
+	A partner who performs services for a partnership.
+
+Exclusion from wages. You can exclude up to $5,250 of educational assistance you provide to an employee under an educational assistance program from the employee's wages each year.
+Assistance over $5,250. If you don't have an educational assistance plan, or you provide an employee with assistance exceeding $5,250, you must include the value of these benefits as wages, unless the benefits are working condition benefits. Working condition benefits may be excluded from wages. Property or a service provided is a working condition benefit to the extent that if the employee paid for it, the amount paid would have been allowable as a business or depreciation expense. See Working Condition Benefits, later in this section.
+Self-employed individuals, shareholders, and owners. While there are no specific income limits for receiving educational assistance benefits, an educational assistance program must satisfy certain requirements under section 127 of the Internal Revenue Code and Regulations section 1.127-2, including not being discriminatory in favor of employees who are highly compensated employees. An individual who is self-employed within the meaning of section 401(c)(1) of the Internal Revenue Code may receive educational assistance. While shareholders and owners may receive educational assistance, not more than 5% of the amounts paid or incurred by the employer for educational assistance during the year may be provided for the class of individuals who are shareholders or owners (or their spouses or dependents), each of whom (on any day of the tax year) owns more than 5% of the stock or of the capital or profits interest in the employer.
+If the owners are the only employees, they can't receive educational assistance under section 127 of the Internal Revenue Code because of the 5% benefit limitation described above. The following formula can be used to determine the amount of educational assistance that an owner/employee can receive. Multiply the total amount of educational assistance provided to employees other than the owner/employee by 5.263158% (0.05263158). Then round down to two decimal places, but not greater than $5,250.
+Example. A company has a single owner/employee and 19 other employees. If each employee (other than the owner/employee) claims the educational assistance and receives the full $5,250, the owner/employee may also receive
+$5,250. The total amount of educational assistance provided to employees (other than the owner/employee) is $5,250 x 19 = $99,750. $99,750 x .05263158 =
+$5,250.000105 (rounded down to two decimal places is $5,250.00). If the owner/employee receives $5,250 in educational assistance, then the 5% benefit limitation would be satisfied. The total amount of educational assistance provided under the program is $99,750 + $5,250 = $105,000, and 5% of $105,000 is $5,250.
+
+However, if not every employee receives the full $5,250, the amount the owner/employee may exclude is reduced. If only eight of the employees (other than the owner/employee) receive $5,250, then the total amount of educational assistance provided to employees (other than the owner/employee) is 8 x $5,250
+= $42,000. $42,000 x .05263158 = $2,210.52636 (rounded down to two decimal places is $2,210.52). If the owner/employee receives $2,210.52 in educational assistance, then the 5% benefit limitation would be satisfied. The total amount of educational assistance provided under the program is $42,000 + $2,210.52 =
+$44,210.52, and 5% of $44,210.52 is approximately $2,210.52.
+
+Employee Discounts
+This exclusion applies to a price reduction you give your employee on property or services you offer to customers in the ordinary course of the line of business in which the employee performs substantial services. It applies whether the property or service is provided at no charge (in which case only part of the discount may be excludable as a qualified employee discount) or at a reduced price. It also applies if the benefit is provided through a partial or total cash rebate.
+The benefit may be provided either directly by you or indirectly through a third party. For example, an employee of an appliance manufacturer may receive a qualified employee discount on the manufacturer's appliances purchased at a retail store that offers the appliances for sale to customers.
+Employee discounts don't apply to discounts on real property or discounts on personal property of a kind commonly held for investment (such as stocks or bonds). They also don't include discounts on a line of business of the employer for which the employee doesn't provide substantial services, or discounts on property or services of a kind that aren't offered for sale to customers. Therefore, discounts on items sold in an employee store that aren't sold to customers aren't excluded from employee income. Also, employee discounts provided by another employer through a reciprocal agreement aren't excluded.
+Employee. For this exclusion, treat the following individuals as employees.
+
+	A current employee.
+	A former employee who retired or left on disability.
+	A surviving spouse of an individual who died while an employee.
+	A surviving spouse of an employee who retired or left on disability.
+	A leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your primary direction or control.
+	A partner who performs services for a partnership.
+
+Treat discounts you provide to the spouse or dependent child of an employee as provided to the employee. For this fringe benefit, dependent child is a child or stepchild who is the employee's dependent or who, if both parents are deceased, hasn't attained the age of 25. Treat a child of divorced parents as a dependent of both parents.
+Exclusion from wages. You can generally exclude the value of an employee discount you provide an employee from the employee's wages, up to the following limits.
+	For a discount on services, 20% of the price you charge nonemployee customers for the service.
+	For a discount on merchandise or other property, your gross profit percentage times the price you charge nonemployee customers for the property.
+Generally, determine your gross profit percentage in the line of business based on all property you offer to customers (including employee customers) and your experience during the tax year immediately before the tax year in which the discount is available. To figure your gross profit percentage, subtract the total cost of the property from the total sales price of the property and divide the result by the total sales price of the property. Employers that are in their first year of existence may estimate their gross profit percentage based on its mark- up from cost or refer to an appropriate industry average. If substantial changes in an employer's business indicate at any time that it is inappropriate for the prior year's gross profit percentage to be used for the current year, the employer must, within a reasonable period, redetermine the gross profit percentage for the remaining portion of the current year as if such portion of the year were the first year of the employer's existence.
+Exception for highly compensated employees. You can't exclude from the wages of a highly compensated employee any part of the value of a discount that isn't available on the same terms to one of the following groups.
+	All of your employees.
+	A group of employees defined under a reasonable classification you set up that doesn't favor highly compensated employees.
+For this exclusion, a highly compensated employee for 2025 is an employee who meets either of the following tests.
+1. The employee was a 5% owner at any time during the year or the preceding year.
+2. The employee received more than $155,000 in pay for the preceding year.
+
+You can choose to ignore test (2) if the employee wasn't also in the top 20% of employees when ranked by pay for the preceding year.
+
+Employee Stock Options
+There are three kinds of stock optionsincentive stock options, employee stock purchase plan options, and nonstatutory (nonqualified) stock options.
+Wages for social security, Medicare, and FUTA taxes don't include remuneration resulting from the exercise of an incentive stock option or an employee stock purchase plan option, or from any disposition of stock acquired by exercising such an option.
+Additionally, federal income tax withholding isn't required on the income resulting from a disqualifying disposition of stock acquired by the exercise of an incentive stock option or an employee stock purchase plan option, or on income equal to the discount portion of stock acquired by the exercise of an employee stock purchase plan option resulting from any qualifying disposition of the stock. The employer must report as income in box 1 of Form W-2 (a) the discount portion of stock acquired by the exercise of an employee stock purchase plan option upon a qualifying disposition of the stock, and (b) the spread (between the exercise price and the FMV of the stock at the time of exercise) upon a disqualifying disposition of stock acquired by the exercise of an incentive stock option or an employee stock purchase plan option.
+An employer must report the excess of the FMV of stock received upon exercise of a nonstatutory stock option over the amount paid for the stock option on Form W-2 in boxes 1, 3 (up to the social security wage base), and 5, and in box 12 using the code V. See Regulations section 1.83-7.
+An employee who transfers their interest in nonstatutory stock options to the employee's former spouse incident to a divorce isn't required to include an amount in gross income upon the transfer. The former spouse, rather than the employee, is required to include an amount in gross income when the former spouse exercises the stock options. See Revenue Ruling 2002-22 and Revenue Ruling 2004-60 for details. You can find Revenue Ruling 2002-22 on page 849 of Internal Revenue Bulletin 2002-19 at IRS.gov/pub/irs-irbs/irb02-19.pdf. Revenue Ruling 2004-60, 2004-24 I.R.B. 1051, is available at IRS.gov/irb/2004-24_IRB#RR-
+2004-60.
+Employee stock options aren't subject to Railroad Retirement Tax. In Wisconsin Central Ltd. v. United States, 138 S. Ct. 2067, the U. S. Supreme Court ruled that employee stock options (whether statutory or nonstatutory) aren't money remuneration subject to the RRTA. If you're a railroad employer, don't withhold Tier 1 and Tier 2 taxes on compensation from railroad employees
+
+covered by the RRTA exercising such options. You must still withhold federal income tax on taxable compensation from railroad employees exercising their options.
+Section 83(i) election to defer income on equity grants. Under section 83(i) of the Internal Revenue Code, qualified employees who are granted stock options or restricted stock units (RSUs) and who later receive stock upon exercise of the option or upon settlement of the RSU (qualified stock) may elect to defer the recognition of income for up to 5 years if the corporation's stock wasnt readily tradable on an established securities market during any prior calendar year, if the corporation has a written plan under which not less than 80% of all U.S. employees are granted options or RSUs with the same rights and privileges to receive qualified stock, and if certain other requirements are met. An election under section 83(i) applies only for federal income tax purposes. The election has no effect on the application of social security, Medicare, and FUTA taxes. For federal income tax purposes, the employer must withhold federal income tax at 37% in the tax year that the amount deferred is included in the employee's income. If a section 83(i) election is made for an option exercise, that option will not be considered an incentive stock option or an option granted pursuant to an employee stock purchase plan. These rules apply to stock attributable to options exercised, or RSUs settled, after December 31, 2017. For more information, see section 83(i); and Notice 2018-97, 2018-52 I.R.B. 1062, available at IRS.gov/irb/2018-52_IRB#NOT-2018-97.
+Reporting requirements. For each employee, you must report in box 12 of Form W-2 using code GG the amount included in income in the calendar year from qualified equity grants under section 83(i). You must also report in box 12 using code HH the total amount of income deferred under section 83(i) determined as of the close of the calendar year.
+More information. For more information about employee stock options, see sections 83, 421, 422, and 423 of the Internal Revenue Code and their related regulations.
+
+Employer-Provided Cell Phones
+The value of the business use of an employer-provided cell phone, provided primarily for noncompensatory business reasons, is excludable from an employee's income as a working condition fringe benefit. Personal use of an employer-provided cell phone, provided primarily for noncompensatory business reasons, is excludable from an employee's income as a de minimis fringe benefit. The term cell phone also includes other similar
+
+telecommunications equipment. For the rules relating to these types of benefits, see De Minimis (Minimal) Benefits, earlier in this section, and Working Condition Benefits, later in this section.
+Noncompensatory business purposes. You provide a cell phone primarily for noncompensatory business purposes if there are substantial business reasons for providing the cell phone. Examples of substantial business reasons include the employer's:
+	Need to contact the employee at all times for work-related emergencies,
+	Requirement that the employee be available to speak with clients at times when the employee is away from the office, and
+	Need to speak with clients located in other time zones at times outside the employee's normal workday.
+Cell phones provided to promote goodwill, boost morale, or attract prospective employees. You can't exclude from an employee's wages the value of a cell phone provided to promote goodwill of an employee, to attract a prospective employee, or as a means of providing additional compensation to an employee.
+Additional information. For additional information on the tax treatment of employer-provided cell phones, see Notice 2011-72, 2011-38 I.R.B. 407, available at
+IRS.gov/irb/2011-38_IRB#NOT-2011-72.
+
+Group-Term Life Insurance Coverage
+This exclusion applies to life insurance coverage that meets all the following conditions.
+	It provides a general death benefit that isn't included in income.
+	You provide it to a group of employees. See The 10-employee rule, later.
+	It provides an amount of insurance to each employee based on a formula that prevents individual selection. This formula must use factors such as the employee's age, years of service, pay, or position.
+	You provide it under a policy you directly or indirectly carry. Even if you don't pay any of the policy's cost, youre considered to carry it if you arrange for payment of its cost by your employees and charge at least one employee less than, and at least one other employee more than, the cost of their insurance. Determine the cost of the insurance, for this purpose, as explained under Coverage over the limit, later.
+Group-term life insurance doesn't include the following insurance.
+
+	Insurance that doesn't provide general death benefits, such as travel insurance or a policy providing only accidental death benefits.
+	Life insurance on the life of your employee's spouse or dependent.
+However, you may be able to exclude the cost of this insurance from the employee's wages as a de minimis benefit. See De Minimis (Minimal) Benefits, earlier in this section.
+	Insurance provided under a policy that provides a permanent benefit (an economic value that extends beyond 1 policy year, such as paid-up or cash-surrender value), unless certain requirements are met. See Regulations section 1.79-1 for details.
+Employee. For this exclusion, treat the following individuals as employees.
+
+1. A current common-law employee.
+2. A full-time life insurance agent who is a current statutory employee.
+3. An individual who was formerly your employee under (1) or (2).
+4. A leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your primary direction or control.
+Exception for S corporation shareholders. Don't treat a 2% shareholder of an S corporation as an employee of the corporation for this purpose. A 2% shareholder is someone who directly or indirectly owns (for any day during the tax year) more than 2% of the corporation's stock or stock with more than 2% of the voting power. Treat a 2% shareholder as you would a partner in a partnership for fringe benefit purposes, but don't treat the benefit as a reduction in distributions to the 2% shareholder. For more information, see Revenue Ruling 91-26, 1991-1 C.B. 184.
+The 10-employee rule. Generally, life insurance isn't group-term life insurance unless you provide it at some time during the calendar year to at least 10 full- time employees.
+For this rule and the first exception discussed next, count employees who choose not to receive the insurance as if they do receive insurance, unless, to receive it, they must contribute to the cost of benefits other than the group-term life insurance. For example, count an employee who could receive insurance by paying part of the cost, even if that employee chooses not to receive it. However, don't count an employee who chooses not to receive insurance if the employee must pay part or all of the cost of permanent benefits in order to obtain group- term life insurance. A permanent benefit is an economic value extending beyond 1 policy year (for example, a paid-up or cash-surrender value) that is provided under a life insurance policy.
+
+Exceptions. Even if you don't meet the 10-employee rule, two exceptions allow you to treat insurance as group-term life insurance.
+Under the first exception, you don't have to meet the 10-employee rule if all the following conditions are met.
+1. If evidence that the employee is insurable is required, it is limited to a medical questionnaire (completed by the employee) that doesn't require a physical.
+2. You provide the insurance to all your full-time employees or, if the insurer requires the evidence mentioned in (1), to all full-time employees who provide evidence the insurer accepts.
+3. You figure the coverage based on either a uniform percentage of pay or the insurer's coverage brackets that meet certain requirements. See Regulations section 1.79-1 for details.
+Under the second exception, you don't have to meet the 10-employee rule if all the following conditions are met.
+	You provide the insurance under a common plan covering your employees and the employees of at least one other employer who isn't related to you.
+	The insurance is restricted to, but mandatory for, all your employees who belong to, or are represented by, an organization (such as a union) that carries on substantial activities besides obtaining insurance.
+	Evidence of whether an employee is insurable doesn't affect an employee's eligibility for insurance or the amount of insurance that employee gets.
+To apply either exception, don't consider employees who were denied insurance for any of the following reasons.
+	They were 65 or older.
+	They customarily work 20 hours or less a week or 5 months or less in a calendar year.
+	They haven't been employed for the waiting period given in the policy.
+This waiting period can't be more than 6 months.
+Exclusion from wages. You can generally exclude the cost of up to $50,000 of group-term life insurance coverage from the wages of an insured employee. You can exclude the same amount from the employee's wages when figuring social security and Medicare taxes. In addition, you don't have to withhold federal income tax or pay FUTA tax on any group-term life insurance you provide to an employee.
+
+Coverage over the limit. You must include in your employee's wages the cost of group-term life insurance beyond $50,000 worth of coverage, reduced by the amount the employee paid toward the insurance. Report it as wages in boxes 1, 3, and 5 of the employee's Form W-2. Also, show it in box 12 with code C. The amount is subject to social security and Medicare taxes, and you may, at your option, withhold federal income tax.
+Figure the monthly cost of the insurance to include in the employee's wages by multiplying the number of thousands of dollars of all insurance coverage over
+$50,000 (figured to the nearest $100) by the cost shown in Table 2-2. For all coverage provided within the calendar year, use the employee's age on the last day of the employee's tax year. You must prorate the cost from the table if less than a full month of coverage is involved.
+Table 2-2. Cost Per $1,000 of Protection for 1 Month
+
+Age
+Cost
+Under 25
+$ 0.05
+25 through 29
+0.06
+30 through 34
+0.08
+35 through 39
+0.09
+40 through 44
+0.10
+45 through 49
+0.15
+50 through 54
+0.23
+55 through 59
+0.43
+60 through 64
+0.66
+65 through 69
+1.27
+70 and older
+2.06
+
+
+You figure the total cost to include in the employee's wages by multiplying the monthly cost by the number of months' coverage at that cost.
+Example. Tom's employer provides Tom with group-term life insurance coverage of $200,000. Tom is 45 years old, isn't a key employee, and pays $100 per year toward the cost of the insurance. Tom's employer must include $170 in Toms wages. The $200,000 of insurance coverage is reduced by $50,000. The yearly cost of $150,000 of coverage is $270 ($0.15 x 150 x 12), and is reduced by the $100 Tom pays for the insurance. The employer includes $170 in boxes 1, 3, and 5 of Tom's Form W-2. The employer also enters $170 in box 12 with code C.
+Coverage for dependents. Group-term life insurance coverage paid by the employer for the spouse or dependents of an employee may be excludable from income as a de minimis fringe benefit if the face amount isn't more than $2,000. If the face amount is greater than $2,000, the dependent coverage may be
+
+excludable from income as a de minimis fringe benefit if the excess (if any) of the cost of insurance over the amount the employee paid for it on an after-tax basis is so small that accounting for it is unreasonable or administratively impracticable.
+Former employees. When group-term life insurance over $50,000 is provided to an employee (including retirees) after their termination, the employee share of social security and Medicare taxes on that period of coverage is paid by the former employee with their tax return and isn't collected by the employer. Youre not required to collect those taxes. You must, however, pay the employer share of social security and Medicare taxes. Use Table 2-2 to determine the amount of additional income that is subject to social security and Medicare taxes for coverage provided after separation from service. Report the uncollected amounts separately in box 12 of Form W-2 using codes M and N. See the General Instructions for Forms W-2 and W-3 and the instructions for your employment tax return.
+Exception for key employees. Generally, if your group-term life insurance plan favors key employees as to participation or benefits, you must include the entire cost of the insurance in your key employees' wages. This exception generally doesn't apply to church plans. When figuring social security and Medicare taxes, you must also include the entire cost in the employees' wages. Include the cost in boxes 1, 3, and 5 of Form W-2. However, you don't have to withhold federal income tax or pay FUTA tax on the cost of any group-term life insurance you provide to an employee.
+For this purpose, the cost of the insurance is the greater of the following amounts.
+	The premiums you pay for the employee's insurance. See Regulations section 1.79-4T(Q&A 6) for more information.
+	The cost you figure using Table 2-2.
+For this exclusion, a key employee during 2025 is an employee or former employee who is one of the following individuals. See section 416(i) of the Internal Revenue Code for more information.
+1. An officer having annual pay of more than $230,000.
+2. An individual who for 2025 is either of the following.
+
+a. A 5% owner of your business.
+b. A 1% owner of your business whose annual pay is more than
+$150,000.
+A former employee who was a key employee upon retirement or separation from service is also a key employee.
+
+Your plan doesn't favor key employees as to participation if at least one of the following is true.
+	It benefits at least 70% of your employees.
+	At least 85% of the participating employees aren't key employees.
+	It benefits employees who qualify under a set of rules you set up that don't favor key employees.
+Your plan meets this participation test if it is part of a cafeteria plan (discussed earlier in section 1) and it meets the participation test for those plans.
+When applying this test, don't consider employees who:
+
+	Have not completed 3 years of service; 	Are part time or seasonal;
+	Are nonresident aliens who receive no U.S. source earned income from you; or
+	Arent included in the plan but are in a unit of employees covered by a collective bargaining agreement, if the benefits provided under the plan were the subject of good-faith bargaining between you and employee representatives.
+Your plan doesn't favor key employees as to benefits if all benefits available to participating key employees are also available to all other participating employees. Your plan doesn't favor key employees just because the amount of insurance you provide to your employees is uniformly related to their pay.
+S corporation shareholders. Because you can't treat a 2% shareholder of an S corporation as an employee for this exclusion, you must include the cost of all group-term life insurance coverage you provide the 2% shareholder in their wages. When figuring social security and Medicare taxes, you must also include the cost of this coverage in the 2% shareholder's wages. Include the cost in boxes 1, 3, and 5 of Form W-2. However, you don't have to withhold federal income tax or pay FUTA tax on the cost of any group-term life insurance coverage you provide to the 2% shareholder.
+
+Health Savings Accounts (HSAs)
+An HSA is an account owned by a qualified individual who is generally your employee or former employee. Any contributions that you make to an HSA become the employee's property and can't be withdrawn by you. Contributions to the account are used to pay current or future medical expenses of the account owner, their spouse, and any qualified dependent. The medical expenses must
+
+not be reimbursable by insurance or other sources and their payment from HSA funds (distribution) won't give rise to a medical expense deduction on the individual's federal income tax return.
+Eligibility. A qualified individual must be covered by a High Deductible Health Plan (HDHP) and not be covered by other health insurance except for permitted insurance listed under section 223(c)(3) or insurance for accidents, disability, dental care, vision care, long-term care, or (in the case of months beginning after March 31, 2022, and before January 1, 2023, and plan years beginning on or before December 31, 2021, or after December 31, 2022, and before January 1, 2025) telehealth and other remote care. For calendar year 2025, a qualifying HDHP must have a deductible of at least $1,650 for self-only coverage or $3,300 for family coverage and must limit annual out-of-pocket expenses of the beneficiary to $8,300 for self-only coverage and $16,600 for family coverage.
+There are no income limits that restrict an individual's eligibility to contribute to an HSA nor is there a requirement that the account owner have earned income to make a contribution.
+Exceptions. An individual isn't a qualified individual if they can be claimed as a dependent on another person's tax return. Also, an employee's participation in a health FSA or HRA generally disqualifies the individual (and employer) from making contributions to their HSA. However, an individual may qualify to participate in an HSA if they are participating in only a limited-purpose FSA or HRA or a post-deductible FSA. For more information, see Other employee health plans in Pub. 969.
+Employer contributions. Up to specified dollar limits, cash contributions to the HSA of a qualified individual (determined monthly) are exempt from federal income tax withholding, social security tax, Medicare tax, and FUTA tax if you reasonably believe that the employee can exclude the benefits from gross income. For 2025, you can contribute up to $4,300 for self-only coverage under an HDHP or $8,550 for family coverage under an HDHP to a qualified individual's HSA.
+The contribution amounts listed above are increased by $1,000 for a qualified individual who is age 55 or older at any time during the year. For two qualified individuals who are married to each other and who are each age 55 or older at any time during the year, each spouse's contribution limit is increased by $1,000, provided each spouse has a separate HSA. No contributions can be made to an individual's HSA after they become enrolled in Medicare Part A or Part B.
+Nondiscrimination rules. Your contribution amount to an employee's HSA must be comparable for all employees who have comparable coverage during the
+
+same period. Otherwise, there will be an excise tax equal to 35% of the amount you contributed to all employees' HSAs.
+For guidance on employer comparable contributions to HSAs under section 4980G in instances where an employee hasn't established an HSA by December 31 and in instances where an employer accelerates contributions for the calendar year for employees who have incurred qualified medical expenses, see Regulations section 54.4980G-4.
+Exception. The Tax Relief and Health Care Act of 2006 allows employers to make larger HSA contributions for a nonhighly compensated employee than for a highly compensated employee. A highly compensated employee for 2025 is an employee who meets either of the following tests.
+1. The employee was a 5% owner at any time during the year or the preceding year.
+2. The employee received more than $155,000 in pay for the preceding year.
+You can choose to ignore test (2) if the employee wasn't also in the top 20% of employees when ranked by pay for the preceding year.
+Partnerships and S corporations. Partners and 2% shareholders of an S corporation aren't eligible for salary reduction (pre-tax) contributions to an HSA. Employer contributions to the HSA of a bona fide partner or 2% shareholder are treated as distributions or guaranteed payments, as determined by the facts and circumstances. For more information, see Notice 2005-8, 2005-4 I.R.B. 368, available at IRS.gov/irb/2005-04_IRB#NOT-2005-8.
+Cafeteria plans. You may contribute to an employee's HSA using a cafeteria plan and your contributions aren't subject to the statutory comparability rules.
+However, cafeteria plan nondiscrimination rules still apply. For example, contributions under a cafeteria plan to employee HSAs can't be greater for higher-paid employees than they are for lower-paid employees. Contributions that favor lower-paid employees aren't prohibited.
+Reporting requirements. You must report your contributions to an employee's HSA in box 12 of Form W-2 using code W. The trustee or custodian of the HSA, generally a bank or insurance company, reports distributions from the HSA using Form 1099-SA.
+More information. For more information about HSAs, see Pub. 969.
+
+Lodging on Your Business Premises
+You can exclude the value of lodging you furnish to an employee from the employee's wages if it meets the following tests.
+	It is furnished on your business premises.
+
+	It is furnished for your convenience.
+	The employee must accept it as a condition of employment.
+Different tests may apply to lodging furnished by educational institutions. See section 119(d) of the Internal Revenue Code for details.
+If you allow your employee to choose to receive additional pay instead of lodging, then the lodging, if chosen, isnt excluded. The exclusion also doesn't apply to cash allowances for lodging.
+On your business premises. For this exclusion, your business premises is generally your employee's place of work. For example, if you're a household employer, then lodging furnished in your home to a household employee would be considered lodging furnished on your business premises. For special rules that apply to lodging furnished in a camp located in a foreign country, see section 119(c) of the Internal Revenue Code and its regulations.
+For your convenience. Whether or not you furnish lodging for your convenience as an employer depends on all the facts and circumstances. You furnish the lodging to your employee for your convenience if you do this for a substantial business reason other than to provide the employee with additional pay. This is true even if a law or an employment contract provides that the lodging is furnished as pay. However, a written statement that the lodging is furnished for your convenience isn't sufficient.
+Condition of employment. Lodging meets this test if you require your employees to accept the lodging because they need to live on your business premises to be able to properly perform their duties. Examples include employees who must be available at all times and employees who couldn't perform their required duties without being furnished the lodging.
+It doesn't matter whether you must furnish the lodging as pay under the terms of an employment contract or a law fixing the terms of employment.
+Example of qualifying lodging. You employ Sam at a construction project at a remote job site in Alaska. Due to the inaccessibility of facilities for the employees who are working at the job site to obtain lodging and the prevailing weather conditions, you furnish lodging to your employees at the construction site in order to carry on the construction project. You require that your employees accept the lodging as a condition of their employment. You may exclude the lodging that you provide from Sam's wages. Additionally, because sufficient eating facilities arent available near your place of employment, you may also exclude meals you provide to Sam from his wages, as discussed in Proper meals not otherwise available under Meals on Your Business Premises, later in this section.
+
+Example of nonqualifying lodging. A hospital gives Joan, an employee of the hospital, the choice of living at the hospital free of charge or living elsewhere and receiving a cash allowance in addition to Joans regular salary. If Joan chooses to live at the hospital, the hospital can't exclude the value of the lodging from her wages because she isn't required to live at the hospital to properly perform the duties of her employment.
+S corporation shareholders. For this exclusion, don't treat a 2% shareholder of an S corporation as an employee of the corporation. A 2% shareholder is someone who directly or indirectly owns (for any day during the tax year) more than 2% of the corporation's stock or stock with more than 2% of the voting power. Treat a 2% shareholder as you would a partner in a partnership for fringe benefit purposes, but don't treat the benefit as a reduction in distributions to the 2% shareholder. For more information, see Revenue Ruling 91-26, 1991-1 C.B.
+184.
+
+Meals
+This section discusses the exclusion rules that apply to de minimis meals and meals on your business premises.
+
+De Minimis Meals
+You can exclude any occasional meal you provide to an employee if it has so little value (taking into account how frequently you provide meals to your employees) that accounting for it would be unreasonable or administratively impracticable. The exclusion applies, for example, to the following items.
+	Coffee, doughnuts, or soft drinks.
+	Occasional meals or meal money provided to enable an employee to work overtime. However, the exclusion doesn't apply to meal money figured on the basis of hours worked (for example, $2.00 per hour for each hour over 8 hours), or meals or meal money provided on a regular or routine basis.
+	Occasional parties or picnics for employees and their guests.
+Employee. For this exclusion, treat any recipient of a de minimis meal as an employee.
+Employer-operated eating facility for employees. The de minimis meals exclusion also applies to meals you provide at an employer-operated eating facility for employees if the annual revenue from the facility equals or exceeds the direct operating costs of the facility. Direct operating costs include the cost of food and beverages, and labor costs (including employment taxes) of employees whose services relating to the facility are performed primarily on the premises of
+
+the eating facility. Therefore, for example, the labor costs attributable to cooks and waitstaff are included in direct operating costs, but the labor cost attributable to a manager of an eating facility whose services aren't primarily performed on the premises of the eating facility aren't included in direct operating costs.
+For this purpose, your revenue from providing a meal is considered equal to the facility's direct operating costs to provide that meal if its value can be excluded from an employee's wages, as explained under Meals on Your Business Premises, later. If you provide free or discounted meals to volunteers at a hospital and you can reasonably determine the number of meals you provide, then you may disregard these costs and revenues. If you charge nonemployees a greater amount than employees, then you must disregard all costs and revenues attributable to these nonemployees.
+An employer-operated eating facility for employees is an eating facility that meets all the following conditions.
+	You own or lease the facility.
+	You operate the facility. Youre considered to operate the eating facility if you have a contract with another to operate it.
+	The facility is on or near your business premises.
+	You provide meals (food, drinks, and related services) at the facility during, or immediately before or after, the employee's workday.
+Exclusion from wages. You can generally exclude the value of de minimis meals you provide to an employee from the employee's wages.
+Exception for highly compensated employees. You can't exclude from the wages of a highly compensated employee the value of a meal provided at an employer- operated eating facility that isn't available on the same terms to one of the following groups.
+	All of your employees.
+	A group of employees defined under a reasonable classification you set up that doesn't favor highly compensated employees.
+For this exclusion, a highly compensated employee for 2025 is an employee who meets either of the following tests.
+1. The employee was a 5% owner at any time during the year or the preceding year.
+2. The employee received more than $155,000 in pay for the preceding year.
+You can choose to ignore test (2) if the employee wasn't also in the top 20% of employees when ranked by pay for the preceding year.
+
+Section 13304 of P.L. 115-97 changed the rules for the deduction of food or beverage expenses that are excludable from employee income as a de minimis fringe benefit. For amounts incurred or paid aker 2017, the 50% limit on deductions for food or beverage expenses also applies to food or beverage expenses excludable from employee income as a de minimis fringe benefit.
+However, food or beverage expenses related to employee recreation, such as holiday parties or annual picnics, aren't subject to the 50% limit on deductions when made primarily for the benefit of your employees other than employees who are officers, shareholders or other owners who own a 10% or greater interest in your business, or other highly compensated employees. For more information, see Regulations section 1.274-12. While your business deduction may be limited, the fringe benefit exclusion rules still apply and the de minimis fringe benefits may be excluded from your employee's wages, as discussed earlier.
+
+Meals on Your Business Premises
+You can exclude the value of meals you furnish to an employee from the employee's wages if they meet the following tests.
+	They are furnished on your business premises. 	They are furnished for your convenience.
+If you allow your employee to choose to receive additional pay instead of meals, then the meals, if chosen, arent excluded. The exclusion also doesn't apply to cash allowances for meals.
+On your business premises. Generally, for this exclusion, the employee's place of work is your business premises.
+For your convenience. Whether you furnish meals for your convenience as an employer depends on all the facts and circumstances. You furnish the meals to your employee for your convenience if you do this for a substantial business reason other than to provide the employee with additional pay. This is true even if a law or an employment contract provides that the meals are furnished as pay. However, a written statement that the meals are furnished for your convenience isn't sufficient.
+Meals excluded for all employees if excluded for more than half. If more than half of your employees who are furnished meals on your business premises are furnished the meals for your convenience, you can treat all meals you furnish to employees on your business premises as furnished for your convenience.
+Food service employees. Meals you furnish to a restaurant or other food service employee during, or immediately before or after, the employee's working hours are furnished for your convenience. For example, if a waitstaff works during the
+
+breakfast and lunch periods, you can exclude from their wages the value of the breakfast and lunch you furnish in your restaurant for each day they work.
+The temporary 100% deduction for expenses that were paid or incurred aker December 31, 2020, and before January 1, 2023, for food or beverage expenses provided by a restaurant has expired. Generally, the 50% deduction continues to apply.
+Example. You operate a restaurant business. You furnish your employee, Carol, who is a server working 7 a.m. to 4 p.m., two meals during each workday. You encourage but don't require Carol to have breakfast on the business premises before starting work. Carol must have lunch on the premises. Because Carol is a food service employee and works during the normal breakfast and lunch periods, you can exclude from her wages the value of her breakfast and lunch. If you also allow Carol to have meals on your business premises without charge on Carols days off, you can't exclude the value of those meals from Carols wages.
+Employees available for emergency calls. Meals you furnish during working hours so an employee will be available for emergency calls during the meal period are furnished for your convenience. You must be able to show these emergency calls have occurred or can reasonably be expected to occur, and that the calls have resulted, or will result, in you calling on your employees to perform their jobs during their meal period.
+Example. A hospital maintains a cafeteria on its premises where all of its 230 employees may get meals at no charge during their working hours. The hospital must have 120 of its employees available for emergencies. Each of these 120 employees is, at times, called upon to perform services during the meal period. Although the hospital doesn't require these employees to remain on the premises, they rarely leave the hospital during their meal period. Since the hospital furnishes meals on its premises to its employees so that more than half of them are available for emergency calls during meal periods, the hospital can exclude the value of these meals from the wages of all of its employees.
+Short meal periods. Meals you furnish during working hours are furnished for your convenience if the nature of your business (not merely a preference) restricts an employee to a short meal period (such as 30 or 45 minutes) and the employee can't be expected to eat elsewhere in such a short time. For example, meals can qualify for this treatment if your peak workload occurs during the normal lunch hour. However, they don't qualify if the reason for the short meal period is to allow the employee to leave earlier in the day.
+Example. Frank is a bank teller who works from 9 a.m. to 5 p.m. The bank furnishes Franks lunch without charge in a cafeteria the bank maintains on its premises. The bank furnishes these meals to Frank to limit his lunch period to 30
+
+minutes, because the bank's peak workload occurs during the normal lunch period. If Frank got lunch elsewhere, it would take him much longer than 30 minutes and the bank strictly enforces the time limit. The bank can exclude the value of these meals from Frank's wages.
+Proper meals not otherwise available. Meals you furnish during working hours are furnished for your convenience if the employee couldn't otherwise get proper meals within a reasonable period of time. For example, meals can qualify for this treatment if there are insufficient eating facilities near the place of employment. For an example of this, see Example of qualifying lodging, earlier in this section.
+Meals aker work hours. Generally, meals furnished before or after the working hours of an employee arent considered as furnished for your convenience.
+However, meals you furnish to an employee immediately after working hours are furnished for your convenience if you would have furnished them during working hours for a substantial nonpay business reason but, because of the work duties, they weren't obtained during working hours.
+Meals you furnish to promote goodwill, boost morale, or attract prospective employees. Meals you furnish to promote goodwill, boost morale, or attract prospective employees aren't considered furnished for your convenience.
+However, you may be able to exclude their value, as discussed under De Minimis Meals, earlier.
+Meals furnished on nonworkdays or with lodging. You generally can't exclude from an employee's wages the value of meals you furnish on a day when the employee isn't working. However, you can exclude these meals if they are furnished with lodging that is excluded from the employee's wages. See Lodging on Your Business Premises, earlier in this section.
+Meals with a charge. The fact that you charge for the meals and that your employees may accept or decline the meals isn't taken into account in determining whether or not meals are furnished for your convenience.
+S corporation shareholders. For this exclusion, don't treat a 2% shareholder of an S corporation as an employee of the corporation. A 2% shareholder is someone who directly or indirectly owns (for any day during the tax year) more than 2% of the corporation's stock or stock with more than 2% of the voting power. Treat a 2% shareholder as you would a partner in a partnership for fringe benefit purposes, but don't treat the benefit as a reduction in distributions to the 2% shareholder. For more information, see Revenue Ruling 91-26, 1991-1 C.B.
+184.
+
+No-Additional-Cost Services
+
+This exclusion applies to a service you provide to an employee if it doesn't cause you to incur any substantial additional costs. The service must be offered to customers in the ordinary course of the line of business in which the employee performs substantial services.
+No-additional-cost services are excess capacity services, such as airline, bus, or train tickets; hotel rooms; or telephone services provided free, at a reduced price, or through a cash rebate to employees working in those lines of business. Services that aren't eligible for treatment as no-additional-cost services are non- excess capacity services, such as the facilitation by a stock brokerage firm of the purchase of stock by employees. These services may, however, be eligible for a qualified employee discount of up to 20% of the value of the service provided.
+See Employee Discounts, earlier.
+Substantial additional costs. To determine whether you incur substantial additional costs to provide a service to an employee, count any lost revenue as a cost. Don't reduce the costs you incur by any amount the employee pays for the service. Youre considered to incur substantial additional costs if you or your employees spend a substantial amount of time in providing the service, even if the time spent would otherwise be idle or if the services are provided outside normal business hours.
+Example. A commercial airline allows its employees to take personal flights on the airline at no charge and receive reserved seating. Because the employer gives up potential revenue by allowing the employees to reserve seats, employees receiving such free flights arent eligible for the no-additional-cost exclusion.
+Reciprocal agreements. A no-additional-cost service provided to your employee by an unrelated employer may qualify as a no-additional-cost service if all the following tests are met.
+	The service is the same type of service generally provided to customers in both the line of business in which the employee works and the line of business in which the service is provided.
+	You and the employer providing the service have a written reciprocal agreement under which a group of employees of each employer, all of whom perform substantial services in the same line of business, may receive no-additional-cost services from the other employer.
+	Neither you nor the other employer incurs any substantial additional cost (including lost revenue) either in providing the service or because of the written agreement.
+Employee. For this exclusion, treat the following individuals as employees.
+
+1. A current employee.
+2. A former employee who retired or left on disability.
+3. A surviving spouse of an individual who died while an employee.
+4. A surviving spouse of a former employee who retired or left on disability.
+5. A leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your primary direction or control.
+6. A partner who performs services for a partnership.
+Treat services you provide to the spouse or dependent child of an employee as provided to the employee. For this fringe benefit, dependent child is a child or stepchild who is the employee's dependent or who, if both parents are deceased, hasn't attained the age of 25. Treat a child of divorced parents as a dependent of both parents.
+Treat any use of air transportation by the parent of an employee as use by the employee. This rule doesn't apply to use by the parent of a person considered an employee because of item (3) or (4) above.
+Exclusion from wages. You can generally exclude the value of a no-additional- cost service you provide to an employee from the employee's wages.
+Exception for highly compensated employees. You can't exclude from the wages of a highly compensated employee the value of a no-additional-cost service that isn't available on the same terms to one of the following groups.
+	All of your employees.
+	A group of employees defined under a reasonable classification you set up that doesn't favor highly compensated employees.
+For this exclusion, a highly compensated employee for 2025 is an employee who meets either of the following tests.
+1. The employee was a 5% owner at any time during the year or the preceding year.
+2. The employee received more than $155,000 in pay for the preceding year.
+You can choose to ignore test (2) if the employee wasn't also in the top 20% of employees when ranked by pay for the preceding year.
+
+Retirement Planning Services
+You may exclude from an employee's wages the value of any retirement planning advice or information you provide to your employee or their spouse if you maintain a qualified retirement plan. A qualified retirement plan includes a plan, contract, pension, or account described in section 219(g)(5) of the Internal Revenue Code. In addition to employer plan advice and information, the services
+
+provided may include general advice and information on retirement. However, the exclusion doesn't apply to services for tax preparation, accounting, legal, or brokerage services. You can't exclude from the wages of a highly compensated employee retirement planning services that aren't available on the same terms to each member of a group of employees normally provided education and information about the employer's qualified retirement plan.
+
+Transportation (Commuting) Benefits
+This section discusses exclusion rules that apply to benefits you provide to your employees for their personal transportation, such as commuting to and from work. These rules apply to the following transportation benefits.
+	De minimis transportation benefits. 	Qualified transportation benefits.
+Special rules that apply to demonstrator cars and qualified nonpersonal use vehicles are discussed under Working Condition Benefits, later in this section.
+
+De Minimis Transportation Benefits
+You can exclude the value of any de minimis transportation benefit you provide to an employee from the employee's wages. A de minimis transportation benefit is any local transportation benefit you provide to an employee if it has so little value (taking into account how frequently you provide transportation to your employees) that accounting for it would be unreasonable or administratively impracticable. For example, it applies to occasional local transportation fare you give an employee because the employee is working overtime if the benefit is reasonable and isn't based on hours worked. Local transportation fare provided on a regular or routine basis doesn't qualify for this exclusion.
+A special rule allows you to exclude as a de minimis benefit public transit passes, tokens, or fare cards you provide at a discount to defray your employee's commuting costs on the public transit system if the discount doesn't exceed $21 in any month. Similarly, you may also provide a voucher or similar instrument that is exchangeable solely for tokens, fare cards, or other instruments that enable your employee to use the public transit system if the value of the vouchers and other instruments in any month doesn't exceed $21. You may also reimburse your employee to cover the cost of commuting on a public transit system, provided your employee doesn't receive more than $21 in reimbursements for commuting costs in any month. The reimbursement must be made under a bona fide reimbursement arrangement, where you establish appropriate procedures for verifying on a periodic basis that your employee's use of public transportation for commuting is consistent with the value of the
+
+benefit provided. The exclusion doesn't apply to the provision of any benefit to defray public transit expenses incurred for personal travel other than commuting.
+Employee. For this exclusion, treat any recipient of a de minimis transportation benefit as an employee.
+
+Qualified Transportation Benefits
+This exclusion applies to the following benefits.
+
+	A ride in a commuter highway vehicle between the employee's home and work place.
+	A transit pass.
+	Qualified parking.
+You may provide an employee with any one or more of these benefits at the same time.
+Qualified transportation benefits can be provided directly by you or through a bona fide reimbursement arrangement. A bona fide reimbursement arrangement requires that the employee incur and substantiate expenses for qualified transportation benefits before reimbursement. However, cash reimbursements for transit passes qualify only if a voucher or a similar item that the employee can exchange only for a transit pass isn't readily available for direct distribution by you to your employee. A voucher is readily available for direct distribution only if an employer can obtain it from a voucher provider that doesn't impose fare media charges or other restrictions that effectively prevent the employer from obtaining vouchers. See Regulations section 1.132-9(b)(Q&A 1619) for more information.
+Compensation reduction agreements. A compensation reduction agreement is a way to provide qualified transportation benefits on a pre-tax basis by offering your employees a choice between cash compensation and any qualified transportation benefit. A compensation reduction arrangement can be used with a bona fide reimbursement arrangement. For each month, the amount of the compensation reduction can't exceed the monthly limits for transportation benefits described under Exclusion from wages, later. For more information about providing qualified transportation fringe benefits under a compensation reduction agreement, see Regulations section 1.132-9(b)(Q&A 1115).
+Commuter highway vehicle. A commuter highway vehicle is any highway vehicle that seats at least six adults (not including the driver). In addition, you must reasonably expect that at least 80% of the vehicle mileage will be for transporting employees between their homes and workplace with employees occupying at least one-half the vehicle's seats (not including the driver's).
+
+Transit pass. A transit pass is any pass, token, farecard, voucher, or similar item entitling a person to ride, free of charge or at a reduced rate, on one of the following.
+	Mass transit.
+	In a vehicle that seats at least six adults (not including the driver) if a person in the business of transporting persons for pay or hire operates it.
+Mass transit may be publicly or privately operated and includes bus, rail, or ferry. For guidance on the use of smart cards and debit cards to provide qualified transportation fringes, see Revenue Ruling 2014-32, 2014-50 I.R.B. 917, available at IRS.gov/irb/2014-50_IRB#RR-2014-32.
+Qualified parking. Qualified parking is parking you provide to your employees on or near your business premises. It includes parking on or near the location from which your employees commute to work using mass transit, commuter highway vehicles, or carpools. It doesn't include parking at or near your employee's home.
+Qualified bicycle commuting reimbursement suspended. Section 11047 of P.L. 115-97 suspends the exclusion of qualified bicycle commuting reimbursements from your employee's income for any tax year beginning aker 2017 and before 2026.
+Employee. For this exclusion, treat the following individuals as employees.
+
+	A current employee.
+	A leased employee who has provided services to you on a substantially full-time basis for at least a year if the services are performed under your primary direction or control.
+A self-employed individual isn't an employee for qualified transportation benefit purposes.
+Exception for S corporation shareholders. Don't treat a 2% shareholder of an S corporation as an employee of the corporation for this purpose. A 2% shareholder is someone who directly or indirectly owns (for any day during the tax year) more than 2% of the corporation's stock or stock with more than 2% of the voting power. Treat a 2% shareholder as you would a partner in a partnership for fringe benefit purposes, but don't treat the benefit as a reduction in distributions to the 2% shareholder. For more information, see Revenue Ruling 91-26, 1991-1 C.B. 184.
+Relation to other fringe benefits. You can't exclude a qualified transportation benefit you provide to an employee under the de minimis or working condition benefit rules. However, if you provide a local transportation benefit other than by transit pass or commuter highway vehicle, or to a person other than an
+
+employee, you may be able to exclude all or part of the benefit under other fringe benefit rules (de minimis, working condition, etc.).
+Exclusion from wages. You can generally exclude the value of transportation benefits that you provide to an employee during 2025 from the employee's wages up to the following limits.
+	$325 per month for combined commuter highway vehicle transportation and transit passes.
+	$325 per month for qualified parking.
+Benefits more than the limit. If the value of a benefit for any month is more than its limit, include in the employee's wages the amount over the limit minus any amount the employee paid for the benefit. You can't exclude the excess from the employee's wages as a de minimis transportation benefit.
+Qualified transportation benefits arent deductible. Sections 274(a)(4) and 274(l) provide that no deduction is allowed for qualified transportation benefits (whether provided directly by you, through a bona fide reimbursement arrangement, or through a compensation reduction agreement) incurred or paid aker 2017. Also, no deduction is allowed for any expense incurred for providing any transportation, or any payment or reimbursement to your employee, in connection with travel between your employee's residence and place of employment, except as necessary for ensuring the safety of your employee or for qualified bicycle commuting reimbursements, as described in section 132(f)(5)(F) (even though the exclusion for qualified bicycle commuting reimbursements is suspended, as discussed earlier). While you may no longer deduct payments for qualified transportation benefits, the fringe benefit exclusion rules still apply and the payments may be excluded from your employee's wages, as discussed earlier.
+Although the value of a qualified transportation fringe benefit is relevant in determining the fringe benefit exclusion and whether the section 274(e)(2) exception for expenses treated as compensation applies, the deduction that is disallowed relates to the expense of providing a qualified transportation fringe, not its value. For more information, see Regulations sections 1.274-13 and 1.274- 14.
+More information. For more information on qualified transportation benefits, including van pools, and how to determine the value of parking, see Regulations section 1.132-9.
+
+Tuition Reduction
+An eligible educational institution can exclude the value of a qualified tuition reduction it provides to an employee from the employee's wages.
+
+A tuition reduction for undergraduate education generally qualifies for this exclusion if it is for the education of one of the following individuals.
+1. A current employee.
+2. A former employee who retired or left on disability.
+3. A surviving spouse of an individual who died while an employee.
+4. A surviving spouse of a former employee who retired or left on disability.
+5. A dependent child or spouse of any individual listed in (1) through (4) above.
+A tuition reduction for graduate education qualifies for this exclusion only if it is for the education of a graduate student who performs teaching or research activities for the eligible educational institutions.
+For more information on this exclusion, see Qualified Tuition Reduction under
+Other Types of Educational Assistance in chapter 1 of Pub. 970.
+
+Working Condition Benefits
+This exclusion applies to property and services you provide to an employee so that the employee can perform their job. It applies to the extent the cost of the property or services would be allowable as a business expense or depreciation expense deduction to the employee if they had paid for it. The employee must meet any substantiation requirements that apply to the deduction. Examples of working condition benefits include an employee's use of a company car for business, an employer-provided cell phone provided primarily for noncompensatory business purposes (discussed earlier), and job-related education provided to an employee.
+This exclusion also applies to a cash payment you provide for an employee's expenses for a specific or prearranged business activity if such expenses would otherwise be allowable as a business expense or depreciation expense deduction to the employee. You must require the employee to verify that the payment is actually used for those expenses and to return any unused part of the payment.
+The exclusion doesn't apply to the following items.
+
+	A service or property provided under a flexible spending account in which you agree to provide the employee, over a time period, a certain level of unspecified noncash benefits with a predetermined cash value.
+	A physical examination program you provide, even if mandatory.
+	Any item to the extent the payment would be allowable as a deduction to the employee as an expense for a trade or business other than your trade or business. For more information, see Regulations section 1.132-5(a)(2).
+
+Employee. For this exclusion, treat the following individuals as employees.
+
+	A current employee.
+	A partner who performs services for a partnership. 	A director of your company.
+	An independent contractor who performs services for you.
+Vehicle allocation rules. If you provide a car for an employee's use, the amount you can exclude as a working condition benefit is the amount that would be allowable as a deductible business expense if the employee paid for its use. If the employee uses the car for both business and personal use, the value of the working condition benefit is the part determined to be for business use of the vehicle. See Business use of your car next. Also, see the special rules for certain demonstrator cars and qualified nonpersonal use vehicles discussed later.
+Business use of your car. If you use your car exclusively in your business, you can deduct car expenses. If you use your car for both business and personal purposes, you must divide your expenses based on actual mileage. Generally, commuting expenses between your home and your business location, within the area of your tax home, are not deductible.
+You can deduct actual car expenses, which include depreciation (or lease payments), gas and oil, tires, repairs, tune-ups, insurance, and registration fees. Or, instead of figuring the business part of these actual expenses, you may be able to use the standard mileage rate to figure your deduction. To find the standard mileage rate for 2025 and prior years, go to IRS.gov/Tax-Professionals/ Standard-Mileage-Rates.
+If you are self-employed, you can also deduct the business part of interest on your car loan, state and local personal property tax on the car, parking fees, and tolls, whether or not you claim the standard mileage rate.
+For more information on car expenses and the rules for using the standard mileage rate, see Pub. 463.
+Demonstrator cars. Generally, all of the use of a demonstrator car by your full- time auto salesperson in the sales area in which your sales office is located qualifies as a working condition benefit if the use is primarily to facilitate the services the salesperson provides for you and there are substantial restrictions on personal use. For more information and the definition of full-time auto salesperson, see Regulations section 1.132-5(o). For optional, simplified methods used to determine if full, partial, or no exclusion of income to the employee for personal use of a demonstrator car applies, see Revenue Procedure 2001-56. You can find Revenue Procedure 2001-56 on page 590 of Internal Revenue Bulletin 2001-51 at
+IRS.gov/pub/irs-irbs/irb01-51.pdf.
+
+Qualified nonpersonal use vehicles. All of an employee's use of a qualified nonpersonal use vehicle is a working condition benefit. A qualified nonpersonal use vehicle is any vehicle the employee isn't likely to use more than minimally for personal purposes because of its design. Qualified nonpersonal use vehicles generally include all of the following vehicles.
+	Clearly marked, through painted insignia or words, police, fire, and public safety vehicles, provided that any personal use of the vehicle (other than commuting) is prohibited by the governmental unit.
+	Unmarked vehicles used by law enforcement officers if the use is officially authorized. Any personal use must be authorized by the employer, and must be related to law-enforcement functions, such as being able to report directly from home to an emergency situation. Use of an unmarked vehicle for vacation or recreation trips can't qualify as an authorized use.
+	An ambulance or hearse used for its specific purpose.
+	Any vehicle designed to carry cargo with a loaded gross vehicle weight over 14,000 pounds.
+	Delivery trucks with seating for the driver only, or the driver plus a folding jump seat.
+	A passenger bus with a capacity of at least 20 passengers used for its specific purpose and school buses. The working condition benefit is available only for the driver, not for any passengers.
+	Tractors and other special-purpose farm vehicles.
+	Bucket trucks, cement mixers, combines, cranes and derricks, dump trucks (including garbage trucks), flatbed trucks, forklifts, qualified moving vans, qualified specialized utility repair trucks, and refrigerated trucks.
+See Regulations section 1.274-5(k) for the definition of qualified moving van and qualified specialized utility repair truck.
+Pickup trucks. A pickup truck with a loaded gross vehicle weight of 14,000 pounds or less is a qualified nonpersonal use vehicle if it has been specially modified so it isn't likely to be used more than minimally for personal purposes. For example, a pickup truck qualifies if it is clearly marked with permanently affixed decals, special painting, or other advertising associated with your trade, business, or function and meets either of the following requirements.
+1. It is equipped with at least one of the following items.
+
+a. A hydraulic lift gate.
+b. Permanent tanks or drums.
+
+c. Permanent side boards or panels that materially raise the level of the sides of the truck bed.
+d. Other heavy equipment (such as an electric generator, welder, boom, or crane used to tow automobiles and other vehicles).
+2. It is used primarily to transport a particular type of load (other than over the public highways) in a construction, manufacturing, processing, farming, mining, drilling, timbering, or other similar operation for which it was specially designed or significantly modified.
+Vans. A van with a loaded gross vehicle weight of 14,000 pounds or less is a qualified nonpersonal use vehicle if it has been specially modified so it isn't likely to be used more than minimally for personal purposes. For example, a van qualifies if it is clearly marked with permanently affixed decals, special painting, or other advertising associated with your trade, business, or function and has a seat for the driver only (or the driver and one other person) and either of the following items.
+	Permanent shelving that fills most of the cargo area.
+	An open cargo area and the van always carries merchandise, material, or equipment used in your trade, business, or function.
+Education. Certain job-related education you provide to an employee may qualify for exclusion as a working condition benefit. To qualify, the education must meet the same requirements that would apply for determining whether the employee could deduct the expenses had the employee paid the expenses.
+Degree programs as a whole don't necessarily qualify as a working condition benefit. Each course in the program must be evaluated individually for qualification as a working condition benefit. The education must meet at least one of the following tests.
+	The education is required by the employer or by law for the employee to keep their present salary, status, or job. The required education must serve a bona fide business purpose of the employer.
+	The education maintains or improves skills needed in the job.
+However, even if the education meets one or both of the above tests, it isn't qualifying education if it:
+	Is needed to meet the minimum educational requirements of the employee's present trade or business, or
+	Is part of a program of study that will qualify the employee for a new trade or business.
+Outplacement services. An employee's use of outplacement services qualifies as a working condition benefit if you provide the services to the employee on the
+
+basis of need, you get a substantial business benefit from the services distinct from the benefit you would get from the payment of additional wages, and the employee is seeking new employment in the same kind of trade or business in which the employee is presently working. Substantial business benefits include promoting a positive business image, maintaining employee morale, and avoiding wrongful termination suits.
+Outplacement services don't qualify as a working condition benefit if the employee can choose to receive cash or taxable benefits in place of the services. If you maintain a severance plan and permit employees to get outplacement services with reduced severance pay, include in the employee's wages the difference between the unreduced severance and the reduced severance payments.
+Product testing. The FMV of the use of consumer goods, which are manufactured for sale to nonemployees, for product testing and evaluation by your employee outside your workplace, qualifies as a working condition benefit if all of the following conditions are met.
+	Consumer testing and evaluation of the product is an ordinary and necessary business expense for you.
+	Business reasons necessitate that the testing and evaluation must be performed off your business premises. For example, the testing and evaluation can't be carried out adequately in your office or in laboratory testing facilities.
+	You provide the product to your employee for purposes of testing and evaluation.
+	You provide the product to your employee for no longer than necessary to test and evaluate its performance, and (to the extent not finished) the product must be returned to you at completion of the testing and evaluation period.
+	You impose limitations on your employees use of the product that significantly reduce the value of any personal benefit to your employee. This includes limiting your employees ability to select among different models or varieties of the consumer product, and prohibiting the use of the product by persons other than your employee.
+	Your employee submits detailed reports to you on the testing and evaluation.
+
+The program wont qualify if you dont use and examine the results of the detailed reports submitted by employees within a reasonable period of time after expiration of the testing period. Additionally, existence of one or more of the following factors may also establish that the program isnt a bona fide product-testing program.
+	The program is in essence a leasing program under which employees lease the consumer goods from you for a fee.
+	The nature of the product and other considerations are insufficient to justify the testing program.
+	The expense of the program outweighs the benefits to be gained from testing and evaluation.
+The program must also not be limited to only certain classes of employees (such as highly compensated employees), unless you can show a business reason for providing the products only to specific employees. For example, an automobile manufacturer may limit providing automobiles for testing and evaluation to only their design engineers and supervisory mechanics, as they can properly evaluate the automobiles.
+Exclusion from wages. You can generally exclude the value of a working condition benefit you provide to an employee from the employee's wages.
+Exception for independent contractors who perform services for you. You can't exclude the use of consumer goods you provide in a product-testing program from the compensation you pay to an independent contractor. You can't exclude the value of parking as a working condition benefit, but you may be able to exclude it as a de minimis fringe benefit. Transit passes provided to independent contractors may be excluded as a working condition benefit if they meet the requirements of a working condition benefit described earlier. However, personal commuting expenses arent deductible as a business expense. Transit passes may also be excluded as a de minimis fringe benefit. For more information on de minimis transportation benefits, see De Minimis Transportation Benefits, earlier in this section.
+Exception for company directors. You can't exclude the value of the use of consumer goods you provide in a product-testing program from the compensation you pay to a director.
+
+3. Fringe Benefit Valuation Rules
+This section discusses the rules you must use to determine the value of a fringe benefit you provide to an employee. You must determine the value of any benefit you can't exclude under the rules in section 2 or for which the amount you can
+
+exclude is limited. See Including taxable benefits in pay in section 1.
+In most cases, you must use the general valuation rule to value a fringe benefit. However, you may be able to use a special valuation rule to determine the value of certain benefits.
+This section doesn't discuss the special valuation rule used to value meals provided at an employer-operated eating facility for employees. For that rule, see Regulations section 1.61-21(j).
+
+General Valuation Rule
+You must use the general valuation rule to determine the value of most fringe benefits. Under this rule, the value of a fringe benefit is its FMV.
+FMV. The FMV of a fringe benefit is the amount an employee would have to pay a third party in an arm's-length transaction to buy or lease the benefit. Determine this amount on the basis of all the facts and circumstances.
+Neither the amount the employee considers to be the value of the fringe benefit nor the cost you incur to provide the benefit determines its FMV.
+Business aircraft. Personal use of a company aircraft by an employee or their guests is a taxable fringe benefit. The term employee includes any person performing services in connection with which the fringe benefit flight was provided, and may include, for example, a partner, director, or independent contractor. The employee, not the guest, will be subject to a non-cash fringe benefit inclusion, typically as part of their W-2 wages for an employee, a guaranteed payment on Schedule K-1 (Form 1065) for a partner in a partnership, or Form 1099-NEC for any other non-employee arrangement.
+There are two methods for valuing personal flights on company aircraft:
+
+1. Fair Charter Value (FCV)This is the hourly rate that would be paid to charter a similar piloted aircraft from an unrelated party.
+2. Standard Industry Fare Level (SIFL)SIFL rates are calculated using a formula published in Regulations section 1.61-21(g). SIFL may only be used on an originally filed return. The Department of Transportation publishes the SIFL rates biannually.
+Employer-provided vehicles. In general, the FMV of an employer-provided vehicle is the amount the employee would have to pay a third party to lease the same or similar vehicle on the same or comparable terms in the geographic area where the employee uses the vehicle. A comparable lease term would be the amount of time the vehicle is available for the employee's use, such as a 1-year period.
+
+Don't determine the FMV by multiplying a cents-per-mile rate times the number of miles driven unless the employee can prove the vehicle could have been leased on a cents-per-mile basis.
+
+Cents-Per-Mile Rule
+Under this rule, you determine the value of a vehicle you provide to an employee for personal use by multiplying the standard mileage rate by the total miles the employee drives the vehicle for personal purposes. Personal use is any use of the vehicle other than use in your trade or business. This amount must be included in the employee's wages or reimbursed by the employee. For 2025, the standard mileage rate is 70 cents per mile.
+You can use the cents-per-mile rule if either of the following requirements is met.
+
+	You reasonably expect the vehicle to be regularly used in your trade or business throughout the calendar year (or for a shorter period during which you own or lease it).
+	The vehicle meets the mileage test.
+Maximum automobile value. You can't use the cents-per-mile rule for an automobile (including a truck or van) if its value when you first make it available to any employee for personal use in calendar year 2025 is more than $61,200. For guidance related to the impact of P.L. 115-97 on this rule, see Treasury Decision 9893, 2020-09 I.R.B. 449, available at IRS.gov/irb/2020-09_IRB#TD-9893. If you and the employee own or lease the automobile together, see Regulations sections 1.61- 21(e)(1)(iii)(B) and (C).
+Vehicle. For the cents-per-mile rule, a vehicle is any motorized wheeled vehicle, including an automobile, manufactured primarily for use on public streets, roads, and highways.
+Regular use in your trade or business. Whether a vehicle is regularly used in your trade or business is determined on the basis of all facts and circumstances. A vehicle is considered regularly used in your trade or business if one of the following safe harbor conditions is met.
+	At least 50% of the vehicle's total annual mileage is for your trade or business.
+	You sponsor a commuting pool that generally uses the vehicle each workday to drive at least three employees to and from work.
+Infrequent business use of the vehicle, such as for occasional trips to the airport or between your multiple business premises, isn't regular use of the vehicle in your trade or business.
+
+Mileage test. A vehicle meets the mileage test for a calendar year if both of the following requirements are met.
+	The vehicle is actually driven at least 10,000 miles during the year. If you own or lease the vehicle only part of the year, reduce the 10,000-mile requirement proportionately.
+	The vehicle is used during the year primarily by employees. Consider the vehicle used primarily by employees if they use it consistently for commuting. Don't treat the use of the vehicle by another individual whose use would be taxed to the employee as use by the employee.
+For example, if only one employee uses a vehicle during the calendar year and that employee drives the vehicle at least 10,000 miles in that year, the vehicle meets the mileage test even if all miles driven by the employee are personal.
+Consistency requirements. If you use the cents-per-mile rule, the following requirements apply.
+	You must begin using the cents-per-mile rule on the first day you make the vehicle available to any employee for personal use. However, if you use the commuting rule (discussed later) when you first make the vehicle available to any employee for personal use, you can change to the cents- per-mile rule on the first day for which you don't use the commuting rule.
+	You must use the cents-per-mile rule for all later years in which you make the vehicle available to any employee and the vehicle qualifies, except that you can use the commuting rule for any year during which use of the vehicle qualifies under the commuting rule. However, if the vehicle doesn't qualify for the cents-per-mile rule during a later year, you can use for that year and thereafter any other rule for which the vehicle then qualifies.
+	You must continue to use the cents-per-mile rule if you provide a replacement vehicle to the employee (and the vehicle qualifies for the use of this rule) and your primary reason for the replacement is to reduce federal taxes.
+Items included in cents-per-mile rate. The cents-per-mile rate includes the value of maintenance and insurance for the vehicle. Don't reduce the rate by the value of any service included in the rate that you didn't provide. You can take into account the services actually provided for the vehicle by using the general valuation rule, earlier.
+For miles driven in the United States, its territories, Canada, and Mexico, the cents-per-mile rate includes the value of fuel you provide. If you don't provide fuel, you can reduce the rate by no more than 5.5 cents.
+
+For special rules that apply to fuel you provide for miles driven outside the United States, Canada, and Mexico, see Regulations section 1.61-21(e)(3)(ii)(B).
+The value of any other service you provide for a vehicle isn't included in the cents-per-mile rate. Use the general valuation rule to value these services.
+
+Commuting Rule
+Under this rule, you determine the value of a vehicle you provide to an employee for commuting use by multiplying each one-way commute (that is, from home to work or from work to home) by $1.50. If more than one employee commutes in the vehicle, this value applies to each employee. This amount must be included in the employee's wages or reimbursed by the employee.
+You can use the commuting rule if all the following requirements are met.
+
+	You provide the vehicle to an employee for use in your trade or business and, for bona fide noncompensatory business reasons, you require the employee to commute in the vehicle. You will be treated as if you had met this requirement if the vehicle is generally used each workday to carry at least three employees to and from work in an employer-sponsored commuting pool.
+	You establish a written policy under which you don't allow the employee, nor any individual whose use would be taxable to the employee, to use the vehicle for personal purposes other than for commuting or de minimis personal use (such as a stop for a personal errand on the way between a business delivery and the employee's home). Personal use of a vehicle is all use that isn't for your trade or business.
+	The employee doesn't use the vehicle for personal purposes other than commuting and de minimis personal use.
+	If this vehicle is an automobile (any four-wheeled vehicle, such as a car, pickup truck, or van), the employee who uses it for commuting isn't a control employee. See Control employee, later.
+Vehicle. For this rule, a vehicle is any motorized wheeled vehicle (including an automobile) manufactured primarily for use on public streets, roads, and highways.
+Control employee. A control employee of a nongovernment employer for 2025 is generally any of the following employees.
+	A board- or shareholder-appointed, confirmed, or elected officer whose pay is $140,000 or more.
+	A director.
+	An employee whose pay is $285,000 or more.
+
+	An employee who owns a 1% or more equity, capital, or profits interest in your business.
+A control employee for a government employer for 2025 is either of the following.
+	A government employee whose compensation is equal to or exceeds Federal Government Executive Level V. Go to the Office of Personnel Management website at OPM.gov/policy-data-oversight/pay-
+
+leave/salaries-wages An elected official.
+
+ for 2025 compensation information.
+
+Highly compensated employee alternative. Instead of using the preceding definition, you can choose to define a control employee as any highly compensated employee. A highly compensated employee for 2025 is an employee who meets either of the following tests.
+1. The employee was a 5% owner at any time during the year or the preceding year.
+2. The employee received more than $155,000 in pay for the preceding year.
+You can choose to ignore test (2) if the employee wasn't also in the top 20% of employees when ranked by pay for the preceding year.
+
+Lease Value Rule
+Under this rule, you determine the value of an automobile you provide to an employee by using its annual lease value. For an automobile provided only part of the year, use either its prorated annual lease value or its daily lease value (discussed later).
+If the automobile is used by the employee in your business, you generally reduce the lease value by the amount that is excluded from the employee's wages as a working condition benefit (discussed earlier in section 2). In order to do this, the employee must account to the employer for the business use. This is done by substantiating the usage (mileage, for example), the time and place of the travel, and the business purpose of the travel. Written records made at the time of each business use are the best evidence. Any use of a company-provided vehicle that isn't substantiated as business use is included in income. The working condition benefit is the amount that would be an allowable business expense deduction for the employee if the employee paid for the use of the vehicle.
+Automobile. For this rule, an automobile is any four-wheeled vehicle (such as a car, pickup truck, or van) manufactured primarily for use on public streets, roads, and highways.
+
+Consistency requirements. If you use the lease value rule, the following requirements apply.
+1. You must begin using this rule on the first day you make the automobile available to any employee for personal use. However, the following exceptions apply.
+a. If you use the commuting rule (discussed earlier in this section) when you first make the automobile available to any employee for personal use, you can change to the lease value rule on the first day for which you don't use the commuting rule.
+b. If you use the cents-per-mile rule (discussed earlier in this section) when you first make the automobile available to any employee for personal use, you can change to the lease value rule on the first day on which the automobile no longer qualifies for the cents-per-mile rule.
+2. You must use this rule for all later years in which you make the automobile available to any employee, except that you can use the commuting rule for any year during which use of the automobile qualifies.
+3. You must continue to use this rule if you provide a replacement automobile to the employee and your primary reason for the replacement is to reduce federal taxes.
+
+Annual Lease Value
+Generally, you figure the annual lease value of an automobile as follows.
+
+1. Determine the FMV of the automobile on the first date it is available to any employee for personal use.
+2. Using Table 3-1, read down column (1) until you come to the dollar range within which the FMV of the automobile falls. Then read across to column
+(2) to find the annual lease value.
+3. Multiply the annual lease value by the percentage of personal miles out of total miles driven by the employee.
+Table 3-1. Annual Lease Value Table
+
+
+(1) Automobile FMV
+(2) Annual Lease
+Value
+$ 0 to 999
+$ 600
+1,000 to 1,999
+850
+2,000 to 2,999
+1,100
+3,000 to 3,999
+1,350
+
+
+(1) Automobile FMV
+(2) 
+Annual Lease Value
+
+
+4,000 to 4,999
+1,600
+5,000 to 5,999
+1,850
+6,000 to 6,999
+2,100
+7,000 to 7,999
+2,350
+8,000 to 8,999
+2,600
+9,000 to 9,999
+2,850
+10,000 to 10,999
+3,100
+11,000 to 11,999
+3,350
+12,000 to 12,999
+3,600
+13,000 to 13,999
+3,850
+14,000 to 14,999
+4,100
+15,000 to 15,999
+4,350
+16,000 to 16,999
+4,600
+17,000 to 17,999
+4,850
+18,000 to 18,999
+5,100
+19,000 to 19,999
+5,350
+20,000 to 20,999
+5,600
+21,000 to 21,999
+5,850
+22,000 to 22,999
+6,100
+23,000 to 23,999
+6,350
+24,000 to 24,999
+6,600
+25,000 to 25,999
+6,850
+26,000 to 27,999
+7,250
+28,000 to 29,999
+7,750
+30,000 to 31,999
+8,250
+32,000 to 33,999
+8,750
+34,000 to 35,999
+9,250
+36,000 to 37,999
+9,750
+38,000 to 39,999
+10,250
+40,000 to 41,999
+10,750
+42,000 to 43,999
+11,250
+44,000 to 45,999
+11,750
+46,000 to 47,999
+12,250
+48,000 to 49,999
+12,750
+50,000 to 51,999
+13,250
+52,000 to 53,999
+13,750
+54,000 to 55,999
+14,250
+56,000 to 57,999
+14,750
+58,000 to 59,999
+15,250
+
+For automobiles with an FMV of more than $59,999, the annual lease value equals (0.25  the FMV of the automobile) + $500.
+FMV. The FMV of an automobile is the amount a person would pay to buy it from a third party in an arm's-length transaction in the area in which the automobile is bought or leased. That amount includes all purchase expenses, such as sales tax and title fees.
+If you have 20 or more automobiles, see Regulations section 1.61-21(d)(5)(v). If you and the employee own or lease the automobile together, see Regulations section 1.61-21(d)(2)(ii).
+You don't have to include the value of a telephone or any specialized equipment added to, or carried in, the automobile if the equipment is necessary for your business. However, include the value of specialized equipment if the employee to whom the automobile is available uses the specialized equipment in a trade or business other than yours.
+Neither the amount the employee considers to be the value of the benefit nor your cost for either buying or leasing the automobile determines its FMV. However, see Safe-harbor value next.
+Safe-harbor value. You may be able to use a safe-harbor value as the FMV.
+For an automobile you bought at arm's length, the safe-harbor value is your cost, including sales tax, title, and other purchase expenses. This method isnt available for an automobile you manufactured.
+For an automobile you lease, you can use any of the following as the safe-harbor value.
+	The manufacturer's invoice price (including options) plus 4%.
+	The manufacturer's suggested retail price minus 8% (including sales tax, title, and other expenses of purchase).
+	The retail value of the automobile reported by a nationally recognized pricing source if that retail value is reasonable for the automobile.
+Items included in annual lease value table. Each annual lease value in the table includes the value of maintenance and insurance for the automobile. Don't reduce the annual lease value by the value of any of these services that you didn't provide. For example, don't reduce the annual lease value by the value of a maintenance service contract or insurance you didn't provide. You can take into account the services actually provided for the automobile by using the general valuation rule discussed earlier.
+Items not included. The annual lease value doesn't include the value of fuel you provide to an employee for personal use, regardless of whether you provide it,
+
+reimburse its cost, or have it charged to you. You must include the value of the fuel separately in the employee's wages. You can value fuel you provided at FMV or at 5.5 cents per mile for all miles driven by the employee. However, you can't value at 5.5 cents per mile fuel you provide for miles driven outside the United States (including its territories), Canada, and Mexico.
+If you reimburse an employee for the cost of fuel, or have it charged to you, you generally value the fuel at the amount you reimburse, or the amount charged to you if it was bought at arm's length.
+If you have 20 or more automobiles, see Regulations section 1.61-21(d)(3)(ii)(D).
+If you provide any service other than maintenance and insurance for an automobile, you must add the FMV of that service to the annual lease value of the automobile to figure the value of the benefit.
+Four-year lease term. The annual lease values in the table are based on a 4-year lease term. These values will generally stay the same for the period that begins with the first date you use this rule for the automobile and ends on December 31 of the fourth full calendar year following that date.
+Figure the annual lease value for each later 4-year period by determining the FMV of the automobile on January 1 of the first year of the later 4-year period and selecting the amount in column (2) of the table that corresponds to the appropriate dollar range in column (1).
+Using the special accounting rule. If you use the special accounting rule for fringe benefits discussed in section 4, you can figure the annual lease value for each later 4-year period at the beginning of the special accounting period that starts immediately before the January 1 date described in the previous paragraph.
+For example, assume that you use the special accounting rule and that, beginning on November 1, 2024, the special accounting period is November 1 to October 31. You elected to use the lease value rule as of January 1, 2025. You can refigure the annual lease value on November 1, 2028, rather than on January 1, 2029.
+Transferring an automobile from one employee to another. Unless the primary purpose of the transfer is to reduce federal taxes, you can refigure the annual lease value based on the FMV of the automobile on January 1 of the calendar year of transfer.
+However, if you use the special accounting rule for fringe benefits discussed in section 4, you can refigure the annual lease value (based on the FMV of the automobile) at the beginning of the special accounting period in which the transfer occurs.
+
+Prorated Annual Lease Value
+If you provide an automobile to an employee for a continuous period of 30 or more days but less than an entire calendar year, you can prorate the annual lease value. Figure the prorated annual lease value by multiplying the annual lease value by a fraction, using the number of days of availability as the numerator and 365 as the denominator.
+If you provide an automobile continuously for at least 30 days, but the period covers 2 calendar years (or 2 special accounting periods if youre using the special accounting rule for fringe benefits discussed in section 4), you can use the prorated annual lease value or the daily lease value.
+If you have 20 or more automobiles, see Regulations section 1.61-21(d)(6).
+If an automobile is unavailable to the employee because of the employees personal reasons (for example, if the employee is on vacation), you can't take into account the periods of unavailability when you use a prorated annual lease value.
+You can't use a prorated annual lease value if the reduction of federal tax is the main reason the automobile is unavailable.
+
+Daily Lease Value
+If you provide an automobile to an employee for a continuous period of less than 30 days, use the daily lease value to figure its value. Figure the daily lease value by multiplying the annual lease value by a fraction, using four times the number of days of availability as the numerator and 365 as the denominator.
+However, you can apply a prorated annual lease value for a period of continuous availability of less than 30 days by treating the automobile as if it had been available for 30 days. Use a prorated annual lease value if it would result in a lower valuation than applying the daily lease value to the shorter period of availability.
+
+Unsafe Conditions Commuting Rule
+Under this rule, the value of commuting transportation you provide to a qualified employee solely because of unsafe conditions is $1.50 for a one-way commute (that is, from home to work or from work to home). If more than one employee commutes in the vehicle, this value applies to each employee. This amount must be included in the employee's wages or reimbursed by the employee.
+You can use the unsafe conditions commuting rule for qualified employees if all of the following requirements are met.
+
+	The employee would ordinarily walk or use public transportation for commuting.
+	You have a written policy under which you don't provide the transportation for personal purposes other than commuting because of unsafe conditions.
+	The employee doesn't use the transportation for personal purposes other than commuting because of unsafe conditions.
+These requirements must be met on a trip-by-trip basis.
+Commuting transportation. This is transportation to or from work using any motorized wheeled vehicle (including an automobile) manufactured for use on public streets, roads, and highways. You or the employee must buy the transportation from a party that isn't related to you. If the employee buys it, you must reimburse the employee for its cost (for example, cab fare) under a bona fide reimbursement arrangement.
+Qualified employee. A qualified employee for 2025 is one who:
+
+	Performs services during the year; 	Is paid on an hourly basis;
+	Isn't claimed under section 213(a)(1) of the Fair Labor Standards Act (FLSA) of 1938 (as amended) to be exempt from the minimum wage and maximum hour provisions;
+	Is within a classification for which you actually pay, or have specified in writing that you will pay, overtime pay of at least one and one-half times the regular rate provided in section 207 of FLSA; and
+	Received pay of not more than $155,000 during 2024.
+However, an employee isn't considered a qualified employee if you don't comply with the recordkeeping requirements concerning the employee's wages, hours, and other conditions and practices of employment under section 211(c) of FLSA and the related regulations.
+Unsafe conditions. Unsafe conditions exist if, under the facts and circumstances, a reasonable person would consider it unsafe for the employee to walk or use public transportation at the time of day the employee must commute. One factor indicating whether it is unsafe is the history of crime in the geographic area surrounding the employee's workplace or home at the time of day the employee commutes.
+
+4. Rules for Withholding, Depositing, and Reporting
+
+Use the following guidelines for withholding, depositing, and reporting taxable noncash fringe benefits.
+Valuation of taxable fringe benefits. Generally, you must determine the value of taxable noncash fringe benefits no later than January 31 of the next year.
+Before January 31, you may reasonably estimate the value of the fringe benefits for purposes of withholding and depositing on time.
+Choice of period for withholding, depositing, and reporting. For employment tax and withholding purposes, you can treat taxable noncash fringe benefits (including personal use of employer-provided highway motor vehicles) as paid on a pay period, quarter, semiannual, annual, or other basis. But the benefits must be treated as paid no less frequently than annually. You don't have to choose the same period for all employees. You can withhold more frequently for some employees than for others.
+You can change the period as often as you like as long as you treat all of the benefits provided in a calendar year as paid no later than December 31 of the calendar year.
+You can also treat the value of a single fringe benefit as paid on one or more dates in the same calendar year, even if the employee receives the entire benefit at one time. For example, if your employee receives a fringe benefit valued at
+$1,000 in one pay period during 2025, you can treat it as made in four payments of $250, each in a different pay period of 2025. You don't have to notify the IRS of the use of the periods discussed above.
+Transfer of property. The above choice for reporting and withholding doesn't apply to a cash fringe benefit or a fringe benefit that is a transfer of tangible or intangible personal property of a kind normally held for investment or a transfer of real property. For these kinds of fringe benefits, you must use the actual date the property was transferred to the employee.
+Withholding and depositing taxes. You can add the value of taxable fringe benefits to regular wages for a payroll period and figure income tax withholding on the total. Or you can withhold federal income tax on the value of fringe benefits at the flat 22% rate that applies to supplemental wages. See section 7 of Pub. 15 for the flat rate (37%) when supplemental wage payments to an individual exceed $1 million during the year.
+You must withhold the applicable income, social security, and Medicare taxes on the date or dates you chose to treat the benefits as paid. Deposit the amounts withheld as discussed in section 11 of Pub. 15.
+Additional Medicare Tax withholding. In addition to withholding Medicare tax at 1.45%, you must withhold a 0.9% Additional Medicare Tax from wages you pay to an employee in excess of $200,000 in a calendar year. Youre required to begin
+
+withholding Additional Medicare Tax in the pay period in which you pay wages in excess of $200,000 to an employee and continue to withhold it each pay period until the end of the calendar year. Additional Medicare Tax is only imposed on the employee. There is no employer share of Additional Medicare Tax. All wages that are subject to Medicare tax are subject to Additional Medicare Tax withholding if paid in excess of the $200,000 withholding threshold.
+For more information on what wages are subject to Medicare tax, see Table 2-1, and the chart, Special Rules for Various Types of Services and Payments, in section 15 of Pub. 15. For more information on Additional Medicare Tax, go to IRS.gov/ADMTfaqs.
+Amount of deposit. To estimate the amount of income tax withholding and employment taxes and to deposit them on time, make a reasonable estimate of the value of the taxable fringe benefits provided on the date or dates you chose to treat the benefits as paid. Determine the estimated deposit by figuring the amount you would have had to deposit if you had paid cash wages equal to the estimated value of the fringe benefits and withheld taxes from those cash wages. Even if you don't know which employee will receive the fringe benefit on the date the deposit is due, you should follow this procedure.
+If you underestimate the value of the fringe benefits and deposit less than the amount you would have had to deposit if the applicable taxes had been withheld, you may be subject to a penalty.
+If you overestimate the value of the fringe benefit and overdeposit, you can either claim a refund or have the overpayment applied to your next employment tax return. See the instructions for your employment tax return.
+If you paid the required amount of taxes but withheld a lesser amount from the employee, you can recover from the employee the social security, Medicare, or income taxes you deposited on the employee's behalf and included on the employee's Form W-2. However, you must recover the income taxes before April 1 of the following year.
+Paying your employee's share of social security and Medicare taxes. If you choose to pay your employee's social security and Medicare taxes on taxable fringe benefits without deducting them from the employees pay, you must include the amount of the payments in the employee's wages. Also, if your employee leaves your employment and you have unpaid and uncollected taxes for noncash benefits, youre still liable for those taxes. You must add the uncollected employee share of social security and Medicare taxes to the employee's wages. Follow the procedure discussed under Employee's Portion of Taxes Paid by Employer in section 7 of Pub. 15-A. Don't use withheld federal income tax to pay the social security and Medicare taxes.
+
+Special accounting rule. You can treat the value of taxable noncash benefits as paid on a pay period, quarter, semiannual, annual, or other basis, provided that the benefits are treated as paid no less frequently than annually. You can treat the value of taxable noncash fringe benefits provided during the last 2 months of the calendar year, or any shorter period within the last 2 months, as paid in the next year. Thus, the value of taxable noncash benefits actually provided in the last 2 months of 2024 could be treated as provided in 2025 together with the value of benefits provided in the first 10 months of 2025. This doesn't mean that all benefits treated as paid during the last 2 months of a calendar year can be deferred until the next year. Only the value of benefits actually provided during the last 2 months of the calendar year can be treated as paid in the next calendar year.
+Limitation. The special accounting rule can't be used, however, for a fringe benefit that is a transfer of tangible or intangible personal property of a kind normally held for investment or a transfer of real property.
+Conformity rules. Use of the special accounting rule is optional. You can use the rule for some fringe benefits but not others. The period of use doesn't need to be the same for each fringe benefit. However, if you use the rule for a particular fringe benefit, you must use it for all employees who receive that benefit.
+If you use the special accounting rule, your employee must also use it for the same period you use it. But your employee can't use the special accounting rule unless you do.
+You don't have to notify the IRS if you use the special accounting rule. You may also, for appropriate administrative reasons, change the period for which you use the rule without notifying the IRS. But you must report the income and deposit the withheld taxes as required for the changed period.
+Special rules for highway motor vehicles. If an employee uses the employer's vehicle for personal purposes, the value of that use must be determined by the employer and included in the employee's wages. The value of the personal use must be based on the FMV or determined by using one of the following three special valuation rules previously discussed in section 3.
+	The cents-per-mile rule.
+	The commuting rule (for commuting use only). 	The lease value rule.
+Election not to withhold income tax. You can choose not to withhold income tax on the value of an employee's personal use of a highway motor vehicle you provided. You don't have to make this choice for all employees. You can withhold income tax from the wages of some employees but not others. You must,
+
+however, withhold the applicable social security and Medicare taxes on such benefits.
+You can choose not to withhold income tax on an employee's personal use of a highway motor vehicle by:
+	Notifying the employee (as described below) that you choose not to withhold; and
+	Including the value of the benefits in boxes 1, 3, 5, and 14 on a timely furnished Form W-2. For use of a separate statement in lieu of using box 14, see the General Instructions for Forms W-2 and W-3.
+The notice must be in writing and must be provided to the employee by January 31 of the election year or within 30 days after a vehicle is first provided to the employee, whichever is later. This notice must be provided in a manner reasonably expected to come to the attention of the affected employee. For example, the notice may be mailed to the employee, included with a paycheck, or posted where the employee could reasonably be expected to see it. You can also change your election not to withhold at any time by notifying the employee in the same manner.
+Amount to report on Form 941 (or Form 943, 944, or CT-1) and Form W-2. The actual value of fringe benefits provided during a calendar year (or other period as explained under Special accounting rule, earlier in this section) must be determined by January 31 of the following year. You must report the actual value on Form 941 (or Form 943, 944, or CT-1) and Form W-2. If you choose, you can use a separate Form W-2 for fringe benefits and any other benefit information.
+Include the value of the fringe benefit in box 1 of Form W-2. Also include it in boxes 3 and 5, if applicable. You may show the total value of the fringe benefits provided in the calendar year or other period in box 14 of Form W-2. For additional information about reporting of fringe benefits on Form W-2, see the General Instructions for Forms W-2 and W-3.
+If you use the special accounting rule, you must notify the affected employees of the period in which you used it. You must give this notice at or near the date you give the Form W-2, but not earlier than with the employee's last paycheck of the calendar year.
+
+How To Get Tax Help
+If you have questions about a tax issue; need help preparing your tax return; or want to download free publications, forms, or instructions, go to IRS.gov to find resources that can help you right away.
+
+Preparing and filing your tax return. Go to IRS.gov/businesses/e-file- employment-tax-forms.
+Getting answers to your tax questions. On IRS.gov, you can get up-to-date information on current events and changes in tax law.
+	IRS.gov/Help: A variety of tools to help you get answers to some of the most common tax questions.
+	IRS.gov/Forms: Find forms, instructions, and publications. You will find details on the most recent tax changes and interactive links to help you find answers to your questions.
+	You may also be able to access tax information in your e-filing software.
+
+Need someone to prepare your tax return? There are various types of tax return preparers, including enrolled agents, certified public accountants (CPAs), accountants, and many others who dont have professional credentials. If you choose to have someone prepare your tax return, choose that preparer wisely. A paid tax preparer is:
+	Primarily responsible for the overall substantive accuracy of your return, 	Required to sign the return, and
+	Required to include their preparer tax identification number (PTIN).
+Although the tax preparer always signs the return, you're ultimately responsible for providing all the information required for the preparer to accurately prepare your return and for the accuracy of every item reported on the return. Anyone paid to prepare tax returns for others should have a thorough understanding of tax matters. For more information on how to choose a tax preparer, go to Tips for Choosing a Tax Preparer on IRS.gov.
+Employers can register to use Business Services Online. The Social Security
+Administration (SSA) offers online service at SSA.gov/employer  for fast, free,
+and secure W-2 filing options to CPAs, accountants, enrolled agents, and individuals who process Form W-2; and Form W-2c, Corrected Wage and Tax Statement.
+Business tax account. If you are a sole proprietor, a partnership, or an S corporation, you can view your tax information on record with the IRS and do more with a business tax account. Go to IRS.gov/businessaccount for more information.
+IRS social media. Go to IRS.gov/SocialMedia to see the various social media tools the IRS uses to share the latest information on tax changes, scam alerts, initiatives, products, and services. At the IRS, privacy and security are our highest priority. We use these tools to share public information with you. Dont post your
+
+social security number (SSN) or other confidential information on social media sites. Always protect your identity when using any social networking site.
+The following IRS YouTube channels provide short, informative videos on various tax-related topics in English, Spanish, and ASL.
+Youtube.com/irsvideos .
+Youtube.com/irsvideosmultilingua .
+Youtube.com/irsvideosASL .
+Online tax information in other languages. You can find information on IRS.gov/MyLanguage if English isnt your native language.
+Free Over-the-Phone Interpreter (OPI) Service. The IRS is committed to serving taxpayers with limited-English proficiency (LEP) by offering OPI services. The OPI Service is a federally funded program and is available at Taxpayer Assistance Centers (TACs), most IRS offices, and every Volunteer Income Tax Assistant (VITA) and tax counseling for the elderly (TCE) tax return site. The OPI Service is accessible in more than 350 languages.
+Accessibility Helpline available for taxpayers with disabilities. Taxpayers who need information about accessibility services can call 833-690-0598. The Accessibility Helpline can answer questions related to current and future accessibility products and services available in alternative media formats (for example, braille, large print, audio, etc.). The Accessibility Helpline doesnt have access to your IRS account. For help with tax law, refunds, or account-related issues, go to IRS.gov/LetUsHelp.
+Disasters. Go to IRS.gov/DisasterRelief to review the available disaster tax relief.
+Getting tax forms and publications. Go to IRS.gov/Forms to view, download, or print most of the forms, instructions, and publications you may need. Or, you can go to IRS.gov/OrderForms to place an order.
+Getting tax publications and instructions in eBook format. Download and view most tax publications and instructions (Pub. 15-B) on mobile devices as eBooks at IRS.gov/eBooks.
+IRS eBooks have been tested using Apple's iBooks for iPad. Our eBooks havent been tested on other dedicated eBook readers, and eBook functionality may not operate as intended.
+Get a transcript of your return. You can get a copy of your tax transcript or a copy of your return by calling 800-829-4933 or by mailing Form 4506-T (transcript request) or Form 4506 (copy of return) to the IRS.
+Reporting and resolving your tax-related identity theft issues.
+
+	Tax-related identity theft happens when someone steals your personal information to commit tax fraud. Your taxes can be affected if your EIN is
+
+used to file a fraudulent return or to claim a refund or credit.
+
+	The IRS doesnt initiate contact with taxpayers by email, text messages (including shortened links), telephone calls, or social media channels to request or verify personal or financial information. This includes requests for personal identification numbers (PINs), passwords, or similar information for credit cards, banks, or other financial accounts.
+	Go to IRS.gov/IdentityTheft, the IRS Identity Theft Central webpage, for information on identity theft and data security protection for taxpayers, tax professionals, and businesses. If your EIN has been lost or stolen or you suspect youre a victim of tax-related identity theft, you can learn what steps you should take.
+Making a tax payment. Payments of U.S. tax must be remitted to the IRS in U.S. dollars. Digital assets are not accepted. Go to IRS.gov/Payments for information on how to make a payment using any of the following options.
+	Debit Card, Credit Card, or Digital Wallet: Choose an approved payment processor to pay online or by phone.
+	Electronic Funds Withdrawal: Schedule a payment when filing your federal taxes using tax return preparation software or through a tax professional.
+	Electronic Federal Tax Payment System: This is the best option for businesses. Enrollment is required.
+	Check or Money Order: Mail your payment to the address listed on the notice or instructions.
+	Cash: You may be able to pay your taxes with cash at a participating retail store.
+	Same-Day Wire: You may be able to do same-day wire from your financial institution. Contact your financial institution for availability, cost, and time frames.
+Note. The IRS uses the latest encryption technology to ensure that the electronic payments you make online, by phone, or from a mobile device using the IRS2Go app are safe and secure. Paying electronically is quick, easy, and faster than mailing in a check or money order.
+What if I cant pay now? Go to IRS.gov/Payments for more information about your options.
+	Apply for an online payment agreement (IRS.gov/OPA) to meet your tax obligation in monthly installments if you cant pay your taxes in full today. Once you complete the online process, you will receive immediate notification of whether your agreement has been approved.
+
+Use the Offer in Compromise Pre-Qualifier  to see if you can settle your
+tax debt for less than the full amount you owe. For more information on the Offer in Compromise program, go to IRS.gov/OIC.
+Understanding an IRS notice or letter youve received. Go to IRS.gov/Notices to find additional information about responding to an IRS notice or letter.
+IRS Document Upload Tool. You may be able use the Document Upload Tool to respond digitally to eligible IRS notices and letters by securely uploading required documents online through IRS.gov. For more information, go to IRS.gov/DUT.
+Contacting your local TAC. Keep in mind, many questions can be answered on IRS.gov without visiting a TAC. Go to IRS.gov/LetUsHelp for the topics people ask about most. If you still need help, TACs provide tax help when a tax issue cant be handled online or by phone. All TACs now provide service by appointment, so youll know in advance that you can get the service you need without long wait times. Before you visit, go to IRS.gov/TACLocator to find the nearest TAC and to check hours, available services, and appointment options. Or, on the IRS2Go app, under the Stay Connected tab, choose the Contact Us option and click on Local Offices.
+
+Below is a message to you from the Taxpayer Advocate Service, an independent organization established by Congress.
+
+The Taxpayer Advocate Service (TAS) Is Here To Help You
+What Is the Taxpayer Advocate Service?
+The Taxpayer Advocate Service (TAS) is an independent organization within the Internal Revenue Service (IRS). TAS helps taxpayers resolve problems with the IRS, makes administrative and legislative recommendations to prevent or correct the problems, and protects taxpayer rights. We work to ensure that every taxpayer is treated fairly and that you know and understand your rights under the Taxpayer Bill of Rights. We are Your Voice at the IRS.
+
+How Can TAS Help Me?
+TAS can help you resolve problems that you havent been able to resolve with the IRS on your own. Always try to resolve your problem with the IRS first, but if you cant, then come to TAS. Our services are free.
+
+	TAS helps all taxpayers (and their representatives), including individuals, businesses, and exempt organizations. You may be eligible for TAS help if your IRS problem is causing financial difficulty, if youve tried and been unable to resolve your issue with the IRS, or if you believe an IRS system, process, or procedure just isn't working as it should.
+	To get help any time with general tax topics, visit www.TaxpayerAdvocate.IRS.gov. The site can help you with common tax issues and situations, such as what to do if you make a mistake on your return or if you get a notice from the IRS.
+	TAS works to resolve large-scale (systemic) problems that affect many taxpayers. You can report systemic issues at www.IRS.gov/SAMS. (Be sure not to include any personal identifiable information.)
+
+How Do I Contact TAS?
+TAS has offices in every state, the District of Columbia, and Puerto Rico. To find your local advocates number:
+	Go to www.TaxpayerAdvocate.IRS.gov/Contact-Us, 	Check your local directory, or
+	Call TAS toll free at 877-777-4778.
+
+What Are My Rights as a Taxpayer?
+The Taxpayer Bill of Rights describes ten basic rights that all taxpayers have when dealing with the IRS. Go to www.TaxpayerAdvocate.IRS.gov/Taxpayer- Rights for more information about the rights, what they mean to you, and how they apply to specific situations you may encounter with the IRS. TAS strives to protect taxpayer rights and ensure the IRS is administering the tax law in a fair and equitable way.
+
+Publication 15-B - Additional Material Index
+A
+Accident benefits, Accident and Health Benefits Achievement awards, Achievement Awards
+Additional Medicare Tax, Additional Medicare Tax withholding. Adoption assistance, Adoption Assistance
+Annual lease value, Annual Lease Value Assistance (see Tax help)
+
+Athletic facilities, Athletic Facilities Automobile (see Vehicles)
+Awards, achievement, Achievement Awards
+
+B
+Bicycle commuting reimbursement, Reminders, Qualified Transportation Benefits
+Birthday gifts, De Minimis (Minimal) Benefits
+
+C
+Cafeteria plans, Cafeteria Plans
+Cents-per-mile rule, What's New, Cents-Per-Mile Rule COBRA premiums, COBRA premiums.
+Comments on publication, Comments and suggestions. Commuter highway vehicle, Commuter highway vehicle. Commuting rule, Commuting Rule
+Compensation reduction agreements, Compensation reduction agreements. Copying machine use, De Minimis (Minimal) Benefits
+
+D
+Daily lease value, Daily Lease Value De minimis (minimal) benefits
+In general, De Minimis (Minimal) Benefits Meals, De Minimis Meals
+Transportation, De Minimis Transportation Benefits
+
+Definition of marriage, Reminders Demonstrator cars, Demonstrator cars.
+Dependent care assistance, Dependent Care Assistance
+Deposit rules, 4. Rules for Withholding, Depositing, and Reporting Discounts for employees, Employee Discounts
+
+E
+Educational assistance, Educational Assistance Employee benefit programs
+Accident and health benefits, Accident and Health Benefits Cafeteria plans, Cafeteria Plans
+Dependent care assistance, Dependent Care Assistance Educational assistance, Educational Assistance
+Group-term life insurance, Group-Term Life Insurance Coverage
+
+Employee discounts, Employee Discounts Employee stock options, Employee Stock Options
+Employer-operated eating facility, Employer-operated eating facility for employees.
+Employer-provided cell phones, Employer-Provided Cell Phones Exclusion rules, 2. Fringe Benefit Exclusion Rules
+
+F
+Fair market value (FMV), FMV.
+Fringe benefit overview, 1. Fringe Benefit Overview Fringe benefits
+Special accounting rule, Special accounting rule. Valuation rules, 3. Fringe Benefit Valuation Rules
+G
+General valuation rule, General Valuation Rule
+Group-term life insurance, Group-Term Life Insurance Coverage
+
+H
+Health benefits, Accident and Health Benefits
+Health flexible spending arrangement (FSA), What's New, Contribution limit on a health FSA.
+Health savings accounts (HSAs), Health Savings Accounts (HSAs) Holiday gifts, De Minimis (Minimal) Benefits
+
+I
+Insurance
+Accident and health, Accident and Health Benefits Group-term life, Group-Term Life Insurance Coverage
+Long-term care, Exception for certain long-term care benefits.
+
+L
+Lease value rule, Lease Value Rule
+Length of service awards, Achievement Awards Life insurance
+Group-term, Group-Term Life Insurance Coverage Spouse or dependent, De Minimis (Minimal) Benefits
+Lodging, Lodging on Your Business Premises
+Long-term care insurance, Exception for certain long-term care benefits.
+
+M
+Meals
+De minimis, De Minimis Meals
+On your business premises, Meals on Your Business Premises
+
+Medical reimbursement plans, Accident and Health Benefits Minimal benefits, De Minimis (Minimal) Benefits
+Moving expense reimbursement, Reminders
+
+N
+No-additional-cost services, No-Additional-Cost Services
+Nonpersonal use vehicles, qualified, Qualified nonpersonal use vehicles.
+
+O
+Options on stock, Employee Stock Options Outplacement services, Outplacement services.
+
+P
+P.L. 115-97, Tax Cuts and Jobs Act, Reminders, De Minimis Meals, Qualified Transportation Benefits
+Parking, qualified, Qualified parking. Parties, De Minimis (Minimal) Benefits
+Performance of services, Performance of services. Pickup trucks, Pickup trucks.
+Picnics, De Minimis (Minimal) Benefits Product testing, Product testing.
+Prorated annual lease value, Prorated Annual Lease Value Provider defined, Provider of benefit.
+Publications (see Tax help)
+
+Q
+Qualified small employer health reimbursement arrangements (QSEHRAs), Qualified small employer health reimbursement arrangements (QSEHRAs). Qualified transportation benefits, Qualified Transportation Benefits
+
+R
+Recipient defined, Recipient of benefit.
+Reporting rules, 4. Rules for Withholding, Depositing, and Reporting Retirement planning services, Retirement Planning Services
+
+S
+Safety achievement awards, Achievement Awards
+Self insurance (medical reimbursement plans), Accident and Health Benefits Services, no-additional-cost, No-Additional-Cost Services
+Simple cafeteria plans for small businesses, Simple Cafeteria Plans for Small Businesses
+Special accounting rule, Special accounting rule. Stock options, employee, Employee Stock Options
+Student loan payment exclusion, Exclusion for employer payments of student loans.
+Suggestions for publication, Comments and suggestions.
+
+T
+Tax help, How To Get Tax Help
+Taxable benefits, Are Fringe Benefits Taxable?
+Tickets for theater or sporting events, De Minimis (Minimal) Benefits Transit pass, Transit pass.
+Transportation benefits
+De minimis, De Minimis Transportation Benefits Qualified, Qualified Transportation Benefits
+Tuition reduction, Tuition Reduction
+
+U
+Unsafe conditions commuting rule, Unsafe Conditions Commuting Rule
+
+V
+Valuation rules, 3. Fringe Benefit Valuation Rules Vans, Vans.
+Vehicles
+Business use of (see Working condition benefits) Commuter highway, Commuter highway vehicle.
+Qualified nonpersonal use, Qualified nonpersonal use vehicles. Valuation of, Employer-provided vehicles.
+W
+Withholding rules, 4. Rules for Withholding, Depositing, and Reporting Working condition benefits, Working Condition Benefits
+
+Page Last Reviewed or Updated: 24-Dec-2024
+
+
+
+

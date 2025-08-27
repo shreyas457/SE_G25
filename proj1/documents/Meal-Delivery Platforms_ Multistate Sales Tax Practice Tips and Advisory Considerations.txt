@@ -1,0 +1,206 @@
+
+
+Global directory	Contact 	Log in 
+
+
+
+
+T A X & A C C O U N T I N G
+
+
+STATE AND LOCAL TAX
+
+Meal-Delivery Platforms: Multistate Sales Tax Practice Tips and Advisory Considerations
+
+Niki Ford, J.D., LL.M., Checkpoint News Checkpoint Catalyst Editor/Author
+
+March 28, 2023  13 minute read
+
+
+Determining the sales, use, excise, and other tax (collectively, transaction tax) obligations associated with the sale of a meal has always been a difficult endeavor. Historically, the transaction tax consequences of the sale of food and beverages have been fraught with uncertainties, resulting in different tax consequences applying to sales of seemingly similar items. One of the most notorious examples is the New York sliced bagel tax, under which a whole bagel served without spread is exempt from state sales tax as a grocery item, but a sliced bagel with cream cheese (or other spread) is subject to state sales tax as a sandwich.1 Numerous other examples abound, such as the nuances of whether an item is prepared food or a food ingredient, or food versus a nutritional supplement, or prepared for immediate consumption or otherwiseall of which can affect taxability in several states (with varying results).2
+
+Given these nuances, correctly ascertaining the transaction taxes due on the sale of food and beverages is a highly complicated task for a dining establishment, even without the involvement of a third-party intermediary. When the transactions involve intermediary platforms that facilitate the purchase and delivery of meals to customers (referred to throughout this article as meal-delivery platforms), and that may be operated outside of the state and have no direct control over the preparation and delivery of the food at issue, the ability to correctly determine the amount of transaction tax due becomes even more complex. In addition to the underlying taxability of the food and beverage items being sold, meal- delivery platforms must consider, among other things, whether a given states marketplace facilitator platform law applies, whether any fees imposed by the platform are taxable, and whether special transaction taxes (including local taxes) apply. These and other issues are explored in this article, the third in a series from Checkpoint Catalyst on intermediary platforms, which draws from the authors experience in practice to highlight transaction tax considerations for meal-delivery platforms. The previous articles in this series offered tips and considerations for lodging intermediary platforms, rental car facilitators, and passenger transportation platforms.3As highlighted in the previous articles in this series, there is a marked lack of uniformity in the obligations that states impose on intermediary
+
+
+	expanded exponentially following Wayfair and the subsequent proliferation of state marketplace	 facilitator laws. As discussed in the earlier articles in this series, marketplace facilitator laws generally shift the transaction tax remittance obligation from the marketplace seller of the taxable good or
+service (e.g. , the restaurant preparing and selling the meal) to the platform that facilitates the sale of that good or service (e.g. , the meal-delivery platform).5 Thus, at the outset, meal-delivery platforms should ascertain whether they are potentially subject to a states marketplace facilitator lawa determination that may vary depending on the meal-delivery platforms business model and the nuances of the marketplace facilitator law at hand.
+
+Some states have directly addressed the applicability of their marketplace facilitator laws to meal- delivery platforms, with varying results. For example, effective April 1, 2020, Georgia law treats meal- ordering and other platforms as marketplace facilitators and requires them to collect and remit tax if the gross receipts from transactions they facilitate on behalf of third-party restaurants or meal providers equal or exceed $100,000 in the previous or current calendar year.6 California, on the other hand, excludes delivery network companies from the marketplace facilitator provisions requiring collection and remittance of sales tax.7The California law defines delivery network companies to mean businesses that maintain an internet website or mobile application used to facilitate delivery services for the sale of local products, and thus would encompass meal-delivery platforms that facilitate the sale and delivery of meals from local restaurants.8 In other states, such as Tennessee, a meal-delivery platform can elect to be treated as a marketplace facilitator.9
+
+Furthermore, even in states that may not have addressed meal-delivery platforms outright, the statutory language that defines a marketplace facilitator often bears particular relevance for meal- delivery platforms. Namely, some states facilitator laws require that a platform enter into a contractual arrangement with a marketplace seller in order for that platform to be considered a marketplace facilitator. For example, in Virginia, a marketplace facilitator is defined as a person that contracts with a marketplace seller to facilitate, for consideration and regardless of whether such consideration is deducted as fees from transactions, the sale of such marketplace sellers products through a physical or electronic marketplace operated by such person.10 However, in the authors experience, some meal- delivery platforms do not necessarily contract with every meal provider listed on the platforms. Rather, certain restaurants and other meal providers may be permitted to list their items on the platform without ever entering into a contractual arrangement with the platform itself. In those arrangements, the platform may not be considered a marketplace facilitator in states that require contractual privity between the marketplace facilitator and the marketplace seller.
+
+Other states do not require that any contractual arrangement exists between the platform and the marketplace seller for the law to be triggered. For example, in South Carolina, a marketplace facilitator is defined as any person engaged in the business of facilitating a retail sale of tangible personal property by: (a) listing or advertising, or allowing the listing or advertising of, the products of another person in any marketplace where sales at retail occur; and (b) collecting or processing payments from the purchaser, either directly or indirectly through an agreement or arrangement with a third
+party.11 Given the nuances in state laws, any determination on the issue of whether contractual privity
+Our Privacy Statement & Cookie Policy
+All Thomson Reuters websites use cookies to improve your online experience, serve personalized ads or content, and analyze our traffic. You may manage your choices through Cookie Settings.
+
+Privacy Statement	Cookie Policy
+
+	retained by these platforms include service fees, processing fees, and delivery fees. Depending on the	 platform and the fee at issue, the fee may be charged to the restaurant as a condition of being listed on the platform, or to the person ordering the meal.
+
+Most states have not yet expressly taken a position on whether fees charged by a meal-delivery platform are taxable, but there are some notable exceptions. For example, Texas issued a private letter ruling in September 2021 finding that numerous fees charged by a meal-delivery platform, including service fees, credit card processing fees, and other special fees, were all subject to sales tax as data processing services.12 To the contrary, Tennessee issued a letter ruling in April 2022 advising that service fees and other fees charged by a meal-delivery platform were not taxable under the states marketplace facilitator law, because the true object of these fees was the provision of a non-taxable service. 13
+
+Other states take the position that, broadly speaking, amounts retained by a marketplace facilitator in connection with the sale of the taxable item via the facilitators platform are subject to sales tax as part of the measure of gross receipts.14 In other states, the taxability of the fee may depend on its characterization. For example, in several states, delivery fees associated with the sale of food are taxable.15 However, more amorphous service fees may not be taxable, particularly if the service charge is separately stated and the state does not generally tax services.16 In still other states, amounts retained by a marketplace facilitator that are contingent on a sale being made (e.g. , fees or commissions paid by a marketplace seller to a marketplace facilitator after a sale is made) are excluded from sales tax. 17
+
+Overall, the taxability of fees charged or retained by meal-delivery platforms varies widely from state to state (and at times, from fee to fee), and therefore meal-delivery platforms should conduct a careful state-by-state review to ensure that they are not undercollecting or overcollecting sales tax on fees.
+
+Applicability of Special Transaction Taxes
+
+Finally, a meal-delivery platform should consider whether it is potentially subject to transaction taxes other than the states general sales tax. Some states (e.g. , New Hampshire and Vermont) impose a special meals tax in addition to or in lieu of the sales tax.18 New Hampshire, for example, does not impose a general sales tax but does impose a meals and rooms tax. Under this law, a meal-delivery platform is considered an operator that is required to collect and remit the state meals and rooms tax if: (1) the consumer purchases a taxable meal directly from the meal-delivery platform; and (2) the price paid by the consumer to the meal-delivery platform for the meal includes the purchase and delivery of the meal to the consumer.19 Vermont similarly requires meal-delivery platforms to register as operators and remit the state meals and rooms tax, and requires meal-delivery platforms to collect and remit tax on facilitation fees, delivery fees, and other fees retained by the platform.20 In Vermont, the meals and rooms tax applies in addition to the sales tax.
+
+	burden that remote marketplaces may encounter in attempting to comply with thousands of different	 local taxing statutes raises undue burden concerns that were first envisioned by the Supreme Court
+in Pike v. Bruce Church, Inc. 24 and later referenced in Wayfair.
+
+The Takeaway
+
+With the proliferation of state marketplace facilitator laws, states have begun focusing increased attention on the transaction tax obligations of specialized intermediaries, including meal-delivery platforms. However, as with other types of specialized intermediaries, such as lodging and passenger transportation platforms, the states have taken different approaches to what these platforms obligations should be. For meal-delivery platforms in particular, there is little uniformity among the states regarding whether these platforms are generally required to collect and remit transaction taxes and the extent to which the platforms fees are also subject to tax. Imposition and collection of local taxes also varies widely among the states, in some cases generating constitutional issues yet to be resolved. To avoid surprises on audit, it is crucial for meal-delivery platforms and their advisors to carefully examine each states tax laws and evaluate the application of those laws to the meal-delivery transactions facilitated by the platform.
+
+In-depth state-by-state overview
+
+For a detailed survey of each states approach to meal-delivery platforms, see Checkpoint Catalyst Topic 1051: Sales Tax: Electronically Delivered Goods and Services.
+
+1 New York Sales Tax Bulletin No. TB-ST-283, 04/13/2011; New York Sales Tax Bulletin No. TB-ST- 835, 04/08/2019.
+
+2 These examples and others are explored in detail in Catalyst Topic 1060 Sales & Use Tax: Food and Beverages.
+
+3 See Lodging Intermediary Platforms: Tips for Parsing Their Sales Tax Duties Across the States, Checkpoint State Tax Update (10/20/2022) and Rental Car Facilitators and Other Passenger Transportation Platforms: Tips for Parsing Multistate Sales Tax Duties, Checkpoint State Tax Update (12/12/2022).
+
+4 South Dakota Tax Facts No. 05/01/2021(Marketplace), 05/01/2021.
+
+5 See Lodging Intermediary Platforms: Tips for Parsing Their Sales Tax Duties Across the States, Checkpoint State Tax Update (10/20/2022) and Rental Car Facilitators and Other Passenger Transportation Platforms: Tips for Parsing Multistate Sales Tax Duties, Checkpoint State Tax Update (12/12/2022).
+
+
+
+10 Va. Code Ann.  58.1-612.1(A).
+
+11 S.C. Code Ann.  12-36-71(A)(1).
+
+12 Texas Private Letter Ruling No. 202109055L, 09/17/2021.
+
+13 Tennessee Letter Ruling No. 22-02, 04/11/2022.
+
+14 See, e.g. , NMSA 1978  7-9-3.5(A).
+
+15 See, e.g. , New York Sales Tax Bulletin No. TB-ST-806, 04/13/2011.
+
+16 See, e.g. , Tennessee Letter Ruling No. 22-02, 04/11/2022.
+
+17 See, e.g. , South Dakota Tax Facts No. 05/01/2021(Marketplace), 05/01/2021.
+
+18 N.H. Rev. Stat. Ann.  78-A:6; Vt. Stat. Ann. Title 32  9241.
+
+19 N.H. Admin. Rules, Rev  702.15(a)(1).
+
+20 Taxable Meal Facilitators, Vermont Dept. of Rev., 08/01/2021.
+
+21 See N.C. Gen. Stat.  153A-154.1.
+
+22 N.C. Gen. Stat.  153A-154.1(b).
+
+23 See Lodging Intermediary Platforms: Tips for Parsing Their Sales Tax Duties Across the States, Checkpoint State Tax Update (10/20/2022).
+
+24 Pike v. Bruce Church, Inc. , (1970, U.S.) 397 U.S. 137, 90 S. Ct. 844, 25 L. Ed. 2d 174
+
+
+Get all the latest tax, accounting, audit, and corporate finance news with Checkpoint Edge. Sign up for a free 7-day trial today.
+
+
+
+
+
+
+CHECKPOINT EDGE	STATE AND LOCAL TAX
+
+
+
+Join our community
+Sign up for industry-leading insights, updates, and all things AI @ Thomson Reuters.
+
+Sign up
+
+
+
+
+
+Research and guidance solutions that provide fast, accurate, and trusted answers
+Explore everything Checkpoint can do.
+
+Learn more
+
+
+
+
+
+Checkpoint State Clear Comply
+A revolutionary tool to simplify compliance research for multi-tier business entities
+
+Learn more
+
+
+
+
+
+Tax and accounting news
+Subscribe to the Checkpoint Newsstand email for the latest tax, accounting, audit, and employee benefits news.
+
+Subscribe
+
+
+Related posts
+
+Average Filing Time to Increase Under New Tax Act, Says Group
+The new tax acts no tax on and state and local tax (SALT) deduction provisions will cause taxpayers in all 
+
+August 1, 2025  5 minute read
+
+Rhode Island Enacts Budget Bill Increasing Several Tax Rates, Expanding Net
+
+
+
+15, 2025, related to the states 
+
+July 22, 2025  6 minute read
+
+
+
+
+
+Search
+
+
+
+
+P R O D U C T S & S E R V I C E S
+
+
+R E S O U R C E S
+
+
+U S E F U L L I N K S
+
+
+S H O P
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

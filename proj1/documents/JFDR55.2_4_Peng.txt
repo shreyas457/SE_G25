@@ -1,0 +1,1122 @@
+
+
+Journal of Food Distribution Research Volume 55, Issue 2, pp. 6595
+
+Online Food Ordering and Delivery: A Study on the Use of Customer Service Data and Quality Function Deployment
+    Bo Penga?, Murat Erkocb, and V.K. Omachonuc aPhD Candidate, Department of Industrial and Systems Engineering,
+1251 Memorial Drive, University of Miami,
+Coral Gables, Florida 33146, USA
+
+bAssociate Professor, Department of Industrial and Systems Engineering, 1251 Memorial Drive, University of Miami,
+Coral Gables, Florida 33146, USA
+
+cProfessor, Department of Industrial and Systems Engineering, 1251 Memorial Drive, University of Miami,
+Coral Gables, Florida 33146, USA
+
+Abstract
+This study addresses the challenge of measuring the intricate nature of service design in the context of online food ordering and delivery. Despite a plethora of service industry studies, a comprehensive approach to understanding customer experience and perceptions is lacking. Leveraging e-commerce innovations, we introduce a service blueprint for the online food delivery industry. Through data collection, surveys, and statistical tools, key factors influencing the business are identified. Utilizing machine learning, our methodology aids decision makers in aligning services with customer needs. A Quality Function Deployment table is proposed to translate these insights into service design imperatives for the decision makers.
+
+Keywords: service design, online food delivery services, customer experience, quality function deployment
+
+
+
+
+
+
+?Corresponding author:	Tel: (786) 246-3644
+Email: BPeng@ihv.umaryland.edu
+
+
+Introduction
+The online food ordering and delivery (OFD) industry, a vibrant and rapidly evolving sector, has become a crucial component of the modern service economy. Its growth, driven by technological advancements and changing consumer behaviors, especially in the wake of the COVID-19 pandemic, has brought new challenges and opportunities for service design (Donthu and Gustafsson, 2020). This industry, which intertwines complex logistics, customer interactions, and digital platforms, exemplifies the need for innovative service design approaches.
+
+Service design is a method that orchestrates several service elements (e.g., physical environment, materials, and employees) in order to achieve the desired customer experiences. In the context of OFD, service design involves the orchestration of multiple components: digital interfaces, logistics and delivery, customer support, and the culinary experience itself. These components must be seamlessly integrated to deliver the intended service outcome. The concept of service design, especially in digital and e-commerce platforms, has garnered significant attention in recent years. Contemporary service design methodologies, building upon foundational work in service blueprinting and modelling, are now crucial for creating customer-centric experiences in digital- first businesses (Kunneman, Alves da Motta-Filho, and van der Waa, 2022; Iriarte et al., 2023).
+
+The complex and abstract nature of OFD service has made service design an onerous and challenging task that is usually hard to measure. Recent literature underscores the complexity inherent in designing services that cater to the dynamic needs of this industry. For example, Jun et al. (2021) highlight the critical role of technology in enhancing customer experiences in food delivery, emphasizing the need for user-friendly digital platforms. In terms of logistical efficiency and reliability, a study by Lin et al. (2023) indicates the significant impact of food delivery speed and accuracy on customer satisfaction. Moreover, the integration of customer feedback into service improvement has become increasingly prominent, as noted by Holmlund et al. (2020), where the authors emphasize the use of data analytics for understanding and responding to customer preferences and behaviors. This need for a holistic understanding of customer experiences in the food delivery sector is echoed by Noyes et al. (2019), who argue for a more comprehensive approach, combining qualitative insights with quantitative data analysis.
+
+Our research aims to bridge this gap in the context of the online food ordering and delivery industry. We propose a novel framework that leverages the power of machine learning and Quality Function Deployment (QFD) to dissect and reconstruct the customer experience. Employing this framework is not only innovative but also necessary in the current landscape, where the fast-paced nature of the food delivery industry demands a more agile and data-driven response to service design challenges. Overall, our study addresses two critical research questions: What are the key customer requirements that ensure their satisfaction with online food delivery services and their propensity to endorse these services to others? and How can the concept of service design and machine learning be applied to identify these requirements? To tackle these questions, we adopt a customer-centric approach by designing and implementing a survey informed by the service blueprint framework. Subsequently, we develop a holistic analysis, powered by advanced machine learning algorithms, which reveals the core elements that shape customer satisfaction.
+
+
+The proposed methodology ultimately results in a Quality Function Deployment (QFD) table, constructed from our analysis and predictive results. This QFD table is not only a theoretical framework, but is also a practical tool for businesses to align their services with real customer needs. As noted by industry leader Jack Ma, founder of Alibaba, I'm not a tech guy. I'm looking at the technology with the eyes of my customers, normal peoples eyes. By implementing these insights into service design, companies are poised to deliver a significantly enhanced customer experience. This study, therefore, not only contributes to academic discourse but also offers tangible strategies for businesses striving to excel in the competitive realm of OFD, a sector where customer satisfaction is paramount and directly linked to business success.
+
+Research Background
+The advent of rapid internet and smartphone penetration in shopping practices has catalyzed a transformation in the courier and delivery landscape, ushering in the era of online food delivery a market with a user base that exceeded 1 billion globally by the end of 2019 (Business Wire, 2020). The projected trajectory suggests a global revenue growth to 1.39 trillion USD by 2025, marking a significant upturn from 0.36 trillion USD in 2019 (Al Amin et al., 2021). This growth reflects a shift in consumer behavior toward convenience-driven services, a trend that has become more pronounced in the wake of the COVID-19 pandemic.
+
+As the pandemic redefined social norms, the food service industry grappled with unprecedented challenges. The CDCs guidelines recommended takeout and delivery as the safest options for food service, encouraging restaurants to pivot swiftly to these models (Centers for Disease Control and Prevention, 2020). This shift was not only a response to immediate health concerns, but was also a strategic move to align the business practice with evolving consumer expectations. Research indicates that convenience (Rathore and Chaudhary, 2018), transactional ease (Natarajan, Gupta, and Nanda, 2019), and a broad spectrum of choices (Tandon et. al, 2021; Bir et. al, 2023) are the primary motivators for consumers opting for OFDa service that has seen a sharp rise in engagement post-pandemic. Gunden, Morosan, and DeFranco (2020) examined a wide variety of factors that motivate consumers to use OFD systems in the United States using a conceptual model. The authors conclude that performance expectancy was the strongest predictor of intentions to use OFD systems, followed by congruity with self-image.
+
+A comprehensive survey conducted in the United Kingdom in March 2020 provides valuable insights into this behavioral shift. As illustrated in Figure 1, a significant 60% of respondents aged 1834 reported an increase in OFD, with a substantial proportion planning further increase. The trend persists across older demographics, indicating a widespread adoption of online food ordering in food delivery services (Statista, 2020). These data underpin the need for adaptive service design in the OFD industry to cater to a diverse customer base with heightened expectations. As the food delivery market continues to expand, the industry must adapt to these patterns to maintain customer satisfaction and business growth.
+
+
+
+
+
+Figure 1. Percentage of the People in Different Age Groups Who Plan to Increase Their Use of OFD Services in the United Kingdom as of March 2020 (Statista, 2020)
+
+The OFD industrys rapid expansion necessitates an agile service design that accommodates the nuances of digital interaction and customer engagement. Contrary to traditional service models, the online platform has enhanced visibility and necessitated a more complex interplay between customer and service provider (Pal et al., 2021). With the increased expectations and reliance on online food ordering, restaurants have been compelled to reassess how best they can adapt to the evolving business models and improve their service operations. Because the customer stands at the center of the service systems, achieving an effective service design in this emerging ecosystem depends critically on understanding the customers perceptions and preferences (Natarajan et al., 2019). Acknowledging the centrality of customer perception in service design, this study endeavors to map out the service blueprint of online food ordering, assessing the end-to-end customer experience from food browsing to after-sales services.
+
+While existing literature, such as the work of Smith and Heriyati (2023), who examine the impact of service quality on customer loyalty in OFD, and the study by Tandon et al. (2021), which explores the role of customer perceptions in food delivery app usage, offer valuable insights into consumer behavior and service delivery, a holistic analysis encompassing the complete spectrum of OFD services is less explored. In a recent study, Hoang and Le Tan (2023) investigated the effects of user interface design on customer ordering experiences, and Chowdhury (2023) examined the impact of perceived convenience and security on repeat purchase intention. However, these studies often address isolated factors within the service delivery system. In one of the pioneering studies that incorporates multiple factors, Chan and Gao (2021) introduce a comprehensive OFD service quality framework, referred to as DEQUAL. The framework addresses the omni-channel feature of OFD services that encompasses both the digital and physical
+
+
+components. Using a similar approach, Cheng, Chang, and Chen (2021) propose an alternative service quality scale for 20 key service factors with six dimensions, including reliability, maintenance of meal quality and hygiene, assurance, security, system operation, and traceability. In a later study, Koay, Cheah, and Chang (2022) focus on five significant service dimensions comprising assurance, meal quality, reliability, security, and system operation. Despite the valuable insights offered by these initial studies, they either lack a systematic framework that delineates OFD service quality or provide exploratory approaches.
+
+In a more recent study, Ma et al. (2024) identify key service topics (qualities) pertaining to consumers OFD experiences by utilizing the advanced BERTopic machine learning algorithm. In this regard, they developed a systematic framework that integrates aforementioned traditional methods with data analytics modeling based on user-generated online reviews. Our paper provides an alternative approach that can be utilized to synthesize findings from customer satisfaction surveys and machine learning analysis into a Quality Function Deployment (QFD) framework, thus refining service design in alignment with customer feedback. QFD is an effective tool to translate customer requirements into measurable design targets and drive them from the assembly level down through the sub-assembly, component, and production process levels. It provides a defined set of matrices utilized to facilitate this progression. What makes QFD unique is its primary focus on the customer requirements; in other words, what the customer truly wants rather than the innovation in technology. It has a wide spectrum of application areas in many key sectors, such as hospitality, logistics, healthcare, manufacturing, and education (Bossert 2021). In what follows, we discuss the details of our proposed framework in the context of OFD.
+
+Research Methodology
+This study employs a comprehensive methodology to tackle the service quality assessment within the online food ordering and delivery industry. The approach is grounded in the established principles of service design and systems thinking, providing a structured yet flexible framework that can accommodate the complex interplay of factors influencing customer experiences. We initiate our exploration by developing a service blueprint, a tool that has been effectively utilized to map out customer touchpoints and internal processes (Bitner, Ostrom, and Morgan, 2008; Kostopoulos, Gounaris, and Boukis, 2012; Hossain, Enam, and Farhana, 2017). This visual approach enables us to dissect the multifaceted nature of the food ordering and delivery business, aligning with the methodology of Patrcio et al. (2011), who demonstrated how service blueprints could articulate the relationships among different service components and customer interactions.
+
+Following the blueprint development, we designed and deployed a customer experience survey. The survey design is primarily informed by the service blueprint and focuses on the key influential factors identified during the blueprint development. To analyze the survey data, we have chosen a combination of statistical tools and machine learning algorithms. Our choice of tools is substantiated by the success of such methods in recent studies, such as one conducted by Markoulidakis et al. (2020), where the authors extract meaningful patterns and insights from complex customer datasets. The machine learning aspect in particular is an extension of the work of Sharma, Kumar, and Chuah (2021), who utilized predictive analytics to identify key drivers of
+
+
+customer satisfaction in e-commerce. Integrating machine learning outcomes into a QFD table represents a novel application, which has a proven track record in aligning service features with customer desires, as demonstrated by Wang, Guo, and Chen (2023) in the context of service enhancements.
+The chosen methodology is in line with this studys objective, which is to gain a comprehensive understanding of and enhance the customer experience in the online food ordering and delivery business. This sequential linking of the service blueprint, survey data, machine learning analysis, and QFD creates a robust framework that ensures a thorough investigation of customer satisfaction drivers. It also provides actionable insights for decision makers as they seek to evolve their services in response to customer feedback.
+Service Blueprint and Influential Factors
+In our exploration of the online food ordering and delivery service, the customers journey is mapped out through a service blueprint that begins with the digital engagement phase. The service blueprint was initially introduced as a visual representation to map the customer process (customer journey) against the organizational structure (Kostopoulos, Gounaris, and Boukis, 2012). The inclusion of physical evidence and the distinction between frontstage and backstage elements were later incorporated to shed light on the roles of service providers and customers using the service (Hossain, Enam, and Farhana, 2017). Providing a comprehensive view of critical components in a service process, the service blueprint guided the development of the online food ordering experience, as illustrated in Figure 2.
+
+Figure 2. Service Blueprint for a Typical Online Food Ordering and Delivery Service
+
+
+In the context of OFD, customers initiate their experience by navigating through an array of culinary options via a food ordering app or website, making critical judgments based on the platforms design and information. In a recent relevant study, Pal et al. (2021) investigated university students satisfaction and loyalty in using online food delivery apps. They capture the customers experience with the mobile apps via their attributes, including app visual design, navigational design, and information design. Their insights resonate with the observations of Lee et al. (2015) and Peters et al. (2016), who assert the significant influence of app attributes on cognitive and emotional responsesfactors yet to be thoroughly investigated in the domain of online food delivery.
+
+Expanding on this customer journey, the blueprint outlines subsequent phases, including order placement and payment, delivery tracking, order help and review, and after-sales requests. Each of these stages is influenced by identified factors, such as order delivery and tracking, online assistants, and after-sales servicesareas highlighted by research as crucial for customer satisfaction (Hong et al., 2021; Wang et al., 2021; Roy Dholakia and Zhao, 2010). Our service blueprint serves as a foundational framework, linking these influential factors with the customer journey. It provides a clear visualization of the frontend user experience and the backend processes supporting it, ensuring a holistic understanding of the services design and operation. This integrated perspective is vital for constructing our customer survey, which delves deeper into how these factors collectively influence the overall customer experience.
+
+Based on this service blueprint, the four influential factors following the customer journey are identified and discussed below.
+
+Ordering Platform Design and Operation
+
+Platform Appearance and Layout: The visual appeal of an online food ordering platform is a critical determinant of customer trust and engagement. Jeannot, Jongmans, and Damprat (2022) highlighted the direct correlation between a websites aesthetic appeal and user trust, underpinning the significance of design in the digital consumer experience. Kumar, Purani, and Viswanathan (2018) extend this understanding specifically to online food delivery platforms, demonstrating that aesthetic design not only enhances perceived usefulness and ease of use, but also fosters user enjoyment and loyalty. A well-crafted interface can captivate users, making the experience of browsing menus and placing orders more enjoyable (Cheung et al., 2015). Conversely, platforms with subpar design and poor visual appeal face user aversion due to the negative impact on user engagement (El Said, 2015).
+
+The layout aspect of a platformhow its content is organized and presentedis equally important. Users expect a seamless and intuitive navigation experience that aligns well with advanced web technologies. Modern online food ordering apps have embraced a variety of user-centric customization features, enabling customers to tailor their browsing and ordering experience to their personal preferences (Liu and Lin, 2020). Additionally, they offer detailed and vibrant visuals of dishes and interactive elements, such as using various angles to illustrate food items, which help simulate a rich and engaging selection process (Vermeir and Roose, 2020). These elements are
+
+
+crucial in building a connection with the user, ensuring that the initial digital interaction is as compelling as the meal they intend to enjoy.
+
+Information Quality: In the realm of online food ordering, the caliber of information presented on platforms plays a pivotal role in shaping customer satisfaction and trust. Furthering the concepts introduced by Chotigo and Kadono (2021), information quality on food delivery apps is evaluated based on its accuracy, comprehensiveness, relevance, and clarity. These attributes contribute to the perceived effectiveness of the information system, facilitating informed and confident user decisions. The presentation of this information, as emphasized by recent studies, including the arrangement, accessibility, and timeliness of updates, further influences user engagement and satisfaction (Lim and Rasul, 2022).
+
+Contemporary web and app technologies have evolved to offer personalized and multimedia-rich content, enhancing interactivity and understanding for users (Shahbaznezhad, Dolan, and Rashidirad, 2021). High-quality informationcharacterized by its completeness, detail, precision, and reliabilitybecomes a cornerstone for user convenience, providing a seamless and enjoyable experience that can significantly impact purchasing decisions. The information quality in online food delivery apps, therefore, is not only a functional aspect, but is a strategic tool that businesses leverage for competitive advantage (Belanche, Flavin, and Prez-Rueda, 2020).
+
+Web and App System Quality: According to Kwaku and Antwi (2021), the quality of an e- commerce system is measured by the consumers evaluation of the websites technical characteristics, which include usefulness, functionality, reliability, accessibility, flexibility, portability, integration, and interactivity. The behavioral intention of online shoppers is significantly influenced by the ease of use of the app, which is consistently demonstrated to be a crucial factor (Higgins et al., 2015). Additionally, a good online shopping web system should save the customers transaction efforts and payment time. Otherwise, the customers may hesitate to use the websites payment system (Chen and Chang, 2023).
+
+Security and Privacy: A customers intention to buy a product from the website is heavily affected by the level of trust. Web system security and customers privacy have been addressed as primary concerns among online consumers and treated as key elements for generating online trust (Flavin, Guinalu, and Gurrea, 2006).
+
+Price and Promotions: It is obvious that the price of the product, shipping costs, and discounts play a major role in driving customers to purchase online. Almost 4 out of 5 Americans say finding a great offer or discount is always on their minds throughout the entire buying experience (Roesler, 2018).
+
+AI (Artificial Intelligence) Food Recommendation: Although little research has been done in this new area, web developers are using AI to help consumers choose meals based on their ordering history and preferences. An increasing number of companies claim that this technology could enhance customer ordering experience and boost sales (Haleem et al., 2022).
+
+
+Order Delivery and Tracking
+
+When restaurants receive an order, they prepare meals according to the stipulations of the order. The production process is usually invisible to customers. After the food is prepared and packaged, it is delivered by the courier to the customers address. Delivery is particularly important to online retailing where there is a temporal separation between order placement and delivery. In this stage, distributing the right food to the right place at the right time plays a very significant role in overall customer satisfaction and loyalty. With the help of GPS navigation and tracking systems, delivery fleets can identify the most efficient routes and consequently improve the order on-time arrival rate. Similarly, customers can trace their order simultaneously using their smartphones.
+
+Additionally, the visual presentation and temperature of delivered food significantly influence customer perceptions of quality and service excellence. Research by Zhong and Moon (2020) indicates that customers equate the care taken in food presentation with the overall quality of the service provided. Moreover, maintaining the appropriate food temperature from kitchen to consumer is not only a matter of taste, but also a health consideration, reinforcing trust in the service provider (Serhan and Serhan, 2019).
+
+The appearance of delivery personnel also plays a pivotal role in shaping customer impressions. The uniform is a symbol of professionalism and a visual cue of a brands commitment to quality and safety. Recent studies by Meena and Kumar (2022) have shown that delivery staff attire can significantly enhance the perceived value of the service and foster a sense of security among customers, which are particularly salient in the context of food handling and hygiene protocols. This extension of the service experience to include the conduct and appearance of delivery personnel underscores the need for comprehensive service design that encompasses all aspects of the customer journey, not just the digital interface or the food itself.
+
+Online Assistants
+
+In the OFD industry, online assistants play an indispensable role in enhancing customer experience and satisfaction. These digital interfaces, encompassing a range of technologies from chatbots to sophisticated virtual agents, are integral in providing immediate responses to customer inquiries, offering real-time assistance, and efficiently managing feedback and complaints. The utility of online assistants is rooted in their ability to offer personalized and contextual support, a factor that significantly influences customer loyalty and retention. Jenneboer, Herrando, and Constantinides (2022) highlight the effectiveness of chatbots in increasing user engagement and satisfaction by offering quick and accurate responses to common queries. Moreover, Makarius et al. (2020) underscore the role of virtual agents in handling complex customer service scenarios, thereby reducing wait times and improving overall service quality. The integration of AI-driven online assistants in the food delivery sector not only streamlines customer interaction but also contributes to building a robust customer service framework that is crucial for sustaining competitive advantage in this rapidly evolving industry.
+
+
+After-Sales Services
+
+As a crucial stage within the customer service life cycle, after-sales service represents the ongoing interaction between the service provider and the customer. The significance of after-sales services has been substantiated as a key predictor of customer satisfaction and retention (Shokouhyar, Shokoohyar, and Safari, 2020). The availability of after-sales services serves as an indispensable criterion in assessing customer satisfaction and driving recommendations. Consequently, e- commerce businesses are expected to deliver the highest level of after-sales customer service experience.
+
+In the context of an online food ordering company, after-sales customer service encompasses various quality aspects, including the response time to customer inquiries, the politeness of staff, the handling of complaints, and the procedures for managing refunds. These elements collectively contribute to the overall after-sales experience and play a pivotal role in shaping customer satisfaction and loyalty.
+
+Customer Satisfaction Survey Design and Data Collection
+
+Understanding customer satisfaction, a crucial indicator of consumer contentment post-purchase, is essential for fostering loyalty, remedying service shortcomings, and attracting new patrons. To gauge this factor effectively, our study employs a comprehensive customer satisfaction survey. The surveys design captures both transactional experiencesindividual interactions with the serviceand overall satisfaction, a broader reflection of customer attitude toward the entire product/service offering, as conceptualized by Voorhees et al. (2017). The former pertains to discrete encounters, which are identified in our service blueprint as Influential Factors, while the latter aggregates these experiences into a composite service impression, influencing the customers propensity to endorse the service to others (Xu, 2021). The recommendation likelihood is another outcome variable, indicative of recommendation intentions and future business potential. Thus, our survey aims to dissect the determinants of customer satisfaction and their interplay with recommendation intent. Through empirical analysis, we seek to establish the key factors that drive consumer contentment and how they correlate with the willingness to recommend the platform, providing actionable insights for service enhancement.
+
+A customer satisfaction questionnaire survey is designed accordingly and conducted online. One pre-screen questionHave you ever ordered food online?was included at the very beginning to filter out those people who have never ordered food online. Demographic data, including gender, age, level of education, employment status, and marital status, and consumer behavior data including ordering platform, ordering frequency, and average expenses are collected to better understand the social background and shopping habits of the respondents (see Survey Dimension 12 in Appendix A).
+
+Considering the service blueprint and the previous discussion about influential factors, the questionnaire divides the OFD business process into four survey dimensions (see Survey Dimensions 36 in Appendix A, corresponding to the four influential factors of the service
+
+
+blueprint). Each dimension has its related sub-questions based on the discussion of influential factors (9 questions for Dimension 3, 5 questions for Dimension 4, 1 question for Dimension 5, and 2 questions for Dimension 6). The primary goal is to explore consumers actual ordering app user experience by holistically investigating various service quality parameters, starting from the time users interact with the apps for searching food to the after-sales service. This analysis aims to understand the complicated relationship among perceived service quality, satisfaction, and loyalty in using food ordering services.
+
+Each sub-question is treated as an independent variable and is rated using a 15 Likert scale, with 1 indicating the lowest possible customer satisfaction level and 5 representing the highest. The survey questions and the summary outcome are presented in Appendix A. At the end of the survey, respondents are asked to rate their overall satisfaction (Q21) and the likelihood of recommending the food ordering platform to others (Q22). Both questions are set as two dependent variables (see Survey Dimension 7 in Appendix A).
+
+The survey was conducted via a Qualtrics survey research suitea popular cloud-based web survey tool enabled by a globally recognized survey technology enterprise. The survey targeted respondents who are familiar with or have used online food ordering services and delivery options in the recent past. The responses of participants who have not used online food ordering services and delivery were excluded from the analysis. After the survey was published, the survey platform notified those individuals who belong to the demographic group, including participants currently residing in the United States and those who ordered food online via email, in-app, and SMS notifications. Each respondents address, demographic information, and email address had been verified by Qualtrics before participation. These individuals were then able to take the survey after passing the qualifying screeners to move forward to being counted as acceptable completes. The respondents who finished in less than one half of the median completion time were disregarded, because they were viewed as answering the survey in a perfunctory manner. Potential biases were addressed through the survey design and administration process. Selection bias was mitigated by using a random sampling technique, and response bias was minimized by ensuring anonymity. Additionally, speeders and straight-liners were filtered out to maintain data quality. A total of 379 qualified survey samples over a 2-month period were successfully populated. This sample size falls within the recommended range of 200 to 500 responses, as recommended by the guidelines provided by Iacobucci and Churchill (2018) and satisfies the minimum requirement of a sample size of 322, as recommended by Zikmund et al. (2013).
+
+Customer Survey Data Analysis by Machine Learning Algorithm
+
+Machine learning algorithms usually employ computational methods to learn information directly from data for making predictions or decision supports. With its growing popularity in a wide variety of industries, machine learning methods are increasingly used for various aspects of survey research, which include data processing, responsive/adaptive designs, nonresponse adjustments and weighting, classification, and making predictions (Buskirk et al., 2018). In our study, after gathering the basic statistics of the survey results, we employed and compared three machine learning algorithms, namely, decision tree, random forest, and support vector machines,
+
+
+to identify the independent variables that represent the key drivers of customer value and extract useful data insights.
+
+In the realm of data analysis, Decision Tree Methods (DTMs), including their derivative Random Forest Method (RFM), stand out for their interpretability and robustness. These methods, which have been applied across engineering, medicine, finance, and marketing, have proven particularly effective in analyzing customer behavior and survey data. For instance, decision trees have offered valuable insights into the main factors affecting customer satisfaction by revealing priority areas for service improvement (Xie and Zhao, 2010). The RFM, built on the decision tree foundation, enhances prediction accuracy by aggregating multiple trees to form a more potent model ensemble, thus offering a nuanced understanding of customer survey data (Tsami et al., 2018).
+Support Vector Machines (SVMs) complement these methods by classifying data with a high- dimensional approach that maximizes the margin between data points, making it suitable for complex classification tasks often encountered in survey analysis (Kirchner and Signorino, 2018). Together, these machine learning algorithms form a comprehensive toolkit for deriving actionable insights from customer feedback, essential for service design and development in todays data- driven decision-making environments. The three models were all built by 80% of the whole survey data entries (randomly selected), and their prediction accuracies were tested on the remaining 20% of the data. We selected the best model with the highest testing data prediction accuracy and built the QFD table based on the survey data insights provided by the selected machine learning model.
+Quality Function Deployment (QFD)
+Introduced in the 1970s, the Quality Function Deployment is a crossfunctional method that can be utilized to translate customer requirements of product and service design specifications (Jin et al., 2009). It can be quite instrumental in guiding businesses in designing their products or services to meet the requirements and expectations of customers (Erdil and Arani, 2019). The QFD table is a basic tool of the QFD method. The structure of a QFD table can be divided into nine parts: voice of customers (wants), importance of wants, relationships between customer wants and technical specifications, competitive analysis, correlation between technical specifications, technical specifications, technical specification priorities, technical comparisons, and technical targets. In this research, a QFD table (see Appendix B) was developed based on the survey data analysis and prediction results to integrate the voice of customers into service design.
+
+
+
+
+Figure 3. Flowchart of Research Methodology
+
+
+Research Findings
+Survey Sample Characteristics
+
+The survey was completed in June 2020, with 379 qualified respondents, 60% of whom identified as female and 40% as male. The characteristics of the survey samples are summarized in Error! Reference source not found.. Most respondents were under the age of 45 (80%) and hold at least a bachelors degree (66.5%). Most were currently married (57.3%) and held a full- time job (62.3%). More than half of the respondents have ordered food from both a restaurant app and a third-party app (e.g., Uber Eats, Grub Hub, etc.) in the recent past, whereas the number of respondents who have ordered only from a third-party platform (19%) was less than the number who only used a restaurant app (29%). It is also worth noticing that most of the respondents indicated that they order fewer than five times per week on average (62.3%) and typically spend
+$15 to $35 each time (51.7%).
+
+The survey data were imported into R-studio for statistical analysis, and all of the survey responses were converted to categorical variables. We first calculated the mean for each survey item and Spearman Correlation Coefficient of independent variables Q4 through Q20 to the two dependent variables (targets): Q21 and Q22 (see Appendix A). Some values were missing (skipped questions by the respondents), and the two targets were unbalanced with more selections of 4 and 5 than the others (see Figure 4). Thus, some data preprocessing steps were needed before building the complete machine learning models. To address the missing values, we performed missing value imputations in predictor data using the proximity matrix. After imputation, all of the missing values were backfilled. Later, the oversampling technique was applied to balance the proportion of classes in the targets.
+
+
+Table 1. Characteristics of Survey Samples
+
+Characteristics
+
+Category
+% of
+Respondents
+Gender
+Male
+40.0%
+
+Female
+60.0%
+Age
+1824 years old
+22.7%
+
+2534 years old
+28.5%
+
+3544 years old
+29.6%
+
+4554 years old
+8.4%
+
+Over 55
+10.8%
+Level of education
+High school degree or equivalent
+17.4%
+
+Bachelors degree (e.g., BA, BS)
+35.9%
+
+Masters degree (e.g., MA, MS, MEd)
+30.6%
+
+Doctorate (e.g., PhD, EdD)
+12.7%
+
+Other
+3.4%
+Current employment status
+Employed full time
+62.3%
+
+Employed part time
+9.5%
+
+Self-employed
+5.0%
+
+Unemployed
+4.7%
+
+Student
+10.6%
+
+Retired
+6.3%
+
+Other
+1.6%
+Marital status
+Single
+33.8%
+
+Married
+57.3%
+
+In a domestic partnership
+4.2%
+
+Divorced
+3.4%
+
+Widowed
+1.3%
+Platform used to order food online
+Order directly from restaurant app
+29.0%
+
+Order through a third-party platform (e.g., Uber eats,
+Grub Hub)
+19.0%
+
+Both
+52.0%
+Order frequency per week
+More than 57 times / week
+18.2%
+
+57 times/ week
+19.5%
+
+24 times/week
+32.7%
+
+12 times/ week or less
+29.6%
+Amount spent per order
+Less than $15
+7.7%
+
+$15$35
+51.7%
+
+$35$50
+26.9%
+
+More than $50
+13.7%
+
+
+
+
+
+Figure 4. Histogram of the Target Variable Q21 (Customer Overall Satisfaction) and Q22 (Customer Recommendation Likelihood)
+
+
+Machine Learning Models Building and Selection
+
+Two decision tree models were built for Q21 and Q22. After cross-validation and tree pruning, the best decision tree models resulted in the testing data classification accuracy rates of 70.87% and 61.82% for Q21 and Q22, respectively. On the other hand, after parameters tuning, the best random forest model resulted in 88.19% testing set classification accuracy for Q21, and 79.09% testing set classification accuracy for Q22. Moreover, the SVM model yielded 67.72% and 60.90% testing classification accuracy levels for Q21 and Q22, respectively. Our results for this stage are summarized in Table 2.
+
+Table 2.Training and Testing Classification Accuracy for Q21 and Q22 by Each Machine Learning Model
+Accuracy
+
+Model
+Training Classification Accuracy (Q21)
+Testing Classification Accuracy (Q21)
+Training Classification Accuracy (Q22)
+Testing Classification Accuracy (Q22)
+Decision tree
+82.74%
+70.87%
+78.08%
+61.82%
+RFM
+87.50%
+88.19%
+82.19%
+79.09%
+SVM
+77.58%
+67.72%
+66.21%
+60.90%
+
+According to these results, RFM has provided the highest classification accuracy for both target variables; therefore, this method is selected for the remainder of the analysis and prediction tasks. Figure 5 shows the random forest classification model confusion matrix and statistics. The accuracies are much higher than the No Information Rates (p-value < 2  10-16), and the Cohens Kappa values are all above 0.7, which indicates the prediction model is substantial and reliable (McHugh, 2012). Figure 6 and Figure 7 demonstrate the independent variables significance for Q21 and Q22.
+
+
+
+
+
+Figure 5. Random Forest Classification Model Confusion Matrix and Statistics for Testing Set
+
+
+
+
+
+
+Figure 6. Variable Importance for Target Q21
+
+
+
+
+
+Figure 7. Variable Importance for Target Q22
+
+
+Formation of the Quality Function Deployment Table
+
+The QFD table is developed using the results of the data analysis and presented in Appendix B. The traditional full implementation of QFD in the manufacturing industry involves four phases: Phase 1 (QFD table) translates customer requirements into technical design requirements; Phase 2 (product design) turns technical requirements into part specifications; Phase 3 (process design) turns part requirements into process requirements; and Phase 4 (process control) turns process requirements into production requirements. Building the QFD table constitutes a critical phase as it captures the voice of the customer and provides a way for efforts toward improving the service design. As such, we primarily focus on the process of QFD table development as detailed in the flowing steps:
+
+Step 1. Identify customer needs and determine their degrees of importance: As shown in Figures 6 and 7, the survey items Q11 (getting and using coupons, promotions, and deals), Q12 (food suggestion and recommendation), Q19 (platforms ability to resolve complaints) and Q20 (handling refund requests) are identified by the Random Forest Method as the most important impactors pertaining to the main targets (i.e., Q21 and Q22). Thus, we identify these four items as the most significant customer needs, as demonstrated in row 2 to row 5 in Appendix B. Their rate of importance is determined by the average of their variable importance (i.e., Mean Decrease Gini) in RFM (i.e., rate of importance of Q19 = (42.6 + 27.7) / 2 = 35.15). We later convert the importance rate to a 5-point scale and insert the numbers into the QFD table under the column titled as Rate of Importance (Column 6 in Appendix B).
+
+Step 2. Pinpoint technical requirements and determine inter-relationships: Once the customer needs and their degrees of importance have been identified, technical requirements (i.e., the service design requirements) need to be identified. Service design requirements are the translation of these
+
+
+customer needs to service designs, and each requirement can fulfill one or more customer needs. Our analysis has identified five service design requirements (Column 1-5 in Appendix B) and their inter-relationships, illustrated by color-coded circles.
+
+Step 3. Determine relationships between customer needs and technical requirements: The central grids of QFD, which connect the customer needs listed on the very left column of the QFD Table with the service design requirements listed across the top row, indicate the corresponding relationships (correlation coefficients) between the two (represented as a black single ring, double ring, and triangle in the middle region of Appendix B). There should be at least one service design requirement that has a strong correlation with one of the customers needs. Otherwise, a particular customers need may not be properly addressed.
+
+Step 4. Determine plan for customer needs and sales point: In this step, we first set the scores for the current state of the company (i.e., Company Now [Column 7 in Appendix B] by using the average values (rounded to the nearest integer) of each survey item. Subsequently, based on the RFM forecasting, we derive the list of the desired values for each survey item to raise to, namely, Plan (Column 8 in Appendix B). In this case, we target to increase the averages of customer overall satisfaction (Q21) and recommendation likelihood (Q22) from current value of 4 (Appendix A, Mean of Q21 and Q22, rounded to the nearest integer) to 5. According to our model forecasting, if we can raise the means of the customer needs represented by Q11, Q12, Q19, and Q20 from current value 4 (Company Now) to 5 (Plan), then Q21 and Q22, respectively, will have 63.7% and 52%, respectively, chances to reach the Very Good overall satisfaction level and the Extremely Likely customers recommendation willingness level. These probabilities are detailed in Table 3. The Rate of Improvements (Column 9 in Appendix B) are calculated by dividing the scores under the Plan column by the values of Company Now column.
+
+Table 3. Predicted Probability for Q21 and Q22 Rankings
+Q21 Rankings
+
+
+
+Q22 Rankings
+
+
+1
+2
+3
+4
+5
+
+1
+2
+3
+4
+5
+Predicted Probability (Before)
+
+0.0
+
+9.3%
+
+9.6%
+
+61.0%
+
+20.1%
+Predicted Probability (Before)
+
+0.3%
+
+3.4%
+
+22.0%
+
+44.0%
+
+30.3%
+Predicted Probability (After)
+
+0.0
+
+0.3%
+
+14.6%
+
+33.1%
+
+52.0%
+Predicted Probability (After)
+
+1.9%
+
+3.7%
+
+9.0%
+
+21.7%
+
+63.7%
+
+The Sales Point, shown as a single red ring and double red ring under Column 10 in Appendix B in the QFD Table, indicates which customer expectations have more important effects on marketing. Customer needs items with higher marketing importance were assigned 1.5 points, and
+1.2 points were assigned to the items with lower importance. The Absolute Weight (Column 11 in Appendix B) is the multiplication of Column 6 (Rate of Importance, column 9 Rate of
+
+
+Improvement) and Column 10 (Sales Point). The last column, Demand Weight, (Column 12 in Appendix B) is the percent ratio of Absolute Weight for each factor.
+
+Step 5. Develop importance rating and action plan for technical requirements: This step completes the basement of the QFD table where the total importance rating is documented. The Total Importance Rating (Row 6 in Appendix B) is the relative weight of each technical requirement in terms of satisfying the customers demands. The importance ratings determine which technical requirement, in our case the service design requirement, should receive the most attention in the service design and improvement process. Basically, it is calculated by the following expression:
+
+?????? = ?????? ????????????	(1)
+
+where ?????? is the total importance rating of the jth technical requirement; ???? is the Demand Weight of ith customer requirement; and ???????? is the correlation coefficient (relationship defined in Step 3) between the ith customer requirement and the jth technical requirement. The Percent (Row 7 in Appendix B) is then determined by the following equation:
+
+
+??
+?????? = ??????/ ?	??????
+???=1
+
+(2)
+
+
+where ?????? is the importance rating proportion of the jth technical requirement against the total. This percentage indicates which service design requirement has relative higher significance or urgency to be fulfilled. The Company Situation Now (Row 8 in Appendix B) assesses the current situations for each service design item. The final row comprises Action Plans (Row 9 in Appendix B), which are the perspective actions that should be conducted in the new service design or renovations corresponding to each service design requirement. Upgrade Food Recommendation System and AI Algorithm and Provide More Professional Training to Staffs on Customer Services and Handling Complains are identified to be the two critical factors (with the highest corresponding Percent value) in the service design improvement process. In some QFD implementations, this step could also include the evaluation of market competitors in terms of technical requirements, and the results would usually be recorded in a basement row of the matrix.
+Key Managerial Insights
+
+The proposed analysis has examined 19 pivotal factors influencing customer satisfaction in OFD and their propensity to recommend OFD services to others. Among these, four factors stand out as the most influential according to the employed machine learning approach: i) the ease of getting and using coupons, promotions, and deals; ii) the ease of accessing and utilizing coupons, promotions, and deals; ii) the helpfulness of food suggestions and recommendations; iii) the efficacy of resolving complaints; and iv) the handling of refund requests. Consequently, as a key insight, the analysis concludes that enhancing these service elements can elevate customer satisfaction levels and recommendation behaviors. Notably, the analysis suggests that improving the food recommendation system is poised to elicit the most positive responses from customers,
+
+
+as indicated by the highest demand weight in the QFD analysis. Thus, companies should prioritize upgrading their food recommendation systems and embracing relevant AI technologies. Other recommended actions include providing comprehensive professional training to staff in customer service and complaint resolution, continually refining refund policies and procedures, periodically offering coupons, and reducing or eliminating delivery fees where feasible.
+
+Conclusions and Future Work
+This study has addressed the intricate challenge of measuring service design and quality within the online food ordering and delivery (OFD) domain. Leveraging a combination of service breakdown and customer experience survey data, we employed three prominent statistical and machine learning algorithmsdecision trees, random forests (RFM), and support vector machines (SVM)to discern the relationships between service components and customer-defined value. Our analysis revealed that the RFM outperformed others, particularly in predicting overall satisfaction and likelihood of recommendation. Utilizing RFM, we constructed a Quality Function Deployment (QFD) table, translating customer needs into actionable service design elements. This strategic integration of customer feedback into service design not only enriches theoretical insights, but also provides a unique framework for enhancing service value.
+
+In this context, this study has examined critical factors influencing customer satisfaction in OFD, identifying four pivotal elements, namely, ease of accessing and utilizing coupons, promotions, and deals; helpfulness of food suggestions and recommendations; efficacy of resolving complaints; and handling refund requests. Our results highlight the significance of enhancing these service elements to elevate customer satisfaction levels and recommendation behaviors. Moreover, our analysis indicates that improving the food recommendation system holds particular promise in eliciting positive responses from customers. Therefore, prioritizing upgrades to food recommendation systems and embracing relevant AI technologies emerge as strategic imperatives for companies in the OFD sector.
+
+Our findings underscore the significance of considering service quality throughout the entire OFD process, advocating for a more integrated approach from platform browsing to after-sales service. Embracing a holistic service design approach, which encompasses factors like platform design, order delivery, online assistants, and after-sales service, can foster a customer-centric culture and elevate service quality, thereby increasing customer loyalty. In conclusion, this study contributes a novel methodology framework that integrates service blueprinting, customer surveys, data analysis, and QFD to renovate OFD services, offering valuable insights for businesses striving to enhance customer experiences in the digital age.
+
+Looking ahead, promising avenues for future research include exploring the interrelationships among service components and their collective impact on OFD processes. Additionally, investigating the influence of sociodemographic factors on customer satisfaction and loyalty, as well as extending the scope to include the experiences of employees and backstage service components, offer opportunities for further insights and improvements in service design.
+
+
+References
+Al Amin, M., M.S. Arefin, M.R. Alam, T. Ahammad, and M.R. Hoque. 2021. Using Mobile Food Delivery Applications during COVID-19 Pandemic: An Extended Model of Planned Behavior. Journal of Food Products Marketing 27(2):105126.
+
+Belanche, D., M. Flavin, and A. Prez-Rueda. 2020. Mobile Apps Use and WOM in the Food Delivery Sector: The Role of Planned Behavior, Perceived Security and Customer Lifestyle Compatibility. Sustainability 12(10):4275.
+
+Bira, C., J. Jungb, J. Taoc, and N.O. Widmard. 2023. Online Grocery Shopping Practices and Intentions Shaped by Pandemic-Era Experiences. Journal of Food Distribution
+Research 54(3):129.
+
+Bitner, M.J., A.L. Ostrom, and F.N. Morgan. 2008. Service Blueprinting: A Practical Technique for Service Innovation. California Management Review 50(3):6694.
+
+Bossert, J.L. 2021. Quality Ffunction Deployment: The Practitioner's Approach. Boca Raton, FL: CRC Press.
+
+Business Wire. 2020. Global Online Food Delivery Services Market (2020 to 2030)COVID-19 Growth and Change. Available online: https://www.businesswire.com/news/home/20200511005687/en/Global-Online-Food- Delivery-Services-Market-2020-to-2030---COVID-19-Growth-and-Change--- ResearchAndMarkets.com.
+
+Buskirk, T.D., A. Kirchner, A. Eck, and C.S. Signorino. 2018. An Introduction to Machine Learning Methods for Survey Researchers. Survey Practice 11(1):110.
+
+Centers for Disease Control and Prevention. (2020). Community, Work, and School.
+
+Chan, J., and Y.L. Gao. 2021. Measuring the Up-to-Date Quality of Online Food Delivery: Formative Index Construction. International Journal of Contemporary Hospitality Management 33(12):45504568.
+
+Chen, J., and Y.-W. Chang. 2023. How Smart Technology Empowers Consumers in Smart Retail Stores? The Perspective of Technology Readiness and Situational Factors. Electronic Markets 33(1):1.
+
+Cheng, C.C., Y.Y. Chang, and C.T. Chen. 2021. Construction of a Service Quality Scale for the Online Food Delivery Industry. International Journal of Hospitality Management 95: 102938.
+
+
+Cheung, C.M.K., X.L. Shen, Z.W.Y. Lee, and T.K.H. Chan. 2015. Promoting Sales of Online Games through Customer Engagement. Electronic Commerce Research and Applications 14(4):241250.
+
+Chotigo, J., and Y. Kadono. 2021. Comparative Analysis of Key Factors Encouraging Food Delivery App Adoption before and during the COVID-19 Pandemic in Thailand. Sustainability 13(8):4088.
+
+Chowdhury, R. 2023. Impact of Perceived Convenience, Service Quality and Security on Consumers Behavioural Intention towards Online Food Delivery Services: The Role of Attitude as Mediator. SN Business & Economics 3(1):29.
+
+Donthu, N., and A. Gustafsson. 2020. Effects of COVID-19 on Business and Research.
+Journal of Business Research 117:284289.
+
+El Said, G.R. 2015. Understanding Knowledge Management System Antecedents of Performance Impact: Extending the Task-Technology Fit Model with Intention to Share Knowledge Construct. Future Business Journal 1(12):7587.
+
+Erdil, N.O., and O.M. Arani. 2019. Quality Function Deployment: More Than a Design Tool.
+International Journal of Quality and Service Sciences 11(2):142166.
+
+Flavin, C., M. Guinalu, and R. Gurrea. 2006. The Role Played by Perceived Usability, Satisfaction and Consumer Trust on Website Loyalty. Information & Management 43(1): 1 14.
+
+Gunden, N., C. Morosan, and A. DeFranco. 2020. Consumers Intentions to Use Online Food Delivery Systems in the USA. International Journal of Contemporary Hospitality Management 32(3):13251345.
+
+Haleem, A., M. Javaid, M. Asim Qadri, R. Pratap Singh, and R. Suman. 2022. Artificial Intelligence (AI) Applications for Marketing: A Literature-based Study. International Journal of Intelligent Networks 3:119132.
+
+Higgins, L.M., M.M. Wolf, R.H.J.N. Bitter, and W.H. Amspacher. 2015. Winery Distribution Choices and the Online Wine Buyer. Journal of Food Distribution Research 46(3):3249.
+
+Hoang, H., and T. Le Tan. 2023. Unveiling Digital Transformation: Investigating Technology Adoption in Vietnams Food Delivery Industry for Enhanced Customer Experience. Heliyon 9(9):e19719.
+
+Holmlund, M., Y. Van Vaerenbergh, R. Ciuchita, A. Ravald, P. Sarantopoulos, F.V. Ordenes, and M. Zaki. 2020. Customer Experience Management in the Age of Big Data Analytics: A Strategic Framework. Journal of Business Research 116:356365.
+
+
+Hong, C., H. Choi, E.-K. Choi, and H.-W. Joung. 2021. Factors Affecting Customer Intention to Use Online Food Delivery Services before and during the COVID-19 Pandemic. Journal of Hospitality and Tourism Management 48:509518.
+
+Hossain, M.Z., F. Enam, and S. Farhana. 2017. Service Blueprint a Tool for Enhancing Service Quality in Restaurant Business. American Journal of Industrial and Business Management 07(07):919926.
+
+Iacobucci, D., and G. Churchill. 2018. Marketing Research: Methodological Foundations, 12th ed. Chula Vista, CA: Southwestern College Publishing.
+
+Jeannot, F., E. Jongmans, and M. Damprat. 2022. Visual Design and Online Shopping Experiences: When Expertise Allows Consumers to Refocus on Website Attractiveness. Recherche et Applications En Marketing (English Edition) 37(1):5981.
+
+Jenneboer, L., C. Herrando, and E. Constantinides. 2022. The Impact of Chatbots on Customer Loyalty: A Systematic Literature Review. Journal of Theoretical and Applied Electronic Commerce Research 17(1):212229.
+
+Jin, B., Y.G. Ji, K. Choi, and G. Cho. 2009. Development of a Usability Evaluation Framework with Quality Function Deployment: From Customer Sensibility to Product Design. Human Factors and Ergonomics in Manufacturing & Service Industries 19:177194.
+
+Jun, K., B. Yoon, S. Lee, and D.-S. Lee. 2021. Factors Influencing Customer Decisions to Use Online Food Delivery Service during the COVID-19 Pandemic. Foods (Basel, Switzerland) 11(1).
+
+Kirchner, A., and C.S. Signorino. 2018. Using Support Vector Machines for Survey Research.
+Survey Practice 11(1):114.
+
+Koay, K.Y., C.W. Cheah, and Y.X. Chang. 2022. A Model of Online Food Delivery Service Quality, Customer Satisfaction and Customer Loyalty: A Combination of PLS-SEM and NCA Approaches. British Food Journal 124(12):45164532.
+
+Kostopoulos, I., S. Gounaris, and A. Boukis. 2012. Service Blueprinting Effectiveness: Drivers of Success. Managing Service Quality 22.
+
+Kumar, D.S., K. Purani, and S.A. Viswanathan. 2018. Influences of Appscape on Mobile App Adoption and M-loyalty. Journal of Retailing and Consumer Services 45:132141.
+
+Kunneman, Y., M. Alves da Motta-Filho, and J. van der Waa. 2022. Data Science for Service Design: An Introductory Overview of Methods and Opportunities. The Design Journal 25(2):186204.
+
+
+Kwaku, A.R., and S. Antwi. 2021. Consumers Attraction to Purchase Online: Website Quality as a Major Influencing Factor. Open Journal of Business and Management 09(03):1133 1150.
+
+Lee, D., J. Moon, Y.J. Kim, and M.Y. Yi. 2015. Antecedents and Consequences of Mobile Phone Usability: Linking Simplicity and Interactivity to Satisfaction, Trust, and Brand Loyalty. Information & Management 52(3):295304.
+
+Lim, W.M., and T. Rasul. 2022. Customer Engagement and Social Media: Revisiting the Past to Inform the Future. Journal of Business Research 148:325342.
+
+Lin, X., A. Al Mamun, Q. Yang, and M. Masukujjaman. 2023. Examining the Effect of Logistics Service Quality on Customer Satisfaction and Re-Use Intention. PloS One 18(5):e0286382.
+
+Liu, C.-F., and C.-H. Lin. 2020. Online Food Shopping: A Conceptual Analysis for Research Propositions. Frontiers in Psychology 11.
+
+Ma, B., Y.D. Wong, C.C. Teo, and Z. Wang. 2024. Enhanced Understandings of Online Food Deliverys Service Quality with Online Reviews. Journal of Retailing and Consumer Services 76:103588.
+
+Makarius, E.E., D. Mukherjee, J.D. Fox, and A.K. Fox. 2020. Rising with the Machines: A Sociotechnical Framework for Bringing Artificial Intelligence into the Organization. Journal of Business Research 120:262273.
+
+Markoulidakis, I., I. Rallis, I. Georgoulas, G. Kopsiaftis, A. Doulamis, and N. Doulamis. 2020. A Machine Learning Based Classification Method for Customer Experience Survey Analysis. Technologies 8(4):76.
+
+McHugh, M.L. 2012. Interrater Reliability: The Kappa Statistic. Biochemia Medica 22(3): 276282.
+
+Meena, P., and G. Kumar. 2022. Online Food Delivery Companies Performance and Consumers Expectations during Covid-19: An Investigation Using Machine Learning Approach. Journal of Retailing and Consumer Services 68:103052.
+
+Natarajan, C., S. Gupta, and N. Nanda. 2019. Food Delivery Services and Customer Preference: A Comparative Analysis. Journal of Foodservice Business Research 22:112.
+
+Noyes, J., A. Booth, G. Moore, K. Flemming, . Tunalp, and E. Shakibazadeh. 2019. Synthesizing Quantitative and Qualitative Evidence to Inform Guidelines on Complex Interventions: Clarifying the Purposes, Designs and Outlining Some Methods. BMJ Global Health 4(Suppl 1):e000893.
+
+
+Pal, D., S. Funilkul, W. Eamsinvattana, and S. Siyal. 2021. Using Online Food Delivery Applications during the COVID-19 Lockdown Period: What Drives University Students Satisfaction and Loyalty? Journal of Foodservice Business Research 25:145.
+
+Patrcio, L., R.P. Fisk, J. Falco e Cunha, and L. Constantine. 2011. Multilevel Service Design: From Customer Value Constellation to Service Experience Blueprinting. Journal of Service Research 14(2):180200.
+
+Peters, T., . I?ik, O. Tona, and A. Popovi?. 2016. How System Quality Influences Mobile BI Use: The Mediating Role of Engagement. International Journal of Information Management 36(5):773783.
+
+Rathore, S.S., and M. Chaudhary. 2018. Consumers Perception on Online Food Ordering.
+International Journal of Management & Business Studies 8(4).
+
+Roesler, P. 2018. New Study Shows Deals and Promotions Affect Every Part of Shopping Experience. Inc.Com. Available online: https://www.inc.com/peter-roesler/new-study- shows-deals-promotions-affect-every-part-of-shopping-experience.html.
+
+Serhan, M., and C. Serhan. 2019. The Impact of Food Service Attributes on Customer Satisfaction in a Rural University Campus Environment. International Journal of Food Science 112.
+
+Shahbaznezhad, H., R. Dolan, and M. Rashidirad. 2021. The Role of Social Media Content Format and Platform in Users Engagement Behavior. Journal of Interactive Marketing 53:4765.
+
+Shankar, A., C. Jebarajakirthy, P. Nayal, H.I. Maseeh, A. Kumar, and A. Sivapalan. 2022. Online Food Delivery: A Systematic Synthesis of Literature and a Framework Development. International Journal of Hospitality Management 104:103240.
+
+Sharma, R., A. Kumar, and C. Chuah. 2021. Turning the Blackbox into a Glassbox: An Explainable Machine Learning Approach for Understanding Hospitality Customer. International Journal of Information Management Data Insights 1(2):100050.
+
+Shokouhyar, S., S. Shokoohyar, and S. Safari. 2020. Research on the Influence of After-Sales Service Quality Factors on Customer Satisfaction. Journal of Retailing and Consumer Services 56:102139.
+
+Smith, P.A.W., and P. Heriyati. 2023. The Effect of Online Food Delivery Service Quality on Customer Satisfaction and Customer Loyalty: The Role of Personal Innovativeness. Business and Entrepreneurial Review 23(1):3350.
+
+
+Statista. 2020. Change in Online Restaurant Delivery Penetration Share of the Restaurant Market in the United States Due to the Coronavirus Pandemic from 2020 to 2025. Available online: https://www.statista.com/statistics/1170614/online-food-delivery-share-us- coronavirus/
+
+Tandon, A., P. Kaur, Y. Bhatt, M. Mntymki, and A. Dhir. 2021. Why Do People Purchase from Food Delivery Apps? A Consumer Value Perspective. Journal of Retailing and Consumer Services 63:102667.
+
+Tsami, M., G. Adamos, E. Nathanail, E.B. Budilovi?a, I.Y. Jackiva, and V. Magginas. 2018. A Decision Tree Approach for Achieving High Customer Satisfaction at Urban Interchanges. Transport and Telecommunication Journal 19(3):194202.
+
+Vermeir, I., and G. Roose. 2020. Visual Design Cues Impacting Food Choice: A Review and Future Research Agenda. Foods 9(10):1495.
+
+Voorhees, C.M., P.W. Fombelle, Y. Gregoire, S. Bone, A. Gustafsson, R. Sousa, and T. Walkowiak. 2017. Service Encounters, Experiences and the Customer Journey: Defining the Field and a Call to Expand Our Lens. Journal of Business Research 79:269280.
+
+Wang, J., X. Shen, X. Huang, and Y. Liu. 2021. Influencing Factors of the Continuous Usage Intention of Consumers of Online Food Delivery Platform Based on an Information System Success Model. Frontiers in Psychology 12.
+
+Wang, T.-C., R.-S. Guo, and C. Chen. 2023. An Integrated Data-Driven Procedure for Product Specification Recommendation Optimization with LDA-LightGBM and QFD. Sustainability 15(18):13642.
+
+Xie, M.-P., and W.-Y. Zhao. 2010. The Analysis of Customers Satisfaction Degree Based on Decision Tree Model. In 2010 Seventh International Conference on Fuzzy Systems and Knowledge Discovery 6:29282931.
+
+Xu, X. 2021. What Are Customers Commenting on, and How is Their Satisfaction Affected? Examining Online Reviews in the On-Demand Food Service Context. Decision Support Systems 142:f113467.
+
+Zhong, Y., and H.C. Moon. 2020. What Drives Customer Satisfaction, Loyalty, and Happiness in Fast-Food Restaurants in China? Perceived Price, Service Quality, Food Quality, Physical Environment Quality, and the Moderating Role of Gender. Foods 9(4):460.
+
+Zikmund, W.G., B.J. Babin, J.C. Carr, and M. Griffin. 2013. Business Research Methods, 9th ed.
+Boston, MA: Chengage Learning.
+
+
+A ppendix A: Survey Dimensions, Mean and Spearman Correlation Coefficient Values	
+Survey Dimension
+
+Codes and Items (Multiple Choices)
+
+
+
+a. Gender
+
+
+
+
+
+b. Age
+
+
+
+1. Demographic questions
+c. Level of education
+
+
+
+d. What is your current employment status?
+e. What is your marital status?
+
+2. Consumer behavior questions
+Q1 Which platform do you often use when you order food online?
+
+Q2 Please indicate the frequency with which
+you order per week.
+Q3 How much do you spend each time
+approximately?
+
+Codes and Items (all in 1-5 Likert scale, with 1
+being the Lowest Satisfaction Level and 5 being the Highest)
+
+
+Mean
+SCC
+to Q21
+SCC
+to Q22
+
+Q4 Please rate the overall appearance and structure
+of the online food ordering platform
+4.36
+0.589
+0.554
+
+Q5 Please rate the accuracy and trustworthy of the
+information provided by the platform
+4.26
+0.496
+0.486
+
+Q6 Please rate the adequacy of the information provided by the platform
+4.21
+0.525
+0.453
+3. Ordering platform design and operation
+Q7 Please rate the ease of access to the platform
+4.49
+0.429
+0.344
+
+Q8 Please rate the ease of using the platform
+4.45
+0.346
+0.342
+
+Q9 Please rate your privacy protection when using the platform
+4.13
+0.331
+0.353
+
+Q10 Please rate the pricing at the platform
+3.88
+0.455
+0.457
+
+Q11 Please rate the ease of getting and using
+coupons, promotions and deals when using the platform
+3.89
+0.389
+0.333
+
+Q12 Please rate the helpfulness of the food
+suggestions and recommendations by the platform
+4.09
+0.517
+0.415
+
+Q13 Please rate the ease of tracking your orders
+4.35
+0.404
+0.409
+
+Q14 Please rate the timeliness of your orders
+4.08
+0.497
+0.416
+4. Order delivery and tracking
+Q15 Please rate the appearance of the delivery person
+4.15
+0.406
+0.458
+
+Q16 Please rate the temperature of the food when
+you received your order
+4.06
+0.457
+0.407
+
+Q17 Please rate the presentation of the food you
+received
+4.09
+0.51
+0.5
+
+
+Appendix A (cont.)
+
+Codes and Items (all in 1-5 Likert scale, with 1
+being the Lowest Satisfaction Level and 5 being the Highest)
+
+
+Mean
+SCC
+to Q21
+SCC
+to Q22
+5. Online assistants
+Q18 Please rate the performance of online assistants when using the platform
+4.06
+0.472
+0.431
+6. After-sales service
+Q19 Please rate the platforms ability to resolve your complaints
+3.77
+0.641
+0.519
+
+Q20 Please rate the handling of your refund request
+3.82
+0.569
+0.524
+7. Target (dependent variables)
+Q21 Please rate you overall satisfaction with using the platform
+4.08
+
+0.623
+
+Q22 How likely are you to recommend the online
+food ordering platform you often use?
+4.21
+0.623
+
+
+
+Appendix B: QFD Table
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+
+
+
+Customer Needs \ Improvement
+Options
+
+Professional Training and Guidelines on Handling Customer
+Complaints
+
+
+
+Optimize Refund Polices and
+Process
+Improve Food Recommen- dation System and AI
+Algorithm
+
+
+Offer More Coupons, Promotion
+Deal
+
+
+
+Lower Food Delivery
+Fee
+
+
+
+
+
+  Rate of Importance
+
+
+
+
+
+Company Now
+
+
+
+
+
+
+Plan
+
+
+
+
+ Rate of Improve
+-ment
+
+
+
+
+
+Sales Point
+
+
+
+
+
+Absolute Weight
+
+
+
+
+
+Demand Weight
+2. Food suggestion and recommendation (Q12)
+
+
+
+
+
+
+5
+4
+5
+1.25
+
+
+9.38
+38
+
+
+
+342
+
+
+
+
+
+
+3. Platforms ability to resolve complaints (Q19)
+
+
+
+
+
+
+
+4
+4
+5
+1.25
+
+5.00
+21
+
+189
+63
+
+
+
+
+
+
+
+
+
+
+4. Getting and using coupons, promotions, and deals (Q11)
+
+
+
+
+
+3
+4
+5
+1.25
+
+
+5.63
+23
+
+
+
+
+207
+23
+
+
+
+
+
+
+
+Online Food Ordering and Delivery	Journal of Food Distribution Research
+
+Appendix B (cont.)
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+
+
+Customer Needs / Improvement Options
+Professional Training and Guidelines on Handling Customer
+Complain
+
+Optimize Refund Polices and
+Process
+
+Improve Food Recommen- dation System and AI
+Algorithm
+
+
+Offer More Coupons, Promotion
+Deal
+
+
+Lower Food Delivery
+Fee
+
+
+
+
+  Rate of Importance
+
+
+
+
+Company Now
+
+
+
+
+
+Plan
+
+
+
+Rate of Improve- ment
+
+
+
+
+Sales Point
+
+
+
+
+Absolute Weight
+
+
+
+
+Demand Weight
+5. Handling of refund request (Q20)
+
+
+
+
+
+
+
+3
+4
+5
+1.25
+
+4.50
+18
+
+54
+162
+
+18
+
+
+
+
+
+
+
+
+6. Total importance rating
+243
+225
+342
+225
+23
+1,058
+
+
+
+Total
+24.51
+100
+7. Percent
+22.96
+21.27
+32.33
+21.27
+2.17
+100
+
+
+
+
+
+
+8. Company situation now
+Lack of professional training on handling customer
+complaints
+Imperfect refund polices and process
+Mediocre food recommen- dation system and AI algorithm
+Offer coupons to customers quarterly
+Relatively high delivery fees
+
+
+
+
+
+
+
+9. Action plans
+Provide more professional training to staffs on customer services and handling
+complaints
+Continuo usly improve refund polices and process
+Upgrade food recommen- dation system and AI algorithm
+Offer coupons to customers monthly
+Cutting delivery fees
+
+
+
+
+
+
+
+
+
+Appendix B (cont.)
+
+Col.11 = Col.6 x Col.9 x Col.10
+Col. 9 = Col.8/Col.7 (Col stands for Column)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
