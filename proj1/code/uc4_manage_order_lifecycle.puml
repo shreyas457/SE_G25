@@ -1,0 +1,73 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor Customer as C
+actor "Restaurant System" as RS
+actor "Courier Service" as CS
+actor "Notification Service" as NS
+
+rectangle "Food Delivery Platform" as FDP {
+  ' Primary use case
+  usecase "Manage Order Lifecycle" as U0
+
+  ' Main flow (included steps)
+  usecase "Record Order" as U1
+  usecase "Assign to Restaurant" as U2
+  usecase "Assign Delivery Agent" as U3
+  usecase "Track Order Status\n(Prep → Pickup → Delivery)" as U4
+  usecase "Send Real-time Updates\nto Customer" as U5
+
+  ' Subflows (optional)
+  usecase "Apply Surge Pricing\nor Discounts" as S1
+  usecase "Update ETA Dynamically" as S2
+
+  ' Alternative / Exception flows
+  usecase "No Agent Available →\nNotify Delay / Requeue" as A1
+  usecase "System Outage →\nFailover to Backup" as A2
+}
+
+' Primary interaction
+FDP <-- C : status updates, ETAs
+
+' Main flow as includes
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<include>>
+U0 ..> U3 : <<include>>
+U0 ..> U4 : <<include>>
+U0 ..> U5 : <<include>>
+
+' Subflows as extensions
+U4 <.. S2 : <<extend>>
+U1 <.. S1 : <<extend>>
+
+' Alternate flows as extensions
+U3 <.. A1 : <<extend>>
+U0 <.. A2 : <<extend>>
+
+' External collaborators
+RS --> U2
+CS --> U3
+NS --> U5
+C <-- NS : push/SMS/email
+
+note right of U0
+Preconditions:
+- Customer has placed an order
+- Payment authorized or COD selected
+
+Main Flow:
+- Record Order → Assign to Restaurant → Assign Delivery Agent
+- Track Order Status (prep → pickup → delivery)
+- Send real-time updates to customer
+
+Subflows:
+- Apply surge pricing or discounts
+- Update ETA dynamically
+
+Alternative Flows:
+- No agent available → notify delay/requeue
+- System outage → failover to backup
+end note
+@enduml

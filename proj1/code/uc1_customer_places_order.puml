@@ -1,0 +1,76 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor Customer as C
+actor "Payment Gateway" as PG
+actor "Restaurant System" as RS
+actor "Courier Service" as CS
+actor "Notification Service" as NS
+
+rectangle "Food Delivery Platform" as FDP {
+  usecase "Place Food Order" as U0
+  usecase "Browse Restaurants & Menus" as U1
+  usecase "Manage Cart (Add/Remove Items)" as U2
+  usecase "Validate Cart & Serviceability" as U3
+  usecase "Checkout & Confirm" as U4
+  usecase "Authorize Payment" as U5
+  usecase "Notify Restaurant & Assign Courier" as U6
+  usecase "Send Confirmation & ETA" as U7
+
+  ' Subflows (optional)
+  usecase "Apply Promo Code" as S1
+  usecase "Add Delivery Notes" as S2
+
+  ' Alternative/exception flows
+  usecase "Suggest Replacement\n(Out of Stock)" as A1
+  usecase "Handle Payment Failure" as A2
+}
+
+' Primary interaction
+C --> U0
+
+' Main flow (as includes)
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<include>>
+U0 ..> U3 : <<include>>
+U0 ..> U4 : <<include>>
+U0 ..> U5 : <<include>>
+U0 ..> U6 : <<include>>
+U0 ..> U7 : <<include>>
+
+' Subflows (extensions)
+U2 <.. S1 : <<extend>>
+U4 <.. S2 : <<extend>>
+
+' Alternate flows (extensions)
+U3 <.. A1 : <<extend>>
+U5 <.. A2 : <<extend>>
+
+' External collaborators
+PG --> U5
+RS --> U6
+CS --> U6
+NS --> U7
+
+note right of U0
+Preconditions:
+- Customer logged in
+- Delivery address & payment available
+
+Main Flow:
+- Browse → Manage Cart → Validate
+- Checkout & Confirm → Authorize Payment
+- Notify Restaurant & Assign Courier
+- Send Confirmation & ETA
+
+Subflows:
+- Apply Promo Code; Add Delivery Notes
+
+Alternative Flows:
+- Out of Stock → Suggest Replacement
+- Payment fails → Retry/alternate method
+end note
+@enduml
+

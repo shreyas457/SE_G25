@@ -1,0 +1,67 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor "Inspector (Regulator)" as INS
+actor "Restaurant Staff" as RS
+actor "Platform Ops" as OPS
+actor "Food Delivery Platform" as FDP
+
+rectangle "Regulatory Oversight" as RO {
+  usecase "Conduct Food Safety Audit" as U0
+  usecase "Schedule Audit" as U1
+  usecase "Review Hygiene,\nStorage & Delivery Practices" as U2
+  usecase "Complete Checklist\n& File Report" as U3
+  usecase "Issue Certificate\nor Penalties" as U4
+
+  ' Subflows (optional)
+  usecase "Surprise Inspection" as S1
+  usecase "Verify Courier Hygiene\nCompliance" as S2
+
+  ' Alternative / exception flows
+  usecase "Fail Audit →\nTemporary Suspension" as A1
+  usecase "Platform Fined for\nPoor Compliance" as A2
+}
+
+' Primary actor
+INS --> U0
+
+' Main flow as includes
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<include>>
+U0 ..> U3 : <<include>>
+U0 ..> U4 : <<include>>
+
+' Subflows as extensions
+U1 <.. S1 : <<extend>>
+U2 <.. S2 : <<extend>>
+
+' Alternative flows as extensions
+U4 <.. A1 : <<extend>>
+U3 <.. A2 : <<extend>>
+
+' External collaborators
+RS --> U2
+OPS --> U4
+FDP --> U1
+
+note right of U0
+Preconditions:
+- Restaurant registered with platform
+- Regulator/Inspector has audit rights
+
+Main Flow:
+- Schedule Audit → Review Practices
+- Complete Checklist & File Report
+- Issue Certificate or Penalties
+
+Subflows:
+- Conduct Surprise Inspection
+- Verify Delivery Agent Hygiene Compliance
+
+Alternative Flows:
+- Fail Audit → Temporary Suspension
+- Platform Fined for Poor Compliance
+end note
+@enduml

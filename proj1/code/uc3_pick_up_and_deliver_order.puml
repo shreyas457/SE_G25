@@ -1,0 +1,70 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor "Delivery Agent" as DA
+actor "Restaurant Staff" as RS
+actor "Customer" as C
+actor "Food Delivery Platform" as FDP
+actor "Support Staff" as SS
+
+rectangle "Courier App" as CA {
+  usecase "Pick Up & Deliver Order" as U0
+  usecase "Accept Delivery Task" as U1
+  usecase "Navigate to Restaurant" as U2
+  usecase "Verify & Pick Up Order" as U3
+  usecase "Deliver to Customer" as U4
+  usecase "Confirm Completion" as U5
+
+  ' Subflows (optional)
+  usecase "Contactless Delivery" as S1
+  usecase "OTP/PIN Verification" as S2
+
+  ' Alternative/exception flows
+  usecase "Customer Unreachable → Contact Support" as A1
+  usecase "Vehicle Breakdown → Task Reassigned" as A2
+}
+
+' Main actor
+DA --> U0
+
+' Main flow as includes
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<include>>
+U0 ..> U3 : <<include>>
+U0 ..> U4 : <<include>>
+U0 ..> U5 : <<include>>
+
+' Subflows as extensions
+U4 <.. S1 : <<extend>>
+U4 <.. S2 : <<extend>>
+
+' Alternative flows as extensions
+U4 <.. A1 : <<extend>>
+U2 <.. A2 : <<extend>>
+
+' External collaborators
+RS --> U3
+C --> U4
+FDP --> U1
+SS --> A1
+
+note right of U0
+Preconditions:
+- Delivery agent logged in & available
+- Order ready for pickup
+
+Main Flow:
+- Accept Task → Navigate → Verify & Pick Up
+- Deliver → Confirm Completion
+
+Subflows:
+- Contactless Delivery
+- OTP/PIN Verification
+
+Alternative Flows:
+- Customer unreachable → Support contacted
+- Vehicle breakdown → Task reassigned
+end note
+@enduml

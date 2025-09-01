@@ -1,0 +1,65 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor "Restaurant Staff" as RS
+actor "Food Delivery Platform" as FDP
+actor "Courier Service" as CS
+actor "Notification Service" as NS
+
+rectangle "Restaurant Portal" as RP {
+  usecase "Accept & Prepare Order" as U0
+  usecase "Receive Order Notification" as U1
+  usecase "Review & Accept Order" as U2
+  usecase "Prepare Food" as U3
+  usecase "Mark Ready for Pickup" as U4
+
+  ' Subflows (optional)
+  usecase "Adjust Prep Time" as S1
+  usecase "Update Menu Availability" as S2
+
+  ' Alternative/exception flows
+  usecase "Reject Order (Over Capacity)" as A1
+  usecase "Cancel Order (Equipment Failure)" as A2
+}
+
+' Primary interaction
+RS --> U0
+
+' Main flow as includes
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<include>>
+U0 ..> U3 : <<include>>
+U0 ..> U4 : <<include>>
+
+' Subflows as extensions
+U3 <.. S1 : <<extend>>
+U2 <.. S2 : <<extend>>
+
+' Alternative flows as extensions
+U2 <.. A1 : <<extend>>
+U3 <.. A2 : <<extend>>
+
+' External collaborators
+FDP --> U1
+U4 ..> CS : <<notify courier>>
+NS --> U1 : "push/email"
+
+note right of U0
+Preconditions:
+- Restaurant onboarded & online
+- Customer has placed an order
+
+Main Flow:
+- Receive Notification → Review & Accept
+- Prepare Food → Mark Ready for Pickup
+
+Subflows:
+- Adjust Prep Time; Update Menu Availability
+
+Alternative Flows:
+- Reject if over capacity
+- Cancel if equipment failure
+end note
+@enduml
