@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+actor "Technology & Service Partners" as Partner
+
+rectangle "Cloud Infrastructure System" {
+  usecase "Maintain Cloud Infrastructure" as UC3
+  usecase "Routine Patching & Backups" as UC3a
+  usecase "Apply Security Updates" as UC3b
+  usecase "Failover to Backup Zone (Server Crash)" as UC3alt1
+  usecase "Incident Response (Security Breach)" as UC3alt2
+}
+
+Partner --> UC3
+
+UC3 .> UC3a : <<include>>
+UC3 .> UC3b : <<include>>
+UC3 <. UC3alt1 : <<extend>>
+UC3 <. UC3alt2 : <<extend>>
+
+note top of UC3
+  Preconditions:
+  - Platform hosted on third-party cloud
+  - SLA established
+
+  Main Flow:
+  - Monitoring detects load spikes
+  - Cloud system auto-scales resources
+  - Logs stored for auditing
+  - Ensure uptime and performance
+end note
+@enduml
