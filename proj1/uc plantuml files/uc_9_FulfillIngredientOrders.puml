@@ -1,0 +1,51 @@
+@startuml
+left to right direction
+actor "Restaurant" as Restaurant
+actor "Food Distributors & Suppliers" as Supplier
+
+rectangle "Ordering System" {
+  package "Restaurant Actions" {
+    usecase "Place Ingredient Order" as UC4a
+  }
+
+  package "Supplier Actions" {
+    usecase "Confirm Request" as UC4b
+    usecase "Deliver Goods" as UC4c
+    usecase "Log Delivery in System" as UC4d
+  }
+
+  usecase "Fulfill Ingredient Orders" as UC4
+  usecase "Schedule Recurring Orders" as UC4sub1
+  usecase "Adjust Quantities (Seasonality)" as UC4sub2
+  usecase "Suggest Substitute (Unavailable)" as UC4alt1
+  usecase "Update ETA (Delay)" as UC4alt2
+}
+
+' Main interactions
+Restaurant --> UC4a
+UC4a --> UC4
+UC4 --> UC4b
+Supplier --> UC4b
+UC4b --> UC4c
+UC4c --> UC4d
+
+' Subflows
+UC4 .> UC4sub1 : <<include>>
+UC4 .> UC4sub2 : <<include>>
+
+' Alternative flows
+UC4 <. UC4alt1 : <<extend>>
+UC4 <. UC4alt2 : <<extend>>
+
+note top of UC4
+  Preconditions:
+  - Restaurant inventory below threshold
+  - Supplier linked to ordering system
+
+  Main Flow:
+  - Restaurant places order
+  - Supplier confirms request
+  - Goods transported
+  - Delivery logged
+end note
+@enduml

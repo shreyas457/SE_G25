@@ -1,0 +1,35 @@
+@startuml
+left to right direction
+actor "Internal Corporate / Program Staff" as Staff
+actor "Management" as Management
+
+rectangle "Sales Reporting System" {
+  usecase "Generate Sales Report" as UC1
+  usecase "Select Reporting Period" as UC1a
+  usecase "Filter by Location / Cuisine" as UC1b
+  usecase "Include Performance KPIs" as UC1c
+  usecase "Partial Report (Data Sync Issue)" as UC1alt1
+  usecase "Access Blocked (Permission Denied)" as UC1alt2
+}
+
+Staff --> UC1
+UC1 --> Management : "Report shared"
+
+UC1 .> UC1a : <<include>>
+UC1 .> UC1b : <<include>>
+UC1 .> UC1c : <<include>>
+UC1 <. UC1alt1 : <<extend>>
+UC1 <. UC1alt2 : <<extend>>
+
+note top of UC1
+  Preconditions:
+  - Staff has admin access
+  - Database is up to date
+
+  Main Flow:
+  - Staff logs into dashboard
+  - Selects reporting period
+  - System aggregates orders, revenue, commissions
+  - Report exported and shared with management
+end note
+@enduml
