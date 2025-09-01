@@ -1,0 +1,58 @@
+@startuml
+left to right direction
+
+actor "Customer" as Customer
+actor "Payment & Financial Partners" as Partner
+actor "Restaurant" as Restaurant
+actor "Delivery Agent" as Agent
+actor "Platform" as Platform
+
+rectangle "Payment System" {
+
+  package "Customer Actions" {
+    usecase "Initiate Payment / Provide Details" as UC_Cust
+  }
+
+  package "Platform Actions" {
+    usecase "Send Payment Request to Gateway" as UC_Platform1
+    usecase "Route Funds to Restaurant & Agent" as UC_Platform2
+    usecase "Generate Digital Invoice" as UC_Sub1
+    usecase "Process Refunds (Cancellations)" as UC_Sub2
+  }
+
+  package "Payment Partner Actions" {
+    usecase "Authenticate & Authorize Payment" as UC_Partner
+    usecase "Decline Payment (Fraud Detected)" as UC_Alt1
+    usecase "Retry Payment (Gateway Timeout)" as UC_Alt2
+  }
+}
+
+' Main Flow
+Customer --> UC_Cust
+UC_Cust --> UC_Platform1
+UC_Platform1 --> UC_Partner
+UC_Partner --> UC_Platform2
+UC_Platform2 --> Restaurant
+UC_Platform2 --> Agent
+
+' Subflows
+UC_Platform2 .> UC_Sub1 : <<include>>
+UC_Platform2 .> UC_Sub2 : <<include>>
+
+' Alternative Flows
+UC_Platform1 <. UC_Alt1 : <<extend>>
+UC_Platform1 <. UC_Alt2 : <<extend>>
+
+note top of UC_Cust
+  Preconditions:
+  - Customer has initiated checkout
+  - Selected payment method supported
+
+  Main Flow:
+  1. Customer provides card/UPI/wallet details
+  2. Platform sends payment request to gateway
+  3. Payment Partner authenticates & authorizes
+  4. Platform routes funds to Restaurant and Delivery Agent
+end note
+@enduml
+uc_10_ProcessCustomerPayment.puml
