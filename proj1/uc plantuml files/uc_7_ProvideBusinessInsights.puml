@@ -1,0 +1,37 @@
+@startuml
+left to right direction
+actor "External Advisory & Research Stakeholders" as Analyst
+actor "Internal Corporate / Program Staff" as Staff
+
+rectangle "Analytics System" {
+  usecase "Export Historical Dataset" as UC2
+  usecase "Retry Request (Export Error)" as UC2alt1
+  usecase "Privacy Filter Blocks Fields" as UC2alt2
+}
+
+rectangle "Analyst Activities" {
+  usecase "Provide Business Insights" as UC2main
+  usecase "Study Patterns & Trends" as UC2a
+  usecase "Compare with Industry Benchmarks" as UC2b
+  usecase "Conduct Customer Surveys" as UC2c
+  usecase "Share Report with Corporate Staff" as UC2d
+}
+
+Analyst --> UC2main
+UC2main .> UC2a : <<include>>
+UC2main .> UC2b : <<include>>
+UC2main .> UC2c : <<include>>
+UC2main .> UC2d : <<include>>
+
+UC2main --> UC2 : "Requests dataset"
+
+UC2 <. UC2alt1 : <<extend>>
+UC2 <. UC2alt2 : <<extend>>
+
+UC2d --> Staff : "Report shared"
+
+note top of UC2
+  Preconditions:
+  - Access granted to anonymized data
+end note
+@enduml
