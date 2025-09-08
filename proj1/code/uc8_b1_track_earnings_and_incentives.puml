@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor "Delivery Agent" as DA
+actor "Banking System" as BANK
+
+rectangle "Food Delivery Platform" as FDP {
+  usecase "Track Earnings & Incentives" as U0
+  usecase "View Bonuses & Tips" as U1
+  usecase "Instant Cash-out" as U2
+
+  ' Alternative flow
+  usecase "Carry Forward Balance" as A1
+}
+
+DA --> U0
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<extend>>\n(with fee)
+U0 <.. A1 : <<extend>>\n(payment fail)
+
+BANK --> U2
+
+note right of U0
+Pre: Deliveries completed
+Main: Earnings, bonuses, tips
+Alt: Payment fail → carry forward
+end note
+@enduml
