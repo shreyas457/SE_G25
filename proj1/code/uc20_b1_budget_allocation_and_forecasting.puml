@@ -1,0 +1,65 @@
+@startuml
+' Use the default top-to-bottom layout
+
+actor "Finance Staff" as Staff
+actor "CFO" as CFO
+actor "Budgeting System" as BudgetSystem <<actor>>
+
+rectangle "Budgeting and Forecasting System" {
+    usecase "Enter Budget Categories" as UC_Enter
+    usecase "Analyze Past Spending" as UC_Analyze
+    usecase "Adjust for Seasonality (AI)" as UC_AI_Adjust
+    usecase "Generate Recommended Allocations" as UC_Generate
+    usecase "Suggest Cuts" as UC_SuggestCuts
+    usecase "Review and Approve Allocations" as UC_Approve
+    usecase "Store Budget Plan" as UC_Store
+    usecase "Generate Quarterly Report" as UC_Report
+}
+
+'--- Associations ---'
+Staff -- UC_Enter
+CFO -- UC_Approve
+
+'--- Flow ---'
+UC_Enter -- UC_Generate
+UC_Generate -- UC_Approve
+UC_Approve -- UC_Store
+
+'--- System to System Interaction ---'
+UC_Enter -- BudgetSystem
+BudgetSystem -- UC_Analyze
+UC_Analyze -- UC_AI_Adjust
+UC_Generate -- UC_SuggestCuts
+
+'--- Includes (Subflows) ---'
+UC_Generate ..> UC_AI_Adjust : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+UC_SuggestCuts .> UC_Generate : <<extends>>
+
+'--- Notes for Context ---'
+note bottom of UC_Enter
+**Preconditions:**
+- Historical expense data available.
+- New budgeting cycle initiated.
+end note
+
+note bottom of UC_Generate
+**Main Flow:**
+1. Finance Staff enters budget categories.
+2. System analyzes past spending and predicts needs.
+3. System generates recommended allocations.
+4. CFO reviews and approves.
+end note
+
+note right of UC_SuggestCuts
+**Alternative Flow:**
+- If allocations exceed available funds, system suggests cuts.
+end note
+
+note bottom of UC_Store
+**Postconditions:**
+- Budget plan finalized.
+- Stored for quarterly reporting.
+end note
+@enduml
