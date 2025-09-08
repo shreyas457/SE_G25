@@ -1,0 +1,68 @@
+@startuml
+' Use the default top-to-bottom layout
+
+actor "Compliance Officer" as Officer
+actor "Internal Staff" as Staff
+actor "Audit System" as AuditSystem <<actor>>
+
+rectangle "Internal Compliance Audits" {
+    usecase "Initiate Audit" as UC_Initiate
+    usecase "Submit Documents" as UC_SubmitDocs
+    usecase "Cross-check Rules" as UC_CrossCheck
+    usecase "Generate Audit Report" as UC_Report
+    usecase "Review and Close Audit" as UC_Review
+    usecase "Escalate Violations" as UC_Escalate
+    usecase "Flag Audit Incomplete" as UC_FlagIncomplete
+    usecase "Store Compliance Results" as UC_StoreResults
+}
+
+'--- Associations ---'
+Officer -- UC_Initiate
+Staff -- UC_SubmitDocs
+Officer -- UC_Review
+AuditSystem -- UC_CrossCheck
+
+'--- Flow ---'
+UC_Initiate -- UC_SubmitDocs
+UC_SubmitDocs -- UC_CrossCheck
+UC_CrossCheck -- UC_Report
+UC_Report -- UC_Review
+UC_Review -- UC_StoreResults
+
+'--- Includes (Subflows) ---'
+UC_Review ..> UC_Escalate : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+UC_FlagIncomplete .> UC_SubmitDocs : <<extends>>
+
+'--- System to System Interaction ---'
+UC_CrossCheck --> AuditSystem
+UC_StoreResults --> Officer
+
+'--- Notes for Context ---'
+note bottom of UC_Initiate
+**Preconditions:**
+- Audit schedule defined.
+- Staff documents available.
+end note
+
+note bottom of UC_Review
+**Main Flow:**
+1. Officer initiates audit.
+2. Staff submits documents.
+3. System cross-checks rules.
+4. Audit Report generated.
+5. Officer reviews and closes.
+end note
+
+note right of UC_FlagIncomplete
+**Alternative Flow:**
+- If missing documentation, audit is flagged incomplete.
+end note
+
+note bottom of UC_StoreResults
+**Postconditions:**
+- Compliance results stored.
+- Violations escalated if found.
+end note
+@enduml
