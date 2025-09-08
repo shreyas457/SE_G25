@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+
+actor "Customer" as C
+actor "Platform" as P
+actor "Restaurant" as R
+
+rectangle "Allergy & Dietary Preference Management" {
+  usecase "Select Food Items" as UC1
+  usecase "Check Items Against Allergy/Diet Profile" as UC2
+  usecase "Warn of Potential Conflicts" as UC3
+  usecase "Confirm or Change Order" as UC4
+  usecase "Suggest Safe Alternatives" as UC5
+  usecase "Block Order Until Confirmed" as UC6
+}
+
+C --> UC1
+UC1 --> UC2
+P --> UC2
+UC2 --> UC3
+P --> UC3
+UC3 --> UC4
+C --> UC4
+
+UC3 --> UC5 : <<include>>  ' Subflow: Suggest alternatives
+UC2 --> UC6 : <<extend>>   ' Alternative flow: Critical allergy
+
+@enduml
