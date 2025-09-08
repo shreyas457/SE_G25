@@ -1,0 +1,76 @@
+@startuml
+' Use the default top-to-bottom layout
+
+actor "HR" as HR
+actor "Employee" as Employee
+actor "Training System" as System <<actor>>
+
+rectangle "Corporate Training Management" {
+    usecase "Assign Training Modules" as UC_Assign
+    usecase "Notify Employee" as UC_Notify
+    usecase "Complete Modules" as UC_Complete
+    usecase "Update Completion Record" as UC_UpdateRecord
+    usecase "Review Progress" as UC_Review
+    usecase "Issue Certification" as UC_Certify
+    usecase "Escalate Missed Deadline" as UC_Escalate
+    usecase "Store Certificates" as UC_StoreCert
+    usecase "Update Training History" as UC_UpdateHistory
+}
+
+'--- Associations ---'
+HR -- UC_Assign
+Employee -- UC_Complete
+HR -- UC_Review
+System -- UC_Notify
+System -- UC_UpdateRecord
+System -- UC_StoreCert
+System -- UC_UpdateHistory
+
+'--- Flow ---'
+UC_Assign -- UC_Notify
+UC_Notify -- Employee
+Employee -- UC_Complete
+UC_Complete -- UC_UpdateRecord
+UC_UpdateRecord -- UC_Review
+UC_UpdateRecord -- UC_Certify
+UC_Review -- UC_UpdateHistory
+
+'--- Includes (Subflows) ---'
+UC_UpdateRecord ..> UC_Certify : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+UC_Escalate .> UC_Review : <<extends>>
+
+'--- System to System Interaction ---'
+UC_Assign -- System
+UC_Review -- System
+UC_UpdateRecord -- System
+UC_Certify -- System
+
+'--- Notes for Context ---'
+note bottom of UC_Assign
+**Preconditions:**
+- Training programs scheduled.
+- Employee enrolled in course.
+end note
+
+note bottom of UC_Complete
+**Main Flow:**
+1. HR assigns training modules.
+2. System notifies Employee.
+3. Employee completes modules.
+4. System updates record.
+5. HR reviews progress.
+end note
+
+note right of UC_Escalate
+**Alternative Flow:**
+- If deadline missed, HR notified for escalation.
+end note
+
+note bottom of UC_UpdateHistory
+**Postconditions:**
+- Training history updated.
+- Certificates stored in employee record.
+end note
+@enduml
