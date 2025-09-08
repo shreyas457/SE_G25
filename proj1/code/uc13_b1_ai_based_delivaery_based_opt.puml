@@ -1,0 +1,65 @@
+@startuml
+left to right direction
+
+actor "Delivery Agent" as Agent
+actor "Platform" as Platform <<actor>>
+
+rectangle "Delivery Route System" {
+    usecase "Accept Delivery" as UC_Accept
+    usecase "Generate Optimized Route" as UC_GenerateRoute
+    usecase "Update ETA" as UC_UpdateETA
+    usecase "Recalculate Route (Traffic)" as UC_RecalculateTraffic
+    usecase "Reroute Agent (Roadblock)" as UC_Reroute
+    usecase "Log Route Performance" as UC_Log
+}
+
+'--- Associations ---'
+Agent --> UC_Accept
+Agent --> UC_UpdateETA
+
+' The Platform provides the input for the route generation '
+Platform --> UC_GenerateRoute
+
+' The Delivery Agent's acceptance triggers the route generation '
+UC_Accept --> UC_GenerateRoute
+
+' The updated ETA is displayed to the Agent '
+UC_UpdateETA --> Agent
+
+' The route generation process includes logging performance '
+UC_GenerateRoute --> UC_Log
+
+'--- Includes (Subflows) ---'
+' Recalculating the route is part of dynamically updating the ETA '
+UC_UpdateETA .> UC_RecalculateTraffic : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+' Rerouting for a roadblock is an optional extension of the route calculation process '
+UC_Reroute .> UC_GenerateRoute : <<extends>>
+
+'--- Notes for Context ---'
+note bottom of UC_Accept
+**Preconditions:**
+- Order is accepted by agent.
+- Delivery address known.
+end note
+
+note bottom of UC_GenerateRoute
+**Main Flow:**
+1. Platform sends delivery and restaurant location.
+2. AI calculates best route.
+3. Agent receives route.
+4. ETA is updated dynamically.
+end note
+
+note right of UC_Reroute
+**Trigger:**
+A roadblock is detected.
+end note
+
+note right of UC_UpdateETA
+**Postconditions:**
+- Delivery time minimized.
+- ETA updates logged for performance tracking.
+end note
+@enduml
