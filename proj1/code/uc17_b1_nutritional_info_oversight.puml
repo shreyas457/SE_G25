@@ -1,0 +1,68 @@
+@startuml
+left to right direction
+
+actor "Restaurant" as Restaurant
+actor "Platform" as Platform <<actor>>
+actor "Regulator" as Regulator <<actor>>
+actor "Third-party Labs" as Labs <<actor>>
+
+rectangle "Nutritional Information System" {
+    usecase "Provide Nutrition Data" as UC_Provide
+    usecase "Store and Format Data" as UC_Store
+    usecase "Check Data Accuracy" as UC_Check
+    usecase "Publish Validated Info" as UC_Publish
+    usecase "Cross-verify Samples" as UC_CrossVerify
+    usecase "Issue Penalty Notice" as UC_Penalty
+}
+
+'--- Associations ---'
+Restaurant --> UC_Provide
+UC_Provide --> UC_Store
+UC_Store --> UC_Check
+UC_Check --> UC_Publish
+UC_Check --> Regulator
+
+' The Platform stores the data '
+Platform --> UC_Store
+
+' The Platform publishes the final data '
+Platform --> UC_Publish
+
+' The Regulator checks the data '
+Regulator --> UC_Check
+
+'--- Includes (Subflows) ---'
+UC_Check ..> UC_CrossVerify : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+UC_Penalty .> UC_Check : <<extends>>
+
+'--- System to System Interaction ---'
+UC_CrossVerify --> Labs
+
+'--- Notes for Context ---'
+note bottom of UC_Provide
+**Preconditions:**
+- Restaurant uploads menu.
+- Nutrition details required by law.
+end note
+
+note bottom of UC_Check
+**Main Flow:**
+1. Restaurant provides data.
+2. Platform stores/formats.
+3. Regulator checks accuracy.
+4. Platform publishes validated info.
+end note
+
+note right of UC_Penalty
+**Alternative Flow:**
+- Misleading data detected.
+end note
+
+note bottom of UC_Publish
+**Postconditions:**
+- Nutritional info visible to customers.
+end note
+
+@enduml
