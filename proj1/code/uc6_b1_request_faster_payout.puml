@@ -1,0 +1,33 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor "Restaurant Vendor" as RV
+actor "Banking System" as BANK
+
+rectangle "Food Delivery Platform" as FDP {
+  usecase "Request Instant Payout" as U0
+  usecase "Deduct Service Fee" as U1
+  usecase "Transfer Funds" as U2
+  usecase "Weekly Auto-Transfer" as U3
+
+  ' Alternative flow
+  usecase "Notify Delay/Error" as A1
+}
+
+RV --> U0
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<include>>
+U0 ..> U3 : <<extend>>\n(optional)
+U0 <.. A1 : <<extend>>\n(bank issue)
+
+BANK --> U2
+BANK --> A1
+
+note right of U0
+Pre: Completed orders exist
+Main: Instant payout with fee
+Alt: Bank error → delay notice
+end note
+@enduml
