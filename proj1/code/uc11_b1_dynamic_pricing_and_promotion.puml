@@ -1,0 +1,46 @@
+@startuml
+left to right direction
+
+actor "Pricing Manager" as PM
+actor "Customer" as Customer
+actor "Platform System" as Platform <<actor>>
+
+rectangle "Dynamic Pricing System" {
+    usecase "Configure Pricing Rules" as UC_Config
+    usecase "Apply Dynamic Pricing" as UC_ApplyDynamic
+    usecase "Apply Loyalty Discounts" as UC_Loyalty
+    usecase "Apply Location-based Offers" as UC_Location
+    usecase "Resolve Conflicting Rules" as UC_ResolveConflict
+    usecase "View Adjusted Prices" as UC_ViewPrices
+}
+
+'--- Associations ---'
+PM --> UC_Config
+Customer --> UC_ViewPrices
+
+'--- Includes (Subflows) ---'
+UC_ApplyDynamic ..> UC_Loyalty : <<includes>>
+UC_ApplyDynamic ..> UC_Location : <<includes>>
+
+'--- Extends (Alternative Flow) ---'
+UC_ResolveConflict .> UC_ApplyDynamic : <<extends>>
+
+'--- Notes for Preconditions and Flow ---'
+note bottom of UC_Config
+**Preconditions:**
+- Customer browsing menu.
+- Pricing Manager rules defined.
+end note
+
+note bottom of UC_ApplyDynamic
+**Main Flow:**
+1. Platform applies dynamic pricing based on demand.
+2. Platform checks for and applies subflows.
+end note
+
+note right of UC_ViewPrices
+**Postconditions:**
+- Adjusted prices visible in real-time.
+end note
+
+@enduml
