@@ -1,0 +1,29 @@
+@startuml
+title Customers – Apply Discounts & Promotions
+
+actor Customer
+actor "Payment Gateway" as Pay
+
+package "WolfCafe Platform" {
+  usecase "Apply Discounts & Promotions" as U2
+  usecase "Validate Promo Code" as U2a
+  usecase "Auto-apply Loyalty Points" as U2b
+  usecase "Recompute Cart Price" as U2c
+  usecase "Suggest Alternative Offers" as U2d
+}
+
+Customer --> U2
+U2 .> U2a : <<include>>
+U2 .> U2b : <<include>>
+U2 .> U2c : <<include>>
+U2 .> U2d : <<extend>>\n(code expired/invalid)
+
+U2c --> Pay : Pre-auth (optional)
+
+note right of U2
+Pre: Customer has coupons/points
+Main: Enter code → price updates
+Sub: Points auto-applied
+Alt: Expired → suggest other deals
+end note
+@enduml
