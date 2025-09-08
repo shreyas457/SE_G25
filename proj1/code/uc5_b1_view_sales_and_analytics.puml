@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor "Restaurant Vendor" as RV
+actor "Email Service" as ES
+
+rectangle "Food Delivery Platform" as FDP {
+  usecase "View Sales & Analytics" as U0
+  usecase "Item-level Breakdown" as U1
+  usecase "Delivery vs Pickup Ratio" as U2
+  usecase "Peer Benchmarking" as U3
+
+  ' Alternative flow
+  usecase "Email Fallback Report" as A1
+}
+
+RV --> U0
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<include>>
+U0 ..> U3 : <<include>>
+U0 <.. A1 : <<extend>>\n(downtime)
+
+ES --> A1
+
+note right of U0
+Pre: Active vendor account
+Main: Sales, ratios, benchmarks
+Alt: Downtime → email report
+end note
+@enduml
