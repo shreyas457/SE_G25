@@ -1,0 +1,66 @@
+@startuml
+left to right direction
+
+actor "Restaurant" as Restaurant
+actor "Regulator" as Regulator <<actor>>
+actor "Platform System" as Platform <<actor>>
+actor "IoT Sensors" as Sensors <<actor>>
+
+rectangle "Food Safety Compliance System" {
+    usecase "Submit Audit Report" as UC_Submit
+    usecase "Forward Report to Regulator" as UC_Forward
+    usecase "Review Compliance" as UC_Review
+    usecase "Provide Temperature Logs" as UC_Logs
+    usecase "Issue Certificate" as UC_IssueCert
+    usecase "Flag Violation" as UC_FlagViolation
+    usecase "Record Compliance Status" as UC_RecordStatus
+    usecase "Impose Fines/Suspension" as UC_ImposePenalty
+}
+
+'--- Associations ---'
+Restaurant --> UC_Submit
+Platform --> UC_Forward
+UC_Forward --> Regulator
+Regulator --> UC_Review
+Sensors --> UC_Logs
+
+'--- Includes (Subflows) ---'
+UC_Submit ..> UC_Logs : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+UC_FlagViolation .> UC_Review : <<extends>>
+UC_ImposePenalty .> UC_FlagViolation : <<extends>>
+
+'--- System to System Interaction ---'
+UC_Submit --> UC_Forward
+UC_Review --> UC_IssueCert
+UC_Review --> UC_FlagViolation
+UC_IssueCert --> UC_RecordStatus
+UC_FlagViolation --> UC_RecordStatus
+
+'--- Notes for Context ---'
+note bottom of UC_Submit
+**Preconditions:**
+- Restaurant is onboarded.
+- Regular safety audits required.
+end note
+
+note bottom of UC_Forward
+**Main Flow:**
+1. Restaurant submits reports.
+2. Platform forwards to Regulator.
+3. Regulator reviews.
+4. Certificate issued or flagged.
+end note
+
+note right of UC_FlagViolation
+**Alternative Flow:**
+- If violations found, fines/suspension.
+end note
+
+note bottom of UC_RecordStatus
+**Postconditions:**
+- Compliance status recorded.
+end note
+
+@enduml
