@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor "Delivery Agent" as DA
+
+rectangle "Food Delivery Platform" as FDP {
+  usecase "Set Availability" as U0
+  usecase "Choose Shifts" as U1
+  usecase "Enable Surge Priority" as U2
+
+  ' Alternative flow
+  usecase "Suggest Alternate Zones" as A1
+}
+
+DA --> U0
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<extend>>\n(if eligible)
+U0 <.. A1 : <<extend>>\n(low demand)
+
+note right of U0
+Pre: Agent logged in
+Main: Set hours, go online
+Alt: Suggest other zones
+end note
+@enduml
