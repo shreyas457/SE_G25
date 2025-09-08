@@ -1,0 +1,62 @@
+@startuml
+left to right direction
+
+actor "IT Admin" as Admin
+actor "Monitoring System" as Monitor <<actor>>
+
+rectangle "Platform Performance Monitoring" {
+    usecase "Monitor Performance Metrics" as UC_Monitor
+    usecase "Generate Alerts" as UC_Alert
+    usecase "Receive Alert Notification" as UC_Notify
+    usecase "Resolve Issue" as UC_Resolve
+    usecase "Trigger Failover" as UC_Failover
+    usecase "Restart Failed Service" as UC_Restart
+    usecase "Send Fallback SMS" as UC_SMS
+    usecase "Log Issues" as UC_Log
+    usecase "Record SLA Compliance" as UC_SLA
+}
+
+'--- Associations ---'
+Monitor --> UC_Monitor
+Admin --> UC_Resolve
+Admin --> UC_Failover
+Admin --> UC_Notify
+
+'--- Includes (Subflows) ---'
+UC_Alert ..> UC_Restart : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+UC_SMS .> UC_Alert : <<extends>>
+UC_Failover .> UC_Resolve : <<extends>>
+
+'--- System to System Interaction ---'
+UC_Monitor --> UC_Alert
+UC_Alert --> UC_Notify
+UC_Resolve --> UC_Log
+UC_Resolve --> UC_SLA
+
+'--- Notes for Context ---'
+note bottom of UC_Monitor
+**Preconditions:**
+- Platform live and accessible.
+end note
+
+note bottom of UC_Alert
+**Main Flow:**
+1. Monitoring system tracks metrics.
+2. If thresholds breached, alerts are generated.
+3. IT Admin is notified.
+4. IT Admin resolves issue or triggers failover.
+end note
+
+note right of UC_SMS
+**Alternative Flow:**
+- If monitoring system offline, fallback SMS alerts sent.
+end note
+
+note right of UC_Resolve
+**Postconditions:**
+- Issues logged.
+- SLA compliance recorded.
+end note
+@enduml
