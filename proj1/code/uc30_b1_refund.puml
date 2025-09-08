@@ -1,0 +1,35 @@
+@startuml
+left to right direction
+
+actor "Customer" as C
+actor "Payment Partner" as PP
+actor "Platform" as P
+
+rectangle "Refund for Cancelled Orders" {
+  usecase "Request Cancellation/Refund" as UC1
+  usecase "Validate Refund Eligibility" as UC2
+  usecase "Send Refund Request to Payment Partner" as UC3
+  usecase "Process Refund" as UC4
+  usecase "Notify Customer of Refund Status" as UC5
+  usecase "Partial Refund for Partially Fulfilled Orders" as UC6
+  usecase "Auto-refund for Failed Delivery" as UC7
+  usecase "Manual Intervention by Finance Team" as UC8
+}
+
+C --> UC1
+UC1 --> UC2
+P --> UC2
+UC2 --> UC3
+P --> UC3
+UC3 --> UC4
+PP --> UC4
+UC4 --> UC5
+P --> UC5
+C --> UC5
+
+UC2 --> UC6 : <<include>>  ' Subflow
+UC2 --> UC7 : <<include>>  ' Subflow
+
+UC4 --> UC8 : <<extend>>   ' Alternative flow if refund fails
+
+@enduml
