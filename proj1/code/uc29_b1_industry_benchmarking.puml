@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+
+actor "Research Stakeholder" as RS
+actor "Platform" as P
+
+rectangle "Industry Benchmarking" {
+  usecase "Collect Performance Metrics" as UC1
+  usecase "Compare with Benchmarks" as UC2
+  usecase "Prepare Benchmarking Report" as UC3
+  usecase "Share Insights" as UC4
+  usecase "Filter Benchmarks" as UC5
+  usecase "Update Reports Periodically" as UC6
+  usecase "Estimate Proxy Data" as UC7
+}
+
+RS --> UC1
+UC1 --> UC2
+UC2 --> UC3
+UC3 --> UC4
+
+P --> UC1
+P --> UC4
+
+UC2 --> UC5 : <<include>>  ' Subflow
+UC3 --> UC6 : <<include>>  ' Subflow
+UC1 --> UC7 : <<extend>>   ' Alternative Flow
+
+@enduml
