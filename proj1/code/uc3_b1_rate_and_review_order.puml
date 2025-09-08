@@ -1,0 +1,34 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor Customer as C
+actor "Content Moderation" as MOD
+actor "Notification Service" as NS
+
+rectangle "Food Delivery Platform" as FDP {
+  usecase "Rate & Review Order" as U0
+  usecase "Submit Rating & Text" as U1
+  usecase "Upload Photos" as U2
+  usecase "Moderate Content" as U3
+
+  ' Alternative flow
+  usecase "Send Review Reminder" as A1
+}
+
+C --> U0
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<extend>>\n(optional)
+U1 ..> U3 : <<include>>
+U0 <.. A1 : <<extend>>\n(if skipped)
+
+MOD --> U3
+NS --> A1
+
+note right of U0
+Pre: Order delivered
+Main: Rating + text; optional photos
+Alt: Reminder if skipped
+end note
+@enduml
