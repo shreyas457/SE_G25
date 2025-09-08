@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+
+actor "Customer" as C
+actor "Platform" as P
+actor "Referral System" as RS
+
+rectangle "Social Sharing & Referral Rewards" {
+  usecase "Share Referral Link or Order" as UC1
+  usecase "New User Signs Up Through Link" as UC2
+  usecase "Credit Rewards to Referrer and New User" as UC3
+  usecase "Track Viral Campaigns" as UC4
+  usecase "Handle Invalid Referral (No Reward)" as UC5
+}
+
+C --> UC1
+UC1 --> UC2
+UC2 --> UC3
+P --> UC3
+RS --> UC3
+
+UC3 --> UC4 : <<include>>     ' Subflow: Analytics tracking
+UC2 --> UC5 : <<extend>>      ' Alternative flow: Invalid referral
+
+@enduml
