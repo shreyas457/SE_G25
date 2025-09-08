@@ -1,0 +1,67 @@
+@startuml
+left to right direction
+
+actor "Customer" as Customer
+actor "Rewards Engine" as RewardsEngine <<actor>>
+actor "Customer Support" as Support
+
+rectangle "Loyalty and Rewards System" {
+    usecase "Make a Purchase" as UC_Purchase
+    usecase "Allocate Points" as UC_Allocate
+    usecase "View Rewards Balance" as UC_ViewBalance
+    usecase "Redeem Points at Checkout" as UC_Redeem
+    usecase "Issue Bonus Points" as UC_Bonus
+    usecase "Handle Point Expiry" as UC_Expiry
+    usecase "Display Insufficient Points Error" as UC_Insufficient
+    usecase "Manually Adjust Points" as UC_ManualAdjust
+}
+
+'--- Associations ---'
+Customer --> UC_Purchase
+Customer --> UC_ViewBalance
+Customer --> UC_Redeem
+Support --> UC_ManualAdjust
+
+'--- Includes (Subflows) ---'
+UC_Allocate ..> UC_Bonus : <<includes>>
+UC_Allocate ..> UC_Expiry : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+UC_Insufficient .> UC_Redeem : <<extends>>
+UC_ManualAdjust .> UC_Allocate : <<extends>>
+
+'--- System to System Interaction ---'
+UC_Purchase --> RewardsEngine
+UC_Allocate <-- RewardsEngine
+
+'--- Notes for Preconditions and Flow ---'
+note bottom of UC_Purchase
+**Preconditions:**
+- Customer has an active account.
+- Loyalty program enabled.
+end note
+
+note right of UC_ViewBalance
+**Main Flow:**
+1. Customer makes a purchase.
+2. Rewards Engine allocates points.
+3. Customer views accumulated balance.
+4. Customer redeems points at checkout.
+end note
+
+note right of UC_Redeem
+**Alternative Flow:**
+- If insufficient points, an error message is shown.
+end note
+
+note right of UC_ManualAdjust
+**Alternative Flow:**
+- In case of a technical error, Customer Support adjusts points manually.
+end note
+
+note right of UC_Allocate
+**Postconditions:**
+- Rewards balance updated.
+- Redemption reflected in invoice.
+end note
+@enduml
