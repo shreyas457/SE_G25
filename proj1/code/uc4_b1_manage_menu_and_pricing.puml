@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor "Restaurant Vendor" as RV
+actor "Platform Moderation" as PM
+
+rectangle "Food Delivery Platform" as FDP {
+  usecase "Manage Menu & Pricing" as U0
+  usecase "Add/Update Items" as U1
+  usecase "Mark Out-of-Stock" as U2
+  usecase "Set Seasonal Offers" as U3
+
+  ' Alternative flow
+  usecase "Flag for Review" as A1
+}
+
+RV --> U0
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<include>>
+U0 ..> U3 : <<include>>
+U0 <.. A1 : <<extend>>\n(policy triggered)
+
+PM --> A1
+
+note right of U0
+Pre: Vendor logged in
+Main: Edit menu, prices, promos
+Alt: Flagged for moderation
+end note
+@enduml
