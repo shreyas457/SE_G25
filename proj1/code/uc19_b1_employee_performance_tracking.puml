@@ -1,64 +1,36 @@
 @startuml
-' Remove "left to right direction" to use the default top-to-bottom layout
+' Use the default top-to-bottom layout
 
 actor "Employee" as Employee
 actor "HR Manager" as HRManager
-actor "Performance System" as System <<actor>>
 
 rectangle "Employee Performance Tracking" {
-    usecase "Log Work Activity" as UC_LogActivity
-    usecase "Aggregate Performance Data" as UC_Aggregate
-    usecase "Display Leaderboards (Gamification)" as UC_Leaderboards
-    usecase "Review Dashboards and Reports" as UC_Review
-    usecase "Provide Feedback" as UC_Feedback
-    usecase "Update Performance Score" as UC_UpdateScore
-    usecase "Store Records" as UC_StoreRecords
-    usecase "Request Data Corrections" as UC_CorrectData
+    usecase "Manage Performance Data" as UC_ManageData
+    usecase "Review Performance" as UC_Review
 }
 
-' Use double dashes (--) for vertical associations '
-Employee -- UC_LogActivity
+Employee -- UC_ManageData
 HRManager -- UC_Review
-HRManager -- UC_Feedback
-HRManager -- UC_CorrectData
-System -- UC_Aggregate
+UC_ManageData -- UC_Review
 
-' Use double dashes (--) for vertical flow '
-UC_LogActivity -- UC_Aggregate
-UC_Aggregate -- UC_Review
-UC_Review -- UC_UpdateScore
-UC_UpdateScore -- UC_StoreRecords
-
-' Includes and Extends should also be vertical '
-UC_Aggregate ..> UC_Leaderboards : <<includes>>
-UC_CorrectData .> UC_LogActivity : <<extends>>
-
-' Use the `top`, `right`, `bottom`, `left` keywords for note positioning '
-note bottom of UC_LogActivity
-**Preconditions:**
-- Employee has an active profile.
-- KPIs and performance metrics are defined.
-end note
-
-note bottom of UC_Review
+note bottom of UC_ManageData
+**Preconditions:** Active employee profile, KPIs defined.
 **Main Flow:**
-1. Employee logs work activity.
-2. Performance System aggregates data.
-3. HR Manager reviews reports.
-4. HR Manager provides feedback.
+1. Employee logs activity.
+2. System aggregates data.
+3. Performance score updated.
+**Includes:** Gamification/leaderboards.
 end note
 
-note right of UC_CorrectData
+note right of UC_Review
 **Alternative Flow:**
-- If missing/incomplete data, HR Manager requests corrections.
-end note
-
-note bottom of UC_StoreRecords
+- If missing data, HR requests corrections.
+- If deadline missed, HR is notified.
 **Postconditions:**
 - Performance score updated.
-- Records stored for promotions/appraisals.
+- Records stored for appraisals.
 end note
-
 @enduml
+
 
 
