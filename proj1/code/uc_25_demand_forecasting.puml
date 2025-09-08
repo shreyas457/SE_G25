@@ -1,0 +1,41 @@
+@startuml
+left to right direction
+
+' Actors
+actor Platform
+actor Supplier
+actor Distributor
+actor "Analytics Engine" as Analytics
+
+' System boundary
+rectangle "Demand Forecasting & Supply Planning System" {
+    usecase "Collect Order Trends" as UC1
+    usecase "Forecast Demand" as UC2
+    usecase "Adjust Production" as UC3
+    usecase "Plan Bulk Purchases" as UC4
+    usecase "Forecast by Region/Season" as UC5
+    usecase "AI-based Recommendations" as UC6
+    usecase "Manual Override for Forecast Error" as UC7
+}
+
+' Actor interactions
+Platform --> UC1
+Analytics --> UC2
+Supplier --> UC3
+Distributor --> UC4
+
+' Main flow connections
+UC1 --> UC2 : provides data
+UC2 --> UC3 : outputs forecast
+UC2 --> UC4 : outputs forecast
+
+' Include relationships (always happens)
+UC2 ..> UC3 : «include»
+UC2 ..> UC4 : «include»
+
+' Extend relationships (optional/conditional flows)
+UC2 ..> UC5 : «extend»
+UC2 ..> UC6 : «extend»
+UC2 ..> UC7 : «extend»
+
+@enduml
