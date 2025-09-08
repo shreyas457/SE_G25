@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+
+actor "Advisory Stakeholder" as AS
+actor "Compliance Team" as CT
+actor "Platform" as P
+
+rectangle "Regulatory Compliance Guidance" {
+  usecase "Review Policies & Procedures" as UC1
+  usecase "Identify Gaps/Non-Compliance" as UC2
+  usecase "Recommend Changes" as UC3
+  usecase "Implement Recommendations" as UC4
+  usecase "Schedule Compliance Reviews" as UC5
+  usecase "Maintain Audit Logs" as UC6
+  usecase "Emergency Compliance Measures" as UC7
+}
+
+AS --> UC1
+UC1 --> UC2
+UC2 --> UC3
+UC3 --> UC4
+CT --> UC4
+
+AS --> UC5
+P --> UC5
+P --> UC6
+
+UC2 --> UC7 : <<include>>  ' Alternative Flow
+
+@enduml
