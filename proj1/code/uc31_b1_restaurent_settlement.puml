@@ -1,0 +1,33 @@
+@startuml
+left to right direction
+
+actor "Platform Finance Team" as FT
+actor "Payment Partner" as PP
+actor "Restaurant" as R
+actor "Platform" as P
+
+rectangle "Restaurant Settlement" {
+  usecase "Aggregate Completed Order Payments" as UC1
+  usecase "Reconcile with Transaction Logs" as UC2
+  usecase "Calculate Settlement Amounts" as UC3
+  usecase "Transfer Payments to Restaurants" as UC4
+  usecase "Generate Settlement Reports (Daily/Weekly)" as UC5
+  usecase "Apply Commissions or Fees" as UC6
+  usecase "Manual Verification of Discrepancies" as UC7
+}
+
+P --> UC1
+UC1 --> UC2
+FT --> UC2
+PP --> UC2
+UC2 --> UC3
+UC3 --> UC4
+FT --> UC4
+R --> UC4
+
+UC3 --> UC5 : <<include>>  ' Subflow
+UC3 --> UC6 : <<include>>  ' Subflow
+
+UC2 --> UC7 : <<extend>>   ' Alternative flow for discrepancies
+
+@enduml
