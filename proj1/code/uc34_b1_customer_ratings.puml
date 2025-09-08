@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+
+actor "Customer" as C
+actor "Platform" as P
+actor "Restaurant" as R
+actor "Customer Support" as CS
+
+rectangle "Customer Feedback & Review Management" {
+  usecase "Submit Feedback or Rating" as UC1
+  usecase "Aggregate Ratings and Comments" as UC2
+  usecase "Review and Respond to Feedback" as UC3
+  usecase "Resolve Complaints from Low Ratings" as UC4
+  usecase "Sentiment Analysis on Reviews" as UC5
+  usecase "Moderate Inappropriate Feedback" as UC6
+}
+
+C --> UC1
+UC1 --> UC2
+P --> UC2
+
+UC2 --> UC3
+R --> UC3
+
+UC2 --> UC4
+CS --> UC4
+
+UC2 --> UC5 : <<include>>  ' Subflow: Automated sentiment analysis
+UC1 --> UC6 : <<extend>>   ' Alternative flow: Feedback moderation
+
+@enduml
