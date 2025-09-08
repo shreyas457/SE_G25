@@ -1,0 +1,34 @@
+@startuml
+left to right direction
+
+actor "Technology Partner" as Partner
+actor "Platform Admin" as Admin
+
+rectangle "Platform System" {
+    actor Platform
+
+    usecase "Develop New Feature / API Update" as UC1
+    usecase "Review and Approve Changes" as UC2
+    usecase "Integrate Updated API" as UC3
+    usecase "Notify Internal Teams" as UC4
+    usecase "Test Environment for API Changes" as UC5
+    usecase "Rollback Plan in Case of Failure" as UC6
+    usecase "Rollback to Previous Version if Issues" as UC7
+}
+
+' Main Flow
+Partner --> UC1
+UC1 --> Admin : "Submit for review"
+Admin --> UC2 : "Review and approve"
+UC2 --> UC3 : "Integrate API"
+UC3 --> UC4 : "Notify teams"
+UC4 --> Platform
+
+' Subflows
+UC5 ..> UC1 : <<subflow>>
+UC6 ..> UC1 : <<subflow>>
+
+' Alternative Flow
+UC7 ..> UC3 : <<alternative>>
+
+@enduml
