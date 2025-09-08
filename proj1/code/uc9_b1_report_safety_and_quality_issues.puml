@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+
+actor "Delivery Agent" as DA
+actor "Customer Support" as CS
+actor "Emergency Hotline" as SOS
+
+rectangle "Food Delivery Platform" as FDP {
+  usecase "Report Issue" as U0
+  usecase "Attach Evidence" as U1
+  usecase "Escalate to Support" as U2
+
+  ' Alternative flow
+  usecase "Emergency Call" as A1
+}
+
+DA --> U0
+U0 ..> U1 : <<extend>>\n(optional)
+U0 ..> U2 : <<include>>
+U0 <.. A1 : <<extend>>\n(urgent)
+
+CS --> U2
+SOS --> A1
+
+note right of U0
+Pre: Issue encountered
+Main: Report with photo/voice
+Alt: Urgent → hotline
+end note
+@enduml
