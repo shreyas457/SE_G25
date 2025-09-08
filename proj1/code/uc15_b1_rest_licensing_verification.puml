@@ -1,0 +1,66 @@
+@startuml
+left to right direction
+
+actor "Restaurant" as Restaurant
+actor "Platform Verification Team" as Verifier
+actor "Regulator" as Regulator <<actor>>
+
+rectangle "Licensing Verification System" {
+    usecase "Upload License" as UC_Upload
+    usecase "Validate Documents" as UC_Validate
+    usecase "Verify Authenticity (Database)" as UC_VerifyDB
+    usecase "Grant/Deny Approval" as UC_GrantDeny
+    usecase "Send Renewal Reminders" as UC_Remind
+    usecase "Suspend Account (Invalid License)" as UC_Suspend
+}
+
+'--- Associations ---'
+Restaurant --> UC_Upload
+Verifier --> UC_Validate
+UC_VerifyDB <-- Regulator
+UC_GrantDeny <-- Verifier
+
+' The upload triggers validation '
+UC_Upload --> UC_Validate
+
+' Validation leads to database verification '
+UC_Validate --> UC_VerifyDB
+
+' Grant/Deny use case results in the system's final decision '
+UC_GrantDeny --> UC_Remind
+
+'--- Includes (Subflows) ---'
+' Sending reminders is part of a complete grant/deny process '
+UC_Remind ..> UC_GrantDeny : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+' Suspending the account is an optional extension of the Grant/Deny process '
+UC_Suspend .> UC_GrantDeny : <<extends>>
+
+'--- Notes for Context ---'
+note bottom of UC_Upload
+**Preconditions:**
+- Restaurant applies to join platform.
+- Licensing documents provided.
+end note
+
+note bottom of UC_GrantDeny
+**Main Flow:**
+1. Restaurant uploads license.
+2. Verification Team validates.
+3. Documents sent to Regulator.
+4. Regulator verifies authenticity.
+5. Platform grants/denies.
+end note
+
+note right of UC_Suspend
+**Alternative Flow:**
+- Expired/invalid license detected.
+end note
+
+note bottom of UC_GrantDeny
+**Postconditions:**
+- Approved restaurants go live on platform.
+end note
+
+@enduml
