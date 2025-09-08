@@ -1,0 +1,65 @@
+@startuml
+left to right direction
+
+actor "Customer" as Customer
+actor "Regulator" as Regulator <<actor>>
+actor "Platform" as Platform <<actor>>
+
+rectangle "Voucher Management System" {
+    usecase "Select Items" as UC_SelectItems
+    usecase "Apply Voucher" as UC_ApplyVoucher
+    usecase "Make Partial Payment" as UC_PartialPay
+    usecase "Request Alternate Payment" as UC_AltPayment
+    usecase "Send Voucher Usage" as UC_SendUsage
+    usecase "Validate & Reimburse" as UC_Reimburse
+    usecase "Log Redemption" as UC_LogRedemption
+    usecase "Reconcile Funds" as UC_Reconcile
+}
+
+'--- Associations ---'
+Customer --> UC_SelectItems
+Customer --> UC_ApplyVoucher
+Customer --> UC_AltPayment
+Platform --> UC_SendUsage
+Regulator --> UC_Reimburse
+
+'--- Includes (Subflows) ---'
+UC_ApplyVoucher ..> UC_PartialPay : <<includes>>
+UC_SendUsage ..> UC_Reimburse : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+UC_AltPayment .> UC_ApplyVoucher : <<extends>>
+
+'--- System to System Interaction ---'
+UC_SelectItems --> UC_ApplyVoucher
+UC_ApplyVoucher --> UC_SendUsage
+UC_SendUsage --> Regulator
+UC_Reimburse --> UC_LogRedemption
+UC_Reimburse --> UC_Reconcile
+
+'--- Notes for Context ---'
+note bottom of UC_SelectItems
+**Preconditions:**
+- Customer eligible for voucher program.
+- Regulator provides voucher database.
+end note
+
+note bottom of UC_ApplyVoucher
+**Main Flow:**
+1. Customer selects items.
+2. Platform applies voucher discount.
+3. Platform sends voucher usage to Regulator.
+4. Regulator validates and reimburses.
+end note
+
+note right of UC_AltPayment
+**Alternative Flow:**
+- If voucher expired, customer asked for alternate payment.
+end note
+
+note right of UC_Reconcile
+**Postconditions:**
+- Voucher redemption logged.
+- Funds reconciled.
+end note
+@enduml
