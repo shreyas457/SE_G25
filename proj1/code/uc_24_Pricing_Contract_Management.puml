@@ -1,0 +1,39 @@
+@startuml
+left to right direction
+
+actor Supplier
+actor Distributor
+actor Platform
+actor "Support Team" as Support
+
+rectangle "Pricing & Contract Management System" {
+    usecase "Upload Pricing/Contracts" as UC1
+    usecase "Review and Accept Contracts" as UC2
+    usecase "Apply Agreed Pricing" as UC3
+    usecase "Notify Updates" as UC4
+    usecase "Dynamic Pricing" as UC5
+    usecase "Seasonal Discounts & Promotions" as UC6
+    usecase "Escalate Dispute" as UC7
+}
+
+' Actor interactions
+Supplier --> UC1
+Distributor --> UC2
+Platform --> UC3
+Distributor --> UC4
+Support --> UC7
+
+' Main flow connections
+UC1 --> UC2 : submit for review
+UC2 --> UC3 : on acceptance
+UC3 --> UC4 : trigger notifications
+
+' Include relationship (always happens)
+UC2 ..> UC4 : «include»
+
+' Extend relationships (optional/conditional flows)
+UC3 ..> UC5 : «extend»
+UC3 ..> UC6 : «extend»
+UC2 ..> UC7 : «extend»
+
+@enduml
