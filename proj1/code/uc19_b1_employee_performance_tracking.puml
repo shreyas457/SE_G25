@@ -1,0 +1,65 @@
+@startuml
+left to right direction
+
+actor "Employee" as Employee
+actor "HR Manager" as HRManager
+actor "Performance System" as System <<actor>>
+
+rectangle "Employee Performance Tracking" {
+    usecase "Log Work Activity" as UC_LogActivity
+    usecase "Aggregate Performance Data" as UC_Aggregate
+    usecase "Review Dashboards and Reports" as UC_Review
+    usecase "Provide Feedback" as UC_Feedback
+    usecase "Display Leaderboards (Gamification)" as UC_Leaderboards
+    usecase "Request Data Corrections" as UC_CorrectData
+    usecase "Update Performance Score" as UC_UpdateScore
+    usecase "Store Records" as UC_StoreRecords
+}
+
+'--- Associations ---'
+Employee --> UC_LogActivity
+Employee --> UC_LogActivity
+HRManager --> UC_Review
+HRManager --> UC_Feedback
+HRManager --> UC_CorrectData
+System --> UC_Aggregate
+
+'--- Includes (Subflows) ---'
+UC_Aggregate ..> UC_Leaderboards : <<includes>>
+
+'--- Extends (Alternative Flows) ---'
+UC_CorrectData .> UC_LogActivity : <<extends>>
+
+'--- System to System Interaction ---'
+UC_LogActivity --> UC_Aggregate
+UC_Aggregate --> UC_Review
+UC_Review --> UC_UpdateScore
+UC_UpdateScore --> UC_StoreRecords
+
+'--- Notes for Context ---'
+note bottom of UC_LogActivity
+**Preconditions:**
+- Employee has an active profile.
+- KPIs and performance metrics are defined.
+end note
+
+note bottom of UC_Review
+**Main Flow:**
+1. Employee logs work activity.
+2. Performance System aggregates data.
+3. HR Manager reviews reports.
+4. HR Manager provides feedback.
+end note
+
+note right of UC_CorrectData
+**Alternative Flow:**
+- If missing/incomplete data, HR Manager requests corrections.
+end note
+
+note bottom of UC_StoreRecords
+**Postconditions:**
+- Performance score updated.
+- Records stored for promotions/appraisals.
+end note
+
+@enduml
