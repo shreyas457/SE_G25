@@ -1,29 +1,36 @@
 @startuml
-title Customers – Apply Discounts & Promotions
+left to right direction
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
 
-actor Customer
-actor "Payment Gateway" as Pay
+actor Customer as C
+actor "Payment Gateway" as PG
+actor "Notification Service" as NS
 
-package "WolfCafe Platform" {
-  usecase "Apply Discounts & Promotions" as U2
-  usecase "Validate Promo Code" as U2a
-  usecase "Auto-apply Loyalty Points" as U2b
-  usecase "Recompute Cart Price" as U2c
-  usecase "Suggest Alternative Offers" as U2d
+rectangle "Food Delivery Platform" as FDP {
+  usecase "Apply Discounts & Promotions" as U0
+  usecase "Validate Promo Code" as U1
+  usecase "Auto-apply Loyalty Points" as U2
+  usecase "Recompute Cart Total" as U3
+
+  ' Alternative flows
+  usecase "Suggest Alternative Offers" as A1
+  usecase "Handle Promo Errors" as A2
 }
 
-Customer --> U2
-U2 .> U2a : <<include>>
-U2 .> U2b : <<include>>
-U2 .> U2c : <<include>>
-U2 .> U2d : <<extend>>\n(code expired/invalid)
+C --> U0
+U0 ..> U1 : <<include>>
+U0 ..> U2 : <<include>>
+U0 ..> U3 : <<include>>
+U0 <.. A1 : <<extend>>\n(code invalid/expired)
+U1 <.. A2 : <<extend>>\n(promo abuse/error)
 
-U2c --> Pay : Pre-auth (optional)
+PG --> U3
+NS --> A1
 
-note right of U2
-Pre: Customer has coupons/points
-Main: Enter code → price updates
-Sub: Points auto-applied
-Alt: Expired → suggest other deals
+note right of U0
+Pre: Coupons or points exist
+Main: Validate → Apply → Update cart
+Alt: Expired → suggest; Abuse → error
 end note
 @enduml
