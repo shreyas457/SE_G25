@@ -1,0 +1,36 @@
+@startuml
+left to right direction
+
+actor "Technology Partner" as Partner
+actor "Security Team" as Security
+
+rectangle "Platform System" {
+    actor Platform
+
+    usecase "Request Audit Reports" as UC1
+    usecase "Review Compliance Documents" as UC2
+    usecase "Flag Non-Compliance Issues" as UC3
+    usecase "Remediate Identified Gaps" as UC4
+    usecase "Schedule Periodic Audits" as UC5
+    usecase "Perform Random Security Checks" as UC6
+    usecase "Restrict Partner Service if Non-Compliant" as UC7
+}
+
+' Main Flow
+Platform --> UC1 : "Request reports"
+UC1 --> Security : "Provide documents"
+Security --> UC2 : "Review compliance"
+UC2 --> UC3 : "Flag issues"
+UC3 --> Partner : "Remediate gaps"
+UC4 --> Platform
+
+' Subflows
+UC5 ..> UC2 : <<subflow>>
+UC6 ..> UC2 : <<subflow>>
+
+' Alternative Flow
+UC7 ..> UC3 : <<alternative>>
+
+Partner --> UC4
+
+@enduml
