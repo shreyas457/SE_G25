@@ -1,0 +1,38 @@
+@startuml
+left to right direction
+
+
+actor Supplier
+actor "Quality Inspector" as Inspector
+actor Distributor
+actor Platform
+
+rectangle "Quality Assurance & Compliance System" {
+    usecase "Upload Quality Certificates" as UC1
+    usecase "Review Certificates" as UC2
+    usecase "Flag Expired/Missing Certificates" as UC3
+    usecase "Notify Compliance Status" as UC4
+    usecase "Schedule On-site Inspection" as UC5
+    usecase "Random Sample Quality Check" as UC6
+    usecase "Block Non-compliant Orders" as UC7
+}
+
+' Actor interactions
+Supplier --> UC1
+Inspector --> UC2
+Platform --> UC3
+Distributor --> UC4
+
+' Main flow
+UC1 --> UC2 : submit for review
+UC2 --> UC4 : triggers notification
+
+' Include relationship (always happens)
+UC2 ..> UC3 : «include»
+
+' Extend relationships (optional flows)
+UC2 ..> UC5 : «extend»
+UC2 ..> UC6 : «extend»
+UC2 ..> UC7 : «extend»
+
+@enduml
