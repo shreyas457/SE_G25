@@ -1,0 +1,51 @@
+@startuml
+left to right direction
+
+actor "Customer" as Customer
+actor "Fraud Team" as FraudTeam
+
+rectangle "Online Platform" {
+  usecase "Place Order" as UC1
+  usecase "Appeal False Positive" as UC_Appeal
+}
+
+rectangle "Fraud Detection System" {
+  usecase "Detect Fraud" as UC_Detect
+  usecase "Flag Order" as UC_Flag
+  usecase "Cross-check Blacklist" as UC_Blacklist
+  usecase "Analyze with ML" as UC_ML
+  usecase "Investigate Flagged Order" as UC_Investigate
+  usecase "Block Order" as UC_Block
+  usecase "Release Order" as UC_Release
+  usecase "Override Fraud Flag" as UC_Override
+}
+
+' --- Main Flow --- '
+Customer --> UC1
+Platform --> UC_Detect
+UC_Detect ..> UC_Flag : <<include>>
+UC_Flag --> FraudTeam
+FraudTeam --> UC_Investigate
+UC_Investigate --> UC_Block
+UC_Investigate --> UC_Release
+
+' --- Subflows (<<include>>) --- '
+UC_Detect ..> UC_Blacklist : <<include>>
+UC_Detect ..> UC_ML : <<include>>
+
+' --- Alternative Flow (<<extend>>) --- '
+UC_Appeal .> UC_Override : <<extend>>
+Customer --> UC_Appeal
+UC_Override --> UC_Release
+
+' --- Notes for details --- '
+note right of UC_Detect
+Preconditions:
+- Customer has placed an order.
+- Payment details are submitted.
+end note
+
+note right of UC_Investigate
+Fraud Team decides to block or release the order.
+end note
+@enduml
