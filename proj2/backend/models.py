@@ -38,10 +38,6 @@ class User(Base):
     phone = Column(String(20), nullable=True)
     hashed_password = Column(String(255), nullable=False)
     role = Column(SQLEnum(UserRole), default=UserRole.CUSTOMER, nullable=False)
-    profile_image_url = Column(String(500), nullable=True)
-    is_active = Column(Boolean, default=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     # Relationships
     addresses = relationship("Address", back_populates="user", cascade="all, delete-orphan")

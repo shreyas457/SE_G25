@@ -10,6 +10,10 @@ class UserCreate(BaseModel):
     password: str
     phone: Optional[str] = None
     role: UserRole = UserRole.CUSTOMER
+    business_name: Optional[str] = None,
+    business_address: Optional[str] = None,
+    license_number: Optional[str] = None,
+    vehicle_number: Optional[str] = None,
 
 class UserResponse(BaseModel):
     id: int
@@ -17,12 +21,7 @@ class UserResponse(BaseModel):
     email: str
     phone: Optional[str]
     role: UserRole
-    profile_image_url: Optional[str]
-    is_active: bool
-    created_at: datetime
 
-    class Config:
-        from_attributes = True
 
 # Address Schemas
 class AddressCreate(BaseModel):
