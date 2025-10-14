@@ -163,17 +163,18 @@ def get_restaurants(
     db: Session = Depends(get_db)
 ):
     """Get all restaurants with optional filters"""
-    query = db.query(Restaurant)
+    # query = db.query(Restaurant)
     
-    if city:
-        query = query.filter(Restaurant.city == city)
-    if cuisine_type:
-        query = query.filter(Restaurant.cuisine_type == cuisine_type)
-    if is_open is not None:
-        query = query.filter(Restaurant.is_open == is_open)
+    return [RestaurantResponse(id=1, owner_id=1, name="ABCD", description="ABCD", cuisine_type="ABCD", rating=4.5)]
+    # if city:
+    #     query = query.filter(Restaurant.city == city)
+    # if cuisine_type:
+    #     query = query.filter(Restaurant.cuisine_type == cuisine_type)
+    # if is_open is not None:
+    #     query = query.filter(Restaurant.is_open == is_open)
     
-    restaurants = query.offset(skip).limit(limit).all()
-    return restaurants
+    # restaurants = query.offset(skip).limit(limit).all()
+    # return restaurants
 
 @app.get("/api/restaurants/{restaurant_id}", response_model=RestaurantResponse)
 def get_restaurant(restaurant_id: int, db: Session = Depends(get_db)):

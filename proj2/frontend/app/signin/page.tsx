@@ -21,7 +21,7 @@ const SigninPage = () => {
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/auth/signin`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({email: email, password: password})
+        body: JSON.stringify({ email, password })
       });
 
       const data = await response.json();
@@ -30,15 +30,17 @@ const SigninPage = () => {
         throw new Error(data.detail || "Sign in failed");
       }
 
-      // Store token & role in localStorage (or cookies)
+      // Store ALL user data in localStorage
       localStorage.setItem("access_token", data.access_token);
       localStorage.setItem("role", data.role);
       localStorage.setItem("user_name", data.name);
+      localStorage.setItem("user_email", data.email);
+      localStorage.setItem("user_id", data.id.toString());
 
       // Redirect based on role
-      if (data.role === "customer") router.push("/customer/dashboard");
-      else if (data.role === "restaurant_owner") router.push("/owner/dashboard");
-      else if (data.role === "driver") router.push("/driver/dashboard");
+      if (data.role === "customer") router.push("/customer/");
+      else if (data.role === "restaurant_owner") router.push("/owner/");
+      else if (data.role === "driver") router.push("/driver/");
       else router.push("/");
 
     } catch (err: any) {

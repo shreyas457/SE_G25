@@ -55,26 +55,7 @@ class RestaurantResponse(BaseModel):
     name: str
     description: Optional[str]
     cuisine_type: Optional[str]
-    phone: Optional[str]
-    email: Optional[str]
-    street_address: str
-    city: str
-    state: str
-    zip_code: str
-    latitude: Optional[float]
-    longitude: Optional[float]
-    logo_url: Optional[str]
-    cover_image_url: Optional[str]
     rating: float
-    total_reviews: int
-    delivery_fee: float
-    minimum_order: float
-    estimated_delivery_time: Optional[int]
-    is_active: bool
-    is_open: bool
-    opening_time: Optional[str]
-    closing_time: Optional[str]
-    created_at: datetime
 
     class Config:
         from_attributes = True
