@@ -1,21 +1,26 @@
 "use client";
 
 import Link from "next/link";
-import { useState, ChangeEvent, FormEvent } from "react";
+import { useState, ChangeEvent, FormEvent, useRef, useEffect } from "react";
 
-type UserType = "customer" | "owner" | "driver" | "";
+type UserType = "customer" | "restaurant_owner" | "driver" | "";
+
+interface AddressInfo {
+  street: string;
+  lat?: number;
+  lon?: number;
+}
 
 interface SignupFormData {
   name: string;
   email: string;
   phone: string;
-  address: string;
+  address: AddressInfo; 
   password: string;
   role: UserType;
-  business_name: string;
-  business_address: string;
+  restaurant_name: string;
   license_number: string;
-  vehicle_number: string;
+  vehicle_model: string;
   agreedToTerms: boolean;
 }
 
@@ -24,29 +29,85 @@ const SignupPage = () => {
     name: "",
     email: "",
     phone: "",
-    address: "",
+    address: {
+      street: "",
+      lat: undefined,
+      lon: undefined,
+    },
     password: "",
     role: "",
-    business_name: "",
-    business_address: "",
+    restaurant_name: "",
     license_number: "",
-    vehicle_number: "",
+    vehicle_model: "",
     agreedToTerms: false,
   });
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string>("");
   const [success, setSuccess] = useState(false);
+  const [suggestions, setSuggestions] = useState<any[]>([]);
+  const [provider, setProvider] = useState<any>(null);
+
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Initialize OpenStreetMapProvider only on client
+  useEffect(() => {
+    (async () => {
+      const { OpenStreetMapProvider } = await import("leaflet-geosearch");
+      setProvider(new OpenStreetMapProvider());
+    })();
+  }, []);
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
     const { name, type, value } = e.target;
-    const checked = (e.target instanceof HTMLInputElement) ? e.target.checked : undefined;
+    const checked =
+      e.target instanceof HTMLInputElement ? e.target.checked : undefined;
     setFormData((prev) => ({
       ...prev,
       [name]: type === "checkbox" ? checked : value,
     }));
+  };
+
+  // 🌍 Address Autocomplete
+  const handleAddressChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+
+    // Update only the street while keeping other fields intact
+    setFormData((prev) => ({
+      ...prev,
+      address: {
+        ...(typeof prev.address === "object" ? prev.address : {}),
+        street: value,
+      },
+    }));
+
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    if (!provider || value.length < 3) {
+      setSuggestions([]);
+      return;
+    }
+
+    timeoutRef.current = setTimeout(async () => {
+      const results = await provider.search({ query: value });
+      setSuggestions(results);
+    }, 400);
+};
+
+  const handleAddressSelect = (result: any) => {
+    const { label, x, y, raw } = result;
+    console.log(result)
+  
+    setFormData((prev) => ({
+      ...prev,
+      address: {
+        street: label,
+        lat: y,
+        lon: x,
+      },
+    }));
+    setSuggestions([]);
   };
 
   const handleSubmit = async (e: FormEvent) => {
@@ -56,7 +117,6 @@ const SignupPage = () => {
 
     const { name, email, password, role, agreedToTerms } = formData;
 
-    // Basic validation
     if (!name || !email || !password || !role) {
       setError("Please fill in all required fields");
       return;
@@ -66,24 +126,20 @@ const SignupPage = () => {
       return;
     }
 
-    // Role-specific validation
-    if (
-      role === "customer" &&
-      (!formData.address || !formData.phone)
-    ) {
+    if (role === "customer" && (!formData.address || !formData.phone)) {
       setError("Please enter your phone and address");
       return;
     }
     if (
-      role === "owner" &&
-      (!formData.business_name || !formData.business_address)
+      role === "restaurant_owner" &&
+      (!formData.restaurant_name || !formData.address)
     ) {
       setError("Please enter your business details");
       return;
     }
     if (
       role === "driver" &&
-      (!formData.license_number || !formData.vehicle_number)
+      (!formData.license_number || !formData.vehicle_model)
     ) {
       setError("Please enter your license and vehicle details");
       return;
@@ -96,7 +152,7 @@ const SignupPage = () => {
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(formData),
+          body: JSON.stringify({...formData, address: formData.address}),
         }
       );
 
@@ -111,13 +167,16 @@ const SignupPage = () => {
         name: "",
         email: "",
         phone: "",
-        address: "",
+        address: {
+          street: "",
+          lat: undefined,
+          lon: undefined,
+        },
         password: "",
         role: "",
-        business_name: "",
-        business_address: "",
+        restaurant_name: "",
         license_number: "",
-        vehicle_number: "",
+        vehicle_model: "",
         agreedToTerms: false,
       });
 
@@ -210,12 +269,12 @@ const SignupPage = () => {
                   >
                     <option value="">-- Choose --</option>
                     <option value="customer">Customer</option>
-                    <option value="owner">Owner</option>
+                    <option value="restaurant_owner">Restaurant Owner</option>
                     <option value="driver">Driver</option>
                   </select>
                 </div>
 
-                {/* Conditional Fields */}
+                {/* Customer Fields */}
                 {formData.role === "customer" && (
                   <>
                     <div className="mb-8">
@@ -231,78 +290,121 @@ const SignupPage = () => {
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
-                    <div className="mb-8">
-                      <label htmlFor="address" className="mb-3 block text-sm text-dark dark:text-white">
+
+                    {/* Address Autocomplete */}
+                    <div className="mb-8 relative">
+                      <label className="mb-3 block text-sm text-dark dark:text-white">
                         Address
                       </label>
                       <input
                         type="text"
                         name="address"
-                        value={formData.address}
-                        onChange={handleChange}
+                        value={typeof formData.address === "object" ? formData.address.street || "" : ""}
+                        onChange={handleAddressChange}
                         placeholder="Enter your address"
+                        autoComplete="off"
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       />
+                      {suggestions.length > 0 && (
+                        <ul className="text-sm text-dark dark:text-white border rounded-md max-h-48 overflow-y-auto">
+                          {suggestions.map((r, i) => (
+                            <li
+                              key={i}
+                              onClick={() => handleAddressSelect(r)}
+                              className="p-2 cursor-pointer text-sm border border-transparent rounded transition-all duration-200 hover:border-primary"
+                            >
+                              {r.label}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
                     </div>
                   </>
                 )}
 
-                {formData.role === "owner" && (
+                {/* restaurant_owner Fields */}
+                {formData.role === "restaurant_owner" && (
                   <>
                     <div className="mb-8">
-                      <label htmlFor="business_name" className="mb-3 block text-sm text-dark dark:text-white">
-                        Business Name
-                      </label>
+                      <label className="mb-3 block text-sm text-dark dark:text-white">Business Name</label>
                       <input
                         type="text"
-                        name="business_name"
-                        value={formData.business_name}
+                        name="restaurant_name"
+                        value={formData.restaurant_name}
                         onChange={handleChange}
                         placeholder="Enter your business name"
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
-                    <div className="mb-8">
-                      <label htmlFor="business_address" className="mb-3 block text-sm text-dark dark:text-white">
-                        Business Address
+
+                    {/* Business Address */}
+                    <div className="mb-8 relative">
+                      <label className="mb-3 block text-sm text-dark dark:text-white">
+                        Address
                       </label>
                       <input
                         type="text"
-                        name="business_address"
-                        value={formData.business_address}
-                        onChange={handleChange}
+                        name="address"
+                        value={typeof formData.address === "object" ? formData.address.street || "" : ""}
+                        onChange={handleAddressChange}
                         placeholder="Enter your business address"
+                        autoComplete="off"
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       />
+                      {suggestions.length > 0 && (
+                        <ul className="text-sm text-dark dark:text-white border rounded-md max-h-48 overflow-y-auto">
+                          {suggestions.map((r, i) => (
+                            <li
+                              key={i}
+                              onClick={() => handleAddressSelect(r)}
+                              className="p-2 cursor-pointer text-sm border border-transparent rounded transition-all duration-200 hover:border-primary"
+                            >
+                              {r.label}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
                     </div>
                   </>
                 )}
 
+                {/* Driver Fields */}
                 {formData.role === "driver" && (
                   <>
                     <div className="mb-8">
-                      <label htmlFor="license_number" className="mb-3 block text-sm text-dark dark:text-white">
-                        License Number
+                      <label htmlFor="phone" className="mb-3 block text-sm text-dark dark:text-white">
+                        Phone Number
                       </label>
+                      <input
+                        type="text"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        placeholder="989-104-1456"
+                        className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+                      />
+                    </div>
+
+                    <div className="mb-8">
+                      <label className="mb-3 block text-sm text-dark dark:text-white">License Number</label>
                       <input
                         type="text"
                         name="license_number"
                         value={formData.license_number}
                         onChange={handleChange}
-                        placeholder="Enter your license number"
+                        placeholder="Enter license number"
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
+
                     <div className="mb-8">
-                      <label htmlFor="vehicle_number" className="mb-3 block text-sm text-dark dark:text-white">
-                        Vehicle Number
-                      </label>
+                      <label className="mb-3 block text-sm text-dark dark:text-white">Vehicle Number</label>
                       <input
                         type="text"
-                        name="vehicle_number"
-                        value={formData.vehicle_number}
+                        name="vehicle_model"
+                        value={formData.vehicle_model}
                         onChange={handleChange}
-                        placeholder="Enter your vehicle number"
+                        placeholder="Enter vehicle number"
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
@@ -346,7 +448,6 @@ const SignupPage = () => {
                   </label>
                 </div>
 
-                {/* Submit */}
                 <div className="mb-6">
                   <button
                     type="submit"

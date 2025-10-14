@@ -6,10 +6,10 @@ from typing import List
 import uuid
 
 from database import engine, get_db
-from models import Base, User, Restaurant, MenuItem, Order, OrderItem, Category, Review, Driver
+from models import Base, Address, User, Restaurant, Driver, MenuItem, Order, OrderItem, Category, Review, Driver
 from schemas import (
     UserCreate, UserResponse,
-    RestaurantCreate, RestaurantResponse,
+    RestaurantResponse, UserSignIn,
     MenuItemCreate, MenuItemResponse,
     CategoryCreate, CategoryResponse,
     OrderCreate, OrderResponse,
@@ -85,7 +85,57 @@ def signup(user_data: UserCreate, db: Session = Depends(get_db)):
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
+
+    new_address = Address(
+        user_id=new_user.id,
+        street_address=user_data.address.street,
+        latitude=user_data.address.lat,
+        longitude=user_data.address.lon
+    )
+
+    db.add(new_address)
+    db.commit()
+    db.refresh(new_address)
+
+    if user_data.role == "restaurant_owner":
+        new_restaurant = Restaurant(
+            owner_id=new_user.id,
+            name=user_data.restaurant_name,
+            description="",
+            cuisine_type=""
+        )
+        db.add(new_restaurant)
+        db.commit()
+        db.refresh(new_restaurant)
+    
+    if user_data.role == "driver":
+        new_driver = Driver(
+            user_id=new_user.id,
+            vehicle_model=user_data.vehicle_model,
+            license_number=user_data.license_number,
+        )
+        db.add(new_driver)
+        db.commit()
+        db.refresh(new_driver)
+
     return new_user
+
+def verify_password(plain_password, hashed_password):
+    return pwd_context.verify(plain_password, hashed_password)
+
+@app.post("/api/auth/signin", response_model=UserResponse)
+def signin(user_data: UserSignIn, db: Session = Depends(get_db)):
+    """
+    Sign in a user and return user info.
+    """
+    user = db.query(User).filter(User.email == user_data.email).first()
+    if not user:
+        raise HTTPException(status_code=401, detail="Invalid email or password")
+    
+    if not verify_password(user_data.password, user.hashed_password):
+        raise HTTPException(status_code=401, detail="Invalid email or password")
+    
+    return UserResponse(id=user.id, name=user.name, email=user.email, phone=user.phone, role=user.role)
 
 @app.get("/api/users", response_model=List[UserResponse])
 def get_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
@@ -102,20 +152,6 @@ def get_user(user_id: int, db: Session = Depends(get_db)):
     return user
 
 # ==================== RESTAURANT ENDPOINTS ====================
-
-@app.post("/api/restaurants", response_model=RestaurantResponse, status_code=201)
-def create_restaurant(restaurant_data: RestaurantCreate, owner_id: int, db: Session = Depends(get_db)):
-    """Create a new restaurant"""
-    # Verify owner exists
-    owner = db.query(User).filter(User.id == owner_id).first()
-    if not owner:
-        raise HTTPException(status_code=404, detail="Owner not found")
-    
-    new_restaurant = Restaurant(**restaurant_data.dict(), owner_id=owner_id)
-    db.add(new_restaurant)
-    db.commit()
-    db.refresh(new_restaurant)
-    return new_restaurant
 
 @app.get("/api/restaurants", response_model=List[RestaurantResponse])
 def get_restaurants(
@@ -147,19 +183,19 @@ def get_restaurant(restaurant_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Restaurant not found")
     return restaurant
 
-@app.put("/api/restaurants/{restaurant_id}", response_model=RestaurantResponse)
-def update_restaurant(restaurant_id: int, restaurant_data: RestaurantCreate, db: Session = Depends(get_db)):
-    """Update restaurant"""
-    restaurant = db.query(Restaurant).filter(Restaurant.id == restaurant_id).first()
-    if not restaurant:
-        raise HTTPException(status_code=404, detail="Restaurant not found")
+# @app.put("/api/restaurants/{restaurant_id}", response_model=RestaurantResponse)
+# def update_restaurant(restaurant_id: int, restaurant_data: RestaurantCreate, db: Session = Depends(get_db)):
+#     """Update restaurant"""
+#     restaurant = db.query(Restaurant).filter(Restaurant.id == restaurant_id).first()
+#     if not restaurant:
+#         raise HTTPException(status_code=404, detail="Restaurant not found")
     
-    for key, value in restaurant_data.dict(exclude_unset=True).items():
-        setattr(restaurant, key, value)
+#     for key, value in restaurant_data.dict(exclude_unset=True).items():
+#         setattr(restaurant, key, value)
     
-    db.commit()
-    db.refresh(restaurant)
-    return restaurant
+#     db.commit()
+#     db.refresh(restaurant)
+#     return restaurant
 
 # ==================== CATEGORY ENDPOINTS ====================
 

@@ -52,15 +52,9 @@ class Address(Base):
     id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
     street_address = Column(String(500), nullable=False)
-    city = Column(String(100), nullable=False)
-    state = Column(String(50), nullable=False)
-    zip_code = Column(String(20), nullable=False)
     latitude = Column(Float, nullable=True)
     longitude = Column(Float, nullable=True)
     is_default = Column(Boolean, default=False)
-    address_type = Column(String(50), nullable=True)  # home, work, other
-    delivery_instructions = Column(Text, nullable=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
 
     # Relationships
     user = relationship("User", back_populates="addresses")
@@ -73,35 +67,13 @@ class Restaurant(Base):
     name = Column(String(255), nullable=False, index=True)
     description = Column(Text, nullable=True)
     cuisine_type = Column(String(100), nullable=True)
-    phone = Column(String(20), nullable=True)
-    email = Column(String(255), nullable=True)
-    
-    # Location
-    street_address = Column(String(500), nullable=False)
-    city = Column(String(100), nullable=False)
-    state = Column(String(50), nullable=False)
-    zip_code = Column(String(20), nullable=False)
-    latitude = Column(Float, nullable=True)
-    longitude = Column(Float, nullable=True)
     
     # Business info
     logo_url = Column(String(500), nullable=True)
     cover_image_url = Column(String(500), nullable=True)
     rating = Column(Float, default=0.0)
     total_reviews = Column(Integer, default=0)
-    delivery_fee = Column(Float, default=0.0)
-    minimum_order = Column(Float, default=0.0)
-    estimated_delivery_time = Column(Integer, nullable=True)  # in minutes
     
-    # Status
-    is_active = Column(Boolean, default=True)
-    is_open = Column(Boolean, default=True)
-    opening_time = Column(String(10), nullable=True)  # e.g., "09:00"
-    closing_time = Column(String(10), nullable=True)  # e.g., "22:00"
-    
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
-
     # Relationships
     owner = relationship("User", back_populates="restaurants")
     menu_items = relationship("MenuItem", back_populates="restaurant", cascade="all, delete-orphan")
@@ -211,13 +183,11 @@ class Driver(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
-    vehicle_type = Column(String(50), nullable=True)  # car, bike, scooter
     vehicle_model = Column(String(100), nullable=True)
-    license_plate = Column(String(20), nullable=True)
+    license_number = Column(String(20), nullable=True)
     
     # Status
     is_available = Column(Boolean, default=False)
-    is_verified = Column(Boolean, default=False)
     current_latitude = Column(Float, nullable=True)
     current_longitude = Column(Float, nullable=True)
     
@@ -225,9 +195,6 @@ class Driver(Base):
     total_deliveries = Column(Integer, default=0)
     rating = Column(Float, default=0.0)
     total_ratings = Column(Integer, default=0)
-    
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     # Relationships
     user = relationship("User", back_populates="driver_profile")

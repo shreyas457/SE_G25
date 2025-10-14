@@ -1,19 +1,28 @@
 from pydantic import BaseModel, EmailStr, Field
 from typing import Optional, List
 from datetime import datetime
-from models import UserRole, OrderStatus, PaymentStatus
+from models import UserRole, OrderStatus
 
-# User Schemas
+class AddressCreate(BaseModel):
+    street: str
+    lat: Optional[float] = None
+    lon: Optional[float] = None
+
+
 class UserCreate(BaseModel):
     name: str
     email: EmailStr
     password: str
     phone: Optional[str] = None
     role: UserRole = UserRole.CUSTOMER
-    business_name: Optional[str] = None,
-    business_address: Optional[str] = None,
+    restaurant_name: Optional[str] = None,
+    address: Optional[AddressCreate] = None,
     license_number: Optional[str] = None,
-    vehicle_number: Optional[str] = None,
+    vehicle_model: Optional[str] = None,
+
+class UserSignIn(BaseModel):
+    email: EmailStr
+    password: str
 
 class UserResponse(BaseModel):
     id: int
@@ -21,19 +30,6 @@ class UserResponse(BaseModel):
     email: str
     phone: Optional[str]
     role: UserRole
-
-
-# Address Schemas
-class AddressCreate(BaseModel):
-    street_address: str
-    city: str
-    state: str
-    zip_code: str
-    latitude: Optional[float] = None
-    longitude: Optional[float] = None
-    is_default: bool = False
-    address_type: Optional[str] = None
-    delivery_instructions: Optional[str] = None
 
 class AddressResponse(BaseModel):
     id: int
@@ -53,26 +49,6 @@ class AddressResponse(BaseModel):
         from_attributes = True
 
 # Restaurant Schemas
-class RestaurantCreate(BaseModel):
-    name: str
-    description: Optional[str] = None
-    cuisine_type: Optional[str] = None
-    phone: Optional[str] = None
-    email: Optional[str] = None
-    street_address: str
-    city: str
-    state: str
-    zip_code: str
-    latitude: Optional[float] = None
-    longitude: Optional[float] = None
-    logo_url: Optional[str] = None
-    cover_image_url: Optional[str] = None
-    delivery_fee: float = 0.0
-    minimum_order: float = 0.0
-    estimated_delivery_time: Optional[int] = None
-    opening_time: Optional[str] = None
-    closing_time: Optional[str] = None
-
 class RestaurantResponse(BaseModel):
     id: int
     owner_id: int
