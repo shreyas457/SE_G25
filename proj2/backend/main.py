@@ -163,9 +163,20 @@ def get_restaurants(
     db: Session = Depends(get_db)
 ):
     """Get all restaurants with optional filters"""
-    # query = db.query(Restaurant)
-    
-    return [RestaurantResponse(id=1, owner_id=1, name="ABCD", description="ABCD", cuisine_type="ABCD", rating=4.5)]
+    query = db.query(Restaurant).all()
+    return [
+        {
+            "id": r.id,
+            "owner_id": r.owner_id,       # <-- add this line
+
+            "name": r.name,
+            "description": r.description,
+            "cuisine_type": r.cuisine_type,
+            "rating": r.rating,
+        }
+        for r in query
+    ]
+    #return [RestaurantResponse(id=1, owner_id=1, name="ABCD", description="ABCD", cuisine_type="ABCD", rating=4.5)]
     # if city:
     #     query = query.filter(Restaurant.city == city)
     # if cuisine_type:
@@ -173,8 +184,8 @@ def get_restaurants(
     # if is_open is not None:
     #     query = query.filter(Restaurant.is_open == is_open)
     
-    # restaurants = query.offset(skip).limit(limit).all()
-    # return restaurants
+    restaurants = query.offset(skip).limit(limit).all()
+    return restaurants
 
 @app.get("/api/restaurants/{restaurant_id}", response_model=RestaurantResponse)
 def get_restaurant(restaurant_id: int, db: Session = Depends(get_db)):
@@ -182,6 +193,7 @@ def get_restaurant(restaurant_id: int, db: Session = Depends(get_db)):
     restaurant = db.query(Restaurant).filter(Restaurant.id == restaurant_id).first()
     if not restaurant:
         raise HTTPException(status_code=404, detail="Restaurant not found")
+    print(restaurant)
     return restaurant
 
 # @app.put("/api/restaurants/{restaurant_id}", response_model=RestaurantResponse)

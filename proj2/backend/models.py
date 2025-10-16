@@ -73,6 +73,18 @@ class Restaurant(Base):
     cover_image_url = Column(String(500), nullable=True)
     rating = Column(Float, default=0.0)
     total_reviews = Column(Integer, default=0)
+    email                   = Column(String, nullable=True)
+    street_address          = Column(String, nullable=True)
+    city                    = Column(String, nullable=True)
+    state                   = Column(String(2), nullable=True)
+    zip_code                = Column(String(10), nullable=True)
+    latitude                = Column(Float, nullable=True)
+    longitude               = Column(Float, nullable=True)
+    delivery_fee            = Column(Float, nullable=True)
+    minimum_order           = Column(Float, nullable=True)
+    estimated_delivery_time = Column(Integer, nullable=True)  # minutes
+    opening_time            = Column(String, nullable=True)   # or use Time
+    closing_time            = Column(String, nullable=True)   # or use Time
     
     # Relationships
     owner = relationship("User", back_populates="restaurants")

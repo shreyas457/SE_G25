@@ -1,15 +1,21 @@
-  /** @type {import('next').NextConfig} */
-  const nextConfig = {
-    images: {
-      domains: ["localhost"],
-      remotePatterns: [
-        {
-          protocol: "https",
-          hostname: "cdn.sanity.io",
-          port: "",
-        },
-      ],
-    },
-  };
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: ["localhost"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        port: "",
+      },
+    ],
+  },
 
-  module.exports = nextConfig;
+  async rewrites() {
+    return [
+      { source: '/api/:path*', destination: 'http://backend:8000/api/:path*' },
+    ];
+  },
+};
+
+module.exports = nextConfig;
