@@ -1,0 +1,101 @@
+.explore-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  background-color: var(--surface);
+  color: var(--text);
+}
+
+.explore-menu h1 {
+  color: orange;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.explore-menu-text {
+  max-width: 60%;
+  color: orange;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.explore-menu-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+  margin: 25px 0;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.explore-menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Each item box */
+.explore-menu-list-item {
+  flex-shrink: 0;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.explore-menu-list-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(222, 214, 214, 0.25);
+}
+
+.explore-menu-list-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0 !important; /* remove circular crop */
+  transition: transform 0.3s ease;
+}
+
+.explore-menu-list-item img:hover {
+  transform: scale(1.05);
+}
+
+.explore-menu-list-item p {
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color:black;
+}
+
+/* Active category */
+.active-item {
+  outline: 3px solid #ff4d00;
+  box-shadow: 0 0 10px rgba(255, 77, 0, 0.6);
+}
+
+/* Divider line */
+.explore-menu hr {
+  margin: 10px 0;
+  height: 2px;
+  background-color: white;
+  border: none;
+}
+
+/* Responsive tweaks */
+@media (max-width: 1050px) {
+  .explore-menu-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .explore-menu-list-item {
+    width: 140px;
+  }
+
+  .explore-menu-list-item img {
+    height: 100px;
+  }
+}
