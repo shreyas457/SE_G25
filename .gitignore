@@ -1,3 +1,9 @@
 rag_venv
 se_venv
-venv
+venv.DS_Store
+proj2.zip
+*.env
+*.log
+node_modules/
+dist/
+build/
