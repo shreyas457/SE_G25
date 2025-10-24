@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* 🌗 GLOBAL THEME VARIABLES */
+:root {
+  --bg: #f9f9fb;
+  --surface: #ffffff;
+  --text: #1a1a1a;
+  --muted: #e0e0e0;
+  --brand: #ff4c24;
+}
+
+body.dark,
+:root[data-theme='dark'] {
+  --bg: #0f0f10;
+  --surface: #1a1a1a;
+  --text: #f5f5f5;
+  --muted: #2a2a2f;
+  --brand: #ff6a2a;
+}
+
+/* 🧭 Apply theme colors site-wide */
+html, body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width:1050px) {
+  .app {
+    width: 90%;
+  }
+}
+
+
+
