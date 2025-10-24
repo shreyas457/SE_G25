@@ -10,6 +10,7 @@ import MyOrders from './pages/MyOrders/MyOrders'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Verify from './pages/Verify/Verify'
+import NotificationListener from './components/NotificationListener/NotificationListener'
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
 
   return (
     <>
+    <NotificationListener />
     <ToastContainer/>
     {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}
       <div className='app'>

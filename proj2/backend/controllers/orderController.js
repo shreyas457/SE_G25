@@ -8,6 +8,39 @@ const currency = "usd";
 const deliveryCharge = 5;
 const frontend_URL = 'http://localhost:5173';
 
+// Cancel Order with Socket.IO notification
+const cancelOrder = async (req, res) => {
+    try {
+        const { orderId } = req.body;
+        
+        const order = await orderModel.findById(orderId);
+        
+        if (!order) {
+            return res.json({ success: false, message: "Order not found" });
+        }
+        
+        if (order.userId !== req.body.userId) {
+            return res.json({ success: false, message: "Unauthorized" });
+        }
+        
+        await orderModel.findByIdAndUpdate(orderId, { status: "Redistribute" });
+        
+        // Use queue system
+        const queueNotification = req.app.get('queueNotification');
+        queueNotification({
+            orderId: orderId,
+            orderItems: order.items,
+            cancelledByUserId: req.body.userId,
+            message: 'An order has been cancelled and is available for redistribution'
+        });
+        
+        res.json({ success: true, message: "Order cancelled successfully" });
+    } catch (error) {
+        console.log(error);
+        res.json({ success: false, message: "Error cancelling order" });
+    }
+}
+
 // Placing User Order for Frontend using stripe
 const placeOrder = async (req, res) => {
 
@@ -43,18 +76,11 @@ const placeOrder = async (req, res) => {
             quantity: 1
         })
 
-        const session = await stripe.checkout.sessions.create({
-            success_url: `${frontend_URL}/verify?success=true&orderId=${newOrder._id}`,
-            cancel_url: `${frontend_URL}/verify?success=false&orderId=${newOrder._id}`,
-            line_items: line_items,
-            mode: 'payment',
-        });
-
-        res.json({ success: true, session_url: session.url });
+        res.json({ success: true, session_url: `${frontend_URL}/verify?success=true&orderId=${newOrder._id}` });
 
     } catch (error) {
         console.log(error);
-        res.json({ success: false, message: "Error" })
+        res.json({ success: false, message: error })
     }
 }
 
@@ -94,7 +120,7 @@ const listOrders = async (req, res) => {
 // User Orders for Frontend
 const userOrders = async (req, res) => {
     try {
-        const orders = await orderModel.find({ userId: req.body.userId });
+        const orders = await orderModel.find({ userId: req.body.userId }).sort({ date: -1 });
         res.json({ success: true, data: orders })
     } catch (error) {
         console.log(error);
@@ -130,4 +156,4 @@ const verifyOrder = async (req, res) => {
 
 }
 
-export { placeOrder, listOrders, userOrders, updateStatus, verifyOrder, placeOrderCod }
+export { placeOrder, listOrders, userOrders, updateStatus, verifyOrder, placeOrderCod, cancelOrder }

@@ -1,9 +1,13 @@
 .header{
     height: 34vw;
     margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
+    background: url("C:\Users\swast\Downloads\food_delivery_shreyas\food-del\frontend\src\assets\hero-bytebite.png") center/cover no-repeat;
     background-size:contain;
+    height: 34vw;
+    background-size: 100%;
     position: relative;
+    background-color: var(--surface);
+    color: var(--text);
 }
 .header-contents{
     position: absolute;
@@ -18,11 +22,11 @@
 }
 .header-contents h2{
     font-weight:500;
-    color: white;
+    color: black;
     font-size: max(4.5vw,22px);
 }
 .header-contents p{
-    color: white;
+    color: black;
     font-size: 1vw;
 }
 .header-contents button{
