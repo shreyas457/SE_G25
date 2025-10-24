@@ -34,7 +34,7 @@ const loginUser = async (req,res) => {
 
 //register user
 const registerUser = async (req,res) => {
-    const {name, email, password} = req.body;
+    const {name, email, password, address} = req.body;
     try{
         //check if user already exists
         const exists = await userModel.findOne({email})
@@ -54,7 +54,19 @@ const registerUser = async (req,res) => {
         const salt = await bcrypt.genSalt(10); // the more no. round the more time it will take
         const hashedPassword = await bcrypt.hash(password, salt)
 
-        const newUser = new userModel({name, email, password: hashedPassword})
+        const newUser = new userModel({
+            name,
+            email,
+            password: hashedPassword,
+            ...(address && {
+                address: {
+                    formatted: address.formatted,
+                    lat: address.lat,
+                    lng: address.lng,
+                },
+            }),     
+        });
+
         const user = await newUser.save()
         const token = createToken(user._id)
         res.json({success:true,token})
