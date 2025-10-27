@@ -1,0 +1,41 @@
+name: Lint Frontend and Backend
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - synchronize
+
+jobs:
+  lint:
+    name: Run ESLint Checks
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        project: [proj2/frontend, proj2/backend] # Add more folders if needed
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: ${{ matrix.project }}/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ${{ matrix.project }}
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Run ESLint
+        working-directory: ${{ matrix.project }}
+        run: |
+          npx eslint . --max-warnings=0
