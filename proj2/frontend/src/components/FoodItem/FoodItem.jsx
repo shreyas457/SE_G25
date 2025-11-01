@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useMemo } from 'react'
 import './FoodItem.css'
 import { assets } from '../../assets/assets'
 import { StoreContext } from '../../Context/StoreContext';
@@ -10,14 +10,22 @@ const FoodItem = ({ image, name, price, desc, id, model3D }) => {
     const [show3D, setShow3D] = useState(false);
     const {cartItems, addToCart, removeFromCart, url, currency} = useContext(StoreContext);
 
+    // Convert base64 image to data URL if needed
+    const imageUrl = useMemo(() => {
+        if (typeof image === 'object' && image.data) {
+            return `data:${image.contentType};base64,${image.data}`;
+        }
+        return image || assets.default_food_image;
+    }, [image]);
+
     return (
         <>
             <div className='food-item'>
                 <div className='food-item-img-container'>
-                    <img className='food-item-image' src={image || assets.default_food_image} alt="" />
+                    <img className='food-item-image' src={imageUrl} alt="" />
                     
                     {/* 3D View Button */}
-                    {model3D && (
+                    {model3D && model3D.data && (
                         <button 
                             className='view-3d-btn' 
                             onClick={() => setShow3D(true)}
@@ -53,7 +61,7 @@ const FoodItem = ({ image, name, price, desc, id, model3D }) => {
                             ✕
                         </button>
                         <h3>{name} - 360° View</h3>
-                        <Food3DViewer modelPath={model3D} name={name} />
+                        <Food3DViewer modelData={model3D} />
                     </div>
                 </div>
             )}

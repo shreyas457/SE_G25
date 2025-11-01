@@ -17,7 +17,10 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
 foodRouter.get("/list",listFood);
-foodRouter.post("/add",upload.single('image'),addFood);
+foodRouter.post("/add", upload.fields([
+    { name: 'image', maxCount: 1 },
+    { name: 'model3D', maxCount: 1 }
+]), addFood);
 foodRouter.post("/remove",removeFood);
 
 export default foodRouter;
