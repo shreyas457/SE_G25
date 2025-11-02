@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { menu_list } from "../assets/assets"; // ⬅️ keep only what you actually need here
+import { menu_list } from "../assets/assets"; 
 import axios from "axios";
 
 export const StoreContext = createContext({
@@ -95,3 +95,4 @@ const StoreContextProvider = (props) => {
 };
 
 export default StoreContextProvider;
+
