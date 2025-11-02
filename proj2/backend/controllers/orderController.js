@@ -3,7 +3,7 @@ import userModel from "../models/userModel.js";
 import shelterModel from "../models/shelterModel.js";
 import Stripe from "stripe";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-
+import rerouteModel from '../models/rerouteModel.js';
 // config variables
 const currency = "usd";
 const deliveryCharge = 5;
@@ -310,7 +310,25 @@ const assignShelter = async (req, res) => {
     order.donationNotified = false;
 
     await order.save();
+  await rerouteModel.create({
+      orderId: order._id,
+      // include restaurant info if you have it on the order model
+      restaurantId: order.restaurantId ?? undefined,
+      restaurantName: order.restaurantName ?? undefined,
 
+      shelterId: shelter._id,
+      shelterName: shelter.name,
+      shelterAddress: shelter.address,
+      shelterContactEmail: shelter.contactEmail,
+      shelterContactPhone: shelter.contactPhone,
+
+      items: (order.items || []).map((it) => ({
+        name: it.name,
+        qty: it.quantity ?? it.qty ?? 1,
+        price: it.price,
+      })),
+      total: order.amount ?? order.total,
+    });
     return res.json({
       success: true,
       message: "Order assigned to shelter",

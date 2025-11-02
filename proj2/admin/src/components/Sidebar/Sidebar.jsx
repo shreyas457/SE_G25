@@ -39,6 +39,11 @@ const Sidebar = () => {
           <span className="sidebar-svg"><ShelterIcon /></span>
           <p>Shelters</p>
         </NavLink>
+    <NavLink to='/shelter-history' className="sidebar-option">
+          <span className="sidebar-svg"><ShelterIcon /></span>
+          <p>Shelter History</p>
+        </NavLink>
+  
       </div>
     </div>
   )

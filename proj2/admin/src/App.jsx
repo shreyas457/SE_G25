@@ -8,7 +8,7 @@ import Orders from './pages/Orders/Orders';
 import Shelters from './pages/Shelters/Shelters'; // ⬅️ NEW
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import ShelterHistory from "./pages/ShelterHistory/ShelterHistory";
 const App = () => {
   return (
     <div className='app'>
@@ -24,7 +24,8 @@ const App = () => {
           <Route path="/add" element={<Add />} />
           <Route path="/list" element={<List />} />
           <Route path="/orders" element={<Orders />} />
-          <Route path="/shelters" element={<Shelters />} />  {/* ⬅️ NEW */}
+          <Route path="/shelters" element={<Shelters/>} />  {/* ⬅️ NEW */}
+          <Route path="/shelter-history" element={<ShelterHistory />} />
         </Routes>
       </div>
     </div>
