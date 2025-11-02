@@ -20,8 +20,6 @@ export const StoreContext = createContext({
 
 const StoreContextProvider = (props) => {
   const url = "http://localhost:4000";
-
-  // ✅ rename to avoid clashing with the imported constant name
   const [foods, setFoods] = useState([]);
   const [cartItems, setCartItems] = useState({});
   const [token, setToken] = useState("");
@@ -77,7 +75,7 @@ const StoreContextProvider = (props) => {
 
   const contextValue = {
     url,
-    food_list: foods,      // ⬅️ expose the stateful list to consumers
+    food_list: foods,      
     menu_list,
     cartItems,
     addToCart,
@@ -95,4 +93,5 @@ const StoreContextProvider = (props) => {
 };
 
 export default StoreContextProvider;
+
 
