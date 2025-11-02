@@ -1,7 +1,7 @@
-import React, { useContext, useState, useMemo } from 'react'
-import './FoodItem.css'
-import { assets } from '../../assets/assets'
-import { StoreContext } from '../../Context/StoreContext';
+import React, { useContext, useState, useMemo } from "react";
+import "./FoodItem.css";
+import { assets } from "../../assets/assets";
+import { StoreContext } from "../../Context/StoreContext";
 import Food3DViewer from '../Food3DViewer/Food3DViewer';
 
 const FoodItem = ({ image, name, price, desc, id, model3D }) => {

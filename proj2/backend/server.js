@@ -6,6 +6,7 @@ import foodRouter from "./routes/foodRoute.js"
 import 'dotenv/config'
 import cartRouter from "./routes/cartRoute.js"
 import orderRouter from "./routes/orderRoute.js"
+import shelterRouter from "./routes/shelterRoute.js" 
 import { createServer } from 'http'
 import { Server } from 'socket.io'
 
@@ -107,6 +108,7 @@ app.use("/api/user", userRouter)
 app.use("/api/food", foodRouter)
 app.use("/api/cart", cartRouter)
 app.use("/api/order", orderRouter)
+app.use("/api/shelters", shelterRouter) 
 
 app.get("/", (req, res) => {
     res.send("API Working")
