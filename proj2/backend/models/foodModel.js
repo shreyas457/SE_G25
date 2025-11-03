@@ -8,6 +8,10 @@ const foodSchema = new mongoose.Schema({
         data: Buffer,
         contentType: String
     },
+    model3D: {
+        data: Buffer,
+        contentType: String
+    },
     category:{ type:String, required:true}
 })
 
