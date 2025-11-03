@@ -6,12 +6,8 @@ import foodRouter from "./routes/foodRoute.js"
 import 'dotenv/config'
 import cartRouter from "./routes/cartRoute.js"
 import orderRouter from "./routes/orderRoute.js"
-import shelterRouter from "./routes/shelterRoute.js" 
 import { createServer } from 'http'
 import { Server } from 'socket.io'
-import rerouteRouter from "./routes/rerouteRoute.js";
-
-
 
 const app = express()
 const port = process.env.PORT || 4000;
@@ -111,11 +107,9 @@ app.use("/api/user", userRouter)
 app.use("/api/food", foodRouter)
 app.use("/api/cart", cartRouter)
 app.use("/api/order", orderRouter)
-app.use("/api/shelters", shelterRouter) 
 
 app.get("/", (req, res) => {
     res.send("API Working")
 });
-app.use("/api/reroutes", rerouteRouter);   // ← add this
 
 httpServer.listen(port, () => console.log(`Server started on http://localhost:${port}`))
