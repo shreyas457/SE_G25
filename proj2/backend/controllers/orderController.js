@@ -20,7 +20,7 @@ const cancelOrder = async (req, res) => {
     }
 
     // verify the user who cancels
-    if (order.userId !== req.body.userId) {
+    if (order.userId !== req.body.userId || order.claimedBy !== req.body.userId) {
       return res.json({ success: false, message: "Unauthorized" });
     }
 
@@ -160,7 +160,12 @@ const listOrders = async (req, res) => {
 const userOrders = async (req, res) => {
   try {
     const orders = await orderModel
-      .find({ userId: req.body.userId })
+      .find({
+        $or: [
+          { userId: req.body.userId },
+          { claimedBy: req.body.userId }
+        ]
+      })
       .sort({ date: -1 });
     res.json({ success: true, data: orders });
   } catch (error) {

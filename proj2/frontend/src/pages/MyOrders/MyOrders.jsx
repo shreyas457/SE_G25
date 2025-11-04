@@ -93,7 +93,14 @@ useEffect(() => {
       <div className="container">
         {data.map((order,index)=>{
           const progress = calculateProgress(order.date);
-          const isCancelled = order.status === "Redistribute";
+          let isCancelled = false;
+          if (order.claimedBy?.toString() === currentUserId) {
+            isCancelled = false;
+          } else if (order.userId.toString() === currentUserId && order.status === "Claimed") {
+            isCancelled = true;
+          } else if (order.status === "Redistribute") {
+            isCancelled = true;
+          }
           
           return (
             <div 
