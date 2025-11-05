@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState, useRef } from 'react'
 import './MyOrders.css'
 import axios from 'axios'
 import { StoreContext } from '../../Context/StoreContext';
@@ -10,7 +10,8 @@ const MyOrders = () => {
   const [data,setData] =  useState([]);
   const {url,token,currency} = useContext(StoreContext);
   const socket = useSocket();
-
+  const orderRefreshHandlerRef = useRef(null); // Store handler reference
+  
   // Decode token to get userId (if not available in StoreContext)
   const getUserId = () => {
     if (!token) return null;
@@ -29,7 +30,6 @@ const MyOrders = () => {
     setData(response.data.data)
   }
 
-  // Cancel order function
   const cancelOrder = async (orderId) => {
     try {
       const response = await axios.post(url + "/api/order/cancel_order", 
@@ -54,25 +54,31 @@ const MyOrders = () => {
     }
   },[token])
 
-// In MyOrders.jsx - update the socket listener to only refresh
-useEffect(() => {
-  if (socket) {
-    socket.on('orderCancelled', () => {
-      // Just refresh orders, notification is handled by NotificationListener
-      fetchOrders();
-    });
+  // Listen for order cancellations to refresh the list
+  useEffect(() => {
+    if (socket) {
+      // Create a named function reference
+      orderRefreshHandlerRef.current = () => {
+        console.log('📋 MyOrders: Refreshing orders due to cancellation');
+        fetchOrders();
+      };
 
-    return () => {
-      socket.off('orderCancelled');
-    };
-  }
-}, [socket]);
+      socket.on('orderCancelled', orderRefreshHandlerRef.current);
+
+      return () => {
+        // Remove only THIS specific handler, not all handlers
+        if (orderRefreshHandlerRef.current) {
+          socket.off('orderCancelled', orderRefreshHandlerRef.current);
+        }
+      };
+    }
+  }, [socket]);
 
   // Calculate progress percentage based on order creation time
   const calculateProgress = (createdAt) => {
     const createdTime = new Date(createdAt).getTime();
     const currentTime = Date.now();
-    const twoMinutes = 50 * 60 * 1000;
+    const twoMinutes = 2 * 60 * 1000;
     const elapsed = currentTime - createdTime;
     const progress = Math.min((elapsed / twoMinutes) * 100, 100);
     return progress;
@@ -120,7 +126,6 @@ useEffect(() => {
                 <p>{currency}{order.amount}.00</p>
                 <p>Items: {order.items.length}</p>
                 
-                {/* Progress Bar */}
                 {isCancelled ? (
                   <>
                     <div className="progress-container cancelled">
