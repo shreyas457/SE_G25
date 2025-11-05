@@ -20,7 +20,7 @@ const cancelOrder = async (req, res) => {
     }
 
     // verify the user who cancels
-    if (order.userId !== req.body.userId || order.claimedBy !== req.body.userId) {
+    if (order.userId !== req.body.userId && order.claimedBy !== req.body.userId) {
       return res.json({ success: false, message: "Unauthorized" });
     }
 
