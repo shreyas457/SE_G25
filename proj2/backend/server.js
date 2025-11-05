@@ -8,6 +8,8 @@ import cartRouter from "./routes/cartRoute.js"
 import orderRouter from "./routes/orderRoute.js"
 import { createServer } from 'http'
 import { Server } from 'socket.io'
+import rerouteRouter from "./routes/rerouteRoute.js";
+import shelterRouter from "./routes/shelterRoute.js"
 
 const app = express()
 const port = process.env.PORT || 4000;
@@ -159,6 +161,8 @@ app.use("/api/user", userRouter)
 app.use("/api/food", foodRouter)
 app.use("/api/cart", cartRouter)
 app.use("/api/order", orderRouter)
+app.use("/api/shelters", shelterRouter)
+app.use("/api/reroutes", rerouteRouter);
 
 app.get("/", (req, res) => {
     res.send("API Working")
