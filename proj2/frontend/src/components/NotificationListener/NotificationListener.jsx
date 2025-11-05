@@ -24,17 +24,23 @@ const NotificationListener = () => {
   // ✅ Async function to handle claim order
   const handleClaimOrder = async (orderId) => {
     try {
+      const userId = getUserId();
       console.log('Claiming order:', orderId);
 
       const response = await axios.post(
         `${url}/api/order/claim`,
-        { orderId }, // must be an object
+        { orderId },
         { headers: { token } }
       );
 
       if (response.data.success) {
         toast.success('Order claimed successfully!');
         console.log('Claim response:', response.data);
+
+        // Emit socket event to stop notification queue
+        if (socket && userId) {
+          socket.emit('claimOrder', { orderId, userId });
+        }
       } else {
         toast.error(response.data.message || 'Order claim failed.');
       }
@@ -123,7 +129,7 @@ const NotificationListener = () => {
             </div>
           ),
           {
-            duration: 10000, // visible for 10 seconds
+            duration: 5000,
             position: 'top-right',
           }
         );
@@ -133,7 +139,7 @@ const NotificationListener = () => {
         socket.off('orderCancelled');
       };
     }
-  }, [socket, token, currency]);
+  }, [socket, token, currency, url]);
 
   return <Toaster />;
 };
