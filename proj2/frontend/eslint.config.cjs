@@ -3,38 +3,58 @@ const js = require("@eslint/js");
 const react = require("eslint-plugin-react");
 const reactHooks = require("eslint-plugin-react-hooks");
 const reactRefresh = require("eslint-plugin-react-refresh");
+const globals = require("globals");
 
 module.exports = [
-  // Base JS rules
-  js.configs.recommended,
-
-  // React rules
-  react.configs.recommended,
-
-  // React Hooks rules
-  reactHooks.configs.recommended,
-
-  // Project-specific rules
+  // Ignore patterns
   {
-    files: ["**/*.{js,jsx,ts,tsx}"],
-    ignores: ["dist", "node_modules"],
+    ignores: ["dist/**", "node_modules/**", "build/**"],
+  },
 
+  // Base configuration
+  {
+    files: ["**/*.{js,jsx,mjs,cjs}"],
     languageOptions: {
       ecmaVersion: "latest",
       sourceType: "module",
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+      globals: {
+        ...globals.browser,
+        ...globals.es2021,
+      },
     },
+  },
 
+  // Apply recommended rules
+  js.configs.recommended,
+
+  // React configuration
+  {
+    files: ["**/*.{js,jsx}"],
     plugins: {
+      react: react,
+      "react-hooks": reactHooks,
       "react-refresh": reactRefresh,
     },
-
     rules: {
-      "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
+      ...react.configs.recommended.rules,
+      ...reactHooks.configs.recommended.rules,
+      "react-refresh/only-export-components": [
+        "warn",
+        { allowConstantExport: true },
+      ],
       "react/jsx-no-target-blank": "off",
+      "react/react-in-jsx-scope": "off", // Not needed in React 17+
+      "react/prop-types": "off", // Turn off if using TypeScript
     },
-
     settings: {
-      react: { version: "18.2" },
+      react: {
+        version: "detect", // Auto-detect React version
+      },
     },
   },
 ];
