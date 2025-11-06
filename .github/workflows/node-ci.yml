@@ -8,7 +8,7 @@ on:
 
 jobs:
   backend:
-    name: Backend Server Check
+    name: Backend Test & Server Check
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -24,7 +24,18 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        
+
+      - name: Run backend tests
+        run: npm test
+
+      - name: Run backend coverage
+        run: npm run test:coverage
+
+      - name: Upload backend coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-coverage
+          path: proj2/backend/coverage
 
       - name: Start backend server
         run: |
@@ -33,33 +44,75 @@ jobs:
           curl -f http://localhost:4000/api/user || echo "Backend not responding"
 
   frontend:
-    name: Frontend Build Check
+    name: Frontend Test & Build Check
     runs-on: ubuntu-latest
     needs: backend
     defaults:
       run:
         working-directory: proj2/frontend
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: npm install
-      - run: npm run dev -- --host=127.0.0.1 & sleep 5
-      - run: echo "Frontend started successfully"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run frontend tests
+        run: npm test
+
+      - name: Run frontend coverage
+        run: npm run test:coverage
+
+      - name: Upload frontend coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-coverage
+          path: proj2/frontend/coverage
+
+      - name: Build and start frontend
+        run: |
+          npm run dev -- --host=127.0.0.1 &
+          sleep 5
+          echo "Frontend started successfully"
 
   admin:
-    name: Admin Build Check
+    name: Admin Test & Build Check
     runs-on: ubuntu-latest
     needs: backend
     defaults:
       run:
         working-directory: proj2/admin
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: npm install
-      - run: npm run dev -- --host=127.0.0.1 & sleep 5
-      - run: echo "Admin dashboard started successfully"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run admin tests
+        run: npm test
+
+      - name: Run admin coverage
+        run: npm run test:coverage
+
+      - name: Upload admin coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: admin-coverage
+          path: proj2/admin/coverage
+
+      - name: Build and start admin
+        run: |
+          npm run dev -- --host=127.0.0.1 &
+          sleep 5
+          echo "Admin dashboard started successfully"
