@@ -10,7 +10,6 @@ const currency = "usd";
 const deliveryCharge = 5;
 const frontend_URL = "http://localhost:5173";
 
-
 // Status constants & FSM rules
 const STATUS = {
   PROCESSING: "Food Processing",
@@ -18,6 +17,7 @@ const STATUS = {
   DELIVERED: "Delivered",
   REDISTRIBUTE: "Redistribute",
   CANCELLED: "Cancelled",
+  DONATED: "Donated", // NEW STATE
 };
 
 const STATUS_VALUES = new Set(Object.values(STATUS));
@@ -26,16 +26,22 @@ const STATUS_VALUES = new Set(Object.values(STATUS));
  * Allowed transitions:
  *  - Food Processing   -> Out for delivery, Redistribute
  *  - Out for delivery  -> Delivered, Redistribute
- *  - Redistribute      -> Food Processing, Cancelled
+ *  - Redistribute      -> Food Processing, Cancelled, Donated to shelter
+ *  - Cancelled         -> Donated to shelter (admin-only)
+ *  - Donated to shelter -> (terminal)
  *  - Delivered         -> (terminal)
- *  - Cancelled         -> (terminal for customer; admin may still assign shelter)
  */
 const ALLOWED_TRANSITIONS = {
   [STATUS.PROCESSING]: new Set([STATUS.OUT_FOR_DELIVERY, STATUS.REDISTRIBUTE]),
   [STATUS.OUT_FOR_DELIVERY]: new Set([STATUS.DELIVERED, STATUS.REDISTRIBUTE]),
-  [STATUS.REDISTRIBUTE]: new Set([STATUS.PROCESSING, STATUS.CANCELLED]),
+  [STATUS.REDISTRIBUTE]: new Set([
+    STATUS.PROCESSING,
+    STATUS.CANCELLED,
+    STATUS.DONATED,
+  ]),
+  [STATUS.CANCELLED]: new Set([STATUS.DONATED]),
+  [STATUS.DONATED]: new Set(),
   [STATUS.DELIVERED]: new Set(),
-  [STATUS.CANCELLED]: new Set(),
 };
 
 function canTransition(from, to) {
@@ -62,6 +68,7 @@ const cancelOrder = async (req, res) => {
         message: `Cannot cancel when status is "${current}".`,
       });
 
+    // When user cancels, move to Redistribute
     order.status = STATUS.REDISTRIBUTE;
     await order.save();
 
@@ -81,7 +88,6 @@ const cancelOrder = async (req, res) => {
     res.json({ success: false, message: "Error cancelling order" });
   }
 };
-
 
 const claimOrder = async (req, res) => {
   try {
@@ -120,7 +126,6 @@ const claimOrder = async (req, res) => {
   }
 };
 
-
 const placeOrder = async (req, res) => {
   try {
     const newOrder = new orderModel({
@@ -142,7 +147,6 @@ const placeOrder = async (req, res) => {
   }
 };
 
-
 const placeOrderCod = async (req, res) => {
   try {
     const newOrder = new orderModel({
@@ -161,7 +165,6 @@ const placeOrderCod = async (req, res) => {
   }
 };
 
-
 const listOrders = async (req, res) => {
   try {
     const orders = await orderModel.find({}).sort({ date: -1 });
@@ -171,7 +174,6 @@ const listOrders = async (req, res) => {
     res.json({ success: false, message: "Error" });
   }
 };
-
 
 const userOrders = async (req, res) => {
   try {
@@ -186,7 +188,6 @@ const userOrders = async (req, res) => {
     res.json({ success: false, message: "Error" });
   }
 };
-
 
 const updateStatus = async (req, res) => {
   try {
@@ -274,7 +275,8 @@ const assignShelter = async (req, res) => {
         data: order,
       });
 
-    order.status = STATUS.CANCELLED;
+    // Move to DONATED state when assigning to shelter
+    order.status = STATUS.DONATED;
     order.shelter = {
       id: shelter._id.toString(),
       name: shelter.name,
@@ -305,7 +307,7 @@ const assignShelter = async (req, res) => {
 
     return res.json({
       success: true,
-      message: "Order assigned to shelter",
+      message: "Order assigned to shelter and marked as donated",
       data: order,
     });
   } catch (err) {

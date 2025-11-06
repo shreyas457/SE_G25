@@ -10,6 +10,13 @@ import shelterRouter from "./routes/shelterRoute.js"
 import { createServer } from 'http'
 import { Server } from 'socket.io'
 import rerouteRouter from "./routes/rerouteRoute.js";
+const allowedOrigins = [
+  process.env.FRONTEND_URL,  
+  "http://localhost:5173",    // Vite dev
+  "http://localhost:4173",    // Vite preview (build)
+  "http://localhost:3000",    // if you ever use `serve dist`
+].filter(Boolean);            
+
 
 const app = express()
 const port = process.env.PORT || 4000;
@@ -18,7 +25,7 @@ const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: allowedOrigins,
     methods: ["GET", "POST"],
     credentials: true
   }
