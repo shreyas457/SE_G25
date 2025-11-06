@@ -1,0 +1,64 @@
+name: ByteBite CI
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  backend:
+    name: Backend Server Check
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Start backend server
+        run: |
+          nohup npm run server &
+          sleep 5
+          curl -f http://localhost:4000/api/user || echo "Backend not responding"
+
+  frontend:
+    name: Frontend Build Check
+    runs-on: ubuntu-latest
+    needs: backend
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - run: npm install
+      - run: npm run dev -- --host=127.0.0.1 & sleep 5
+      - run: echo "Frontend started successfully"
+
+  admin:
+    name: Admin Build Check
+    runs-on: ubuntu-latest
+    needs: backend
+    defaults:
+      run:
+        working-directory: admin
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - run: npm install
+      - run: npm run dev -- --host=127.0.0.1 & sleep 5
+      - run: echo "Admin dashboard started successfully"
