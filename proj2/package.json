@@ -1,0 +1,22 @@
+{
+  "name": "food-delivery-system",
+  "version": "1.0.0",
+  "description": "Automated test suite for food delivery system",
+  "scripts": {
+    "test": "bash run-all-tests.sh",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test -- --run",
+    "test:admin": "cd admin && npm test -- --run",
+    "test:watch": "cd frontend && npm test & cd admin && npm test",
+    "test:coverage": "cd backend && npm run test:coverage && cd ../frontend && npm run test:coverage && cd ../admin && npm run test:coverage"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "jest",
+    "vitest"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
