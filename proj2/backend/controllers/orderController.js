@@ -10,9 +10,8 @@ const currency = "usd";
 const deliveryCharge = 5;
 const frontend_URL = "http://localhost:5173";
 
-/* ================================
-   Status constants & FSM rules
-   ================================ */
+
+// Status constants & FSM rules
 const STATUS = {
   PROCESSING: "Food Processing",
   OUT_FOR_DELIVERY: "Out for delivery",
@@ -45,11 +44,6 @@ function canTransition(from, to) {
   return nexts.has(to);
 }
 
-/* ================================
-   Controllers
-   ================================ */
-
-// Cancel Order
 const cancelOrder = async (req, res) => {
   try {
     const { orderId, userId } = req.body;
@@ -88,8 +82,7 @@ const cancelOrder = async (req, res) => {
   }
 };
 
-// ==================== Claim Order ====================
-// Redistribute → Food Processing (ownership transfers)
+
 const claimOrder = async (req, res) => {
   try {
     const { orderId } = req.body;
@@ -127,7 +120,7 @@ const claimOrder = async (req, res) => {
   }
 };
 
-// ==================== Place Order (Stripe) ====================
+
 const placeOrder = async (req, res) => {
   try {
     const newOrder = new orderModel({
@@ -149,7 +142,7 @@ const placeOrder = async (req, res) => {
   }
 };
 
-// ==================== Place Order (COD) ====================
+
 const placeOrderCod = async (req, res) => {
   try {
     const newOrder = new orderModel({
@@ -168,7 +161,7 @@ const placeOrderCod = async (req, res) => {
   }
 };
 
-// ==================== List Orders (Admin) ====================
+
 const listOrders = async (req, res) => {
   try {
     const orders = await orderModel.find({}).sort({ date: -1 });
@@ -179,7 +172,7 @@ const listOrders = async (req, res) => {
   }
 };
 
-// ==================== User Orders ====================
+
 const userOrders = async (req, res) => {
   try {
     const orders = await orderModel
@@ -194,7 +187,7 @@ const userOrders = async (req, res) => {
   }
 };
 
-// ==================== Update Status ====================
+
 const updateStatus = async (req, res) => {
   try {
     const { orderId, status: next } = req.body;
@@ -249,9 +242,6 @@ const verifyOrder = async (req, res) => {
   }
 };
 
-/* ================================
-   Assign a shelter to an order
-   ================================ */
 const assignShelter = async (req, res) => {
   try {
     const { orderId, shelterId } = req.body;
