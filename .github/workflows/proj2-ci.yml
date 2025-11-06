@@ -74,11 +74,14 @@ jobs:
           name: frontend-coverage
           path: proj2/frontend/coverage
 
-      - name: Build and start frontend
-        run: |
-          npm run dev -- --host=127.0.0.1 &
-          sleep 5
-          echo "Frontend started successfully"
+      - name: Build frontend
+        run: npm run build
+
+      - name: Upload frontend build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-build
+          path: proj2/frontend/dist
 
   admin:
     name: Admin Test & Build Check
@@ -111,8 +114,11 @@ jobs:
           name: admin-coverage
           path: proj2/admin/coverage
 
-      - name: Build and start admin
-        run: |
-          npm run dev -- --host=127.0.0.1 &
-          sleep 5
-          echo "Admin dashboard started successfully"
+      - name: Build admin
+        run: npm run build
+
+      - name: Upload admin build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: admin-build
+          path: proj2/admin/dist

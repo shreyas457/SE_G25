@@ -2,3 +2,8 @@ rag_venv
 se_venv
 venv
 node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/

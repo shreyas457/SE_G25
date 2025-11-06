@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Automated test suite for food delivery system",
   "scripts": {
+    "build:backend": "cd backend && npm install",
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "build:admin": "cd admin && npm install && npm run build",
+    "build:all": "npm run build:backend && npm run build:frontend && npm run build:admin",
     "test": "bash run-all-tests.sh",
     "test:backend": "cd backend && npm test",
     "test:frontend": "cd frontend && npm test -- --run",
