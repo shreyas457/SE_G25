@@ -39,4 +39,5 @@ jobs:
       - name: Run ESLint
         working-directory: ${{ matrix.project }}
         run: |
-          npx eslint . --ext .js,.jsx,.ts,.tsx --max-warnings=0
+          npx eslint . --max-warnings=0
+
