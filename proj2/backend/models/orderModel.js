@@ -6,6 +6,7 @@ const STATUS_VALUES = [
   "Delivered",
   "Redistribute",
   "Cancelled",
+  "Donated",
 ];
 
 const orderSchema = new mongoose.Schema({

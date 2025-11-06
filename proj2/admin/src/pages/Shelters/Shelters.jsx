@@ -9,7 +9,6 @@ const Shelters = () => {
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState("");
 
-  // modal state
   const [modalOpen, setModalOpen] = useState(false);
   const [activeShelter, setActiveShelter] = useState(null);
   const [cancelledOrders, setCancelledOrders] = useState([]);
@@ -21,8 +20,11 @@ const Shelters = () => {
     setErr("");
     try {
       const res = await axios.get(`${url}/api/shelters/list`);
-      if (res.data?.success) setShelters(res.data.data || []);
-      else setErr(res.data?.message || "Failed to fetch shelters");
+      if (res.data?.success) {
+        setShelters(res.data.data || []);
+      } else {
+        setErr(res.data?.message || "Failed to fetch shelters");
+      }
     } catch (e) {
       setErr("Network error while fetching shelters");
     } finally {
@@ -30,7 +32,9 @@ const Shelters = () => {
     }
   };
 
-  useEffect(() => { fetchShelters(); }, []);
+  useEffect(() => {
+    fetchShelters();
+  }, []);
 
   const openRedistributeModal = async (shelter) => {
     setActiveShelter(shelter);
@@ -41,11 +45,21 @@ const Shelters = () => {
 
     try {
       const res = await axios.get(`${url}/api/order/list`);
+
       if (res.data?.success) {
-        const cancelled = (res.data.data || []).filter(
-          (o) => o.status === "Cancelled"
-        );
-        setCancelledOrders(cancelled);
+        const allOrders = res.data.data || [];
+        const currentRestaurantId = localStorage.getItem("restaurantId");
+
+        // Show only cancelled orders for this restaurant.
+        const cancelledForRestaurant = allOrders.filter((o) => {
+          const isCancelled = o.status === "Cancelled";
+          const sameRestaurant = !currentRestaurantId
+            ? true
+            : o.restaurantId === currentRestaurantId;
+          return isCancelled && sameRestaurant;
+        });
+
+        setCancelledOrders(cancelledForRestaurant);
       } else {
         toast.error(res.data?.message || "Failed to fetch orders");
       }
@@ -63,15 +77,20 @@ const Shelters = () => {
     setSelected(next);
   };
 
-  const allSelected = selected.size > 0 && selected.size === cancelledOrders.length;
+  const allSelected =
+    selected.size > 0 && selected.size === cancelledOrders.length;
+
   const toggleSelectAll = () => {
-    if (allSelected) setSelected(new Set());
-    else setSelected(new Set(cancelledOrders.map((o) => o._id)));
+    if (allSelected) {
+      setSelected(new Set());
+    } else {
+      setSelected(new Set(cancelledOrders.map((o) => o._id)));
+    }
   };
 
   const assignSelected = async () => {
     if (!activeShelter || selected.size === 0) {
-      toast.info("Select at least one cancelled order.");
+      toast.info("Select at least one order to assign.");
       return;
     }
 
@@ -84,13 +103,20 @@ const Shelters = () => {
       );
 
       const results = await Promise.allSettled(payloads);
-      const ok = results.filter((r) => r.status === "fulfilled" && r.value?.data?.success).length;
+      const ok = results.filter(
+        (r) => r.status === "fulfilled" && r.value?.data?.success
+      ).length;
       const fail = results.length - ok;
 
-      if (ok > 0) toast.success(`Assigned ${ok} order(s) to ${activeShelter.name}`);
-      if (fail > 0) toast.error(`${fail} order(s) failed to assign`);
+      if (ok > 0) {
+        toast.success(`Assigned ${ok} order(s) to ${activeShelter.name}`);
+      }
+      if (fail > 0) {
+        toast.error(`${fail} order(s) failed to assign`);
+      }
 
-      // Refresh modal list
+      // Backend changes status "Cancelled" → "Donated to shelter".
+      // Refresh so donated ones drop out of the cancelled list.
       await openRedistributeModal(activeShelter);
     } catch (e) {
       toast.error("Bulk assignment failed");
@@ -132,7 +158,7 @@ const Shelters = () => {
                 className="btn-assign"
                 onClick={() => openRedistributeModal(s)}
               >
-                Redistribute Cancelled Orders
+                Redistribute Orders
               </button>
             </div>
           ))}
@@ -144,14 +170,19 @@ const Shelters = () => {
         <div className="modal-overlay" onClick={() => setModalOpen(false)}>
           <div className="modal-card" onClick={(e) => e.stopPropagation()}>
             <div className="modal-head">
-              <h4>Cancelled Orders → {activeShelter?.name}</h4>
-              <button className="modal-close" onClick={() => setModalOpen(false)}>×</button>
+              <h4>Redistribute Orders → {activeShelter?.name}</h4>
+              <button
+                className="modal-close"
+                onClick={() => setModalOpen(false)}
+              >
+                ×
+              </button>
             </div>
 
             {ordersLoading && <p>Loading orders…</p>}
 
             {!ordersLoading && cancelledOrders.length === 0 && (
-              <p>No cancelled orders available.</p>
+              <p>No orders available for redistribution.</p>
             )}
 
             {!ordersLoading && cancelledOrders.length > 0 && (
