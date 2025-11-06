@@ -18,8 +18,8 @@ describe('ThemeContext', () => {
     document.body.className = '';
   });
 
-  it('initializes from localStorage and toggles theme', () => {
-    render(
+  it('initializes from localStorage and toggles theme', async () => {
+    const { rerender } = render(
       <ThemeProvider>
         <Consumer />
       </ThemeProvider>
@@ -29,7 +29,18 @@ describe('ThemeContext', () => {
     expect(btn).toHaveTextContent('Theme: light');
 
     btn.click();
-    expect(btn).toHaveTextContent('Theme: dark');
+    
+    // Wait for state update
+    await new Promise(resolve => setTimeout(resolve, 100));
+    
+    rerender(
+      <ThemeProvider>
+        <Consumer />
+      </ThemeProvider>
+    );
+    
+    const updatedBtn = screen.getByRole('button');
+    expect(updatedBtn).toHaveTextContent('Theme: dark');
     expect(document.documentElement.getAttribute('data-theme')).toBe('dark');
     expect(document.body.classList.contains('dark')).toBe(true);
   });
