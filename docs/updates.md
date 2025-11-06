@@ -33,15 +33,8 @@
 - **User Registration with Socket**: Users automatically register their IDs on socket connection for targeted updates.
 - **Event Handling**: Defined `orderCancelled` and `orderClaimed` events for inter-user notifications.
 
-## 2025-10-15
-- **Stripe Integration**: Enabled secure payment workflow for order placement.
-- **Place Order API**: Created new backend endpoint for Stripe and Cash-on-Delivery orders.
-- **Cart Cleanup**: User cart automatically resets post successful checkout.
-
 ## 2025-10-10
 - **Core Backend Setup**: Initialized Express server, MongoDB connection, and Mongoose models.
 - **API Routes Created**: Added order, user, and food routes with basic CRUD operations.
 - **Auth Middleware**: Implemented JWT-based authentication and token verification.
 
-
-> For earlier commits or older milestones, visit the GitHub commit history.
