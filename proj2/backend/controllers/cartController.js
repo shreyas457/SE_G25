@@ -1,6 +1,14 @@
 import userModel from "../models/userModel.js"
 
-// add to user cart  
+/**
+ * Adds an item to the user's cart or increments its quantity if already present
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.userId - MongoDB _id of the user
+ * @param {string} req.body.itemId - MongoDB _id of the food item to add
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and message
+ */
 const addToCart = async (req, res) => {
    try {
       let userData = await userModel.findOne({_id:req.body.userId});
@@ -19,7 +27,16 @@ const addToCart = async (req, res) => {
    }
 }
 
-// remove food from user cart
+/**
+ * Removes one quantity of an item from the user's cart
+ * Does not allow quantity to go below zero
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.userId - MongoDB _id of the user
+ * @param {string} req.body.itemId - MongoDB _id of the food item to remove
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and message
+ */
 const removeFromCart = async (req, res) => {
    try {
       let userData = await userModel.findById(req.body.userId);
@@ -36,7 +53,14 @@ const removeFromCart = async (req, res) => {
 
 }
 
-// get user cart
+/**
+ * Retrieves the user's current cart data
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.userId - MongoDB _id of the user
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and cart data object
+ */
 const getCart = async (req, res) => {
    try {
       let userData = await userModel.findById(req.body.userId);

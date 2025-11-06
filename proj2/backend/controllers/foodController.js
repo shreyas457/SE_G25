@@ -7,7 +7,13 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// all food list
+/**
+ * Retrieves all food items from the database
+ * Converts image and 3D model buffers to base64 for client consumption
+ * @param {Object} req - Express request object
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and array of food items
+ */
 const listFood = async (req, res) => {
     try {
         const foods = await foodModel.find({});
@@ -35,7 +41,21 @@ const listFood = async (req, res) => {
 }
 
 
-// add food
+/**
+ * Adds a new food item to the database
+ * Handles image and optional 3D model file uploads via multer
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.name - Food item name
+ * @param {string} req.body.description - Food item description
+ * @param {number} req.body.price - Food item price
+ * @param {string} req.body.category - Food item category
+ * @param {Object} req.files - Uploaded files from multer
+ * @param {Array} req.files.image - Image file array (required)
+ * @param {Array} [req.files.model3D] - Optional 3D model file array
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and message
+ */
 const addFood = async (req, res) => {
 
     try {
@@ -68,7 +88,15 @@ const addFood = async (req, res) => {
     }
 }
 
-// delete food
+/**
+ * Removes a food item from the database
+ * Also attempts to delete the associated image file from the uploads directory
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.id - MongoDB _id of the food item to remove
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and message
+ */
 const removeFood = async (req, res) => {
     try {
 

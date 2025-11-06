@@ -17,11 +17,21 @@ const DONATED_STATUS = "Donated";
 
 const TERMINAL = new Set(["Delivered", "Cancelled", DONATED_STATUS]);
 
+/**
+ * Orders - Admin page for managing all orders
+ * Displays orders in tabs (current vs cancelled) with status update functionality
+ * Filters out donated orders from current tab
+ * @returns {JSX.Element} Orders management interface with tabs and status controls
+ */
 const Order = () => {
   const [allOrders, setAllOrders] = useState([]); // full dataset
   const [orders, setOrders] = useState([]);       // filtered list
   const [activeTab, setActiveTab] = useState("current"); // "current" | "cancelled"
 
+  /**
+   * Fetches all orders from the backend API
+   * @returns {Promise<void>}
+   */
   const fetchAllOrders = async () => {
     try {
       const response = await axios.get(`${url}/api/order/list`);
@@ -62,6 +72,13 @@ const Order = () => {
     }
   }, [activeTab, allOrders]);
 
+  /**
+   * Handles order status updates
+   * Validates status transitions and updates order via API
+   * @param {Object} event - React change event from select element
+   * @param {string} orderId - MongoDB _id of the order to update
+   * @returns {Promise<void>}
+   */
   const statusHandler = async (event, orderId) => {
     const nextStatus = event.target.value;
     try {
