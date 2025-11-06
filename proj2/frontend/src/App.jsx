@@ -11,6 +11,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Verify from './pages/Verify/Verify'
 import NotificationListener from './components/NotificationListener/NotificationListener'
+import { Toaster } from 'react-hot-toast';
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
   return (
     <>
     <NotificationListener />
+    <Toaster position="top-right" />
     <ToastContainer/>
     {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}
       <div className='app'>

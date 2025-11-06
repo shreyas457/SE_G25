@@ -3,15 +3,15 @@ import userModel from "../models/userModel.js";
 import shelterModel from "../models/shelterModel.js";
 import Stripe from "stripe";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-import rerouteModel from '../models/rerouteModel.js';
+import rerouteModel from "../models/rerouteModel.js";
+
 // config variables
 const currency = "usd";
 const deliveryCharge = 5;
 const frontend_URL = "http://localhost:5173";
 
-/* ================================
-   Status constants & FSM rules
-   ================================ */
+
+// Status constants & FSM rules
 const STATUS = {
   PROCESSING: "Food Processing",
   OUT_FOR_DELIVERY: "Out for delivery",
@@ -26,58 +26,45 @@ const STATUS_VALUES = new Set(Object.values(STATUS));
  * Allowed transitions:
  *  - Food Processing   -> Out for delivery, Redistribute
  *  - Out for delivery  -> Delivered, Redistribute
- *  - Redistribute      -> Out for delivery, Cancelled
+ *  - Redistribute      -> Food Processing, Cancelled
  *  - Delivered         -> (terminal)
- *  - Cancelled         -> (terminal)
+ *  - Cancelled         -> (terminal for customer; admin may still assign shelter)
  */
 const ALLOWED_TRANSITIONS = {
   [STATUS.PROCESSING]: new Set([STATUS.OUT_FOR_DELIVERY, STATUS.REDISTRIBUTE]),
   [STATUS.OUT_FOR_DELIVERY]: new Set([STATUS.DELIVERED, STATUS.REDISTRIBUTE]),
-  [STATUS.REDISTRIBUTE]: new Set([STATUS.OUT_FOR_DELIVERY, STATUS.CANCELLED]),
+  [STATUS.REDISTRIBUTE]: new Set([STATUS.PROCESSING, STATUS.CANCELLED]),
   [STATUS.DELIVERED]: new Set(),
   [STATUS.CANCELLED]: new Set(),
 };
 
 function canTransition(from, to) {
-  if (from === to) return true; // idempotent no-op
+  if (from === to) return true;
   const nexts = ALLOWED_TRANSITIONS[from] || new Set();
   return nexts.has(to);
 }
 
-/* ================================
-   Controllers
-   ================================ */
-
-// Cancel Order with queue notification
-// - Allowed from Processing or Out for delivery
-// - Sets status to Redistribute (so ops can route it)
 const cancelOrder = async (req, res) => {
   try {
     const { orderId, userId } = req.body;
-
     const order = await orderModel.findById(orderId);
-    if (!order) {
+    if (!order)
       return res.json({ success: false, message: "Order not found" });
-    }
 
-    if (order.userId !== userId) {
+    if (order.userId !== userId && order.claimedBy !== userId)
       return res.json({ success: false, message: "Unauthorized" });
-    }
 
     const current = order.status || STATUS.PROCESSING;
     const userCancelable = new Set([STATUS.PROCESSING, STATUS.OUT_FOR_DELIVERY]);
-
-    if (!userCancelable.has(current)) {
+    if (!userCancelable.has(current))
       return res.json({
         success: false,
         message: `Cannot cancel when status is "${current}".`,
       });
-    }
 
     order.status = STATUS.REDISTRIBUTE;
     await order.save();
 
-    // Notify queue for redistribution workflow
     const queueNotification = req.app.get("queueNotification");
     if (typeof queueNotification === "function") {
       queueNotification({
@@ -88,18 +75,52 @@ const cancelOrder = async (req, res) => {
       });
     }
 
-    return res.json({
-      success: true,
-      message: "Order moved to Redistribute",
-      data: order,
-    });
+    res.json({ success: true, message: "Order cancelled successfully" });
   } catch (error) {
-    console.log(error);
-    return res.json({ success: false, message: "Error cancelling order" });
+    console.error("cancelOrder error:", error);
+    res.json({ success: false, message: "Error cancelling order" });
   }
 };
 
-// Placing User Order for Frontend using stripe (session omitted, direct verify URL kept)
+
+const claimOrder = async (req, res) => {
+  try {
+    const { orderId } = req.body;
+    const claimerId = req.body.userId;
+
+    const order = await orderModel.findById(orderId);
+    if (!order)
+      return res.json({ success: false, message: "Order not found" });
+
+    if (order.status !== STATUS.REDISTRIBUTE)
+      return res.json({
+        success: false,
+        message: "Order not available for claim",
+      });
+
+    // preserve who originally created it
+    if (!order.originalUserId) order.originalUserId = order.userId;
+
+    // transfer ownership
+    order.userId = claimerId;
+    order.claimedBy = claimerId;
+    order.claimedAt = new Date();
+    order.status = STATUS.PROCESSING;
+
+    await order.save();
+
+    res.json({
+      success: true,
+      message: "Order claimed successfully; it is now in Food Processing.",
+      data: order,
+    });
+  } catch (error) {
+    console.error("claimOrder error:", error);
+    res.json({ success: false, message: "Error claiming order" });
+  }
+};
+
+
 const placeOrder = async (req, res) => {
   try {
     const newOrder = new orderModel({
@@ -111,36 +132,17 @@ const placeOrder = async (req, res) => {
     await newOrder.save();
     await userModel.findByIdAndUpdate(req.body.userId, { cartData: {} });
 
-    // Build line items (kept for parity even if not used by stripe here)
-    const line_items = req.body.items.map((item) => ({
-      price_data: {
-        currency: currency,
-        product_data: { name: item.name },
-        unit_amount: item.price * 100,
-      },
-      quantity: item.quantity,
-    }));
-    line_items.push({
-      price_data: {
-        currency: currency,
-        product_data: { name: "Delivery Charge" },
-        unit_amount: deliveryCharge * 100,
-      },
-      quantity: 1,
-    });
-
-    // Directly return a verify URL to keep current behavior
     res.json({
       success: true,
       session_url: `${frontend_URL}/verify?success=true&orderId=${newOrder._id}`,
     });
   } catch (error) {
-    console.log(error);
+    console.error(error);
     res.json({ success: false, message: error });
   }
 };
 
-// Placing User Order (Cash on Delivery)
+
 const placeOrderCod = async (req, res) => {
   try {
     const newOrder = new orderModel({
@@ -152,15 +154,14 @@ const placeOrderCod = async (req, res) => {
     });
     await newOrder.save();
     await userModel.findByIdAndUpdate(req.body.userId, { cartData: {} });
-
     res.json({ success: true, message: "Order Placed" });
   } catch (error) {
-    console.log(error);
+    console.error(error);
     res.json({ success: false, message: "Error" });
   }
 };
 
-// Listing Order for Admin panel
+
 const listOrders = async (req, res) => {
   try {
     const orders = await orderModel.find({}).sort({ date: -1 });
@@ -171,42 +172,40 @@ const listOrders = async (req, res) => {
   }
 };
 
-// User Orders for Frontend
+
 const userOrders = async (req, res) => {
   try {
     const orders = await orderModel
-      .find({ userId: req.body.userId })
+      .find({
+        $or: [{ userId: req.body.userId }, { claimedBy: req.body.userId }],
+      })
       .sort({ date: -1 });
     res.json({ success: true, data: orders });
   } catch (error) {
-    console.log(error);
+    console.error(error);
     res.json({ success: false, message: "Error" });
   }
 };
 
-// Admin updates order status (validates values + enforces FSM)
+
 const updateStatus = async (req, res) => {
   try {
     const { orderId, status: next } = req.body;
 
-    if (!STATUS_VALUES.has(next)) {
+    if (!STATUS_VALUES.has(next))
       return res.json({ success: false, message: "Invalid status value" });
-    }
 
     const order = await orderModel.findById(orderId);
-    if (!order) {
+    if (!order)
       return res.json({ success: false, message: "Order not found" });
-    }
 
     const current = order.status || STATUS.PROCESSING;
-
-    if (current === next) {
+    if (current === next)
       return res.json({
         success: true,
         message: "Status unchanged",
         data: order,
       });
-    }
 
     if (!canTransition(current, next)) {
       const allowed = [...(ALLOWED_TRANSITIONS[current] || [])];
@@ -220,7 +219,6 @@ const updateStatus = async (req, res) => {
 
     order.status = next;
     await order.save();
-
     return res.json({ success: true, message: "Status Updated", data: order });
   } catch (error) {
     console.log(error);
@@ -228,6 +226,7 @@ const updateStatus = async (req, res) => {
   }
 };
 
+// ==================== Verify Payment ====================
 const verifyOrder = async (req, res) => {
   const { orderId, success } = req.body;
   try {
@@ -239,31 +238,19 @@ const verifyOrder = async (req, res) => {
       res.json({ success: false, message: "Not Paid" });
     }
   } catch (error) {
-    res.json({ success: false, message: "Not  Verified" });
+    res.json({ success: false, message: "Not Verified" });
   }
 };
 
-/* ================================
-   Assign a shelter to an order
-   ================================ */
-/**
- * Accepts orders that are currently in "Redistribute" (preferred) or "Cancelled"
- * (to tolerate UI that shows Cancelled). If it's Cancelled, we move it to
- * "Redistribute" and attach shelter metadata. If already assigned, we return
- * success with `alreadyAssigned: true`.
- *
- * Body: { orderId, shelterId }
- */
 const assignShelter = async (req, res) => {
   try {
     const { orderId, shelterId } = req.body;
 
-    if (!orderId || !shelterId) {
+    if (!orderId || !shelterId)
       return res.json({
         success: false,
         message: "orderId and shelterId are required",
       });
-    }
 
     const order = await orderModel.findById(orderId);
     if (!order) return res.json({ success: false, message: "Order not found" });
@@ -273,33 +260,21 @@ const assignShelter = async (req, res) => {
       return res.json({ success: false, message: "Shelter not found" });
 
     const current = order.status || STATUS.PROCESSING;
-
-    // Only allow assignment when it's in Redistribute or Cancelled.
-    if (
-      current !== STATUS.REDISTRIBUTE &&
-      current !== STATUS.CANCELLED
-    ) {
+    if (current !== STATUS.REDISTRIBUTE && current !== STATUS.CANCELLED)
       return res.json({
         success: false,
         message: `Order status is "${current}". Only "Redistribute" or "Cancelled" can be assigned.`,
       });
-    }
 
-    // If already assigned, short-circuit (idempotent)
-    if (order.shelter && order.shelter.id) {
+    if (order.shelter && order.shelter.id)
       return res.json({
         success: true,
         alreadyAssigned: true,
         message: "Order already assigned to a shelter",
         data: order,
       });
-    }
 
-    // If Cancelled, move to Redistribute for ops workflow
-    if (current === STATUS.CANCELLED) {
-      order.status = STATUS.REDISTRIBUTE;
-    }
-
+    order.status = STATUS.CANCELLED;
     order.shelter = {
       id: shelter._id.toString(),
       name: shelter.name,
@@ -310,18 +285,16 @@ const assignShelter = async (req, res) => {
     order.donationNotified = false;
 
     await order.save();
-  await rerouteModel.create({
+
+    await rerouteModel.create({
       orderId: order._id,
-      // include restaurant info if you have it on the order model
       restaurantId: order.restaurantId ?? undefined,
       restaurantName: order.restaurantName ?? undefined,
-
       shelterId: shelter._id,
       shelterName: shelter.name,
       shelterAddress: shelter.address,
       shelterContactEmail: shelter.contactEmail,
       shelterContactPhone: shelter.contactPhone,
-
       items: (order.items || []).map((it) => ({
         name: it.name,
         qty: it.quantity ?? it.qty ?? 1,
@@ -329,6 +302,7 @@ const assignShelter = async (req, res) => {
       })),
       total: order.amount ?? order.total,
     });
+
     return res.json({
       success: true,
       message: "Order assigned to shelter",
@@ -349,4 +323,5 @@ export {
   placeOrderCod,
   cancelOrder,
   assignShelter,
+  claimOrder,
 };
