@@ -199,6 +199,6 @@ We post short updates whenever we ship features or milestones.
 
 | Partner / Role | Contribution |
 |----------------|---------------|
-| **Team 25 – ByteBite (NCSU SE Project)** | Core development team responsible for full-stack architecture, backend API, and workflow flow |
+| **Team 25 – ByteBite (NCSU SE Project Fall 2025)** | Core development team responsible for full-stack architecture, backend API, and workflow flow |
 | **NCSU Department of Computer Science** | Provided project framework, evaluation, and academic guidance |
 | **OpenAI (ChatGPT) & Anthropic (Claude)** | Assisted in idea exploration, UI refinement, and code documentation |
