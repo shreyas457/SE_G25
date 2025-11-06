@@ -5,18 +5,18 @@ const reactHooks = require("eslint-plugin-react-hooks");
 const reactRefresh = require("eslint-plugin-react-refresh");
 
 module.exports = [
-  // Base JS recommended rules
+  // Base JS rules
   js.configs.recommended,
 
-  // React recommended rules
+  // React rules
   react.configs.recommended,
 
-  // React Hooks recommended rules
+  // React Hooks rules
   reactHooks.configs.recommended,
 
-  // Project-specific overrides
+  // Project-specific rules
   {
-    files: ["**/*.{js,jsx,ts,tsx}"], // all JS/TS files
+    files: ["**/*.{js,jsx,ts,tsx}"],
     ignores: ["dist", "node_modules"],
 
     languageOptions: {
@@ -24,21 +24,13 @@ module.exports = [
       sourceType: "module",
     },
 
-    // Plugins must be objects in flat config
     plugins: {
       "react-refresh": reactRefresh,
     },
 
     rules: {
-      // Fast Refresh: only export React components
-      "react-refresh/only-export-components": [
-        "warn",
-        { allowConstantExport: true },
-      ],
-
-      // Optional React rules
+      "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
       "react/jsx-no-target-blank": "off",
-      // Add more project-specific rules here if needed
     },
 
     settings: {
