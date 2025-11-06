@@ -35,7 +35,6 @@ const NotificationListener = () => {
         toast.success('Order claimed successfully!');
         console.log('Claim response:', response.data);
 
-        // Emit socket event to stop notification queue
         if (socket && userId) {
           socket.emit('claimOrder', { orderId, userId });
         }
@@ -57,7 +56,6 @@ const NotificationListener = () => {
       }
     }
   }, [socket, token]);
-
 
   useEffect(() => {
     if (!socket || !token) return;
@@ -115,6 +113,7 @@ const NotificationListener = () => {
                   toast.dismiss(t.id);
                 }}
               >
+                🎯 Claim Order
               </button>
               <button
                 className="dismiss-btn"
