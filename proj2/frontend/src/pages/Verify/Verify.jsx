@@ -6,7 +6,7 @@ import './Verify.css'
 
 const Verify = () => {
   const { url } = useContext(StoreContext)
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const success = searchParams.get("success")
   const orderId = searchParams.get("orderId")
 

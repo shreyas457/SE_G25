@@ -11,19 +11,6 @@ const MyOrders = () => {
   const {url,token,currency} = useContext(StoreContext);
   const socket = useSocket();
 
-  // Decode token to get userId (if not available in StoreContext)
-  const getUserId = () => {
-    if (!token) return null;
-    try {
-      const payload = JSON.parse(atob(token.split('.')[1]));
-      return payload.id;
-    } catch (error) {
-      return null;
-    }
-  };
-
-  const currentUserId = getUserId();
-
   const fetchOrders = async () => {
     const response = await axios.post(url+"/api/order/userorders",{},{headers:{token}});
     setData(response.data.data)

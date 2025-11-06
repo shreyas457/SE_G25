@@ -8,7 +8,7 @@ const globals = require("globals");
 module.exports = [
   // Ignore patterns
   {
-    ignores: ["dist/**", "node_modules/**", "build/**"],
+    ignores: ["dist/**", "node_modules/**", "build/**", "eslint.config.cjs"],
   },
 
   // Base configuration
@@ -43,13 +43,17 @@ module.exports = [
     rules: {
       ...react.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
+      "no-unused-vars": ["error", { 
+        "varsIgnorePattern": "^_",
+        "argsIgnorePattern": "^_" 
+      }],
       "react-refresh/only-export-components": [
         "warn",
         { allowConstantExport: true },
       ],
       "react/jsx-no-target-blank": "off",
-      "react/react-in-jsx-scope": "off", // Not needed in React 17+
-      "react/prop-types": "off", // Turn off if using TypeScript
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": "off",
     },
     settings: {
       react: {

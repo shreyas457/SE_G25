@@ -36,7 +36,7 @@ const PlaceOrder = () => {
         let orderItems = [];
         food_list.map(((item) => {
             if (cartItems[item._id] > 0) {
-                const { image, ...itemInfo } = item; // Destructure to exclude image
+                const { image: _image, model3D: _model3D, ...itemInfo } = item;
                 itemInfo["quantity"] = cartItems[item._id];
                 orderItems.push(itemInfo)
             }
