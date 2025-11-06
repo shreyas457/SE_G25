@@ -6,14 +6,29 @@ import { toast } from 'react-toastify';
 
 const Add = () => {
 
-
     const [image, setImage] = useState(false);
+    const [model3D, setModel3D] = useState(false);
     const [data, setData] = useState({
         name: "",
         description: "",
         price: "",
         category: "Salad"
     });
+
+    const MAX_FILE_SIZE = 12 * 1024 * 1024; // 12MB in bytes
+
+    const handleModelUpload = (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            if (file.size > MAX_FILE_SIZE) {
+                toast.error(`File size exceeds 12MB. Selected file is ${(file.size / 1024 / 1024).toFixed(2)}MB`);
+                e.target.value = '';
+                return;
+            }
+            setModel3D(file);
+            e.target.value = '';
+        }
+    };
 
     const onSubmitHandler = async (event) => {
         event.preventDefault();
@@ -29,6 +44,12 @@ const Add = () => {
         formData.append("price", Number(data.price));
         formData.append("category", data.category);
         formData.append("image", image);
+        
+        // Append 3D model if selected
+        if (model3D) {
+            formData.append("model3D", model3D);
+        }
+
         const response = await axios.post(`${url}/api/food/add`, formData);
         if (response.data.success) {
             toast.success(response.data.message)
@@ -39,6 +60,7 @@ const Add = () => {
                 category: data.category
             })
             setImage(false);
+            setModel3D(false);
         }
         else {
             toast.error(response.data.message)
@@ -61,6 +83,41 @@ const Add = () => {
                         <img src={!image ? assets.upload_area : URL.createObjectURL(image)} alt="" />
                     </label>
                 </div>
+
+                {/* 3D Model Upload Section */}
+                <div className='add-model-upload flex-col'>
+                    <p>Upload 3D Model (Optional - Max 12MB)</p>
+                    <input 
+                        onChange={handleModelUpload}
+                        type="file" 
+                        accept=".glb,.gltf" 
+                        id="model3D" 
+                        hidden 
+                    />
+                    <label htmlFor="model3D" className='model-upload-label'>
+                        {!model3D ? (
+                            <div className='model-upload-placeholder'>
+                                <p>📦 Click to upload GLB/GLTF file</p>
+                                <small>Maximum file size: 12MB</small>
+                            </div>
+                        ) : (
+                            <div className='model-upload-success'>
+                                <p>✅ {model3D.name}</p>
+                                <span>({(model3D.size / 1024 / 1024).toFixed(2)} MB)</span>
+                            </div>
+                        )}
+                    </label>
+                    {model3D && (
+                        <button 
+                            type="button" 
+                            className='remove-model-btn'
+                            onClick={() => setModel3D(false)}
+                        >
+                            Remove Model
+                        </button>
+                    )}
+                </div>
+
                 <div className='add-product-name flex-col'>
                     <p>Product name</p>
                     <input name='name' onChange={onChangeHandler} value={data.name} type="text" placeholder='Type here' required />

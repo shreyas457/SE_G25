@@ -1,0 +1,153 @@
+/* ----- Page shell ----- */
+.shelters-page {
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.shelters-page h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin: 6px 0 18px;
+}
+
+/* ----- Card grid ----- */
+.shelter-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+/* 2 cols on medium, 1 on mobile */
+@media (max-width: 1100px) {
+  .shelter-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 720px) {
+  .shelter-list { grid-template-columns: 1fr; }
+}
+
+/* ----- Card ----- */
+.shelter-card {
+  background: #fff;
+  border: 1px solid #ffd0c4;         /* light tomato */
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.04);
+  transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+
+.shelter-card:hover {
+  transform: translateY(-2px);
+  border-color: #ff9c85;
+  box-shadow: 0 8px 22px rgba(0,0,0,.06);
+}
+
+.shelter-card h4 {
+  font-size: 16px;
+  line-height: 1.35;
+  margin: 2px 0 8px;
+  color: #222;
+}
+
+.shelter-card p {
+  margin: 2px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Small meta rows */
+.shelter-card p + p {
+  margin-top: 2px;
+}
+
+/* ----- Primary action button ----- */
+.btn-assign {
+  margin-top: 12px;
+  background: #ff6b4a;    /* tomato-ish */
+  color: #fff;
+  border: 1px solid #ff6b4a;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .12s ease, transform .06s ease, box-shadow .12s ease;
+}
+
+.btn-assign:hover {
+  background: #ff5630;
+  box-shadow: 0 4px 14px rgba(255, 86, 48, .25);
+}
+
+.btn-assign:active {
+  transform: translateY(1px);
+}
+
+.btn-assign:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ----- Subtle badge helpers (optional) ----- */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+  background: #fff1ee;
+  color: #cc442a;
+  border: 1px solid #ffd0c4;
+}
+
+/* =========================
+   Modal styling (from earlier)
+   ========================= */
+.modal-overlay{
+  position: fixed; inset: 0; background: rgba(0,0,0,.2);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 50;
+}
+.modal-card{
+  width: min(900px, 92vw);
+  max-height: 80vh;
+  background: #fff; border: 1px solid #ffd0c4;
+  border-radius: 12px; padding: 16px 18px; overflow: hidden;
+  display: flex; flex-direction: column; gap: 10px;
+  box-shadow: 0 10px 28px rgba(0,0,0,.12);
+}
+.modal-head{
+  display: flex; align-items: center; justify-content: space-between;
+}
+.modal-close{
+  border: none; background: transparent; font-size: 24px; cursor: pointer;
+}
+.select-all-row{
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; margin-top: 6px;
+}
+.orders-scroll{
+  margin-top: 6px;
+  overflow: auto;
+  max-height: 56vh;
+  display: flex; flex-direction: column; gap: 10px;
+  padding-right: 4px;
+}
+.row-order{
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  gap: 12px; align-items: center;
+  border: 1px solid #ffd0c4; background: #fff8f6;
+  border-radius: 10px; padding: 10px 12px;
+}
+.row-check{ display:flex; align-items:center; justify-content:center; }
+.row-main .row-line{ color:#555; font-size: 14px; }
+.row-main .strong{ font-weight: 600; color:#222; }
+.row-meta{ text-align: right; color:#444; min-width: 140px; font-size: 14px; }
+
+/* compact button for modal toolbar */
+.btn-assign.small{
+  padding: 6px 10px; border-radius: 8px; font-size: 13px;
+}
