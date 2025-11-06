@@ -11,18 +11,15 @@ on:
 
 jobs:
   lint:
-    name: Run ESLint Checks
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project: [proj2/frontend, proj2/backend] # Add more folders if needed
+        project: [proj2/frontend, proj2/backend]
 
     steps:
-      # 1. Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Setup Node.js with cache
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -30,7 +27,6 @@ jobs:
           cache: 'npm'
           cache-dependency-path: ${{ matrix.project }}/package-lock.json
 
-      # 3. Install dependencies
       - name: Install dependencies
         working-directory: ${{ matrix.project }}
         run: |
@@ -40,9 +36,7 @@ jobs:
             npm install
           fi
 
-      # 4. Run ESLint
       - name: Run ESLint
         working-directory: ${{ matrix.project }}
         run: |
-          # Run ESLint on JS/JSX/TS/TSX files only
           npx eslint . --ext .js,.jsx,.ts,.tsx --max-warnings=0
