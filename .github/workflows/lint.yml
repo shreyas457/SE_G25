@@ -14,12 +14,14 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project: [proj2/frontend]
+        project: [proj2/frontend, proj2/backend] # Add more folders if needed
 
     steps:
+      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2. Setup Node.js with caching
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -27,6 +29,7 @@ jobs:
           cache: 'npm'
           cache-dependency-path: ${{ matrix.project }}/package-lock.json
 
+      # 3. Install dependencies for the current project
       - name: Install dependencies
         working-directory: ${{ matrix.project }}
         run: |
@@ -36,8 +39,8 @@ jobs:
             npm install
           fi
 
+      # 4. Run ESLint using the flat config
       - name: Run ESLint
         working-directory: ${{ matrix.project }}
         run: |
           npx eslint . --max-warnings=0
-
