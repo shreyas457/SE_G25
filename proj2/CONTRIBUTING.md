@@ -1,25 +1,99 @@
 # Contributing to ByteBite
 
-Thank you for your interest in contributing to ByteBite. This document outlines the development workflow and expectations for contributions.
-
-The project is maintained by NCSU Team G25 and is primarily used for academic and research purposes. Contributions should preserve the single-restaurant model and the focus on food redistribution.
+Thank you for your interest in contributing to **ByteBite** — a smart food redistribution system that connects restaurants, users, and shelters to reduce food waste.  
+We welcome all contributions — from bug fixes and feature enhancements to documentation and testing support.
 
 ---
 
-## Repository Layout
+## How You Can Contribute
+
+Here are several ways to get involved:
+
+- **Bug Fixes:** Report and resolve issues in backend routes, database logic, or UI components.  
+- **Feature Enhancements:** Propose new ideas such as advanced matching, recommendation engines, or reporting dashboards.  
+- **Documentation:** Improve README sections, API docs, or add usage examples/tutorials.  
+- **UI/UX Improvements:** Polish interfaces built with React, Vite interactions.  
+- **Integration:** Extend APIs, data pipelines, or notification logic with third-party tools.  
+
+---
+
+## Project Tech Stack
 
 - `backend/`: Node.js + Express API, MongoDB data models.
 - `frontend/`: React + Vite customer-facing application (including 3D menu views).
 - `admin/`: React + Vite dashboard for restaurant staff.
 
-Contributors are encouraged to familiarize themselves with all three components, but focused contributions (for example, backend only) are perfectly acceptable.
+---
+
+## Getting Started
+
+Follow these steps to contribute:
+
+1. **Fork this repository**
+   - Click the *Fork* button on the top-right of this page.
+
+2. **Clone your fork**
+   ```bash
+    https://github.com/shreyas457/SE_G25.git
+
+3. **Create a New Branch**
+   ```bash
+    git checkout -b feature/<short-feature-name>
+
+4. **Make your changes**
+- Implement your fix or feature in the appropriate directory.
+- Run the project locally to verify it doesn’t break existing features.
+
+5. **Commit your changes**
+   ```bash
+    git commit -m "feat: add <short-description>"
+
+6. **Push your branch**
+   ```bash
+    git push origin feature/<short-feature-name>
+
+7. **Make your changes**
+- Go to your forked repository on GitHub.
+- Click Compare & pull request.
+- Clearly describe what your contribution does and why it’s needed.
 
 ---
 
-## How to Propose Changes
+## Code Style Guidelines
 
-1. **Fork the repository.**
-2. **Create a feature branch** from the main branch:
+Please follow these conventions to maintain consistency across the project:
+ 
+- Follow **semantic commit messages**:  
+  - `feat:` – new feature  
+  - `fix:` – bug fix  
+  - `docs:` – documentation update  
+  - `refactor:` – code refactoring  
+- Keep functions **modular, reusable, and well-documented**.  
+- Use **environment variables** for all API keys and secrets.  
+- Add **inline comments** for complex logic or new routes.  
 
+---
+
+## Testing
+
+Before submitting a Pull Request, make sure to test your changes thoroughly:
+
+1. Run the backend server:
    ```bash
-   git checkout -b feature/short-description
+   npm run server
+2. Run the frontend server:
+   ```bash
+   npm run dev
+3. Check that your branch merges cleanly with main and passes all basic functionality checks.
+
+---
+
+## Communication and Support
+
+- Use GitHub Issues to report bugs or request new features.
+- For larger ideas, use GitHub Discussions.
+- Tag maintainers in your PR description for review and feedback.
+
+## Contributor License & Intellectual Property
+
+- All contributions remain the i
