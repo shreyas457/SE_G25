@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: backend
+        working-directory: proj2/backend
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,6 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        
 
       - name: Start backend server
         run: |
@@ -37,7 +38,7 @@ jobs:
     needs: backend
     defaults:
       run:
-        working-directory: frontend
+        working-directory: proj2/frontend
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -53,7 +54,7 @@ jobs:
     needs: backend
     defaults:
       run:
-        working-directory: admin
+        working-directory: proj2/admin
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
