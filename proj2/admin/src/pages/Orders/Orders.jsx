@@ -12,7 +12,10 @@ const STATUS_OPTIONS = [
   "Cancelled",
 ];
 
-const TERMINAL = new Set(["Delivered", "Cancelled"]);
+// backend donated status string
+const DONATED_STATUS = "Donated";
+
+const TERMINAL = new Set(["Delivered", "Cancelled", DONATED_STATUS]);
 
 const Order = () => {
   const [allOrders, setAllOrders] = useState([]); // full dataset
@@ -36,7 +39,12 @@ const Order = () => {
   // Counts for tab labels
   const counts = useMemo(() => {
     const cancelled = allOrders.filter((o) => o.status === "Cancelled").length;
-    const current = allOrders.length - cancelled;
+
+    // "Current" should exclude Cancelled and Donated-to-shelter orders
+    const current = allOrders.filter(
+      (o) => o.status !== "Cancelled" && o.status !== DONATED_STATUS
+    ).length;
+
     return { cancelled, current };
   }, [allOrders]);
 
@@ -45,7 +53,12 @@ const Order = () => {
     if (activeTab === "cancelled") {
       setOrders(allOrders.filter((o) => o.status === "Cancelled"));
     } else {
-      setOrders(allOrders.filter((o) => o.status !== "Cancelled"));
+      // current tab: hide cancelled + donated orders
+      setOrders(
+        allOrders.filter(
+          (o) => o.status !== "Cancelled" && o.status !== DONATED_STATUS
+        )
+      );
     }
   }, [activeTab, allOrders]);
 
@@ -146,7 +159,7 @@ const Order = () => {
             <select
               onChange={(e) => statusHandler(e, order._id)}
               value={order.status || "Food Processing"}
-              disabled={TERMINAL.has(order.status)} // disable Delivered/Cancelled
+              disabled={TERMINAL.has(order.status)} // disable Delivered/Cancelled/Donated
               className={`status-select status--${(order.status || "Food Processing")
                 .split(" ")
                 .join("-")
