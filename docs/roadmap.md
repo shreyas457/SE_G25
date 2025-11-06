@@ -1,4 +1,4 @@
-# 🗺️ Project Roadmap – ByteBite
+# Project Roadmap – ByteBite
 
 Our goal is to expand ByteBite from a prototype redistribution system into a scalable, community-powered platform for reducing food waste.  
 Below is the roadmap outlining upcoming features and milestones.
