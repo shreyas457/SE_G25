@@ -178,3 +178,12 @@ SELECT id, order_number, status, total FROM orders;
 - **Pydantic** - Data validation
 - **Passlib** - Password hashing
 - **Docker** - Containerization
+
+## Updates & Announcements
+
+We post short updates whenever we ship features or milestones.
+
+- Full changelog: see **[docs/updates.md](docs/updates.md)**
+- Latest highlights:
+   — Claim Order feature: cancelled → Redistribute → Claimed, with real-time pop-ups.
+ 
