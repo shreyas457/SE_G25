@@ -92,6 +92,31 @@ The customer-facing frontend supports rendering of 3D models associated with men
 - This allows customers to inspect certain items in a more realistic and interactive way.
 
 ---
+## Updates & Announcements
+
+We post short updates whenever we ship features or milestones.
+
+- Full changelog: see **[docs/updates.md](docs/updates.md)**
+- Latest highlights:
+   — Claim Order feature: cancelled → Redistribute → Claimed, with real-time pop-ups.
+## Project Stats
+
+- **Partner Shelters/NGOs:** 10 (registered for end-of-day surplus donations)
+- **Redistributed Meals:** 15+ (successfully reassigned through the Claim Order module)
+- **Active Contributors:** 4(core developers from Team 25 – SE Project Group)
+- **Intelligent Modules:** 4 (Cancel-to-Redistribute, Shelter Pipeline, and Real-time Claim Notifications, 3D Visualization)
+
+> *ByteBite transforms canceled and surplus orders into redistributable meals — connecting restaurants, users, and shelters in real time to reduce food waste and support the community.*
+ 
+## Partners & Collaborators
+
+| Partner / Role | Contribution |
+|----------------|---------------|
+| **Team 25 – ByteBite (NCSU SE Project Fall 2025)** | Core development team responsible for full-stack architecture, backend API, and workflow flow |
+| **NCSU Department of Computer Science** | Provided project framework, evaluation, and academic guidance |
+| **OpenAI (ChatGPT) & Anthropic (Claude)** | Assisted in idea exploration, UI refinement, and code documentation |
+
+---
 
 ## Repository Structure
 
@@ -130,3 +155,28 @@ frontend/
 admin/
   src/...
   package.json
+
+---
+## Updates & Announcements
+
+We post short updates whenever we ship features or milestones.
+
+- Full changelog: see **[docs/updates.md](docs/updates.md)**
+- Latest highlights:
+   — Claim Order feature: cancelled → Redistribute → Claimed, with real-time pop-ups.
+## Project Stats
+
+- **Partner Shelters/NGOs:** 10 (registered for end-of-day surplus donations)
+- **Redistributed Meals:** 15+ (successfully reassigned through the Claim Order module)
+- **Active Contributors:** 4(core developers from Team 25 – SE Project Group)
+- **Intelligent Modules:** 4 (Cancel-to-Redistribute, Shelter Pipeline, and Real-time Claim Notifications, 3D Visualization)
+
+> *ByteBite transforms canceled and surplus orders into redistributable meals — connecting restaurants, users, and shelters in real time to reduce food waste and support the community.*
+ 
+## Partners & Collaborators
+
+| Partner / Role | Contribution |
+|----------------|---------------|
+| **Team 25 – ByteBite (NCSU SE Project Fall 2025)** | Core development team responsible for full-stack architecture, backend API, and workflow flow |
+| **NCSU Department of Computer Science** | Provided project framework, evaluation, and academic guidance |
+| **OpenAI (ChatGPT) & Anthropic (Claude)** | Assisted in idea exploration, UI refinement, and code documentation |
