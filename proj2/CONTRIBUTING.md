@@ -96,4 +96,6 @@ Before submitting a Pull Request, make sure to test your changes thoroughly:
 
 ## Contributor License & Intellectual Property
 
-- All contributions remain the i
+- All contributions remain the intellectual property of their authors.
+- By submitting a Pull Request, you agree to license your work under the project’s MIT License.
+- This allows the ByteBite team to use, modify, and distribute your contribution with proper attribution.
