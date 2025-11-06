@@ -186,16 +186,16 @@ We post short updates whenever we ship features or milestones.
 - Full changelog: see **[docs/updates.md](docs/updates.md)**
 - Latest highlights:
    — Claim Order feature: cancelled → Redistribute → Claimed, with real-time pop-ups.
-## 📊 Project Stats
+## Project Stats
 
-- 🏠 **Partner Shelters/NGOs:** 10 (registered for end-of-day surplus donations)
-- 💬 **Redistributed Meals:** 15+ (successfully reassigned through the Claim Order module)
-- ⚙️ **Active Contributors:** 4(core developers from Team 25 – SE Project Group)
-- 🧠 **Intelligent Modules:** 4 (Cancel-to-Redistribute, Shelter Pipeline, and Real-time Claim Notifications, 3D Visualization)
+- **Partner Shelters/NGOs:** 10 (registered for end-of-day surplus donations)
+- **Redistributed Meals:** 15+ (successfully reassigned through the Claim Order module)
+- **Active Contributors:** 4(core developers from Team 25 – SE Project Group)
+- **Intelligent Modules:** 4 (Cancel-to-Redistribute, Shelter Pipeline, and Real-time Claim Notifications, 3D Visualization)
 
 > *ByteBite transforms canceled and surplus orders into redistributable meals — connecting restaurants, users, and shelters in real time to reduce food waste and support the community.*
  
-## 🤝 Partners & Collaborators
+## Partners & Collaborators
 
 | Partner / Role | Contribution |
 |----------------|---------------|
