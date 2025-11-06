@@ -1,0 +1,64 @@
+name: CI - proj2 (backend, frontend, admin)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'proj2/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'proj2/**'
+
+jobs:
+  test:
+    name: Test all apps
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+      
+      - name: Install backend dependencies
+        working-directory: ./proj2/backend
+        run: npm ci
+      
+      - name: Run backend tests
+        working-directory: ./proj2/backend
+        run: npm test
+      
+      - name: Install frontend dependencies
+        working-directory: ./proj2/frontend
+        run: npm ci
+      
+      - name: Run frontend tests
+        working-directory: ./proj2/frontend
+        run: npm test
+      
+      - name: Install admin dependencies
+        working-directory: ./proj2/admin
+        run: npm ci
+      
+      - name: Run admin tests
+        working-directory: ./proj2/admin
+        run: npm test
+      
+      - name: Upload coverage artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: proj2-coverage
+          path: |
+            proj2/backend/coverage/**
+            proj2/frontend/coverage/**
+            proj2/admin/coverage/**
+          if-no-files-found: ignore
+
