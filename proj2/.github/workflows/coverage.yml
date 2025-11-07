@@ -46,4 +46,12 @@ jobs:
             backend/coverage/
             frontend/coverage/
             admin/coverage/
+- name: Upload coverage to Codecov
+  uses: codecov/codecov-action@v4
+  with:
+    token: ${{ secrets.CODECOV_TOKEN }}   # not needed if repo is public
+    files: ./coverage/lcov.info
+    flags: backend
+    name: codecov-upload
+
 
