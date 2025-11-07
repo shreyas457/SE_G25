@@ -3,7 +3,7 @@
 ## 🧪 Quality Assurance Badges
 
 ### 🧩 Code Coverage
-[![codecov](https://codecov.io/gh/shreyas457/SE_G25/graph/badge.svg?token=ENTA0IQ3HM)](https://codecov.io/gh/shreyas457/SE_G25)
+[![codecov](https://codecov.io/gh/shreyas457/SE_G25/branch/main/graph/badge.svg?token=ENTA0IQ3HM)](https://codecov.io/gh/shreyas457/SE_G25)
 
 **Workflow:** [.github/workflows/coverage.yml](../.github/workflows/coverage.yml)  
 **Config:** [Jest Config (Backend)](../backend/jest.config.js) · [Vitest Config (Frontend)](../frontend/vitest.config.js) · [Vitest Config (Admin)](../admin/vitest.config.js)
