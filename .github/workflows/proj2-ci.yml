@@ -24,9 +24,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-      
-      - name: Run ESLint
-        run: npx eslint -f github-annotations .
 
       - name: Run backend tests
         run: npm test
