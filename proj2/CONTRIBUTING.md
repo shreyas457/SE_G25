@@ -70,11 +70,17 @@ Please follow these conventions to maintain consistency across the project:
 Before submitting a Pull Request, make sure to test your changes thoroughly:
 1. Run the backend server:
    ```bash
+   npm install
    npm run server
 2. Run the frontend server:
    ```bash
+   npm install
    npm run dev
-3. Check that your branch merges cleanly with main and passes all basic functionality checks.
+3. Run the admin server:
+   ```bash
+   npm install
+   npm run dev
+4. Check that your branch merges cleanly with main and passes all basic functionality checks.
 ---
 ## Communication and Support
 - Use GitHub Issues to report bugs or request new features.

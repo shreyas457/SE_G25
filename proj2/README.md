@@ -155,3 +155,9 @@ frontend/
 admin/
   src/...
   package.json
+
+```
+## Project Resources
+
+Demo video available on Google Drive:  
+[Click here to access](https://drive.google.com/drive/folders/1cu_q0Fzv2eirk6KWtg8ypfO_mJUwBUOG)
