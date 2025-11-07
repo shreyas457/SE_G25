@@ -179,33 +179,13 @@ jobs:
           fi
 
       - name: Generate coverage badge
-        run: |
-          mkdir -p coverage
-          
-          if [ -f coverage/lcov.info ]; then
-            LINES_TOTAL=$(grep -E '^LF:' coverage/lcov.info | cut -d':' -f2 | awk '{s+=$1} END {print s}')
-            LINES_COVERED=$(grep -E '^LH:' coverage/lcov.info | cut -d':' -f2 | awk '{s+=$1} END {print s}')
-            
-            if [ "$LINES_TOTAL" -eq 0 ]; then
-              echo "No coverage data found"
-              COVERAGE=0
-            else
-              COVERAGE=$(awk "BEGIN {printf \"%.0f\", ($LINES_COVERED/$LINES_TOTAL)*100}")
-            fi
-            
-            if [ $COVERAGE -ge 90 ]; then COLOR="brightgreen"
-            elif [ $COVERAGE -ge 75 ]; then COLOR="yellowgreen"
-            elif [ $COVERAGE -ge 50 ]; then COLOR="yellow"
-            else COLOR="red"; fi
-            
-            echo "Coverage: ${COVERAGE}%"
-            echo "Color: ${COLOR}"
-            
-            # Download badge from shields.io
-            curl -o coverage/coverage-badge.svg "https://img.shields.io/badge/coverage-${COVERAGE}%25-${COLOR}"
-          else
-            echo "No lcov.info file found"
-          fi
+        uses: cicirello/jacoco-badge-generator@v2
+        with:
+          badges-directory: coverage
+          generate-branches-badge: false
+          generate-summary: false
+          jacoco-csv-file: coverage/lcov.info
+          coverage-badge-filename: coverage-badge.svg
 
       - name: Commit and push coverage badge
         run: |
