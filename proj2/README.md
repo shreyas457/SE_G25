@@ -1,4 +1,5 @@
 # ByteBite
+[![ByteBite CI](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml/badge.svg)](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml)
 
 ## 🧪 Quality Assurance Badges
 
