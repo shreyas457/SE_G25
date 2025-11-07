@@ -11,8 +11,10 @@ jobs:
   coverage:
     name: Generate Coverage Reports
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -37,7 +39,22 @@ jobs:
           npm ci
           npm run test:coverage || echo "Admin coverage failed"
       
-      - name: Upload Coverage Reports
+      # ✅ Upload all coverage reports to Codecov
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          # TOKEN is optional for public repos; if private, add CODECOV_TOKEN in repo secrets
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: |
+            proj2/backend/coverage/lcov.info
+            proj2/frontend/coverage/lcov.info
+            proj2/admin/coverage/lcov.info
+          # Optional, but nice to have:
+          flags: backend,frontend,admin
+          fail_ci_if_error: true
+
+      # (Optional) still keep artifact for manual download
+      - name: Upload Coverage Reports Artifact
         uses: actions/upload-artifact@v4
         with:
           name: coverage-reports
@@ -45,4 +62,3 @@ jobs:
             proj2/backend/coverage/
             proj2/frontend/coverage/
             proj2/admin/coverage/
-
