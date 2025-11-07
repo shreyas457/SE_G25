@@ -26,13 +26,38 @@ Before setting up, install the following tools:
 | [MongoDB Community Server](https://www.mongodb.com/try/download/community) | ≥ 6.x | Database |
 
 
-## Installation (Manual Setup)
+## Setup Backend (Server)
 
-### 1.Clone the repository
+Move into the backend folder:
+
 ```bash
-  https://github.com/shreyas457/SE_G25.git
-  cd SE_G25/proj2
+cd backend
+npm install
+npm run server
+```
+Expected output: 
+-Server started on http://localhost:4000
+-DB Connected
+-Follow the link to verify if API is working
 
+## Setup Frontend (Server)
+Move into the frontend folder:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Expected output: 
+- Local:   http://localhost:5173/
+- Follow the link
 
-
-
+## Setup Admin
+Move into the admin folder:
+```bash
+cd admin
+npm install
+npm run dev
+```
+Expected output: 
+- Local:   http://localhost:5174/
+- Follow the link
