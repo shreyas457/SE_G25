@@ -132,20 +132,28 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Download coverage artifacts
         uses: actions/download-artifact@v4
         with:
           name: backend-coverage
           path: proj2/backend/coverage
+          
       - uses: actions/download-artifact@v4
         with:
           name: frontend-coverage
           path: proj2/frontend/coverage
+          
       - uses: actions/download-artifact@v4
         with:
           name: admin-coverage
           path: proj2/admin/coverage
+
+      - name: Install coverage tools
+        run: npm install -g lcov-result-merger
 
       - name: Merge coverage reports
         run: |
@@ -173,62 +181,42 @@ jobs:
       - name: Generate coverage badge
         run: |
           mkdir -p coverage
-          node <<'EOF'
-          import fs from 'fs';
-          import lcovParse from 'lcov-parse';
-          import path from 'path';
-
-          const lcovFile = path.resolve('coverage/lcov.info');
-          const badgeFile = path.resolve('coverage/coverage-badge.svg');
-
-          if (!fs.existsSync(lcovFile)) process.exit(1);
-
-          lcovParse(lcovFile, (err, data) => {
-            if (err) throw err;
-
-            let linesTotal = 0;
-            let linesCovered = 0;
-
-            data.forEach(file => {
-              linesTotal += file.lines.found;
-              linesCovered += file.lines.hit;
-            });
-
-            const percentage = ((linesCovered / linesTotal) * 100).toFixed(0);
-            const color = percentage >= 90 ? 'brightgreen' :
-                          percentage >= 75 ? 'yellowgreen' :
-                          percentage >= 50 ? 'yellow' : 'red';
-
-            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="120" height="20">
-            <linearGradient id="b" x2="0" y2="100%">
-              <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
-              <stop offset="1" stop-opacity=".1"/>
-            </linearGradient>
-            <mask id="a">
-              <rect width="120" height="20" rx="3" fill="#fff"/>
-            </mask>
-            <g mask="url(#a)">
-              <rect width="70" height="20" fill="#555"/>
-              <rect x="70" width="50" height="20" fill="${color}"/>
-              <rect width="120" height="20" fill="url(#b)"/>
-            </g>
-            <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
-              <text x="35" y="14">coverage</text>
-              <text x="95" y="14">${percentage}%</text>
-            </g>
-            </svg>`;
-
-            fs.writeFileSync(badgeFile, svg);
-            console.log(`Coverage badge generated: ${badgeFile}`);
-          });
-        shell: node
+          
+          if [ -f coverage/lcov.info ]; then
+            LINES_TOTAL=$(grep -E '^LF:' coverage/lcov.info | cut -d':' -f2 | awk '{s+=$1} END {print s}')
+            LINES_COVERED=$(grep -E '^LH:' coverage/lcov.info | cut -d':' -f2 | awk '{s+=$1} END {print s}')
+            
+            if [ "$LINES_TOTAL" -eq 0 ]; then
+              echo "No coverage data found"
+              COVERAGE=0
+            else
+              COVERAGE=$(awk "BEGIN {printf \"%.0f\", ($LINES_COVERED/$LINES_TOTAL)*100}")
+            fi
+            
+            if [ $COVERAGE -ge 90 ]; then COLOR="brightgreen"
+            elif [ $COVERAGE -ge 75 ]; then COLOR="yellowgreen"
+            elif [ $COVERAGE -ge 50 ]; then COLOR="yellow"
+            else COLOR="red"; fi
+            
+            echo "Coverage: ${COVERAGE}%"
+            echo "Color: ${COLOR}"
+            
+            # Download badge from shields.io
+            curl -o coverage/coverage-badge.svg "https://img.shields.io/badge/coverage-${COVERAGE}%25-${COLOR}"
+          else
+            echo "No lcov.info file found"
+          fi
 
       - name: Commit and push coverage badge
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add coverage/coverage-badge.svg
-          git diff-index --quiet HEAD || git commit -m "Update coverage badge [skip ci]"
-          git push origin HEAD
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update coverage badge [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
