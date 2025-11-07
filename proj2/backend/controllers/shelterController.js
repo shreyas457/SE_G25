@@ -1,6 +1,12 @@
 import shelterModel from "../models/shelterModel.js";
 
-// Insert a preset list if collection is empty
+/**
+ * Seeds the database with preset shelter data if the collection is empty
+ * Inserts 8 default shelters with contact information and addresses
+ * @param {Object} _req - Express request object (unused)
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and message
+ */
 export const seedShelters = async (_req, res) => {
   try {
     const existing = await shelterModel.estimatedDocumentCount();
@@ -123,6 +129,13 @@ export const seedShelters = async (_req, res) => {
   }
 };
 
+/**
+ * Retrieves all active shelters from the database
+ * Returns shelters sorted alphabetically by name
+ * @param {Object} _req - Express request object (unused)
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and array of active shelters
+ */
 export const listShelters = async (_req, res) => {
   try {
     const shelters = await shelterModel

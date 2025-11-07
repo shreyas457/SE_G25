@@ -6,6 +6,12 @@ import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import axios from 'axios';
 
+/**
+ * PlaceOrder - Page component for placing food orders
+ * Handles order form submission with COD or Stripe payment options
+ * Validates user authentication and cart contents before allowing order placement
+ * @returns {JSX.Element} Order placement form with delivery information and payment options
+ */
 const PlaceOrder = () => {
 
     const [payment, setPayment] = useState("cod")
@@ -25,12 +31,24 @@ const PlaceOrder = () => {
 
     const navigate = useNavigate();
 
+    /**
+     * Handles input field changes in the order form
+     * @param {Object} event - React change event
+     * @param {HTMLInputElement} event.target - The input element that changed
+     * @returns {void}
+     */
     const onChangeHandler = (event) => {
         const name = event.target.name
         const value = event.target.value
         setData(data => ({ ...data, [name]: value }))
     }
 
+    /**
+     * Handles order form submission
+     * Processes order with either COD or Stripe payment based on selection
+     * @param {Object} e - React form submit event
+     * @returns {Promise<void>}
+     */
     const placeOrder = async (e) => {
         e.preventDefault()
         let orderItems = [];

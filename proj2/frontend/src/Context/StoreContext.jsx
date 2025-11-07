@@ -3,6 +3,13 @@ import { food_list, menu_list } from "../assets/assets";
 import axios from "axios";
 export const StoreContext = createContext(null);
 
+/**
+ * StoreContextProvider - Main context provider for application state
+ * Manages food list, cart items, authentication token, and cart operations
+ * @param {Object} props - React component props
+ * @param {React.ReactNode} props.children - Child components to render
+ * @returns {JSX.Element} StoreContext provider with context value
+ */
 const StoreContextProvider = (props) => {
 
     const url = "http://localhost:4000"
@@ -12,6 +19,12 @@ const StoreContextProvider = (props) => {
     const currency = "$";
     const deliveryCharge = 5;
 
+    /**
+     * Adds an item to the cart or increments its quantity
+     * Also syncs with backend if user is authenticated
+     * @param {string} itemId - MongoDB _id of the food item to add
+     * @returns {Promise<void>}
+     */
     const addToCart = async (itemId) => {
         if (!cartItems[itemId]) {
             setCartItems((prev) => ({ ...prev, [itemId]: 1 }));
@@ -24,6 +37,12 @@ const StoreContextProvider = (props) => {
         }
     }
 
+    /**
+     * Removes one quantity of an item from the cart
+     * Also syncs with backend if user is authenticated
+     * @param {string} itemId - MongoDB _id of the food item to remove
+     * @returns {Promise<void>}
+     */
     const removeFromCart = async (itemId) => {
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }))
         if (token) {
@@ -31,6 +50,10 @@ const StoreContextProvider = (props) => {
         }
     }
 
+    /**
+     * Calculates the total amount of all items in the cart
+     * @returns {number} Total cart amount in dollars
+     */
     const getTotalCartAmount = () => {
         let totalAmount = 0;
         for (const item in cartItems) {
@@ -47,11 +70,21 @@ const StoreContextProvider = (props) => {
         return totalAmount;
     }
 
+    /**
+     * Fetches the complete list of food items from the backend
+     * @returns {Promise<void>}
+     */
     const fetchFoodList = async () => {
         const response = await axios.get(url + "/api/food/list");
         setFoodList(response.data.data)
     }
 
+    /**
+     * Loads cart data from the backend for an authenticated user
+     * @param {Object} token - Token object with authentication token
+     * @param {string} token.token - JWT authentication token
+     * @returns {Promise<void>}
+     */
     const loadCartData = async (token) => {
         const response = await axios.post(url + "/api/cart/get", {}, { headers: token });
         setCartItems(response.data.cartData);

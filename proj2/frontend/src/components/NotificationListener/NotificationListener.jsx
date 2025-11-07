@@ -5,10 +5,20 @@ import { StoreContext } from '../../Context/StoreContext';
 import toast from 'react-hot-toast';
 import './NotificationListener.css';
 
+/**
+ * NotificationListener - Component that listens for order cancellation notifications via Socket.IO
+ * Displays toast notifications when orders become available for claiming
+ * Handles user registration with socket server and order claiming functionality
+ * @returns {null} This component doesn't render any visible UI
+ */
 const NotificationListener = () => {
   const socket = useSocket();
   const { token, currency, url } = useContext(StoreContext);
 
+  /**
+   * Extracts user ID from JWT token
+   * @returns {string|null} User ID from token payload or null if token is invalid
+   */
   const getUserId = () => {
     if (!token) return null;
     try {
@@ -20,6 +30,12 @@ const NotificationListener = () => {
     }
   };
 
+  /**
+   * Handles claiming an order when user clicks the claim button in notification
+   * Makes API call to claim order and emits socket event
+   * @param {string} orderId - MongoDB _id of the order to claim
+   * @returns {Promise<void>}
+   */
   const handleClaimOrder = async (orderId) => {
     try {
       const userId = getUserId();
