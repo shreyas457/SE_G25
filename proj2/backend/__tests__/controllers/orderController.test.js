@@ -12,7 +12,8 @@ import {
   cancelOrder,
   assignShelter,
   verifyOrder,
-} from "../../controllers/orderController.js";
+  claimOrder
+} from '../../controllers/orderController.js';
 
 describe("Order Controller", () => {
   let req, res;
@@ -356,6 +357,128 @@ describe("Order Controller", () => {
         success: false,
         message: "Not Paid",
       });
+    });
+  });
+
+  describe('claimOrder', () => {
+    it('should claim order successfully', async () => {
+      req.body = {
+        orderId: '507f1f77bcf86cd799439013',
+        userId: '507f1f77bcf86cd799439011'
+      };
+
+      const mockOrder = {
+        _id: '507f1f77bcf86cd799439013',
+        status: 'Redistribute',
+        userId: 'original-user',
+        save: jest.fn().mockResolvedValue(true)
+      };
+
+      orderModel.findById = jest.fn().mockResolvedValue(mockOrder);
+
+      await claimOrder(req, res);
+
+      expect(orderModel.findById).toHaveBeenCalledWith('507f1f77bcf86cd799439013');
+      expect(mockOrder.save).toHaveBeenCalled();
+      expect(res.json).toHaveBeenCalledWith(
+        expect.objectContaining({ success: true })
+      );
+    });
+
+    it('should return error if order not found', async () => {
+      req.body = {
+        orderId: '507f1f77bcf86cd799439013',
+        userId: '507f1f77bcf86cd799439011'
+      };
+
+      orderModel.findById = jest.fn().mockResolvedValue(null);
+
+      await claimOrder(req, res);
+
+      expect(res.json).toHaveBeenCalledWith({
+        success: false,
+        message: 'Order not found'
+      });
+    });
+
+    it('should return error if order not in Redistribute status', async () => {
+      req.body = {
+        orderId: '507f1f77bcf86cd799439013',
+        userId: '507f1f77bcf86cd799439011'
+      };
+
+      const mockOrder = {
+        _id: '507f1f77bcf86cd799439013',
+        status: 'Food Processing'
+      };
+
+      orderModel.findById = jest.fn().mockResolvedValue(mockOrder);
+
+      await claimOrder(req, res);
+
+      expect(res.json).toHaveBeenCalledWith({
+        success: false,
+        message: 'Order not available for claim'
+      });
+    });
+
+    it('should handle errors', async () => {
+      req.body = {
+        orderId: '507f1f77bcf86cd799439013',
+        userId: '507f1f77bcf86cd799439011'
+      };
+
+      orderModel.findById = jest.fn().mockRejectedValue(new Error('Database error'));
+
+      await claimOrder(req, res);
+
+      expect(res.json).toHaveBeenCalledWith({
+        success: false,
+        message: 'Error claiming order'
+      });
+    });
+  });
+
+  describe('updateStatus edge cases', () => {
+    it('should allow transition from Processing to Out for delivery', async () => {
+      req.body = {
+        orderId: '507f1f77bcf86cd799439013',
+        status: 'Out for delivery'
+      };
+
+      const mockOrder = {
+        _id: '507f1f77bcf86cd799439013',
+        status: 'Food Processing',
+        save: jest.fn().mockResolvedValue(true)
+      };
+
+      orderModel.findById = jest.fn().mockResolvedValue(mockOrder);
+
+      await updateStatus(req, res);
+
+      expect(res.json).toHaveBeenCalledWith(
+        expect.objectContaining({ success: true })
+      );
+    });
+
+    it('should reject invalid transition', async () => {
+      req.body = {
+        orderId: '507f1f77bcf86cd799439013',
+        status: 'Delivered'
+      };
+
+      const mockOrder = {
+        _id: '507f1f77bcf86cd799439013',
+        status: 'Food Processing'
+      };
+
+      orderModel.findById = jest.fn().mockResolvedValue(mockOrder);
+
+      await updateStatus(req, res);
+
+      expect(res.json).toHaveBeenCalledWith(
+        expect.objectContaining({ success: false })
+      );
     });
   });
 });

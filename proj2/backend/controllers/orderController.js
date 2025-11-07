@@ -44,26 +44,42 @@ const ALLOWED_TRANSITIONS = {
   [STATUS.DELIVERED]: new Set(),
 };
 
+/**
+ * Checks if a status transition is allowed according to the order state machine
+ * @param {string} from - Current order status
+ * @param {string} to - Desired order status
+ * @returns {boolean} True if transition is allowed, false otherwise
+ */
 function canTransition(from, to) {
   if (from === to) return true;
   const nexts = ALLOWED_TRANSITIONS[from] || new Set();
   return nexts.has(to);
 }
 
+/**
+ * Cancels an order and moves it to Redistribute status
+ * Only allows cancellation if order is in "Food Processing" or "Out for delivery" status
+ * Queues a notification for redistribution if notification system is available
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.orderId - MongoDB _id of the order to cancel
+ * @param {string} req.body.userId - MongoDB _id of the user cancelling the order
+ * @param {Object} req.app - Express app object (for accessing notification queue)
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and message
+ */
 const cancelOrder = async (req, res) => {
   try {
     const { orderId, userId } = req.body;
     const order = await orderModel.findById(orderId);
-    if (!order) return res.json({ success: false, message: "Order not found" });
+    if (!order)
+      return res.json({ success: false, message: "Order not found" });
 
     if (order.userId !== userId && order.claimedBy !== userId)
       return res.json({ success: false, message: "Unauthorized" });
 
     const current = order.status || STATUS.PROCESSING;
-    const userCancelable = new Set([
-      STATUS.PROCESSING,
-      STATUS.OUT_FOR_DELIVERY,
-    ]);
+    const userCancelable = new Set([STATUS.PROCESSING, STATUS.OUT_FOR_DELIVERY]);
     if (!userCancelable.has(current))
       return res.json({
         success: false,
@@ -91,13 +107,25 @@ const cancelOrder = async (req, res) => {
   }
 };
 
+/**
+ * Allows a user to claim a redistributed order
+ * Transfers ownership of the order to the claiming user and sets status to "Food Processing"
+ * Preserves the original user ID for tracking purposes
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.orderId - MongoDB _id of the order to claim
+ * @param {string} req.body.userId - MongoDB _id of the user claiming the order
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status, message, and order data
+ */
 const claimOrder = async (req, res) => {
   try {
     const { orderId } = req.body;
     const claimerId = req.body.userId;
 
     const order = await orderModel.findById(orderId);
-    if (!order) return res.json({ success: false, message: "Order not found" });
+    if (!order)
+      return res.json({ success: false, message: "Order not found" });
 
     if (order.status !== STATUS.REDISTRIBUTE)
       return res.json({
@@ -127,6 +155,19 @@ const claimOrder = async (req, res) => {
   }
 };
 
+/**
+ * Places a new order with Stripe payment
+ * Creates order record and clears user's cart
+ * Returns Stripe checkout session URL for payment verification
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.userId - MongoDB _id of the user placing the order
+ * @param {Array} req.body.items - Array of food items in the order
+ * @param {number} req.body.amount - Total order amount
+ * @param {Object} req.body.address - Delivery address object
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and Stripe session URL
+ */
 const placeOrder = async (req, res) => {
   try {
     const newOrder = new orderModel({
@@ -148,6 +189,18 @@ const placeOrder = async (req, res) => {
   }
 };
 
+/**
+ * Places a new order with Cash on Delivery (COD) payment
+ * Creates order record with payment marked as true and clears user's cart
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.userId - MongoDB _id of the user placing the order
+ * @param {Array} req.body.items - Array of food items in the order
+ * @param {number} req.body.amount - Total order amount
+ * @param {Object} req.body.address - Delivery address object
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and message
+ */
 const placeOrderCod = async (req, res) => {
   try {
     const newOrder = new orderModel({
@@ -166,6 +219,13 @@ const placeOrderCod = async (req, res) => {
   }
 };
 
+/**
+ * Retrieves all orders from the database
+ * Returns orders sorted by date in descending order (newest first)
+ * @param {Object} req - Express request object
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and array of all orders
+ */
 const listOrders = async (req, res) => {
   try {
     const orders = await orderModel.find({}).sort({ date: -1 });
@@ -176,6 +236,16 @@ const listOrders = async (req, res) => {
   }
 };
 
+/**
+ * Retrieves all orders for a specific user
+ * Includes both orders created by the user and orders claimed by the user
+ * Returns orders sorted by date in descending order (newest first)
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.userId - MongoDB _id of the user
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and array of user's orders
+ */
 const userOrders = async (req, res) => {
   try {
     const orders = await orderModel
@@ -190,6 +260,17 @@ const userOrders = async (req, res) => {
   }
 };
 
+/**
+ * Updates the status of an order
+ * Validates the status transition according to the order state machine rules
+ * Only allows transitions defined in ALLOWED_TRANSITIONS
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.orderId - MongoDB _id of the order to update
+ * @param {string} req.body.status - New status value (must be valid and transitionable)
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status, message, and updated order data
+ */
 const updateStatus = async (req, res) => {
   try {
     const { orderId, status: next } = req.body;
@@ -198,7 +279,8 @@ const updateStatus = async (req, res) => {
       return res.json({ success: false, message: "Invalid status value" });
 
     const order = await orderModel.findById(orderId);
-    if (!order) return res.json({ success: false, message: "Order not found" });
+    if (!order)
+      return res.json({ success: false, message: "Order not found" });
 
     const current = order.status || STATUS.PROCESSING;
     if (current === next)
@@ -227,7 +309,17 @@ const updateStatus = async (req, res) => {
   }
 };
 
-// ==================== Verify Payment ====================
+/**
+ * Verifies payment status after Stripe checkout
+ * If payment successful, marks order as paid
+ * If payment failed, deletes the order from database
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.orderId - MongoDB _id of the order to verify
+ * @param {string} req.body.success - Payment status ("true" or "false")
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status and message
+ */
 const verifyOrder = async (req, res) => {
   const { orderId, success } = req.body;
   try {
@@ -243,6 +335,17 @@ const verifyOrder = async (req, res) => {
   }
 };
 
+/**
+ * Assigns a cancelled or redistributed order to a shelter
+ * Changes order status to "Donated" and creates a reroute record
+ * Only allows assignment if order is in "Redistribute" or "Cancelled" status
+ * @param {Object} req - Express request object
+ * @param {Object} req.body - Request body
+ * @param {string} req.body.orderId - MongoDB _id of the order to assign
+ * @param {string} req.body.shelterId - MongoDB _id of the shelter
+ * @param {Object} res - Express response object
+ * @returns {Promise<void>} Sends JSON response with success status, message, and order data
+ */
 const assignShelter = async (req, res) => {
   try {
     const { orderId, shelterId } = req.body;
