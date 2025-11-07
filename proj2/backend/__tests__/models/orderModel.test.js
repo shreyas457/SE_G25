@@ -1,44 +1,44 @@
-import { describe, it, expect } from '@jest/globals';
-import orderModel from '../../models/orderModel.js';
+import { describe, it, expect } from "@jest/globals";
+import orderModel from "../../models/orderModel.js";
 
-describe('Order Model', () => {
-  it('should create an order with required fields', () => {
+describe("Order Model", () => {
+  it("should create an order with required fields", () => {
     const orderData = {
-      userId: '507f1f77bcf86cd799439011',
-      items: [{ name: 'Food 1', price: 10, quantity: 2 }],
+      userId: "507f1f77bcf86cd799439011",
+      items: [{ name: "Food 1", price: 10, quantity: 2 }],
       amount: 25.99,
-      address: { formatted: '123 Main St' }
+      address: { formatted: "123 Main St" },
     };
 
     const order = new orderModel(orderData);
 
-    expect(order.userId).toBe('507f1f77bcf86cd799439011');
-    expect(order.items).toEqual([{ name: 'Food 1', price: 10, quantity: 2 }]);
+    expect(order.userId).toBe("507f1f77bcf86cd799439011");
+    expect(order.items).toEqual([{ name: "Food 1", price: 10, quantity: 2 }]);
     expect(order.amount).toBe(25.99);
-    expect(order.address).toEqual({ formatted: '123 Main St' });
-    expect(order.status).toBe('Food Processing');
+    expect(order.address).toEqual({ formatted: "123 Main St" });
+    expect(order.status).toBe("Food Processing");
     expect(order.payment).toBe(false);
   });
 
-  it('should have default status of Food Processing', () => {
+  it("should have default status of Food Processing", () => {
     const orderData = {
-      userId: '507f1f77bcf86cd799439011',
+      userId: "507f1f77bcf86cd799439011",
       items: [],
       amount: 0,
-      address: {}
+      address: {},
     };
 
     const order = new orderModel(orderData);
 
-    expect(order.status).toBe('Food Processing');
+    expect(order.status).toBe("Food Processing");
   });
 
-  it('should have default payment as false', () => {
+  it("should have default payment as false", () => {
     const orderData = {
-      userId: '507f1f77bcf86cd799439011',
+      userId: "507f1f77bcf86cd799439011",
       items: [],
       amount: 0,
-      address: {}
+      address: {},
     };
 
     const order = new orderModel(orderData);
@@ -46,11 +46,11 @@ describe('Order Model', () => {
     expect(order.payment).toBe(false);
   });
 
-  it('should require userId field', () => {
+  it("should require userId field", () => {
     const orderData = {
       items: [],
       amount: 0,
-      address: {}
+      address: {},
     };
 
     const order = new orderModel(orderData);
@@ -60,11 +60,11 @@ describe('Order Model', () => {
     expect(error.errors.userId).toBeDefined();
   });
 
-  it('should require items field', () => {
+  it("should require items field", () => {
     const orderData = {
-      userId: '507f1f77bcf86cd799439011',
+      userId: "507f1f77bcf86cd799439011",
       amount: 0,
-      address: {}
+      address: {},
     };
 
     const order = new orderModel(orderData);
@@ -80,11 +80,11 @@ describe('Order Model', () => {
     }
   });
 
-  it('should require amount field', () => {
+  it("should require amount field", () => {
     const orderData = {
-      userId: '507f1f77bcf86cd799439011',
+      userId: "507f1f77bcf86cd799439011",
       items: [],
-      address: {}
+      address: {},
     };
 
     const order = new orderModel(orderData);
@@ -94,11 +94,11 @@ describe('Order Model', () => {
     expect(error.errors.amount).toBeDefined();
   });
 
-  it('should require address field', () => {
+  it("should require address field", () => {
     const orderData = {
-      userId: '507f1f77bcf86cd799439011',
+      userId: "507f1f77bcf86cd799439011",
       items: [],
-      amount: 0
+      amount: 0,
     };
 
     const order = new orderModel(orderData);
@@ -108,22 +108,22 @@ describe('Order Model', () => {
     expect(error.errors.address).toBeDefined();
   });
 
-  it('should accept valid status values', () => {
+  it("should accept valid status values", () => {
     const validStatuses = [
-      'Food Processing',
-      'Out for delivery',
-      'Delivered',
-      'Redistribute',
-      'Cancelled'
+      "Food Processing",
+      "Out for delivery",
+      "Delivered",
+      "Redistribute",
+      "Cancelled",
     ];
 
-    validStatuses.forEach(status => {
+    validStatuses.forEach((status) => {
       const orderData = {
-        userId: '507f1f77bcf86cd799439011',
+        userId: "507f1f77bcf86cd799439011",
         items: [],
         amount: 0,
         address: {},
-        status
+        status,
       };
 
       const order = new orderModel(orderData);
@@ -131,4 +131,3 @@ describe('Order Model', () => {
     });
   });
 });
-

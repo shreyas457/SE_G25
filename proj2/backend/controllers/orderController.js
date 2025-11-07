@@ -54,14 +54,16 @@ const cancelOrder = async (req, res) => {
   try {
     const { orderId, userId } = req.body;
     const order = await orderModel.findById(orderId);
-    if (!order)
-      return res.json({ success: false, message: "Order not found" });
+    if (!order) return res.json({ success: false, message: "Order not found" });
 
     if (order.userId !== userId && order.claimedBy !== userId)
       return res.json({ success: false, message: "Unauthorized" });
 
     const current = order.status || STATUS.PROCESSING;
-    const userCancelable = new Set([STATUS.PROCESSING, STATUS.OUT_FOR_DELIVERY]);
+    const userCancelable = new Set([
+      STATUS.PROCESSING,
+      STATUS.OUT_FOR_DELIVERY,
+    ]);
     if (!userCancelable.has(current))
       return res.json({
         success: false,
@@ -95,8 +97,7 @@ const claimOrder = async (req, res) => {
     const claimerId = req.body.userId;
 
     const order = await orderModel.findById(orderId);
-    if (!order)
-      return res.json({ success: false, message: "Order not found" });
+    if (!order) return res.json({ success: false, message: "Order not found" });
 
     if (order.status !== STATUS.REDISTRIBUTE)
       return res.json({
@@ -197,8 +198,7 @@ const updateStatus = async (req, res) => {
       return res.json({ success: false, message: "Invalid status value" });
 
     const order = await orderModel.findById(orderId);
-    if (!order)
-      return res.json({ success: false, message: "Order not found" });
+    if (!order) return res.json({ success: false, message: "Order not found" });
 
     const current = order.status || STATUS.PROCESSING;
     if (current === next)

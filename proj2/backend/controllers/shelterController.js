@@ -15,7 +15,12 @@ export const seedShelters = async (_req, res) => {
         contactPhone: "+1 919 555 0111",
         contactEmail: "john.smith@cityshelter.org",
         capacity: 200,
-        address: { street: "101 Main St", city: "Raleigh", state: "NC", zipcode: "27601" },
+        address: {
+          street: "101 Main St",
+          city: "Raleigh",
+          state: "NC",
+          zipcode: "27601",
+        },
       },
       {
         name: "Triangle Food Bank",
@@ -23,7 +28,12 @@ export const seedShelters = async (_req, res) => {
         contactPhone: "+1 919 555 0112",
         contactEmail: "lisa.green@trianglefb.org",
         capacity: 150,
-        address: { street: "22 Triangle Way", city: "Raleigh", state: "NC", zipcode: "27606" },
+        address: {
+          street: "22 Triangle Way",
+          city: "Raleigh",
+          state: "NC",
+          zipcode: "27606",
+        },
       },
       {
         name: "Community Outreach Center",
@@ -31,7 +41,12 @@ export const seedShelters = async (_req, res) => {
         contactPhone: "+1 919 555 0113",
         contactEmail: "mark.lee@cocenter.org",
         capacity: 100,
-        address: { street: "400 Elm Ave", city: "Raleigh", state: "NC", zipcode: "27607" },
+        address: {
+          street: "400 Elm Ave",
+          city: "Raleigh",
+          state: "NC",
+          zipcode: "27607",
+        },
       },
       {
         name: "Wake County Relief Shelter",
@@ -39,7 +54,12 @@ export const seedShelters = async (_req, res) => {
         contactPhone: "+1 919 555 0114",
         contactEmail: "angela.torres@wake-relief.org",
         capacity: 180,
-        address: { street: "75 Oak Blvd", city: "Cary", state: "NC", zipcode: "27513" },
+        address: {
+          street: "75 Oak Blvd",
+          city: "Cary",
+          state: "NC",
+          zipcode: "27513",
+        },
       },
       {
         name: "Durham Helping Hands",
@@ -47,7 +67,12 @@ export const seedShelters = async (_req, res) => {
         contactPhone: "+1 984 555 0115",
         contactEmail: "calvin.brooks@helpinghands.org",
         capacity: 130,
-        address: { street: "19 Ninth St", city: "Durham", state: "NC", zipcode: "27701" },
+        address: {
+          street: "19 Ninth St",
+          city: "Durham",
+          state: "NC",
+          zipcode: "27701",
+        },
       },
       {
         name: "Chapel Hill Community Pantry",
@@ -55,7 +80,12 @@ export const seedShelters = async (_req, res) => {
         contactPhone: "+1 919 555 0116",
         contactEmail: "priya.shah@chpantry.org",
         capacity: 120,
-        address: { street: "8 Franklin St", city: "Chapel Hill", state: "NC", zipcode: "27514" },
+        address: {
+          street: "8 Franklin St",
+          city: "Chapel Hill",
+          state: "NC",
+          zipcode: "27514",
+        },
       },
       {
         name: "Garner Hope Center",
@@ -63,7 +93,12 @@ export const seedShelters = async (_req, res) => {
         contactPhone: "+1 919 555 0117",
         contactEmail: "evan.clark@garnerhope.org",
         capacity: 90,
-        address: { street: "210 Meadow Rd", city: "Garner", state: "NC", zipcode: "27529" },
+        address: {
+          street: "210 Meadow Rd",
+          city: "Garner",
+          state: "NC",
+          zipcode: "27529",
+        },
       },
       {
         name: "Morrisville Food & Shelter",
@@ -71,7 +106,12 @@ export const seedShelters = async (_req, res) => {
         contactPhone: "+1 919 555 0118",
         contactEmail: "sarah.nguyen@mfs.org",
         capacity: 110,
-        address: { street: "310 Park Center Dr", city: "Morrisville", state: "NC", zipcode: "27560" },
+        address: {
+          street: "310 Park Center Dr",
+          city: "Morrisville",
+          state: "NC",
+          zipcode: "27560",
+        },
       },
     ];
 
@@ -85,7 +125,9 @@ export const seedShelters = async (_req, res) => {
 
 export const listShelters = async (_req, res) => {
   try {
-    const shelters = await shelterModel.find({ active: true }).sort({ name: 1 });
+    const shelters = await shelterModel
+      .find({ active: true })
+      .sort({ name: 1 });
     res.json({ success: true, data: shelters });
   } catch (e) {
     console.log(e);

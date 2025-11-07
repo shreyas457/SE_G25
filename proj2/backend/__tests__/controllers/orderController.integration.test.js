@@ -1,4 +1,4 @@
-import { describe, it, expect } from '@jest/globals';
+import { describe, it, expect } from "@jest/globals";
 
 // Integration test placeholder for order controller
 // Full integration tests would test:
@@ -7,11 +7,8 @@ import { describe, it, expect } from '@jest/globals';
 // - Shelter assignment workflow
 // - Notification queue system
 
-describe('Order Controller Integration', () => {
-  it('should be configured for integration testing', () => {
+describe("Order Controller Integration", () => {
+  it("should be configured for integration testing", () => {
     expect(true).toBe(true);
   });
 });
-
-
-
