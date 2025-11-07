@@ -1,7 +1,44 @@
 # ByteBite
 
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17547308.svg)](https://doi.org/10.5281/zenodo.17547336)
+
+# ByteBite
+
+## 🧪 Quality Assurance Badges
+
+### 🧩 Code Coverage
+[![codecov](https://codecov.io/gh/shreyas457/SE_G25/branch/main/graph/badge.svg?token=ENTA0IQ3HM)](https://codecov.io/gh/shreyas457/SE_G25)
+
+**Workflow:** [.github/workflows/coverage.yml](../.github/workflows/coverage.yml)  
+**Config:** [Jest Config (Backend)](../backend/jest.config.js) · [Vitest Config (Frontend)](../frontend/vitest.config.js) · [Vitest Config (Admin)](../admin/vitest.config.js)
+
+---
+
+### 🎯 Style Checker (ESLint)
+[![ESLint Style Checker](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
+
+**Workflow:** [.github/workflows/lint.yml](../.github/workflows/lint.yml)  
+**Config:** [Backend](../backend/.eslintrc.cjs) · [Frontend](../frontend/.eslintrc.cjs) · [Admin](../admin/.eslintrc.cjs)
+
+---
+
+### 🧠 Syntax Checker (ESLint)
+[![ESLint Syntax Checker](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
+
+*(Same workflow as Style Checker)*  
+**Workflow:** [.github/workflows/lint.yml](../.github/workflows/lint.yml)  
+**Config:** [Backend](../backend/.eslintrc.cjs) · [Frontend](../frontend/.eslintrc.cjs) · [Admin](../admin/.eslintrc.cjs)
+
+---
+
+### 💅 Code Formatter (Prettier)
+[![Code Formatter (Prettier)](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml)
+
+**Workflow:** [.github/workflows/format.yml](../.github/workflows/format.yml)  
+**Config:** [.prettierrc.json](../.prettierrc.json) · [.prettierignore](../.prettierignore)
+
+Demo video available on Google Drive:  
+[Click here to access](https://drive.google.com/drive/folders/1cu_q0Fzv2eirk6KWtg8ypfO_mJUwBUOG)
 
 ByteBite is a single-restaurant food-ordering and food-redistribution system built by **NCSU Team G25**.
 
@@ -158,4 +195,5 @@ frontend/
 admin/
   src/...
   package.json
+
 
