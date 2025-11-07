@@ -25,17 +25,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run backend tests
-        run: npm test
-
-      - name: Run backend coverage
+      - name: Run backend tests & coverage
         run: npm run test:coverage
 
       - name: Upload backend coverage
         uses: actions/upload-artifact@v4
         with:
           name: backend-coverage
-          path: proj2/backend/coverage
+          path: proj2/backend/coverage/lcov.info
 
   frontend:
     name: Frontend Test & Coverage
@@ -60,26 +57,14 @@ jobs:
         run: npx eslint .
         continue-on-error: true
 
-      - name: Run frontend tests
-        run: npm test
-
-      - name: Run frontend coverage
+      - name: Run frontend tests & coverage
         run: npm run test:coverage
 
       - name: Upload frontend coverage
         uses: actions/upload-artifact@v4
         with:
           name: frontend-coverage
-          path: proj2/frontend/coverage
-
-      - name: Build frontend
-        run: npm run build
-
-      - name: Upload frontend build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: frontend-build
-          path: proj2/frontend/dist
+          path: proj2/frontend/coverage/lcov.info
 
   admin:
     name: Admin Test & Coverage
@@ -104,102 +89,46 @@ jobs:
         run: npx eslint .
         continue-on-error: true
 
-      - name: Run admin tests
-        run: npm test
-
-      - name: Run admin coverage
+      - name: Run admin tests & coverage
         run: npm run test:coverage
 
       - name: Upload admin coverage
         uses: actions/upload-artifact@v4
         with:
           name: admin-coverage
-          path: proj2/admin/coverage
+          path: proj2/admin/coverage/lcov.info
 
-      - name: Build admin
-        run: npm run build
-
-      - name: Upload admin build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: admin-build
-          path: proj2/admin/dist
-
-  total-coverage:
-    name: Merge Coverage & Update Badge
+  codecov-upload:
+    name: Upload Coverage to Codecov
     runs-on: ubuntu-latest
     needs: [backend, frontend, admin]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
-      - name: Download coverage artifacts
+      - name: Download backend coverage
         uses: actions/download-artifact@v4
         with:
           name: backend-coverage
-          path: proj2/backend/coverage
-          
-      - uses: actions/download-artifact@v4
+          path: coverage/backend
+
+      - name: Download frontend coverage
+        uses: actions/download-artifact@v4
         with:
           name: frontend-coverage
-          path: proj2/frontend/coverage
-          
-      - uses: actions/download-artifact@v4
+          path: coverage/frontend
+
+      - name: Download admin coverage
+        uses: actions/download-artifact@v4
         with:
           name: admin-coverage
-          path: proj2/admin/coverage
+          path: coverage/admin
 
-      - name: Install coverage tools
-        run: npm install -g lcov-result-merger
-
-      - name: Merge coverage reports
-        run: |
-          mkdir -p coverage
-          FILES=""
-          for f in proj2/backend/coverage/lcov.info \
-                  proj2/frontend/coverage/lcov.info \
-                  proj2/admin/coverage/lcov.info; do
-            if [ -f "$f" ]; then
-              echo "Found: $f"
-              FILES="$FILES $f"
-            else
-              echo "Missing: $f"
-            fi
-          done
-
-          if [ -n "$FILES" ]; then
-            npx lcov-result-merger $FILES > coverage/lcov.info
-            echo "Merged coverage into coverage/lcov.info"
-          else
-            echo "No coverage files found."
-            exit 0
-          fi
-
-      - name: Generate coverage badge
-        uses: cicirello/jacoco-badge-generator@v2
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
         with:
-          badges-directory: coverage
-          generate-branches-badge: false
-          generate-summary: false
-          jacoco-csv-file: coverage/lcov.info
-          coverage-badge-filename: coverage-badge.svg
-
-      - name: Commit and push coverage badge to dedicated branch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          git checkout -B coverage-badges
-          
-          git add coverage/coverage-badge.svg
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update coverage badge [skip ci]"
-            git push -f origin coverage-badges
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          files: |
+            coverage/backend/lcov.info
+            coverage/frontend/lcov.info
+            coverage/admin/lcov.info
+          fail_ci_if_error: true
