@@ -1,33 +1,40 @@
 # ByteBite
 
-<!-- Dynamic badges from GitHub Actions -->
+<!-- Dynamic badges from GitHub Actions - These update automatically based on workflow status -->
+## Quality Assurance Badges
+
+### Code Coverage
+[![Coverage](https://github.com/shreyas457/SE_G25/actions/workflows/coverage.yml/badge.svg?branch=main)](https://github.com/shreyas457/SE_G25/actions/workflows/coverage.yml)
+- **Workflow:** [`.github/workflows/coverage.yml`](../.github/workflows/coverage.yml)
+- **Config:** [Jest Config (Backend)](./backend/package.json#L34-L51) | [Vitest Config (Frontend)](./frontend/vite.config.js) | [Vitest Config (Admin)](./admin/vite.config.js)
+
+### Style Checker (ESLint)
+[![ESLint](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
+- **Workflow:** [`.github/workflows/lint.yml`](../.github/workflows/lint.yml)
+- **Config:** [Backend](./backend/.eslintrc.cjs) | [Frontend](./frontend/.eslintrc.cjs) | [Admin](./admin/.eslintrc.cjs)
+
+### Syntax Checker (ESLint)
+[![Syntax Check](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=main&label=syntax)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
+- **Workflow:** [`.github/workflows/lint.yml`](../.github/workflows/lint.yml) (same as style checker)
+- **Config:** [Backend](./backend/.eslintrc.cjs) | [Frontend](./frontend/.eslintrc.cjs) | [Admin](./admin/.eslintrc.cjs)
+
+### Code Formatter (Prettier)
+[![Prettier](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml/badge.svg?branch=main)](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml)
+- **Workflow:** [`.github/workflows/format.yml`](../.github/workflows/format.yml)
+- **Config:** [`.prettierrc.json`](./.prettierrc.json) | [`.prettierignore`](./.prettierignore)
+
+### General CI
 [![CI](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml/badge.svg?branch=main)](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml)
 
-> **Note:** The badges above show the status of your GitHub Actions workflows:
-> - 🟢 **passing** - All tests and linting pass
-> - 🔴 **failing** - Tests or linting failed
+> **Badge Status:**
+> - 🟢 **passing** - All checks pass
+> - 🔴 **failing** - One or more checks failed
 > - 🟡 **in progress** - Workflow is currently running
 > 
-> **Workflow File:**
-> - CI workflow: `.github/workflows/proj2-ci.yml` (at repository root: `SE_G25/.github/workflows/proj2-ci.yml`)
-> 
-> **To add more workflow badges:**
-> 1. Create workflow files in `.github/workflows/` at the repository root
-> 2. Add badge URLs using format: `https://github.com/shreyas457/SE_G25/actions/workflows/{workflow-name}.yml/badge.svg?branch=main`
-> 3. Badges automatically update after workflows run on GitHub
-
-<!-- Tool badges with links to config files -->
-[![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)](https://eslint.org/)
-[![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black)](https://prettier.io/)
-[![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)](https://jestjs.io/)
-[![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)](https://vitest.dev/)
-[![Coverage](https://img.shields.io/badge/Coverage-v8-4FC08D?style=flat-square&logo=vitest&logoColor=white)](https://vitest.dev/guide/coverage.html)
-
-**Configuration Files:**
-- [ESLint Config (Backend)](./backend/.eslintrc.cjs) | [ESLint Config (Frontend)](./frontend/.eslintrc.cjs) | [ESLint Config (Admin)](./admin/.eslintrc.cjs)
-- [Prettier Config](./.prettierrc.json)
-- [Jest Config (Backend)](./backend/package.json#L34-L51)
-- [Vitest Config (Frontend)](./frontend/vite.config.js) | [Vitest Config (Admin)](./admin/vite.config.js)
+> **Workflow Location:**
+> - Workflow files are at repository root: `SE_G25/.github/workflows/`
+> - Workflow files: `coverage.yml`, `lint.yml`, `format.yml`, `proj2-ci.yml`
+> - Badges automatically update after workflows run on GitHub
 
 ByteBite is a single-restaurant food-ordering and food-redistribution system built by **NCSU Team G25**.
 

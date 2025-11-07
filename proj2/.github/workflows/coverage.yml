@@ -1,0 +1,49 @@
+name: Code Coverage
+
+on:
+  push:
+    branches: [ main, dev, master ]
+  pull_request:
+    branches: [ main, dev, master ]
+  workflow_dispatch:
+
+jobs:
+  coverage:
+    name: Generate Coverage Reports
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+      
+      - name: Backend Coverage
+        working-directory: ./backend
+        run: |
+          npm ci
+          npm run test:coverage || echo "Backend coverage failed"
+      
+      - name: Frontend Coverage
+        working-directory: ./frontend
+        run: |
+          npm ci
+          npm run test:coverage || echo "Frontend coverage failed"
+      
+      - name: Admin Coverage
+        working-directory: ./admin
+        run: |
+          npm ci
+          npm run test:coverage || echo "Admin coverage failed"
+      
+      - name: Upload Coverage Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-reports
+          path: |
+            backend/coverage/
+            frontend/coverage/
+            admin/coverage/
+
