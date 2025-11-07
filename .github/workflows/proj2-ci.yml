@@ -66,6 +66,9 @@ jobs:
   codecov:
     runs-on: ubuntu-latest
     needs: [backend, frontend, admin]
+    defaults:
+      run:
+        working-directory: proj2/frontend
     steps:
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v5
