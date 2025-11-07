@@ -1,10 +1,20 @@
 # ByteBite
 
-<!-- Dynamic badges from GitHub Actions - Replace YOUR_USERNAME and YOUR_REPO with your GitHub username and repository name -->
-[![CI](https://github.com/shreyas457/SE_G25/actions/workflows/ci.yml/badge.svg)](https://github.com/shreyas457/SE_G25/actions/workflows/ci.yml)
-[![Lint Status](https://github.com/shreyas457/SE_G25/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/shreyas457/SE_G25/actions/workflows/ci.yml)
-[![Tests Status](https://github.com/shreyas457/SE_G25/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/shreyas457/SE_G25/actions/workflows/ci.yml)
+<!-- Dynamic badges from GitHub Actions -->
+[![CI](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml/badge.svg?branch=main)](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml)
 
+> **Note:** The badges above show the status of your GitHub Actions workflows:
+> - 🟢 **passing** - All tests and linting pass
+> - 🔴 **failing** - Tests or linting failed
+> - 🟡 **in progress** - Workflow is currently running
+> 
+> **Workflow File:**
+> - CI workflow: `.github/workflows/proj2-ci.yml` (at repository root: `SE_G25/.github/workflows/proj2-ci.yml`)
+> 
+> **To add more workflow badges:**
+> 1. Create workflow files in `.github/workflows/` at the repository root
+> 2. Add badge URLs using format: `https://github.com/shreyas457/SE_G25/actions/workflows/{workflow-name}.yml/badge.svg?branch=main`
+> 3. Badges automatically update after workflows run on GitHub
 
 <!-- Tool badges with links to config files -->
 [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)](https://eslint.org/)
