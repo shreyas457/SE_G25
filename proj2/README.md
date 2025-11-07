@@ -1,5 +1,13 @@
 # ByteBite
 
+<!-- Dynamic badges from GitHub Actions - Replace YOUR_USERNAME and YOUR_REPO with your GitHub username and repository name -->
+[![CI](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml)
+[![Lint Status](https://github.com/YOUR_USERNAME/YOUR_REPO/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml)
+[![Tests Status](https://github.com/YOUR_USERNAME/YOUR_REPO/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml)
+
+> **Note:** After pushing to GitHub, replace `YOUR_USERNAME` and `YOUR_REPO` in the badge URLs above with your actual GitHub username and repository name. The badges will automatically update based on your GitHub Actions workflow status.
+
+<!-- Tool badges with links to config files -->
 [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)](https://eslint.org/)
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black)](https://prettier.io/)
 [![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)](https://jestjs.io/)
