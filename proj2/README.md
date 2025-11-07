@@ -242,7 +242,7 @@ Demo video available on Google Drive:
 [Click here to access](https://drive.google.com/drive/folders/1cu_q0Fzv2eirk6KWtg8ypfO_mJUwBUOG)
 
 
-Running the Distributable Builds (Frontend / Admin / Backend)
+## Running the Distributable Builds (Frontend / Admin / Backend)
 
 After every successful CI run, GitHub Actions automatically generates build artifacts for each component of the project.
 You can find and download them under the Artifacts section of the workflow run — typically named:
