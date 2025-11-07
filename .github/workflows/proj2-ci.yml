@@ -63,7 +63,7 @@ jobs:
         run: npm install
 
       - name: Run ESLint
-        run: npx eslint -f github-annotations .
+        run: npx eslint .
 
       - name: Run frontend tests
         run: npm test
