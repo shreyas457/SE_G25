@@ -25,7 +25,7 @@ const TERMINAL = new Set(["Delivered", "Cancelled", DONATED_STATUS]);
  */
 const Order = () => {
   const [allOrders, setAllOrders] = useState([]); // full dataset
-  const [orders, setOrders] = useState([]);       // filtered list
+  const [orders, setOrders] = useState([]); // filtered list
   const [activeTab, setActiveTab] = useState("current"); // "current" | "cancelled"
 
   /**
@@ -177,7 +177,9 @@ const Order = () => {
               onChange={(e) => statusHandler(e, order._id)}
               value={order.status || "Food Processing"}
               disabled={TERMINAL.has(order.status)} // disable Delivered/Cancelled/Donated
-              className={`status-select status--${(order.status || "Food Processing")
+              className={`status-select status--${(
+                order.status || "Food Processing"
+              )
                 .split(" ")
                 .join("-")
                 .toLowerCase()}`}

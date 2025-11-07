@@ -1,12 +1,12 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import { BrowserRouter } from 'react-router-dom';
-import ShelterHistory from '../ShelterHistory/ShelterHistory';
-import axios from 'axios';
-import { toast } from 'react-toastify';
+import { describe, it, expect, vi, beforeEach } from "vitest";
+import { render, screen, fireEvent, waitFor } from "@testing-library/react";
+import { BrowserRouter } from "react-router-dom";
+import ShelterHistory from "../ShelterHistory/ShelterHistory";
+import axios from "axios";
+import { toast } from "react-toastify";
 
-vi.mock('axios');
-vi.mock('react-toastify', () => ({
+vi.mock("axios");
+vi.mock("react-toastify", () => ({
   toast: {
     error: vi.fn(),
     success: vi.fn(),
@@ -15,29 +15,29 @@ vi.mock('react-toastify', () => ({
 
 const mockReroutes = [
   {
-    _id: 'r1',
-    orderId: 'order1',
-    order: { orderNumber: 'ORD-001' },
-    restaurant: { name: 'Restaurant A' },
-    restaurantName: 'Restaurant A',
-    shelter: { name: 'Shelter 1' },
-    shelterName: 'Shelter 1',
-    items: [{ name: 'Food 1', qty: 2 }],
+    _id: "r1",
+    orderId: "order1",
+    order: { orderNumber: "ORD-001" },
+    restaurant: { name: "Restaurant A" },
+    restaurantName: "Restaurant A",
+    shelter: { name: "Shelter 1" },
+    shelterName: "Shelter 1",
+    items: [{ name: "Food 1", qty: 2 }],
     total: 25.99,
-    reason: 'Cancelled order',
+    reason: "Cancelled order",
     createdAt: new Date().toISOString(),
   },
   {
-    _id: 'r2',
-    orderId: 'order2',
-    order: { orderNumber: 'ORD-002' },
-    restaurant: { name: 'Restaurant B' },
-    restaurantName: 'Restaurant B',
-    shelter: { name: 'Shelter 2' },
-    shelterName: 'Shelter 2',
-    items: [{ name: 'Food 2', qty: 1 }],
-    total: 15.50,
-    reason: 'Redistribution',
+    _id: "r2",
+    orderId: "order2",
+    order: { orderNumber: "ORD-002" },
+    restaurant: { name: "Restaurant B" },
+    restaurantName: "Restaurant B",
+    shelter: { name: "Shelter 2" },
+    shelterName: "Shelter 2",
+    items: [{ name: "Food 2", qty: 1 }],
+    total: 15.5,
+    reason: "Redistribution",
     createdAt: new Date().toISOString(),
   },
 ];
@@ -46,12 +46,12 @@ const renderWithRouter = (component) => {
   return render(<BrowserRouter>{component}</BrowserRouter>);
 };
 
-describe('ShelterHistory Page (Admin)', () => {
+describe("ShelterHistory Page (Admin)", () => {
   beforeEach(() => {
     vi.clearAllMocks();
   });
 
-  it('should render shelter history page', async () => {
+  it("should render shelter history page", async () => {
     axios.get.mockResolvedValue({
       data: { success: true, data: mockReroutes, total: 2, page: 1 },
     });
@@ -59,11 +59,13 @@ describe('ShelterHistory Page (Admin)', () => {
     renderWithRouter(<ShelterHistory />);
 
     await waitFor(() => {
-      expect(screen.getByText('Shelter Redistribution History')).toBeInTheDocument();
+      expect(
+        screen.getByText("Shelter Redistribution History")
+      ).toBeInTheDocument();
     });
   });
 
-  it('should display reroute records', async () => {
+  it("should display reroute records", async () => {
     axios.get.mockResolvedValue({
       data: { success: true, data: mockReroutes, total: 2, page: 1 },
     });
@@ -71,13 +73,13 @@ describe('ShelterHistory Page (Admin)', () => {
     renderWithRouter(<ShelterHistory />);
 
     await waitFor(() => {
-      expect(screen.getByText('ORD-001')).toBeInTheDocument();
-      expect(screen.getByText('Restaurant A')).toBeInTheDocument();
-      expect(screen.getByText('Shelter 1')).toBeInTheDocument();
+      expect(screen.getByText("ORD-001")).toBeInTheDocument();
+      expect(screen.getByText("Restaurant A")).toBeInTheDocument();
+      expect(screen.getByText("Shelter 1")).toBeInTheDocument();
     });
   });
 
-  it('should filter records by search query', async () => {
+  it("should filter records by search query", async () => {
     axios.get.mockResolvedValue({
       data: { success: true, data: mockReroutes, total: 2, page: 1 },
     });
@@ -85,21 +87,27 @@ describe('ShelterHistory Page (Admin)', () => {
     renderWithRouter(<ShelterHistory />);
 
     await waitFor(() => {
-      expect(screen.getByText('ORD-001')).toBeInTheDocument();
+      expect(screen.getByText("ORD-001")).toBeInTheDocument();
     });
 
     const searchInput = screen.getByPlaceholderText(/Filter by order/i);
-    fireEvent.change(searchInput, { target: { value: 'ORD-001' } });
+    fireEvent.change(searchInput, { target: { value: "ORD-001" } });
 
     await waitFor(() => {
-      expect(screen.getByText('ORD-001')).toBeInTheDocument();
-      expect(screen.queryByText('ORD-002')).not.toBeInTheDocument();
+      expect(screen.getByText("ORD-001")).toBeInTheDocument();
+      expect(screen.queryByText("ORD-002")).not.toBeInTheDocument();
     });
   });
 
-  it('should handle pagination', async () => {
+  it("should handle pagination", async () => {
     axios.get.mockResolvedValue({
-      data: { success: true, data: mockReroutes, total: 25, page: 1, limit: 20 },
+      data: {
+        success: true,
+        data: mockReroutes,
+        total: 25,
+        page: 1,
+        limit: 20,
+      },
     });
 
     renderWithRouter(<ShelterHistory />);
@@ -108,12 +116,12 @@ describe('ShelterHistory Page (Admin)', () => {
       expect(screen.getByText(/Page 1 of 2/)).toBeInTheDocument();
     });
 
-    const nextButton = screen.getByRole('button', { name: /Next/i });
+    const nextButton = screen.getByRole("button", { name: /Next/i });
     fireEvent.click(nextButton);
 
     await waitFor(() => {
       expect(axios.get).toHaveBeenCalledWith(
-        expect.stringContaining('/api/reroutes'),
+        expect.stringContaining("/api/reroutes"),
         expect.objectContaining({
           params: expect.objectContaining({ page: 2 }),
         })
@@ -121,7 +129,7 @@ describe('ShelterHistory Page (Admin)', () => {
     });
   });
 
-  it('should handle empty results', async () => {
+  it("should handle empty results", async () => {
     axios.get.mockResolvedValue({
       data: { success: true, data: [], total: 0, page: 1 },
     });
@@ -129,21 +137,25 @@ describe('ShelterHistory Page (Admin)', () => {
     renderWithRouter(<ShelterHistory />);
 
     await waitFor(() => {
-      expect(screen.getByText(/No redistribution records yet/i)).toBeInTheDocument();
+      expect(
+        screen.getByText(/No redistribution records yet/i)
+      ).toBeInTheDocument();
     });
   });
 
-  it('should handle fetch error', async () => {
-    axios.get.mockRejectedValue(new Error('Network error'));
+  it("should handle fetch error", async () => {
+    axios.get.mockRejectedValue(new Error("Network error"));
 
     renderWithRouter(<ShelterHistory />);
 
     await waitFor(() => {
-      expect(toast.error).toHaveBeenCalledWith('Network error while fetching shelter history');
+      expect(toast.error).toHaveBeenCalledWith(
+        "Network error while fetching shelter history"
+      );
     });
   });
 
-  it('should display items as chips', async () => {
+  it("should display items as chips", async () => {
     axios.get.mockResolvedValue({
       data: { success: true, data: mockReroutes, total: 2, page: 1 },
     });
@@ -156,4 +168,3 @@ describe('ShelterHistory Page (Admin)', () => {
     });
   });
 });
-
