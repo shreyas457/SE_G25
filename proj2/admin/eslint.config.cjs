@@ -3,7 +3,6 @@ const reactRefresh = require("eslint-plugin-react-refresh");
 
 module.exports = [
   {
-    root: true,
     files: ["**/*.{js,jsx}"],
     ignores: ["dist", ".eslintrc.cjs"],
     languageOptions: { ecmaVersion: "latest", sourceType: "module" },
