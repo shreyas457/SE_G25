@@ -169,34 +169,81 @@ Demo video available on Google Drive:
 [Click here to access](https://drive.google.com/drive/folders/1cu_q0Fzv2eirk6KWtg8ypfO_mJUwBUOG)
 
 ---
-Running the Application
-Project Distribution Overview
+Running the Distributable Builds (Frontend / Admin / Backend)
 
-| Module                     | Description                                                                                                                    | Default Port            | Run Command                                                     |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------- | --------------------------------------------------------------- |
-| **Backend (Server/API)**   | Node.js Express server providing REST APIs and database access. Handles authentication, orders, shelters, and user management. | `http://localhost:4000` | `bash<br>cd proj2/backend<br>npm install<br>npm run server<br>` |
-| **Frontend (User Portal)** | React + Vite web app for customers and shelters to place and view orders.                                                      | `http://localhost:5173` | `bash<br>cd proj2/frontend<br>npm install<br>npm run dev<br>`   |
-| **Admin Dashboard**        | React + Vite web app for system administrators to manage restaurants, users, and reports.                                      | `http://localhost:5174` | `bash<br>cd proj2/admin<br>npm install<br>npm run dev<br>`      |
+After every successful CI run, GitHub Actions automatically generates build artifacts for each component of the project.
+You can find and download them under the Artifacts section of the workflow run — typically named:
 
-Deployment / Distributable Builds
+frontend-build.zip
 
-To generate distributable builds for deployment:
-# Frontend build
+admin-build.zip
+
+
+Step 1: Download and Extract the Artifacts
+
+Go to your repository → Actions → ByteBite CI.
+
+Open the latest successful workflow run on main or dev.
+
+Scroll to Artifacts and download the build ZIPs.
+
+Extract them locally, for example:
+
+/ByteBite/builds/frontend/
+/ByteBite/builds/admin/
+
+
+Each folder will contain a dist/ directory with production-ready static files built using npm run build.
+
+Step 2: Start the Backend Server
+
+The backend must be running so that the frontend and admin dashboards can communicate with it.
+
+cd proj2/backend
+npm install
+npm run server
+
+
+By default, the backend API starts on http://localhost:4000
+.
+
+Step 3: Serve the Frontend or Admin Build
+
+You can run the static builds using either Node’s HTTP server or Vite’s preview mode.
+
+Option A – Using http-server (recommended for distributables)
+cd /path/to/frontend/dist
+npx http-server -p 5173
+
+cd /path/to/admin/dist
+npx http-server -p 5174
+
+
+Install once if you don’t already have it:
+
+npm install -g http-server
+
+
+Now visit:
+
+Frontend: http://localhost:5173
+
+Admin: http://localhost:5174
+
+Option B – Using Vite Preview (for Vite projects)
 cd proj2/frontend
-npm run build
+npm run preview
 
-# Admin build
-cd proj2/admin
-npm run build
-The built files will appear in the dist/ folder of each respective module.
 
-Integration Notes
+This serves the optimized build on http://localhost:4173
+.
 
-The backend server must be running before accessing the frontend or admin portals.
+Step 4: Verify Backend and Frontend Connection
 
-The CORS origin in backend/config.js or .env should match the deployed frontend and admin URLs (for example, http://localhost:5173 and http://localhost:5174).
+Make sure your backend allows requests from your local frontend/admin builds.
+In your backend’s configuration:
 
-To preview a built distributable version locally:
+origin: process.env.FRONTEND_URL || "http://localhost:5173",
 
-npm install -g serve
-serve -s dist
+
+If you’re previewing both frontend (5173) and admin (5174), include both origins in your CORS settings.
