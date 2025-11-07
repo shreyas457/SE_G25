@@ -161,3 +161,42 @@ admin/
 
 Demo video available on Google Drive:  
 [Click here to access](https://drive.google.com/drive/folders/1cu_q0Fzv2eirk6KWtg8ypfO_mJUwBUOG)
+
+```
+## Project Resources
+
+Demo video available on Google Drive:  
+[Click here to access](https://drive.google.com/drive/folders/1cu_q0Fzv2eirk6KWtg8ypfO_mJUwBUOG)
+
+---
+Running the Application
+Project Distribution Overview
+
+| Module                     | Description                                                                                                                    | Default Port            | Run Command                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------- | --------------------------------------------------------------- |
+| **Backend (Server/API)**   | Node.js Express server providing REST APIs and database access. Handles authentication, orders, shelters, and user management. | `http://localhost:4000` | `bash<br>cd proj2/backend<br>npm install<br>npm run server<br>` |
+| **Frontend (User Portal)** | React + Vite web app for customers and shelters to place and view orders.                                                      | `http://localhost:5173` | `bash<br>cd proj2/frontend<br>npm install<br>npm run dev<br>`   |
+| **Admin Dashboard**        | React + Vite web app for system administrators to manage restaurants, users, and reports.                                      | `http://localhost:5174` | `bash<br>cd proj2/admin<br>npm install<br>npm run dev<br>`      |
+
+Deployment / Distributable Builds
+
+To generate distributable builds for deployment:
+# Frontend build
+cd proj2/frontend
+npm run build
+
+# Admin build
+cd proj2/admin
+npm run build
+The built files will appear in the dist/ folder of each respective module.
+
+Integration Notes
+
+The backend server must be running before accessing the frontend or admin portals.
+
+The CORS origin in backend/config.js or .env should match the deployed frontend and admin URLs (for example, http://localhost:5173 and http://localhost:5174).
+
+To preview a built distributable version locally:
+
+npm install -g serve
+serve -s dist
