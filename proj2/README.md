@@ -240,3 +240,76 @@ admin/
 
 Demo video available on Google Drive:  
 [Click here to access](https://drive.google.com/drive/folders/1cu_q0Fzv2eirk6KWtg8ypfO_mJUwBUOG)
+
+
+Running the Distributable Builds (Frontend / Admin / Backend)
+
+After every successful CI run, GitHub Actions automatically generates build artifacts for each component of the project.
+You can find and download them under the Artifacts section of the workflow run — typically named:
+
+- frontend-build.zip
+- admin-build.zip
+---
+
+Step 1:
+- Download and Extract the Artifacts
+- Go to your repository → Actions → ByteBite CI.
+- Open the latest successful workflow run on main or dev.
+- Scroll to Artifacts and download the build ZIPs.
+- Extract them locally, for example:
+
+```bash
+   /ByteBite/builds/frontend/
+   /ByteBite/builds/admin/
+```
+Each folder will contain a dist/ directory with production-ready static files built using npm run build.
+
+Step 2: 
+- Start the Backend Server
+- The backend must be running so that the frontend and admin dashboards can communicate with it.
+
+```bash
+   cd proj2/backend
+   npm install
+   npm run server
+```
+
+By default, the backend API starts on http://localhost:4000
+
+Step 3: 
+- Serve the Frontend or Admin Build
+- You can run the static builds using either Node’s HTTP server or Vite’s preview mode.
+
+Option A – Using http-server (recommended for distributables)
+```bash
+   cd /path/to/frontend/dist
+   npx http-server -p 5173
+
+   cd /path/to/admin/dist
+   npx http-server -p 5174
+```
+
+Install once if you don’t already have it:
+
+```bash
+npm install -g http-server
+```
+
+Now visit:
+Frontend: http://localhost:5173
+Admin: http://localhost:5174
+
+Option B – Using Vite Preview (for Vite projects)
+```bash
+cd proj2/frontend
+npm run preview
+```
+This serves the optimized build on http://localhost:4173
+
+Step 4: 
+- Verify Backend and Frontend Connection
+- Make sure your backend allows requests from your local frontend/admin builds.
+
+In your backend’s configuration: origin: process.env.FRONTEND_URL || "http://localhost:5173",
+
+If you’re previewing both frontend (5173) and admin (5174), include both origins in your CORS settings.
