@@ -6,4 +6,5 @@ node_modules/
 # Build outputs
 dist/
 build/
-coverage/
+coverage/*
+!coverage/coverage-badge.svg
