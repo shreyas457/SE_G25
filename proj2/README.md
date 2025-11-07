@@ -1,9 +1,9 @@
 # ByteBite
 
 <!-- Dynamic badges from GitHub Actions - Replace YOUR_USERNAME and YOUR_REPO with your GitHub username and repository name -->
-[![CI](https://github.com/shreyas457/SE_G25/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml)
-[![Lint Status](https://github.com/shreyas457/SE_G25/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml)
-[![Tests Status](https://github.com/shreyas457/SE_G25/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/shreyas457/SE_G25/actions/workflows/ci.yml/badge.svg)](https://github.com/shreyas457/SE_G25/actions/workflows/ci.yml)
+[![Lint Status](https://github.com/shreyas457/SE_G25/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/shreyas457/SE_G25/actions/workflows/ci.yml)
+[![Tests Status](https://github.com/shreyas457/SE_G25/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/shreyas457/SE_G25/actions/workflows/ci.yml)
 
 
 <!-- Tool badges with links to config files -->
