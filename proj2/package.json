@@ -2,6 +2,9 @@
   "name": "food-delivery-system",
   "version": "1.0.0",
   "description": "Automated test suite for food delivery system",
+  "devDependencies": {
+    "glob": "^10.4.5"
+  },
   "scripts": {
     "build:backend": "cd backend && npm install",
     "build:frontend": "cd frontend && npm install && npm run build",
@@ -12,7 +15,8 @@
     "test:frontend": "cd frontend && npm test -- --run",
     "test:admin": "cd admin && npm test -- --run",
     "test:watch": "cd frontend && npm test & cd admin && npm test",
-    "test:coverage": "cd backend && npm run test:coverage && cd ../frontend && npm run test:coverage && cd ../admin && npm run test:coverage"
+    "test:coverage": "cd backend && npm run test:coverage && cd ../frontend && npm run test:coverage && cd ../admin && npm run test:coverage",
+    "docs": "node scripts/generate-docs.js"
   },
   "keywords": [
     "testing",
@@ -23,4 +27,3 @@
   "author": "",
   "license": "ISC"
 }
-

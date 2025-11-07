@@ -1,0 +1,18 @@
+{
+  "projectName": "Food Delivery App",
+  "version": "1.0.0",
+  "description": "A full-stack food delivery application with real-time features and 3D visualization",
+  "repository": "https://github.com/YOUR_USERNAME/YOUR_REPO",
+  "sections": {
+    "backend": {
+      "path": "./backend",
+      "includes": ["**/*.js"],
+      "excludes": ["**/node_modules/**", "**/test/**"]
+    },
+    "frontend": {
+      "path": "./frontend/src",
+      "includes": ["**/*.jsx", "**/*.js"],
+      "excludes": ["**/node_modules/**", "**/test/**"]
+    }
+  }
+}
