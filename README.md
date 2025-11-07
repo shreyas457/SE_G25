@@ -3,6 +3,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17547308.svg)](https://doi.org/10.5281/zenodo.17547336)
 
+[![CI](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml/badge.svg)](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml)
+
 ByteBite is a single-restaurant food-ordering and food-redistribution system built by **NCSU Team G25**.
 
 The project has three main capabilities:
