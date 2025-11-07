@@ -5,7 +5,15 @@ module.exports = [
   {
     files: ["**/*.{js,jsx}"],
     ignores: ["dist", ".eslintrc.cjs"],
-    languageOptions: { ecmaVersion: "latest", sourceType: "module" },
+    languageOptions: {
+      ecmaVersion: "latest",
+      sourceType: "module",
+      globals: {
+        window: "readonly",
+        document: "readonly",
+        console: "readonly",
+      },
+    },
     plugins: { "react-refresh": reactRefresh },
     rules: {
       "react/jsx-no-target-blank": "off",
@@ -15,7 +23,6 @@ module.exports = [
       ],
     },
     settings: { react: { version: "18.2" } },
-    env: { browser: true, es2020: true },
     extends: [
       "eslint:recommended",
       "plugin:react/recommended",
