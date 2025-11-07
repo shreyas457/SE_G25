@@ -1,5 +1,42 @@
 # ByteBite
 
+## 🧪 Quality Assurance Badges
+
+### 🧩 Code Coverage
+[![Code Coverage](https://github.com/shreyas457/SE_G25/actions/workflows/coverage.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/coverage.yml)
+
+**Workflow:** [.github/workflows/coverage.yml](../.github/workflows/coverage.yml)  
+**Config:** [Jest Config (Backend)](../backend/jest.config.js) · [Vitest Config (Frontend)](../frontend/vitest.config.js) · [Vitest Config (Admin)](../admin/vitest.config.js)
+
+---
+
+### 🎯 Style Checker (ESLint)
+[![ESLint Style Checker](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
+
+**Workflow:** [.github/workflows/lint.yml](../.github/workflows/lint.yml)  
+**Config:** [Backend](../backend/.eslintrc.cjs) · [Frontend](../frontend/.eslintrc.cjs) · [Admin](../admin/.eslintrc.cjs)
+
+---
+
+### 🧠 Syntax Checker (ESLint)
+[![ESLint Syntax Checker](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
+
+*(Same workflow as Style Checker)*  
+**Workflow:** [.github/workflows/lint.yml](../.github/workflows/lint.yml)  
+**Config:** [Backend](../backend/.eslintrc.cjs) · [Frontend](../frontend/.eslintrc.cjs) · [Admin](../admin/.eslintrc.cjs)
+
+---
+
+### 💅 Code Formatter (Prettier)
+[![Code Formatter (Prettier)](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml)
+
+**Workflow:** [.github/workflows/format.yml](../.github/workflows/format.yml)  
+**Config:** [.prettierrc.json](../.prettierrc.json) · [.prettierignore](../.prettierignore)
+
+
+
+# ByteBite
+
 <!-- Dynamic badges from GitHub Actions - These update automatically based on workflow status -->
 ## Quality Assurance Badges
 
