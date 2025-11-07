@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App - Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        .nav {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .nav h2 {
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        .nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .nav a {
+            color: #667eea;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            background: #f0f0f0;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        
+        .nav a:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .function {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .function h3 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        
+        .function .file-path {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        .params, .returns {
+            margin: 1rem 0;
+        }
+        
+        .params h4, .returns h4 {
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+        
+        .param-item {
+            margin-left: 1rem;
+            padding: 0.5rem;
+            background: white;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .param-name {
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .param-type {
+            color: #888;
+            font-style: italic;
+        }
+        
+        code {
+            background: #f0f0f0;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+        
+        pre code {
+            background: none;
+            color: inherit;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Food Delivery App</h1>
+        <p>A full-stack food delivery application with real-time features and 3D visualization</p>
+        <p>Version 1.0.0</p>
+    </div>
+    
+    <div class="container">
+        <div class="nav">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#backend">BACKEND</a></li><li><a href="#frontend">FRONTEND</a></li>
+            </ul>
+        </div>
+        
+        
+                <div class="section" id="backend">
+                    <h2>BACKEND Documentation</h2>
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">server.js</h3>
+                        
+                            <div class="function">
+                                <h3>processNotificationQueue</h3>
+                                <div class="file-path">📄 server.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>showNotificationToNextUser</h3>
+                                <div class="file-path">📄 server.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>stopNotificationForOrder</h3>
+                                <div class="file-path">📄 server.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>queueNotification</h3>
+                                <div class="file-path">📄 server.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">middleware/auth.js</h3>
+                        
+                            <div class="function">
+                                <h3>authMiddleware</h3>
+                                <div class="file-path">📄 middleware/auth.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">controllers/userController.js</h3>
+                        
+                            <div class="function">
+                                <h3>createToken</h3>
+                                <div class="file-path">📄 controllers/userController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>loginUser</h3>
+                                <div class="file-path">📄 controllers/userController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>registerUser</h3>
+                                <div class="file-path">📄 controllers/userController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">controllers/shelterController.js</h3>
+                        
+                            <div class="function">
+                                <h3>seedShelters</h3>
+                                <div class="file-path">📄 controllers/shelterController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>listShelters</h3>
+                                <div class="file-path">📄 controllers/shelterController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">controllers/rerouteController.js</h3>
+                        
+                            <div class="function">
+                                <h3>listReroutes</h3>
+                                <div class="file-path">📄 controllers/rerouteController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">controllers/orderController.js</h3>
+                        
+                            <div class="function">
+                                <h3>canTransition</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                <p>Allowed transitions:  - Food Processing   -> Out for delivery, Redistribute  - Out for delivery  -> Delivered, Redistribute  - Redistribute      -> Food Processing, Cancelled, Donated to shelter  - Cancelled         -> Donated to shelter (admin-only)  - Donated to shelter -> (terminal)  - Delivered         -> (terminal) /</p>
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>cancelOrder</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>claimOrder</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>placeOrder</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>placeOrderCod</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>listOrders</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>userOrders</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>updateStatus</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>verifyOrder</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>assignShelter</h3>
+                                <div class="file-path">📄 controllers/orderController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">controllers/foodController.js</h3>
+                        
+                            <div class="function">
+                                <h3>listFood</h3>
+                                <div class="file-path">📄 controllers/foodController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>addFood</h3>
+                                <div class="file-path">📄 controllers/foodController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>removeFood</h3>
+                                <div class="file-path">📄 controllers/foodController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">controllers/cartController.js</h3>
+                        
+                            <div class="function">
+                                <h3>addToCart</h3>
+                                <div class="file-path">📄 controllers/cartController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>removeFromCart</h3>
+                                <div class="file-path">📄 controllers/cartController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>getCart</h3>
+                                <div class="file-path">📄 controllers/cartController.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">config/db.js</h3>
+                        
+                            <div class="function">
+                                <h3>connectDB</h3>
+                                <div class="file-path">📄 config/db.js</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                </div>
+            
+                <div class="section" id="frontend">
+                    <h2>FRONTEND Documentation</h2>
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">App.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>App</h3>
+                                <div class="file-path">📄 App.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>App</h3>
+                                <div class="file-path">📄 App.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">pages/__tests__/Verify.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithProviders</h3>
+                                <div class="file-path">📄 pages/__tests__/Verify.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">pages/__tests__/PlaceOrder.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithProviders</h3>
+                                <div class="file-path">📄 pages/__tests__/PlaceOrder.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">pages/__tests__/MyOrders.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithProviders</h3>
+                                <div class="file-path">📄 pages/__tests__/MyOrders.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">pages/__tests__/Cart.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithProviders</h3>
+                                <div class="file-path">📄 pages/__tests__/Cart.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">pages/Verify/Verify.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>Verify</h3>
+                                <div class="file-path">📄 pages/Verify/Verify.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>verifyPayment</h3>
+                                <div class="file-path">📄 pages/Verify/Verify.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Verify</h3>
+                                <div class="file-path">📄 pages/Verify/Verify.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">pages/PlaceOrder/PlaceOrder.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>PlaceOrder</h3>
+                                <div class="file-path">📄 pages/PlaceOrder/PlaceOrder.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>onChangeHandler</h3>
+                                <div class="file-path">📄 pages/PlaceOrder/PlaceOrder.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>placeOrder</h3>
+                                <div class="file-path">📄 pages/PlaceOrder/PlaceOrder.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>PlaceOrder</h3>
+                                <div class="file-path">📄 pages/PlaceOrder/PlaceOrder.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">pages/MyOrders/MyOrders.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>MyOrders</h3>
+                                <div class="file-path">📄 pages/MyOrders/MyOrders.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>getUserId</h3>
+                                <div class="file-path">📄 pages/MyOrders/MyOrders.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>fetchOrders</h3>
+                                <div class="file-path">📄 pages/MyOrders/MyOrders.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>cancelOrder</h3>
+                                <div class="file-path">📄 pages/MyOrders/MyOrders.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>calculateProgress</h3>
+                                <div class="file-path">📄 pages/MyOrders/MyOrders.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>MyOrders</h3>
+                                <div class="file-path">📄 pages/MyOrders/MyOrders.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">pages/Home/Home.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>Home</h3>
+                                <div class="file-path">📄 pages/Home/Home.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Home</h3>
+                                <div class="file-path">📄 pages/Home/Home.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">pages/Cart/Cart.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>Cart</h3>
+                                <div class="file-path">📄 pages/Cart/Cart.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Cart</h3>
+                                <div class="file-path">📄 pages/Cart/Cart.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/__tests__/NotificationListener.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>mockSocket</h3>
+                                <div class="file-path">📄 components/__tests__/NotificationListener.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>renderWithStore</h3>
+                                <div class="file-path">📄 components/__tests__/NotificationListener.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/__tests__/Navbar.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithProviders</h3>
+                                <div class="file-path">📄 components/__tests__/Navbar.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/__tests__/LoginPopup.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithProviders</h3>
+                                <div class="file-path">📄 components/__tests__/LoginPopup.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/__tests__/FoodItem.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithProvider</h3>
+                                <div class="file-path">📄 components/__tests__/FoodItem.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/__tests__/FoodDisplay.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithStore</h3>
+                                <div class="file-path">📄 components/__tests__/FoodDisplay.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/__tests__/ExploreMenu.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithStore</h3>
+                                <div class="file-path">📄 components/__tests__/ExploreMenu.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/NotificationListener/NotificationListener.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>NotificationListener</h3>
+                                <div class="file-path">📄 components/NotificationListener/NotificationListener.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>getUserId</h3>
+                                <div class="file-path">📄 components/NotificationListener/NotificationListener.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>handleClaimOrder</h3>
+                                <div class="file-path">📄 components/NotificationListener/NotificationListener.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>handleOrderCancelled</h3>
+                                <div class="file-path">📄 components/NotificationListener/NotificationListener.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>NotificationListener</h3>
+                                <div class="file-path">📄 components/NotificationListener/NotificationListener.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/Navbar/Navbar.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>Navbar</h3>
+                                <div class="file-path">📄 components/Navbar/Navbar.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>logout</h3>
+                                <div class="file-path">📄 components/Navbar/Navbar.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Navbar</h3>
+                                <div class="file-path">📄 components/Navbar/Navbar.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/LoginPopup/LoginPopup.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>LoginPopup</h3>
+                                <div class="file-path">📄 components/LoginPopup/LoginPopup.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>onChangeHandler</h3>
+                                <div class="file-path">📄 components/LoginPopup/LoginPopup.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>handleAddressChange</h3>
+                                <div class="file-path">📄 components/LoginPopup/LoginPopup.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>handleSelectSuggestion</h3>
+                                <div class="file-path">📄 components/LoginPopup/LoginPopup.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>onLogin</h3>
+                                <div class="file-path">📄 components/LoginPopup/LoginPopup.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>LoginPopup</h3>
+                                <div class="file-path">📄 components/LoginPopup/LoginPopup.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/Header/Header.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>Header</h3>
+                                <div class="file-path">📄 components/Header/Header.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Header</h3>
+                                <div class="file-path">📄 components/Header/Header.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/Footer/Footer.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>Footer</h3>
+                                <div class="file-path">📄 components/Footer/Footer.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Footer</h3>
+                                <div class="file-path">📄 components/Footer/Footer.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/FoodItem/FoodItem.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>FoodItem</h3>
+                                <div class="file-path">📄 components/FoodItem/FoodItem.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>FoodItem</h3>
+                                <div class="file-path">📄 components/FoodItem/FoodItem.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/FoodDisplay/FoodDisplay.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>FoodDisplay</h3>
+                                <div class="file-path">📄 components/FoodDisplay/FoodDisplay.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>FoodDisplay</h3>
+                                <div class="file-path">📄 components/FoodDisplay/FoodDisplay.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/Food3DViewer/Food3DViewer.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>FoodModel</h3>
+                                <div class="file-path">📄 components/Food3DViewer/Food3DViewer.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Loader</h3>
+                                <div class="file-path">📄 components/Food3DViewer/Food3DViewer.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Food3DViewer</h3>
+                                <div class="file-path">📄 components/Food3DViewer/Food3DViewer.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>FoodModel</h3>
+                                <div class="file-path">📄 components/Food3DViewer/Food3DViewer.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Loader</h3>
+                                <div class="file-path">📄 components/Food3DViewer/Food3DViewer.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Food3DViewer</h3>
+                                <div class="file-path">📄 components/Food3DViewer/Food3DViewer.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/ExploreMenu/ExploreMenu.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>ExploreMenu</h3>
+                                <div class="file-path">📄 components/ExploreMenu/ExploreMenu.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>ExploreMenu</h3>
+                                <div class="file-path">📄 components/ExploreMenu/ExploreMenu.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">components/AppDownload/AppDownload.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>AppDownload</h3>
+                                <div class="file-path">📄 components/AppDownload/AppDownload.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>AppDownload</h3>
+                                <div class="file-path">📄 components/AppDownload/AppDownload.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">__tests__/App.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>renderWithProviders</h3>
+                                <div class="file-path">📄 __tests__/App.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">Context/ThemeContext.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>ThemeProvider</h3>
+                                <div class="file-path">📄 Context/ThemeContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>toggleTheme</h3>
+                                <div class="file-path">📄 Context/ThemeContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>ThemeProvider</h3>
+                                <div class="file-path">📄 Context/ThemeContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">Context/StoreContext.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>loadData</h3>
+                                <div class="file-path">📄 Context/StoreContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>StoreContextProvider</h3>
+                                <div class="file-path">📄 Context/StoreContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>addToCart</h3>
+                                <div class="file-path">📄 Context/StoreContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>removeFromCart</h3>
+                                <div class="file-path">📄 Context/StoreContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>getTotalCartAmount</h3>
+                                <div class="file-path">📄 Context/StoreContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>fetchFoodList</h3>
+                                <div class="file-path">📄 Context/StoreContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>loadCartData</h3>
+                                <div class="file-path">📄 Context/StoreContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>StoreContextProvider</h3>
+                                <div class="file-path">📄 Context/StoreContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">Context/SocketContext.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>useSocket</h3>
+                                <div class="file-path">📄 Context/SocketContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>SocketProvider</h3>
+                                <div class="file-path">📄 Context/SocketContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>SocketProvider</h3>
+                                <div class="file-path">📄 Context/SocketContext.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">Context/__tests__/ThemeContext.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>Consumer</h3>
+                                <div class="file-path">📄 Context/__tests__/ThemeContext.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>Consumer</h3>
+                                <div class="file-path">📄 Context/__tests__/ThemeContext.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                        <h3 style="color: #555; margin-top: 2rem;">Context/__tests__/SocketContext.test.jsx</h3>
+                        
+                            <div class="function">
+                                <h3>TestComponent</h3>
+                                <div class="file-path">📄 Context/__tests__/SocketContext.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                            <div class="function">
+                                <h3>TestComponent</h3>
+                                <div class="file-path">📄 Context/__tests__/SocketContext.test.jsx</div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                        
+                    
+                </div>
+            
+    </div>
+    
+    <div class="footer">
+        <p>Generated on 11/6/2025</p>
+        <p><a href="https://github.com/YOUR_USERNAME/YOUR_REPO" style="color: #667eea;">View on GitHub</a></p>
+    </div>
+</body>
+</html>
