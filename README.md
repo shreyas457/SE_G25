@@ -5,8 +5,7 @@
 
 [![CI](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml/badge.svg)](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml?event=push)
 
-![Codecov](https://img.shields.io/codecov/c/github/shreyas457/SE_G25?style=for-the-badge)
-
+[![codecov](https://codecov.io/gh/shreyas457/SE_G25/graph/badge.svg?token=ENTA0IQ3HM)](https://codecov.io/gh/shreyas457/SE_G25)
 
 ByteBite is a single-restaurant food-ordering and food-redistribution system built by **NCSU Team G25**.
 
