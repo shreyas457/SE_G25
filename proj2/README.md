@@ -1,5 +1,17 @@
 # ByteBite
 
+[![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)](https://eslint.org/)
+[![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black)](https://prettier.io/)
+[![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)](https://jestjs.io/)
+[![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)](https://vitest.dev/)
+[![Coverage](https://img.shields.io/badge/Coverage-v8-4FC08D?style=flat-square&logo=vitest&logoColor=white)](https://vitest.dev/guide/coverage.html)
+
+**Configuration Files:**
+- [ESLint Config (Backend)](./backend/.eslintrc.cjs) | [ESLint Config (Frontend)](./frontend/.eslintrc.cjs) | [ESLint Config (Admin)](./admin/.eslintrc.cjs)
+- [Prettier Config](./.prettierrc.json)
+- [Jest Config (Backend)](./backend/package.json#L34-L51)
+- [Vitest Config (Frontend)](./frontend/vite.config.js) | [Vitest Config (Admin)](./admin/vite.config.js)
+
 ByteBite is a single-restaurant food-ordering and food-redistribution system built by **NCSU Team G25**.
 
 The project has three main capabilities:
@@ -28,6 +40,51 @@ The system consists of three applications:
   React + Vite restaurant admin dashboard for managing menu items, monitoring orders, updating statuses, and assigning cancelled orders to partner shelters.
 
 The backend exposes REST endpoints under `/api/*` and uses JSON Web Tokens (JWT) for authenticated operations.
+
+---
+
+## Development Tools & Configuration
+
+This project uses several automated tools for code quality, formatting, and testing:
+
+### Style & Syntax Checkers
+- **ESLint**: JavaScript/JSX linting
+  - Backend: [`.eslintrc.cjs`](./backend/.eslintrc.cjs)
+  - Frontend: [`.eslintrc.cjs`](./frontend/.eslintrc.cjs)
+  - Admin: [`.eslintrc.cjs`](./admin/.eslintrc.cjs)
+
+### Code Formatters
+- **Prettier**: Code formatting
+  - Config: [`.prettierrc.json`](./.prettierrc.json)
+  - Ignore: [`.prettierignore`](./.prettierignore)
+
+### Testing & Coverage
+- **Jest**: Backend testing framework
+  - Config: [`package.json`](./backend/package.json#L34-L51) (Jest section)
+  - Coverage: v8 provider with HTML, JSON, LCOV reports
+
+- **Vitest**: Frontend & Admin testing framework
+  - Frontend Config: [`vite.config.js`](./frontend/vite.config.js)
+  - Admin Config: [`vite.config.js`](./admin/vite.config.js)
+  - Coverage: v8 provider with multiple report formats
+
+### Running Tools
+```bash
+# Linting
+cd backend && npm run lint    # (if lint script exists)
+cd frontend && npm run lint
+cd admin && npm run lint
+
+# Testing
+cd backend && npm test
+cd frontend && npm test
+cd admin && npm test
+
+# Coverage
+cd backend && npm run test:coverage
+cd frontend && npm run test:coverage
+cd admin && npm run test:coverage
+```
 
 ---
 
