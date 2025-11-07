@@ -1,0 +1,37 @@
+name: Code Formatter (Prettier)
+
+on:
+  push:
+    branches: [ main, dev, master ]
+  pull_request:
+    branches: [ main, dev, master ]
+  workflow_dispatch:
+
+jobs:
+  format-check:
+    name: Prettier Format Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+      
+      - name: Install Prettier
+        run: npm install -g prettier
+      
+      - name: Check Backend Formatting
+        working-directory: ./proj2/backend
+        run: prettier --check "**/*.js" --ignore-path ../.prettierignore --config ../.prettierrc.json
+      
+      - name: Check Frontend Formatting
+        working-directory: ./proj2/frontend
+        run: prettier --check "**/*.{js,jsx}" --ignore-path ../.prettierignore --config ../.prettierrc.json
+      
+      - name: Check Admin Formatting
+        working-directory: ./proj2/admin
+        run: prettier --check "**/*.{js,jsx}" --ignore-path ../.prettierignore --config ../.prettierrc.json
+
