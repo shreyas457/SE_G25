@@ -174,4 +174,8 @@ jobs:
           fi
 
       - name: Upload total coverage to Codecov
-        run: npx codecov -f coverage/lcov.info
+        uses: codecov/codecov-action@v4
+        with:
+          files: coverage/lcov.info
+          fail_ci_if_error: true
+
