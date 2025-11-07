@@ -187,16 +187,19 @@ jobs:
           jacoco-csv-file: coverage/lcov.info
           coverage-badge-filename: coverage-badge.svg
 
-      - name: Commit and push coverage badge
+      - name: Commit and push coverage badge to dedicated branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git checkout -B coverage-badges
+          
           git add coverage/coverage-badge.svg
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Update coverage badge [skip ci]"
-            git push origin HEAD:${{ github.ref_name }}
+            git push -f origin coverage-badges
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
