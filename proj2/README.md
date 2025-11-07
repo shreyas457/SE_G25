@@ -3,7 +3,7 @@
 ## 🧪 Quality Assurance Badges
 
 ### 🧩 Code Coverage
-[![Code Coverage](https://codecov.io/gh/shreyas457/SE_G25/branch/feat/env-config/graph/badge.svg)](https://codecov.io/gh/shreyas457/SE_G25)
+[![codecov](https://codecov.io/gh/shreyas457/SE_G25/graph/badge.svg?token=ENTA0IQ3HM)](https://codecov.io/gh/shreyas457/SE_G25)
 
 **Workflow:** [.github/workflows/coverage.yml](../.github/workflows/coverage.yml)  
 **Config:** [Jest Config (Backend)](../backend/jest.config.js) · [Vitest Config (Frontend)](../frontend/vitest.config.js) · [Vitest Config (Admin)](../admin/vitest.config.js)
@@ -33,45 +33,6 @@
 **Workflow:** [.github/workflows/format.yml](../.github/workflows/format.yml)  
 **Config:** [.prettierrc.json](../.prettierrc.json) · [.prettierignore](../.prettierignore)
 
-
-
-# ByteBite
-
-<!-- Dynamic badges from GitHub Actions - These update automatically based on workflow status -->
-## Quality Assurance Badges
-
-### Code Coverage
-[![Coverage](https://github.com/shreyas457/SE_G25/actions/workflows/coverage.yml/badge.svg?branch=main)](https://github.com/shreyas457/SE_G25/actions/workflows/coverage.yml)
-- **Workflow:** [`.github/workflows/coverage.yml`](../.github/workflows/coverage.yml)
-- **Config:** [Jest Config (Backend)](./backend/package.json#L34-L51) | [Vitest Config (Frontend)](./frontend/vite.config.js) | [Vitest Config (Admin)](./admin/vite.config.js)
-
-### Style Checker (ESLint)
-[![ESLint](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
-- **Workflow:** [`.github/workflows/lint.yml`](../.github/workflows/lint.yml)
-- **Config:** [Backend](./backend/.eslintrc.cjs) | [Frontend](./frontend/.eslintrc.cjs) | [Admin](./admin/.eslintrc.cjs)
-
-### Syntax Checker (ESLint)
-[![Syntax Check](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=main&label=syntax)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
-- **Workflow:** [`.github/workflows/lint.yml`](../.github/workflows/lint.yml) (same as style checker)
-- **Config:** [Backend](./backend/.eslintrc.cjs) | [Frontend](./frontend/.eslintrc.cjs) | [Admin](./admin/.eslintrc.cjs)
-
-### Code Formatter (Prettier)
-[![Prettier](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml/badge.svg?branch=main)](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml)
-- **Workflow:** [`.github/workflows/format.yml`](../.github/workflows/format.yml)
-- **Config:** [`.prettierrc.json`](./.prettierrc.json) | [`.prettierignore`](./.prettierignore)
-
-### General CI
-[![CI](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml/badge.svg?branch=main)](https://github.com/shreyas457/SE_G25/actions/workflows/proj2-ci.yml)
-
-> **Badge Status:**
-> - 🟢 **passing** - All checks pass
-> - 🔴 **failing** - One or more checks failed
-> - 🟡 **in progress** - Workflow is currently running
-> 
-> **Workflow Location:**
-> - Workflow files are at repository root: `SE_G25/.github/workflows/`
-> - Workflow files: `coverage.yml`, `lint.yml`, `format.yml`, `proj2-ci.yml`
-> - Badges automatically update after workflows run on GitHub
 
 ByteBite is a single-restaurant food-ordering and food-redistribution system built by **NCSU Team G25**.
 
