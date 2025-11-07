@@ -1,20 +1,21 @@
-import React, { useContext, useState } from 'react';
-import './Navbar.css';
-import { assets } from '../../assets/assets';
-import { Link, useNavigate } from 'react-router-dom';
-import { StoreContext } from '../../Context/StoreContext';
-import { ThemeContext } from '../../Context/ThemeContext';
+import React, { useContext, useState } from "react";
+import "./Navbar.css";
+import { assets } from "../../assets/assets";
+import { Link, useNavigate } from "react-router-dom";
+import { StoreContext } from "../../Context/StoreContext";
+import { ThemeContext } from "../../Context/ThemeContext";
 
 const Navbar = ({ setShowLogin }) => {
-  const [menu, setMenu] = useState('home');
-  const { getTotalCartAmount, token, setToken, cartItems } = useContext(StoreContext);
+  const [menu, setMenu] = useState("home");
+  const { getTotalCartAmount, token, setToken, cartItems } =
+    useContext(StoreContext);
   const navigate = useNavigate();
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   const logout = () => {
-    localStorage.removeItem('token');
-    setToken('');
-    navigate('/');
+    localStorage.removeItem("token");
+    setToken("");
+    navigate("/");
   };
 
   return (
@@ -26,16 +27,32 @@ const Navbar = ({ setShowLogin }) => {
 
       {/* Navigation Menu */}
       <ul className="navbar-menu">
-        <Link to="/" onClick={() => setMenu('home')} className={menu === 'home' ? 'active' : ''}>
+        <Link
+          to="/"
+          onClick={() => setMenu("home")}
+          className={menu === "home" ? "active" : ""}
+        >
           Home
         </Link>
-        <a href="#explore-menu" onClick={() => setMenu('menu')} className={menu === 'menu' ? 'active' : ''}>
+        <a
+          href="#explore-menu"
+          onClick={() => setMenu("menu")}
+          className={menu === "menu" ? "active" : ""}
+        >
           Menu
         </a>
-        <a href="#app-download" onClick={() => setMenu('mob-app')} className={menu === 'mob-app' ? 'active' : ''}>
+        <a
+          href="#app-download"
+          onClick={() => setMenu("mob-app")}
+          className={menu === "mob-app" ? "active" : ""}
+        >
           Mobile App
         </a>
-        <a href="#footer" onClick={() => setMenu('contact')} className={menu === 'contact' ? 'active' : ''}>
+        <a
+          href="#footer"
+          onClick={() => setMenu("contact")}
+          className={menu === "contact" ? "active" : ""}
+        >
           Contact Us
         </a>
       </ul>
@@ -47,15 +64,23 @@ const Navbar = ({ setShowLogin }) => {
         {/* Cart */}
         <Link to="/cart" className="navbar-search-icon">
           <img src={assets.basket_icon} alt="Cart" />
-          <div className={getTotalCartAmount() > 0 ? 'dot' : ''}></div>
+          <div className={getTotalCartAmount() > 0 ? "dot" : ""}></div>
         </Link>
 
         {/* Theme Toggle Button */}
-        <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle Theme">
+        <button
+          className="theme-toggle"
+          onClick={toggleTheme}
+          aria-label="Toggle Theme"
+        >
           <div className={`toggle-track ${theme}`}>
-            <div className={`toggle-thumb ${theme === 'dark' ? 'on' : ''}`}></div>
+            <div
+              className={`toggle-thumb ${theme === "dark" ? "on" : ""}`}
+            ></div>
           </div>
-          <span className="toggle-text">{theme === 'dark' ? 'Dark' : 'Light'}</span>
+          <span className="toggle-text">
+            {theme === "dark" ? "Dark" : "Light"}
+          </span>
         </button>
 
         {/* Login / Profile */}
@@ -65,7 +90,7 @@ const Navbar = ({ setShowLogin }) => {
           <div className="navbar-profile">
             <img src={assets.profile_icon} alt="Profile" />
             <ul className="navbar-profile-dropdown">
-              <li onClick={() => navigate('/myorders')}>
+              <li onClick={() => navigate("/myorders")}>
                 <img src={assets.bag_icon} alt="Orders" /> <p>Orders</p>
               </li>
               <hr />
@@ -81,5 +106,3 @@ const Navbar = ({ setShowLogin }) => {
 };
 
 export default Navbar;
-
-

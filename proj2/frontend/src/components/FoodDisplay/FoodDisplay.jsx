@@ -1,23 +1,23 @@
-import React, { useContext } from 'react'
-import './FoodDisplay.css'
-import FoodItem from '../FoodItem/FoodItem'
-import { StoreContext } from '../../Context/StoreContext'
-import { assets } from '../../assets/assets'
+import React, { useContext } from "react";
+import "./FoodDisplay.css";
+import FoodItem from "../FoodItem/FoodItem";
+import { StoreContext } from "../../Context/StoreContext";
+import { assets } from "../../assets/assets";
 
-const FoodDisplay = ({category}) => {
-
-  const {food_list} = useContext(StoreContext);
+const FoodDisplay = ({ category }) => {
+  const { food_list } = useContext(StoreContext);
 
   return (
-    <div className='food-display' id='food-display'>
+    <div className="food-display" id="food-display">
       <h2>Top dishes near you</h2>
-      <div className='food-display-list'>
+      <div className="food-display-list">
         {food_list
-          .filter(item => category === "All" || item.category === category)
+          .filter((item) => category === "All" || item.category === category)
           .map((item, index) => {
-            const imageUrl = item.image && item.image.data
-              ? `data:${item.image.contentType};base64,${item.image.data}`
-              : assets.default_food_image;
+            const imageUrl =
+              item.image && item.image.data
+                ? `data:${item.image.contentType};base64,${item.image.data}`
+                : assets.default_food_image;
 
             return (
               <FoodItem
@@ -30,11 +30,10 @@ const FoodDisplay = ({category}) => {
                 model3D={item.model3D}
               />
             );
-          })
-        }
+          })}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FoodDisplay
+export default FoodDisplay;

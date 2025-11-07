@@ -1,6 +1,4 @@
-import {
-  require_client
-} from "./chunk-FRJ3JFGW.js";
+import { require_client } from "./chunk-FRJ3JFGW.js";
 import "./chunk-TNTPHDQH.js";
 import "./chunk-32E4H3EV.js";
 import "./chunk-G3PMV62Z.js";

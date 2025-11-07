@@ -1,13 +1,12 @@
-import React, { useContext, useState } from 'react'
-import './LoginPopup.css'
-import { assets } from '../../assets/assets'
-import { StoreContext } from '../../Context/StoreContext'
-import axios from 'axios'
-import { toast } from 'react-toastify'
+import React, { useContext, useState } from "react";
+import "./LoginPopup.css";
+import { assets } from "../../assets/assets";
+import { StoreContext } from "../../Context/StoreContext";
+import axios from "axios";
+import { toast } from "react-toastify";
 
 const LoginPopup = ({ setShowLogin }) => {
-
-  const { setToken, url, loadCartData } = useContext(StoreContext)
+  const { setToken, url, loadCartData } = useContext(StoreContext);
   const [currState, setCurrState] = useState("Sign Up");
 
   // ✅ existing form data + address fields
@@ -17,7 +16,7 @@ const LoginPopup = ({ setShowLogin }) => {
     password: "",
     addressFormatted: "",
     addressLat: "",
-    addressLng: ""
+    addressLng: "",
   });
 
   // ✅ for address suggestions
@@ -26,7 +25,7 @@ const LoginPopup = ({ setShowLogin }) => {
   const onChangeHandler = (event) => {
     const name = event.target.name;
     const value = event.target.value;
-    setData(data => ({ ...data, [name]: value }));
+    setData((data) => ({ ...data, [name]: value }));
   };
 
   // ✅ handle address typing (free OpenStreetMap autocomplete)
@@ -83,8 +82,8 @@ const LoginPopup = ({ setShowLogin }) => {
         address: {
           formatted: data.addressFormatted,
           lat: data.addressLat,
-          lng: data.addressLng
-        }
+          lng: data.addressLng,
+        },
       };
     }
 
@@ -105,22 +104,26 @@ const LoginPopup = ({ setShowLogin }) => {
   };
 
   return (
-    <div className='login-popup'>
+    <div className="login-popup">
       <form onSubmit={onLogin} className="login-popup-container">
         <div className="login-popup-title">
           <h2>{currState}</h2>
-          <img onClick={() => setShowLogin(false)} src={assets.cross_icon} alt="" />
+          <img
+            onClick={() => setShowLogin(false)}
+            src={assets.cross_icon}
+            alt=""
+          />
         </div>
 
         <div className="login-popup-inputs">
           {currState === "Sign Up" ? (
             <>
               <input
-                name='name'
+                name="name"
                 onChange={onChangeHandler}
                 value={data.name}
                 type="text"
-                placeholder='Your name'
+                placeholder="Your name"
                 required
               />
 
@@ -170,19 +173,19 @@ const LoginPopup = ({ setShowLogin }) => {
           ) : null}
 
           <input
-            name='email'
+            name="email"
             onChange={onChangeHandler}
             value={data.email}
             type="email"
-            placeholder='Your email'
+            placeholder="Your email"
             required
           />
           <input
-            name='password'
+            name="password"
             onChange={onChangeHandler}
             value={data.password}
             type="password"
-            placeholder='Password'
+            placeholder="Password"
             required
           />
         </div>
@@ -197,12 +200,12 @@ const LoginPopup = ({ setShowLogin }) => {
         {currState === "Login" ? (
           <p>
             Create a new account?{" "}
-            <span onClick={() => setCurrState('Sign Up')}>Click here</span>
+            <span onClick={() => setCurrState("Sign Up")}>Click here</span>
           </p>
         ) : (
           <p>
             Already have an account?{" "}
-            <span onClick={() => setCurrState('Login')}>Login here</span>
+            <span onClick={() => setCurrState("Login")}>Login here</span>
           </p>
         )}
       </form>

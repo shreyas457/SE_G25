@@ -1,6 +1,6 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
-import { io } from 'socket.io-client';
-import { StoreContext } from './StoreContext';
+import React, { createContext, useContext, useEffect, useState } from "react";
+import { io } from "socket.io-client";
+import { StoreContext } from "./StoreContext";
 
 const SocketContext = createContext();
 
@@ -23,13 +23,13 @@ export const SocketProvider = ({ children, url }) => {
 
   useEffect(() => {
     const newSocket = io(url);
-    
-    newSocket.on('connect', () => {
-      console.log('Connected to Socket.IO server:', newSocket.id);
+
+    newSocket.on("connect", () => {
+      console.log("Connected to Socket.IO server:", newSocket.id);
     });
 
-    newSocket.on('disconnect', () => {
-      console.log('Disconnected from Socket.IO server');
+    newSocket.on("disconnect", () => {
+      console.log("Disconnected from Socket.IO server");
     });
 
     setSocket(newSocket);
@@ -40,8 +40,6 @@ export const SocketProvider = ({ children, url }) => {
   }, [url]);
 
   return (
-    <SocketContext.Provider value={socket}>
-      {children}
-    </SocketContext.Provider>
+    <SocketContext.Provider value={socket}>{children}</SocketContext.Provider>
   );
 };

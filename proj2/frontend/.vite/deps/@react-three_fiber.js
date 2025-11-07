@@ -27,7 +27,7 @@ import {
   useInstanceHandle,
   useLoader,
   useStore,
-  useThree
+  useThree,
 } from "./chunk-2352AO6R.js";
 import "./chunk-32E4H3EV.js";
 import "./chunk-G3PMV62Z.js";
@@ -60,6 +60,6 @@ export {
   useInstanceHandle,
   useLoader,
   useStore,
-  useThree
+  useThree,
 };
 //# sourceMappingURL=@react-three_fiber.js.map
