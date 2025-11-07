@@ -1,25 +1,25 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen, waitFor } from '@testing-library/react';
-import { BrowserRouter } from 'react-router-dom';
-import Cart from '../Cart/Cart';
-import { StoreContext } from '../../Context/StoreContext';
-import axios from 'axios';
+import { describe, it, expect, vi, beforeEach } from "vitest";
+import { render, screen, waitFor } from "@testing-library/react";
+import { BrowserRouter } from "react-router-dom";
+import Cart from "../Cart/Cart";
+import { StoreContext } from "../../Context/StoreContext";
+import axios from "axios";
 
-vi.mock('axios');
+vi.mock("axios");
 
 const mockStoreContext = {
   cartItems: {
-    'food1': 2,
-    'food2': 1
+    food1: 2,
+    food2: 1,
   },
   getTotalCartAmount: vi.fn(() => 25.99),
-  url: 'http://localhost:4000',
-  token: 'mock-token',
+  url: "http://localhost:4000",
+  token: "mock-token",
   removeFromCart: vi.fn(),
   addToCart: vi.fn(),
   loadCartData: vi.fn(),
   food_list: [],
-  currency: '$',
+  currency: "$",
   deliveryCharge: 5,
 };
 
@@ -33,15 +33,15 @@ const renderWithProviders = (component) => {
   );
 };
 
-describe('Cart Page', () => {
+describe("Cart Page", () => {
   beforeEach(() => {
     vi.clearAllMocks();
     axios.get.mockResolvedValue({
-      data: { success: true, data: [] }
+      data: { success: true, data: [] },
     });
   });
 
-  it('should render cart page', async () => {
+  it("should render cart page", async () => {
     renderWithProviders(<Cart />);
 
     // Cart page should render
@@ -49,25 +49,24 @@ describe('Cart Page', () => {
     expect(container.firstChild).toBeInTheDocument();
   });
 
-  it('should handle cart data loading', () => {
+  it("should handle cart data loading", () => {
     axios.get.mockResolvedValue({
       data: {
         success: true,
         data: [
           {
-            _id: 'food1',
-            name: 'Test Food 1',
+            _id: "food1",
+            name: "Test Food 1",
             price: 10.99,
-            image: 'test-image.jpg'
-          }
-        ]
-      }
+            image: "test-image.jpg",
+          },
+        ],
+      },
     });
 
     const { container } = renderWithProviders(<Cart />);
-    
+
     // Component should render
     expect(container.firstChild).toBeInTheDocument();
   });
 });
-

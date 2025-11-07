@@ -52,9 +52,15 @@ const ShelterHistory = () => {
     const needle = q.trim().toLowerCase();
     if (!needle) return rows;
     return rows.filter((r) => {
-      const orderTxt = (r.order?.orderNumber || r.orderId || "").toString().toLowerCase();
+      const orderTxt = (r.order?.orderNumber || r.orderId || "")
+        .toString()
+        .toLowerCase();
       const shelterTxt = (r.shelter?.name || r.shelterName || "").toLowerCase();
-      const restTxt = (r.restaurant?.name || r.restaurantName || "").toLowerCase();
+      const restTxt = (
+        r.restaurant?.name ||
+        r.restaurantName ||
+        ""
+      ).toLowerCase();
       return (
         orderTxt.includes(needle) ||
         shelterTxt.includes(needle) ||
@@ -76,7 +82,9 @@ const ShelterHistory = () => {
             value={q}
             onChange={(e) => setQ(e.target.value)}
           />
-          <a className="sh-link" href="/shelters">Back to Shelters</a>
+          <a className="sh-link" href="/shelters">
+            Back to Shelters
+          </a>
         </div>
       </div>
 
@@ -102,7 +110,9 @@ const ShelterHistory = () => {
                 <tbody>
                   {filtered.length === 0 ? (
                     <tr>
-                      <td colSpan={7} className="sh-status">No redistribution records yet.</td>
+                      <td colSpan={7} className="sh-status">
+                        No redistribution records yet.
+                      </td>
                     </tr>
                   ) : (
                     filtered.map((r) => (
@@ -110,15 +120,24 @@ const ShelterHistory = () => {
                         <td className="muted">{fmt(r.createdAt)}</td>
 
                         {/* monospace id with truncation + tooltip */}
-                        <td className="mono ellipsis" title={r.order?.orderNumber || r.orderId}>
+                        <td
+                          className="mono ellipsis"
+                          title={r.order?.orderNumber || r.orderId}
+                        >
                           {r.order?.orderNumber || r.orderId}
                         </td>
 
                         {/* truncated names with tooltip */}
-                        <td className="ellipsis" title={r.restaurant?.name || r.restaurantName || "—"}>
+                        <td
+                          className="ellipsis"
+                          title={r.restaurant?.name || r.restaurantName || "—"}
+                        >
                           {r.restaurant?.name || r.restaurantName || "—"}
                         </td>
-                        <td className="ellipsis" title={r.shelter?.name || r.shelterName || "—"}>
+                        <td
+                          className="ellipsis"
+                          title={r.shelter?.name || r.shelterName || "—"}
+                        >
                           {r.shelter?.name || r.shelterName || "—"}
                         </td>
 
@@ -137,7 +156,9 @@ const ShelterHistory = () => {
                           </div>
                         </td>
 
-                        <td>{r.total != null ? `${currency}${r.total}` : "—"}</td>
+                        <td>
+                          {r.total != null ? `${currency}${r.total}` : "—"}
+                        </td>
                         <td className="ellipsis" title={r.reason || "—"}>
                           {r.reason || "—"}
                         </td>
@@ -158,7 +179,9 @@ const ShelterHistory = () => {
               >
                 Prev
               </button>
-              <span>Page {page} of {pageCount}</span>
+              <span>
+                Page {page} of {pageCount}
+              </span>
               <button
                 className="btn"
                 disabled={page === pageCount}

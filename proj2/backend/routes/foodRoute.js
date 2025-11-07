@@ -1,6 +1,10 @@
-import express from 'express';
-import { addFood, listFood, removeFood } from '../controllers/foodController.js';
-import multer from 'multer';
+import express from "express";
+import {
+  addFood,
+  listFood,
+  removeFood,
+} from "../controllers/foodController.js";
+import multer from "multer";
 const foodRouter = express.Router();
 
 //Image Storage Engine (Saving Image to uploads folder & rename it)
@@ -16,11 +20,15 @@ const foodRouter = express.Router();
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
-foodRouter.get("/list",listFood);
-foodRouter.post("/add", upload.fields([
-    { name: 'image', maxCount: 1 },
-    { name: 'model3D', maxCount: 1 }
-]), addFood);
-foodRouter.post("/remove",removeFood);
+foodRouter.get("/list", listFood);
+foodRouter.post(
+  "/add",
+  upload.fields([
+    { name: "image", maxCount: 1 },
+    { name: "model3D", maxCount: 1 },
+  ]),
+  addFood
+);
+foodRouter.post("/remove", removeFood);
 
 export default foodRouter;

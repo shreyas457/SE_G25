@@ -1,13 +1,13 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
-import { BrowserRouter } from 'react-router-dom';
-import LoginPopup from '../LoginPopup/LoginPopup';
-import { StoreContext } from '../../Context/StoreContext';
-import axios from 'axios';
+import { describe, it, expect, vi, beforeEach } from "vitest";
+import { render, screen, fireEvent, waitFor } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import { BrowserRouter } from "react-router-dom";
+import LoginPopup from "../LoginPopup/LoginPopup";
+import { StoreContext } from "../../Context/StoreContext";
+import axios from "axios";
 
 // Mock axios
-vi.mock('axios', () => ({
+vi.mock("axios", () => ({
   default: {
     post: vi.fn(),
     get: vi.fn(),
@@ -17,7 +17,7 @@ vi.mock('axios', () => ({
 }));
 
 // Mock react-toastify
-vi.mock('react-toastify', () => ({
+vi.mock("react-toastify", () => ({
   toast: {
     error: vi.fn(),
     success: vi.fn(),
@@ -26,7 +26,7 @@ vi.mock('react-toastify', () => ({
 
 const mockStoreContext = {
   setToken: vi.fn(),
-  url: 'http://localhost:4000',
+  url: "http://localhost:4000",
   loadCartData: vi.fn(),
 };
 
@@ -40,7 +40,7 @@ const renderWithProviders = (component) => {
   );
 };
 
-describe('LoginPopup', () => {
+describe("LoginPopup", () => {
   beforeEach(() => {
     vi.clearAllMocks();
     localStorage.clear();
@@ -49,101 +49,110 @@ describe('LoginPopup', () => {
     axios.get = vi.fn();
   });
 
-  it('should render login form initially', () => {
+  it("should render login form initially", () => {
     const setShowLogin = vi.fn();
     renderWithProviders(<LoginPopup setShowLogin={setShowLogin} />);
 
     // Initially shows "Sign Up" state by default
-    expect(screen.getByRole('heading', { name: /sign up/i })).toBeInTheDocument();
-    
+    expect(
+      screen.getByRole("heading", { name: /sign up/i })
+    ).toBeInTheDocument();
+
     // Switch to login mode by clicking the "Login here" text
-    const loginLink = screen.getByText('Login here');
+    const loginLink = screen.getByText("Login here");
     fireEvent.click(loginLink);
-    expect(screen.getByRole('heading', { name: /login/i })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /login/i })).toBeInTheDocument();
   });
 
-  it('should switch between login and sign up forms', () => {
+  it("should switch between login and sign up forms", () => {
     const setShowLogin = vi.fn();
     renderWithProviders(<LoginPopup setShowLogin={setShowLogin} />);
 
     // Initially shows Sign Up
-    expect(screen.getByRole('heading', { name: /sign up/i })).toBeInTheDocument();
-    
+    expect(
+      screen.getByRole("heading", { name: /sign up/i })
+    ).toBeInTheDocument();
+
     // Switch to Login
-    const loginLink = screen.getByText('Login here');
+    const loginLink = screen.getByText("Login here");
     fireEvent.click(loginLink);
-    expect(screen.getByRole('heading', { name: /login/i })).toBeInTheDocument();
-    
+    expect(screen.getByRole("heading", { name: /login/i })).toBeInTheDocument();
+
     // Switch back to Sign Up
-    const signUpLink = screen.getByText('Click here');
+    const signUpLink = screen.getByText("Click here");
     fireEvent.click(signUpLink);
-    expect(screen.getByRole('heading', { name: /sign up/i })).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { name: /sign up/i })
+    ).toBeInTheDocument();
   });
 
-  it('should handle input changes', () => {
+  it("should handle input changes", () => {
     const setShowLogin = vi.fn();
     renderWithProviders(<LoginPopup setShowLogin={setShowLogin} />);
 
-    const emailInput = screen.getByPlaceholderText('Your email');
-    fireEvent.change(emailInput, { target: { value: 'test@example.com' } });
+    const emailInput = screen.getByPlaceholderText("Your email");
+    fireEvent.change(emailInput, { target: { value: "test@example.com" } });
 
-    expect(emailInput.value).toBe('test@example.com');
+    expect(emailInput.value).toBe("test@example.com");
   });
 
-  it('should handle login submission', async () => {
+  it("should handle login submission", async () => {
     const setShowLogin = vi.fn();
     axios.post.mockResolvedValue({
-      data: { success: true, token: 'mock-token' },
+      data: { success: true, token: "mock-token" },
     });
     axios.get.mockResolvedValue({ data: [] }); // Mock address autocomplete
 
     renderWithProviders(<LoginPopup setShowLogin={setShowLogin} />);
 
     // Switch to login mode first
-    const loginLink = screen.getByText('Login here');
+    const loginLink = screen.getByText("Login here");
     await userEvent.click(loginLink);
 
-    const emailInput = screen.getByPlaceholderText('Your email');
-    const passwordInput = screen.getByPlaceholderText('Password');
-    const checkbox = screen.getByRole('checkbox');
-    const submitButton = screen.getByRole('button', { name: /login/i });
+    const emailInput = screen.getByPlaceholderText("Your email");
+    const passwordInput = screen.getByPlaceholderText("Password");
+    const checkbox = screen.getByRole("checkbox");
+    const submitButton = screen.getByRole("button", { name: /login/i });
 
-    await userEvent.type(emailInput, 'test@example.com');
-    await userEvent.type(passwordInput, 'password123');
+    await userEvent.type(emailInput, "test@example.com");
+    await userEvent.type(passwordInput, "password123");
     await userEvent.click(checkbox); // Check required checkbox
     await userEvent.click(submitButton);
 
     await waitFor(() => {
       expect(axios.post).toHaveBeenCalled();
     });
-    
+
     // Check token was set
-    await waitFor(() => {
-      expect(mockStoreContext.setToken).toHaveBeenCalledWith('mock-token');
-    }, { timeout: 1000 });
+    await waitFor(
+      () => {
+        expect(mockStoreContext.setToken).toHaveBeenCalledWith("mock-token");
+      },
+      { timeout: 1000 }
+    );
   });
 
-  it('should handle sign up submission', async () => {
+  it("should handle sign up submission", async () => {
     const setShowLogin = vi.fn();
     axios.post.mockResolvedValue({
-      data: { success: true, token: 'mock-token' },
+      data: { success: true, token: "mock-token" },
     });
     axios.get.mockResolvedValue({ data: [] }); // Mock address autocomplete
 
     renderWithProviders(<LoginPopup setShowLogin={setShowLogin} />);
 
     // Already in Sign Up mode by default
-    const nameInput = screen.getByPlaceholderText('Your name');
-    const addressInput = screen.getByPlaceholderText('Enter your address');
-    const emailInput = screen.getByPlaceholderText('Your email');
-    const passwordInput = screen.getByPlaceholderText('Password');
-    const checkbox = screen.getByRole('checkbox');
-    const submitButton = screen.getByText('Create account');
+    const nameInput = screen.getByPlaceholderText("Your name");
+    const addressInput = screen.getByPlaceholderText("Enter your address");
+    const emailInput = screen.getByPlaceholderText("Your email");
+    const passwordInput = screen.getByPlaceholderText("Password");
+    const checkbox = screen.getByRole("checkbox");
+    const submitButton = screen.getByText("Create account");
 
-    await userEvent.type(nameInput, 'Test User');
-    await userEvent.type(addressInput, '123 Main St');
-    await userEvent.type(emailInput, 'test@example.com');
-    await userEvent.type(passwordInput, 'password123');
+    await userEvent.type(nameInput, "Test User");
+    await userEvent.type(addressInput, "123 Main St");
+    await userEvent.type(emailInput, "test@example.com");
+    await userEvent.type(passwordInput, "password123");
     await userEvent.click(checkbox); // Check required checkbox
     await userEvent.click(submitButton);
 
@@ -152,46 +161,48 @@ describe('LoginPopup', () => {
     });
   });
 
-  it('should close popup when X is clicked', () => {
+  it("should close popup when X is clicked", () => {
     const setShowLogin = vi.fn();
     renderWithProviders(<LoginPopup setShowLogin={setShowLogin} />);
 
-    const closeButton = screen.getByAltText('');
+    const closeButton = screen.getByAltText("");
     fireEvent.click(closeButton);
 
     expect(setShowLogin).toHaveBeenCalledWith(false);
   });
 
-  it('should display error on failed login', async () => {
+  it("should display error on failed login", async () => {
     const setShowLogin = vi.fn();
     axios.post.mockResolvedValue({
-      data: { success: false, message: 'Invalid credentials' },
+      data: { success: false, message: "Invalid credentials" },
     });
     axios.get.mockResolvedValue({ data: [] }); // Mock address autocomplete
 
     renderWithProviders(<LoginPopup setShowLogin={setShowLogin} />);
 
     // Switch to login mode first
-    const loginLink = screen.getByText('Login here');
+    const loginLink = screen.getByText("Login here");
     await userEvent.click(loginLink);
 
-    const emailInput = screen.getByPlaceholderText('Your email');
-    const passwordInput = screen.getByPlaceholderText('Password');
-    const checkbox = screen.getByRole('checkbox');
-    const submitButton = screen.getByRole('button', { name: /login/i });
+    const emailInput = screen.getByPlaceholderText("Your email");
+    const passwordInput = screen.getByPlaceholderText("Password");
+    const checkbox = screen.getByRole("checkbox");
+    const submitButton = screen.getByRole("button", { name: /login/i });
 
-    await userEvent.type(emailInput, 'test@example.com');
-    await userEvent.type(passwordInput, 'wrongpassword');
+    await userEvent.type(emailInput, "test@example.com");
+    await userEvent.type(passwordInput, "wrongpassword");
     await userEvent.click(checkbox); // Check required checkbox
     await userEvent.click(submitButton);
 
     // Verify axios was called
-    await waitFor(() => {
-      expect(axios.post).toHaveBeenCalled();
-    }, { timeout: 2000 });
-    
+    await waitFor(
+      () => {
+        expect(axios.post).toHaveBeenCalled();
+      },
+      { timeout: 2000 }
+    );
+
     // Toast error is called internally, but verifying axios call is sufficient
     // for testing the error handling flow
   });
 });
-

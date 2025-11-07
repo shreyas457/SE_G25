@@ -1,7 +1,7 @@
-import React, { useRef, Suspense, useEffect, useState } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF, Environment, Html } from '@react-three/drei';
-import './Food3DViewer.css';
+import React, { useRef, Suspense, useEffect, useState } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, useGLTF, Environment, Html } from "@react-three/drei";
+import "./Food3DViewer.css";
 
 function FoodModel({ modelBase64, contentType }) {
   const meshRef = useRef();
@@ -12,27 +12,29 @@ function FoodModel({ modelBase64, contentType }) {
       try {
         // Convert base64 to binary string
         const binary = atob(modelBase64);
-        
+
         // Convert binary string to Uint8Array
         const array = new Uint8Array(binary.length);
         for (let i = 0; i < binary.length; i++) {
           array[i] = binary.charCodeAt(i);
         }
-        
+
         // Create blob and object URL
-        const blob = new Blob([array], { type: contentType || 'model/gltf-binary' });
+        const blob = new Blob([array], {
+          type: contentType || "model/gltf-binary",
+        });
         const objectUrl = URL.createObjectURL(blob);
         setUrl(objectUrl);
-        
+
         return () => URL.revokeObjectURL(objectUrl);
       } catch (error) {
-        console.error('Error loading 3D model:', error);
+        console.error("Error loading 3D model:", error);
       }
     }
   }, [modelBase64, contentType]);
 
   if (!url) return null;
-  
+
   const { scene } = useGLTF(url);
   return <primitive ref={meshRef} object={scene} scale={1.5} />;
 }
@@ -47,9 +49,9 @@ function Loader() {
 
 const Food3DViewer = ({ modelData }) => {
   if (!modelData || !modelData.data) return null;
-  
+
   const { data, contentType } = modelData;
-  
+
   return (
     <div className="food-3d-viewer">
       <Canvas camera={{ position: [0, 0, 5], fov: 45 }}>

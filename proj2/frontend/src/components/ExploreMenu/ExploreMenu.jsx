@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
-import './ExploreMenu.css';
-import { StoreContext } from '../../Context/StoreContext';
+import React, { useContext } from "react";
+import "./ExploreMenu.css";
+import { StoreContext } from "../../Context/StoreContext";
 
 const ExploreMenu = ({ category, setCategory }) => {
   const { menu_list } = useContext(StoreContext);
@@ -19,11 +19,11 @@ const ExploreMenu = ({ category, setCategory }) => {
           <div
             key={index}
             className={`explore-menu-list-item ${
-              category === item.menu_name ? 'active-item' : ''
+              category === item.menu_name ? "active-item" : ""
             }`}
             onClick={() =>
               setCategory((prev) =>
-                prev === item.menu_name ? 'All' : item.menu_name
+                prev === item.menu_name ? "All" : item.menu_name
               )
             }
           >
@@ -39,4 +39,3 @@ const ExploreMenu = ({ category, setCategory }) => {
 };
 
 export default ExploreMenu;
-

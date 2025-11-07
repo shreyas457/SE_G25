@@ -1,15 +1,15 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen, waitFor } from '@testing-library/react';
-import { BrowserRouter } from 'react-router-dom';
-import MyOrders from '../MyOrders/MyOrders';
-import { StoreContext } from '../../Context/StoreContext';
-import axios from 'axios';
+import { describe, it, expect, vi, beforeEach } from "vitest";
+import { render, screen, waitFor } from "@testing-library/react";
+import { BrowserRouter } from "react-router-dom";
+import MyOrders from "../MyOrders/MyOrders";
+import { StoreContext } from "../../Context/StoreContext";
+import axios from "axios";
 
-vi.mock('axios');
+vi.mock("axios");
 
 const mockStoreContext = {
-  token: 'mock-token',
-  url: 'http://localhost:4000',
+  token: "mock-token",
+  url: "http://localhost:4000",
 };
 
 const renderWithProviders = (component) => {
@@ -22,12 +22,12 @@ const renderWithProviders = (component) => {
   );
 };
 
-describe('MyOrders Page', () => {
+describe("MyOrders Page", () => {
   beforeEach(() => {
     vi.clearAllMocks();
   });
 
-  it('should render my orders page', async () => {
+  it("should render my orders page", async () => {
     axios.post.mockResolvedValue({
       data: { success: true, data: [] },
     });
@@ -39,14 +39,14 @@ describe('MyOrders Page', () => {
     });
   });
 
-  it('should display orders when available', async () => {
+  it("should display orders when available", async () => {
     const mockOrders = [
       {
-        _id: 'order1',
-        userId: 'user123',
-        items: [{ name: 'Food 1', quantity: 2 }],
+        _id: "order1",
+        userId: "user123",
+        items: [{ name: "Food 1", quantity: 2 }],
         amount: 25.99,
-        status: 'Delivered',
+        status: "Delivered",
         date: new Date().toISOString(),
       },
     ];
@@ -62,6 +62,3 @@ describe('MyOrders Page', () => {
     });
   });
 });
-
-
-

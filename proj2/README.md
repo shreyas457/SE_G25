@@ -1,5 +1,39 @@
 # ByteBite
 
+## 🧪 Quality Assurance Badges
+
+### 🧩 Code Coverage
+[![codecov](https://codecov.io/gh/shreyas457/SE_G25/graph/badge.svg?token=ENTA0IQ3HM)](https://codecov.io/gh/shreyas457/SE_G25)
+
+**Workflow:** [.github/workflows/coverage.yml](../.github/workflows/coverage.yml)  
+**Config:** [Jest Config (Backend)](../backend/jest.config.js) · [Vitest Config (Frontend)](../frontend/vitest.config.js) · [Vitest Config (Admin)](../admin/vitest.config.js)
+
+---
+
+### 🎯 Style Checker (ESLint)
+[![ESLint Style Checker](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
+
+**Workflow:** [.github/workflows/lint.yml](../.github/workflows/lint.yml)  
+**Config:** [Backend](../backend/.eslintrc.cjs) · [Frontend](../frontend/.eslintrc.cjs) · [Admin](../admin/.eslintrc.cjs)
+
+---
+
+### 🧠 Syntax Checker (ESLint)
+[![ESLint Syntax Checker](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/lint.yml)
+
+*(Same workflow as Style Checker)*  
+**Workflow:** [.github/workflows/lint.yml](../.github/workflows/lint.yml)  
+**Config:** [Backend](../backend/.eslintrc.cjs) · [Frontend](../frontend/.eslintrc.cjs) · [Admin](../admin/.eslintrc.cjs)
+
+---
+
+### 💅 Code Formatter (Prettier)
+[![Code Formatter (Prettier)](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml/badge.svg?branch=feat/env-config)](https://github.com/shreyas457/SE_G25/actions/workflows/format.yml)
+
+**Workflow:** [.github/workflows/format.yml](../.github/workflows/format.yml)  
+**Config:** [.prettierrc.json](../.prettierrc.json) · [.prettierignore](../.prettierignore)
+
+
 ByteBite is a single-restaurant food-ordering and food-redistribution system built by **NCSU Team G25**.
 
 The project has three main capabilities:
@@ -28,6 +62,51 @@ The system consists of three applications:
   React + Vite restaurant admin dashboard for managing menu items, monitoring orders, updating statuses, and assigning cancelled orders to partner shelters.
 
 The backend exposes REST endpoints under `/api/*` and uses JSON Web Tokens (JWT) for authenticated operations.
+
+---
+
+## Development Tools & Configuration
+
+This project uses several automated tools for code quality, formatting, and testing:
+
+### Style & Syntax Checkers
+- **ESLint**: JavaScript/JSX linting
+  - Backend: [`.eslintrc.cjs`](./backend/.eslintrc.cjs)
+  - Frontend: [`.eslintrc.cjs`](./frontend/.eslintrc.cjs)
+  - Admin: [`.eslintrc.cjs`](./admin/.eslintrc.cjs)
+
+### Code Formatters
+- **Prettier**: Code formatting
+  - Config: [`.prettierrc.json`](./.prettierrc.json)
+  - Ignore: [`.prettierignore`](./.prettierignore)
+
+### Testing & Coverage
+- **Jest**: Backend testing framework
+  - Config: [`package.json`](./backend/package.json#L34-L51) (Jest section)
+  - Coverage: v8 provider with HTML, JSON, LCOV reports
+
+- **Vitest**: Frontend & Admin testing framework
+  - Frontend Config: [`vite.config.js`](./frontend/vite.config.js)
+  - Admin Config: [`vite.config.js`](./admin/vite.config.js)
+  - Coverage: v8 provider with multiple report formats
+
+### Running Tools
+```bash
+# Linting
+cd backend && npm run lint    # (if lint script exists)
+cd frontend && npm run lint
+cd admin && npm run lint
+
+# Testing
+cd backend && npm test
+cd frontend && npm test
+cd admin && npm test
+
+# Coverage
+cd backend && npm run test:coverage
+cd frontend && npm run test:coverage
+cd admin && npm run test:coverage
+```
 
 ---
 

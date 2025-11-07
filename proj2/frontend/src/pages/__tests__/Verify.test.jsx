@@ -1,14 +1,14 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen, waitFor } from '@testing-library/react';
-import { BrowserRouter, useSearchParams } from 'react-router-dom';
-import Verify from '../Verify/Verify';
-import { StoreContext } from '../../Context/StoreContext';
-import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { describe, it, expect, vi, beforeEach } from "vitest";
+import { render, screen, waitFor } from "@testing-library/react";
+import { BrowserRouter, useSearchParams } from "react-router-dom";
+import Verify from "../Verify/Verify";
+import { StoreContext } from "../../Context/StoreContext";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
-vi.mock('axios');
-vi.mock('react-router-dom', async () => {
-  const actual = await vi.importActual('react-router-dom');
+vi.mock("axios");
+vi.mock("react-router-dom", async () => {
+  const actual = await vi.importActual("react-router-dom");
   return {
     ...actual,
     useNavigate: vi.fn(),
@@ -17,7 +17,7 @@ vi.mock('react-router-dom', async () => {
 });
 
 const mockStoreContext = {
-  url: 'http://localhost:4000',
+  url: "http://localhost:4000",
 };
 
 const renderWithProviders = (component) => {
@@ -30,7 +30,7 @@ const renderWithProviders = (component) => {
   );
 };
 
-describe('Verify', () => {
+describe("Verify", () => {
   const mockNavigate = vi.fn();
   const mockSearchParams = {
     get: vi.fn(),
@@ -42,10 +42,10 @@ describe('Verify', () => {
     useSearchParams.mockReturnValue([mockSearchParams, vi.fn()]);
   });
 
-  it('should render loading spinner', () => {
+  it("should render loading spinner", () => {
     mockSearchParams.get.mockImplementation((key) => {
-      if (key === 'success') return 'true';
-      if (key === 'orderId') return 'order123';
+      if (key === "success") return "true";
+      if (key === "orderId") return "order123";
       return null;
     });
 
@@ -54,13 +54,13 @@ describe('Verify', () => {
     });
 
     const { container } = renderWithProviders(<Verify />);
-    expect(container.querySelector('.spinner')).toBeInTheDocument();
+    expect(container.querySelector(".spinner")).toBeInTheDocument();
   });
 
-  it('should verify payment successfully and navigate to myorders', async () => {
+  it("should verify payment successfully and navigate to myorders", async () => {
     mockSearchParams.get.mockImplementation((key) => {
-      if (key === 'success') return 'true';
-      if (key === 'orderId') return 'order123';
+      if (key === "success") return "true";
+      if (key === "orderId") return "order123";
       return null;
     });
 
@@ -73,20 +73,23 @@ describe('Verify', () => {
 
     await waitFor(() => {
       expect(mockPost).toHaveBeenCalledWith(
-        'http://localhost:4000/api/order/verify',
-        { success: 'true', orderId: 'order123' }
+        "http://localhost:4000/api/order/verify",
+        { success: "true", orderId: "order123" }
       );
     });
 
-    await waitFor(() => {
-      expect(mockNavigate).toHaveBeenCalledWith('/myorders');
-    }, { timeout: 3000 });
+    await waitFor(
+      () => {
+        expect(mockNavigate).toHaveBeenCalledWith("/myorders");
+      },
+      { timeout: 3000 }
+    );
   });
 
-  it('should navigate to home on verification failure', async () => {
+  it("should navigate to home on verification failure", async () => {
     mockSearchParams.get.mockImplementation((key) => {
-      if (key === 'success') return 'false';
-      if (key === 'orderId') return 'order123';
+      if (key === "success") return "false";
+      if (key === "orderId") return "order123";
       return null;
     });
 
@@ -97,9 +100,11 @@ describe('Verify', () => {
 
     renderWithProviders(<Verify />);
 
-    await waitFor(() => {
-      expect(mockNavigate).toHaveBeenCalledWith('/');
-    }, { timeout: 3000 });
+    await waitFor(
+      () => {
+        expect(mockNavigate).toHaveBeenCalledWith("/");
+      },
+      { timeout: 3000 }
+    );
   });
 });
-

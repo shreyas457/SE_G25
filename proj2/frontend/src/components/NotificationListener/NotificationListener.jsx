@@ -1,9 +1,9 @@
-import { useEffect, useContext } from 'react';
-import axios from 'axios';
-import { useSocket } from '../../Context/SocketContext';
-import { StoreContext } from '../../Context/StoreContext';
-import toast from 'react-hot-toast';
-import './NotificationListener.css';
+import { useEffect, useContext } from "react";
+import axios from "axios";
+import { useSocket } from "../../Context/SocketContext";
+import { StoreContext } from "../../Context/StoreContext";
+import toast from "react-hot-toast";
+import "./NotificationListener.css";
 
 /**
  * NotificationListener - Component that listens for order cancellation notifications via Socket.IO
@@ -22,10 +22,10 @@ const NotificationListener = () => {
   const getUserId = () => {
     if (!token) return null;
     try {
-      const payload = JSON.parse(atob(token.split('.')[1]));
+      const payload = JSON.parse(atob(token.split(".")[1]));
       return payload.id;
     } catch (error) {
-      console.error('Error decoding token:', error);
+      console.error("Error decoding token:", error);
       return null;
     }
   };
@@ -39,7 +39,7 @@ const NotificationListener = () => {
   const handleClaimOrder = async (orderId) => {
     try {
       const userId = getUserId();
-      console.log('Claiming order:', orderId);
+      console.log("Claiming order:", orderId);
 
       const response = await axios.post(
         `${url}/api/order/claim`,
@@ -48,18 +48,18 @@ const NotificationListener = () => {
       );
 
       if (response.data.success) {
-        toast.success('Order claimed successfully!');
-        console.log('Claim response:', response.data);
+        toast.success("Order claimed successfully!");
+        console.log("Claim response:", response.data);
 
         if (socket && userId) {
-          socket.emit('claimOrder', { orderId, userId });
+          socket.emit("claimOrder", { orderId, userId });
         }
       } else {
-        toast.error(response.data.message || 'Order claim failed.');
+        toast.error(response.data.message || "Order claim failed.");
       }
     } catch (error) {
-      console.error('Error claiming order:', error);
-      toast.error('Something went wrong while claiming the order.');
+      console.error("Error claiming order:", error);
+      toast.error("Something went wrong while claiming the order.");
     }
   };
 
@@ -67,8 +67,8 @@ const NotificationListener = () => {
     if (socket && token) {
       const userId = getUserId();
       if (userId) {
-        console.log('Registering user:', userId);
-        socket.emit('register', userId);
+        console.log("Registering user:", userId);
+        socket.emit("register", userId);
       }
     }
   }, [socket, token]);
@@ -77,13 +77,13 @@ const NotificationListener = () => {
     if (!socket || !token) return;
 
     const handleOrderCancelled = (data) => {
-      console.log('Order cancelled notification received:', data);
+      console.log("Order cancelled notification received:", data);
 
       toast.custom(
         (t) => (
           <div
             className={`order-notification ${
-              t.visible ? 'notification-enter' : 'notification-exit'
+              t.visible ? "notification-enter" : "notification-exit"
             }`}
           >
             <div className="notification-header">
@@ -142,16 +142,16 @@ const NotificationListener = () => {
         ),
         {
           duration: 5000,
-          position: 'top-right',
+          position: "top-right",
         }
       );
     };
 
-    socket.off('orderCancelled', handleOrderCancelled);
-    socket.on('orderCancelled', handleOrderCancelled);
+    socket.off("orderCancelled", handleOrderCancelled);
+    socket.on("orderCancelled", handleOrderCancelled);
 
     return () => {
-      socket.off('orderCancelled', handleOrderCancelled);
+      socket.off("orderCancelled", handleOrderCancelled);
     };
   }, [socket, token, currency, url]);
 

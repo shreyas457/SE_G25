@@ -1,5 +1,8 @@
 import express from "express";
-import { seedShelters, listShelters } from "../controllers/shelterController.js";
+import {
+  seedShelters,
+  listShelters,
+} from "../controllers/shelterController.js";
 
 const shelterRouter = express.Router();
 
