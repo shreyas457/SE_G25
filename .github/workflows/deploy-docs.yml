@@ -5,7 +5,7 @@ on:
     branches:
       - main
   pull_request:
-    types: [closed, opened, synchronize]
+    types: [closed]
     branches:
       - main
 
@@ -21,7 +21,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' || (github.event.pull_request.merged == false)
+    if: github.event_name == 'push' || (github.event.pull_request.merged == true)
 
     defaults:
       run:
