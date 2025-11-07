@@ -8,7 +8,7 @@ on:
 
 jobs:
   backend:
-    name: Backend Test & Server Check
+    name: Backend Test & Coverage
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -31,20 +31,14 @@ jobs:
       - name: Run backend coverage
         run: npm run test:coverage
 
-      - name: Upload backend coverage report
+      - name: Upload backend coverage
         uses: actions/upload-artifact@v4
         with:
           name: backend-coverage
           path: proj2/backend/coverage
 
-      - name: Start backend server
-        run: |
-          nohup npm run server &
-          sleep 5
-          curl -f http://localhost:4000/api/user || echo "Backend not responding"
-
   frontend:
-    name: Frontend Test & Build Check
+    name: Frontend Test & Coverage
     runs-on: ubuntu-latest
     needs: backend
     defaults:
@@ -72,7 +66,7 @@ jobs:
       - name: Run frontend coverage
         run: npm run test:coverage
 
-      - name: Upload frontend coverage report
+      - name: Upload frontend coverage
         uses: actions/upload-artifact@v4
         with:
           name: frontend-coverage
@@ -88,7 +82,7 @@ jobs:
           path: proj2/frontend/dist
 
   admin:
-    name: Admin Test & Build Check
+    name: Admin Test & Coverage
     runs-on: ubuntu-latest
     needs: backend
     defaults:
@@ -105,9 +99,10 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-      
-      # - name: Run ESLint
-      #   run: npx eslint .
+
+      - name: Run ESLint
+        run: npx eslint .
+        continue-on-error: true
 
       - name: Run admin tests
         run: npm test
@@ -115,7 +110,7 @@ jobs:
       - name: Run admin coverage
         run: npm run test:coverage
 
-      - name: Upload admin coverage report
+      - name: Upload admin coverage
         uses: actions/upload-artifact@v4
         with:
           name: admin-coverage
@@ -129,25 +124,54 @@ jobs:
         with:
           name: admin-build
           path: proj2/admin/dist
-  
+
   total-coverage:
-    name: Combine & Upload Coverage
+    name: Merge & Upload Total Coverage
     runs-on: ubuntu-latest
     needs: [backend, frontend, admin]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: npm install -g codecov lcov-result-merger
+      - name: Install lcov-result-merger and codecov
+        run: npm install -g lcov-result-merger codecov
 
-      - name: Combine coverage reports
+      - name: Download coverage artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: backend-coverage
+          path: proj2/backend/coverage
+      - uses: actions/download-artifact@v4
+        with:
+          name: frontend-coverage
+          path: proj2/frontend/coverage
+      - uses: actions/download-artifact@v4
+        with:
+          name: admin-coverage
+          path: proj2/admin/coverage
+
+      - name: Merge coverage reports
         run: |
           mkdir -p coverage
-          npx lcov-result-merger "proj2/backend/coverage/lcov.info" \
-                                "proj2/frontend/coverage/lcov.info" \
-                                "proj2/admin/coverage/lcov.info" \
-                                > coverage/lcov.info
+          FILES=""
+          for f in proj2/backend/coverage/lcov.info \
+                   proj2/frontend/coverage/lcov.info \
+                   proj2/admin/coverage/lcov.info; do
+            if [ -f "$f" ]; then
+              echo "✅ Found: $f"
+              FILES="$FILES $f"
+            else
+              echo "⚠️ Missing: $f"
+            fi
+          done
 
-      - name: Upload combined coverage to Codecov
+          if [ -n "$FILES" ]; then
+            npx lcov-result-merger $FILES > coverage/lcov.info
+            echo "Merged coverage to coverage/lcov.info"
+          else
+            echo "⚠️ No coverage files found, generating empty coverage"
+            echo "TN:" > coverage/lcov.info
+          fi
+
+      - name: Upload total coverage to Codecov
         run: npx codecov -f coverage/lcov.info

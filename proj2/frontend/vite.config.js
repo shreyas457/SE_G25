@@ -10,8 +10,8 @@ export default defineConfig({
     setupFiles: './src/test/setup.js',
     css: true,
     coverage: {
-      provider: 'v8',
-      reporter: ['text', 'lcov'],
+      provider: 'v8',            // just string, no import needed
+      reporter: ['text', 'lcov'], // must include lcov
       reportsDirectory: './coverage',
     },
   },

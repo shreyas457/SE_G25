@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: { port: 5173 },
@@ -11,8 +10,8 @@ export default defineConfig({
     setupFiles: './src/test/setup.js',
     css: true,
     coverage: {
-      provider: 'v8',            // just the string, no import
-      reporter: ['text', 'lcov'], // generates lcov.info
+      provider: 'v8',            // just string, no import needed
+      reporter: ['text', 'lcov'], // must include lcov
       reportsDirectory: './coverage',
     },
   },
