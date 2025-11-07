@@ -126,7 +126,7 @@ jobs:
           path: proj2/admin/dist
 
   total-coverage:
-    name: Merge & Upload Coverage
+    name: Merge Coverage & Update Badge
     runs-on: ubuntu-latest
     needs: [backend, frontend, admin]
     steps:
@@ -167,10 +167,68 @@ jobs:
             echo "Merged coverage into coverage/lcov.info"
           else
             echo "No coverage files found."
+            exit 0
           fi
 
-      - name: Upload merged coverage artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: total-coverage
-          path: coverage/lcov.info
+      - name: Generate coverage badge
+        run: |
+          mkdir -p coverage
+          node <<'EOF'
+          import fs from 'fs';
+          import lcovParse from 'lcov-parse';
+          import path from 'path';
+
+          const lcovFile = path.resolve('coverage/lcov.info');
+          const badgeFile = path.resolve('coverage/coverage-badge.svg');
+
+          if (!fs.existsSync(lcovFile)) process.exit(1);
+
+          lcovParse(lcovFile, (err, data) => {
+            if (err) throw err;
+
+            let linesTotal = 0;
+            let linesCovered = 0;
+
+            data.forEach(file => {
+              linesTotal += file.lines.found;
+              linesCovered += file.lines.hit;
+            });
+
+            const percentage = ((linesCovered / linesTotal) * 100).toFixed(0);
+            const color = percentage >= 90 ? 'brightgreen' :
+                          percentage >= 75 ? 'yellowgreen' :
+                          percentage >= 50 ? 'yellow' : 'red';
+
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="120" height="20">
+            <linearGradient id="b" x2="0" y2="100%">
+              <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+              <stop offset="1" stop-opacity=".1"/>
+            </linearGradient>
+            <mask id="a">
+              <rect width="120" height="20" rx="3" fill="#fff"/>
+            </mask>
+            <g mask="url(#a)">
+              <rect width="70" height="20" fill="#555"/>
+              <rect x="70" width="50" height="20" fill="${color}"/>
+              <rect width="120" height="20" fill="url(#b)"/>
+            </g>
+            <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+              <text x="35" y="14">coverage</text>
+              <text x="95" y="14">${percentage}%</text>
+            </g>
+            </svg>`;
+
+            fs.writeFileSync(badgeFile, svg);
+            console.log(`Coverage badge generated: ${badgeFile}`);
+          });
+        shell: node
+
+      - name: Commit and push coverage badge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add coverage/coverage-badge.svg
+          git diff-index --quiet HEAD || git commit -m "Update coverage badge [skip ci]"
+          git push origin HEAD
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
